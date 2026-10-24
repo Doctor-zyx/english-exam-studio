@@ -1,0 +1,2409 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "title": "Unit 1 · 新闻听力",
+      "source": "Unit 1 题目.docx",
+      "answerSource": "听力 Unit 1 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 1 原课录音",
+          "path": "audio/unit-1.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u1-p1",
+          "title": "新闻 1 · 飓风来袭",
+          "parts": [
+            {
+              "text": "One person has died in Haiti, as one of  "
+            },
+            {
+              "blank": "u1-q1"
+            },
+            {
+              "text": " in recent years approaches the country. Hurricane Matthew is expected to cause "
+            },
+            {
+              "blank": "u1-q2"
+            },
+            {
+              "text": " , when it makes landfall in the next few hours. Its center is expected to pass over the southwest of the island with "
+            },
+            {
+              "blank": "u1-q3"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q1",
+              "number": 1,
+              "answer": "the most powerful Atlantic hurricanes",
+              "translation": "最强的大西洋飓风",
+              "alternatives": [],
+              "synonym": "the strongest Atlantic hurricanes"
+            },
+            {
+              "id": "u1-q2",
+              "number": 2,
+              "answer": "flooding and landslides",
+              "translation": "洪水和山体滑坡",
+              "alternatives": [],
+              "synonym": "floods and landslips"
+            },
+            {
+              "id": "u1-q3",
+              "number": 3,
+              "answer": "sustained winds of 260 kilometers an hour",
+              "translation": "每小时260公里的持续风速",
+              "alternatives": [],
+              "synonym": "continuous winds of 260 kilometers per hour"
+            }
+          ]
+        },
+        {
+          "id": "u1-p2",
+          "title": "新闻 2 · 哥伦比亚和平进程",
+          "parts": [
+            {
+              "text": "The Colombian President, Juan Manuel Santos, has met Opposition leaders to find a way to "
+            },
+            {
+              "blank": "u1-q4"
+            },
+            {
+              "text": " , after voters rejected the deal that was four years in the making. He's appointed senior government officials to discuss ways of "
+            },
+            {
+              "blank": "u1-q5"
+            },
+            {
+              "text": " with the FARC rebel group."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q4",
+              "number": 4,
+              "answer": "salvage the peace process",
+              "translation": "挽救和平进程",
+              "alternatives": [],
+              "synonym": "save the peace process"
+            },
+            {
+              "id": "u1-q5",
+              "number": 5,
+              "answer": "amending the landmark peace agreement",
+              "translation": "修改具有里程碑意义的和平协议",
+              "alternatives": [],
+              "synonym": "revising the historic peace accord"
+            }
+          ]
+        },
+        {
+          "id": "u1-p3",
+          "title": "新闻 3 · 难民安置责任",
+          "parts": [
+            {
+              "text": "Amnesty International has lambasted the world's wealthiest nations "
+            },
+            {
+              "blank": "u1-q6"
+            },
+            {
+              "text": " , saying they host the fewest and do the least. It said that the situation would get worse, until every one of the richest countries "
+            },
+            {
+              "blank": "u1-q7"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q6",
+              "number": 6,
+              "answer": "for shrinking their responsibility towards refugees",
+              "translation": "因其对难民的责任缩减（原答案用 shrinking，需听音核验）",
+              "alternatives": [],
+              "synonym": "reducing their responsibility toward refugees"
+            },
+            {
+              "id": "u1-q7",
+              "number": 7,
+              "answer": "took in refugees in proportion to their size, wealth and unemployment rate.",
+              "translation": "按国家规模、财富和失业率比例接收难民",
+              "alternatives": [],
+              "synonym": "accepted refugees in proportion to national size, wealth and unemployment"
+            }
+          ]
+        },
+        {
+          "id": "u1-p4",
+          "title": "新闻 4 · 美国税务争议",
+          "parts": [
+            {
+              "text": "The U. S. Republican presidential candidate, Donald Trump has "
+            },
+            {
+              "blank": "u1-q8"
+            },
+            {
+              "text": ". He told supporters that it was his duty as a businessman to use the tax laws "
+            },
+            {
+              "blank": "u1-q9"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q8",
+              "number": 8,
+              "answer": "boasted that he's used the law brilliantly to pay as little tax as legally possible",
+              "translation": "夸口说他巧妙利用法律，在合法范围内尽可能少缴税",
+              "alternatives": [],
+              "synonym": "claimed he had legally minimized his tax payments"
+            },
+            {
+              "id": "u1-q9",
+              "number": 9,
+              "answer": "to the benefit of himself, his investors and his employees",
+              "translation": "使他本人、投资者和雇员受益",
+              "alternatives": [],
+              "synonym": "for the advantage of himself, his investors and his staff"
+            }
+          ]
+        },
+        {
+          "id": "u1-p5",
+          "title": "新闻 5 · 叙利亚停火提案",
+          "parts": [
+            {
+              "text": "France and Spain are trying to get plans for an immediate truce in Syria adopted by the U. N. Security Council, following "
+            },
+            {
+              "blank": "u1-q10"
+            },
+            {
+              "text": " by the United States and Russia. "
+            },
+            {
+              "blank": "u1-q11"
+            },
+            {
+              "text": " over Syria’s second city, Aleppo."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q10",
+              "number": 10,
+              "answer": "the acrimonious breakdown of a deal brokered",
+              "translation": "经斡旋达成的协议以激烈争执告终",
+              "alternatives": [],
+              "synonym": "the bitter collapse of a mediated agreement"
+            },
+            {
+              "id": "u1-q11",
+              "number": 11,
+              "answer": "The proposals include the cessation of military flights",
+              "translation": "提案包括停止军事飞行",
+              "alternatives": [],
+              "synonym": "the suggestions include a halt to military flights"
+            }
+          ]
+        },
+        {
+          "id": "u1-p6",
+          "title": "新闻 6 · 联合军事演习",
+          "parts": [
+            {
+              "text": "The Philippines and the United States are "
+            },
+            {
+              "blank": "u1-q12"
+            },
+            {
+              "text": " , despite a recent statement by the Philippine leader, who said "
+            },
+            {
+              "blank": "u1-q13"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q12",
+              "number": 12,
+              "answer": "holding military exercises",
+              "translation": "举行军事演习",
+              "alternatives": [],
+              "synonym": "conducting military drills"
+            },
+            {
+              "id": "u1-q13",
+              "number": 13,
+              "answer": "he wanted to end the war games with the U.S.",
+              "translation": "他说想结束与美国的军事演习",
+              "alternatives": [],
+              "synonym": "he wished to stop military drills with the United States"
+            }
+          ]
+        },
+        {
+          "id": "u1-p7",
+          "title": "新闻 7 · 洪灾后人道援助",
+          "parts": [
+            {
+              "text": "And the Red Cross has "
+            },
+            {
+              "blank": "u1-q14"
+            },
+            {
+              "text": " to Democratic People’s Republic of Korea ahead of the coming winter. A spokesman said "
+            },
+            {
+              "blank": "u1-q15"
+            },
+            {
+              "text": " in August."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u1-q14",
+              "number": 14,
+              "answer": "repeated its calls for urgent humanitarian aid",
+              "translation": "再次呼吁提供紧急人道主义援助",
+              "alternatives": [],
+              "synonym": "renewed its appeal for immediate humanitarian assistance"
+            },
+            {
+              "id": "u1-q15",
+              "number": 15,
+              "answer": "the conditions were seriously harsh after a heavy flooding",
+              "translation": "严重洪水后条件极其恶劣",
+              "alternatives": [],
+              "synonym": "conditions were extremely difficult after severe flooding"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Unit 2 · 新闻听力",
+      "source": "Unit 2 题目.docx",
+      "answerSource": "听力 Unit 2 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 2 原课录音",
+          "path": "audio/unit-2.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u2-p1",
+          "title": "新闻 1 · 叙利亚停火与援助",
+          "parts": [
+            {
+              "text": "The U.S. Secretary of State, John Kerry, has told the U.N. Security Council that all aircraft in northern Syria should be grounded "
+            },
+            {
+              "blank": "u2-q1"
+            },
+            {
+              "text": " . He said Monday's attack on an aid convoy raised profound doubt about whether Russia and the Syrian government would "
+            },
+            {
+              "blank": "u2-q2"
+            },
+            {
+              "text": " . Moscow says "
+            },
+            {
+              "blank": "u2-q3"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q1",
+              "number": 1,
+              "answer": "in order to allow humanitarian aid to get through",
+              "translation": "以便让人道主义援助得以通过",
+              "alternatives": [],
+              "synonym": "so that humanitarian assistance could pass through"
+            },
+            {
+              "id": "u2-q2",
+              "number": 2,
+              "answer": "live up to the ceasefire deal",
+              "translation": "遵守停火协议",
+              "alternatives": [],
+              "synonym": "honor the ceasefire agreement"
+            },
+            {
+              "id": "u2-q3",
+              "number": 3,
+              "answer": "a U.S. predator drone was in the area at the time",
+              "translation": "当时该地区有一架美国捕食者无人机",
+              "alternatives": [],
+              "synonym": "a US Predator unmanned aircraft was present at the time"
+            }
+          ]
+        },
+        {
+          "id": "u2-p2",
+          "title": "新闻 2 · 埃及海域沉船",
+          "parts": [
+            {
+              "text": "A boat carrying  "
+            },
+            {
+              "blank": "u2-q4"
+            },
+            {
+              "text": " has capsized off the coast of Egypt, killing at least 42 people. The authorities say "
+            },
+            {
+              "blank": "u2-q5"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q4",
+              "number": 4,
+              "answer": "an estimated 600 illegal migrants",
+              "translation": "估计有600名非法移民",
+              "alternatives": [],
+              "synonym": "about 600 undocumented migrants"
+            },
+            {
+              "id": "u2-q5",
+              "number": 5,
+              "answer": "150 people have been rescued so far",
+              "translation": "到目前为止已有150人获救",
+              "alternatives": [],
+              "synonym": "150 people have been saved up to now"
+            }
+          ]
+        },
+        {
+          "id": "u2-p3",
+          "title": "新闻 3 · 南亚安全局势",
+          "parts": [
+            {
+              "text": "The Prime Minister of Pakistan, Nawaz Sharif, has warned that the international community is "
+            },
+            {
+              "blank": "u2-q6"
+            },
+            {
+              "text": " . Mr. Sharif said his country could not "
+            },
+            {
+              "blank": "u2-q7"
+            },
+            {
+              "text": " , and would do whatever was necessary to "
+            },
+            {
+              "blank": "u2-q8"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q6",
+              "number": 6,
+              "answer": "ignoring the danger of rising tensions in South Asia at its peril",
+              "translation": "无视南亚紧张局势升级的危险，自担风险",
+              "alternatives": [],
+              "synonym": "disregarding rising tensions in South Asia at its own risk"
+            },
+            {
+              "id": "u2-q7",
+              "number": 7,
+              "answer": "ignore an unprecedented arms buildup by India",
+              "translation": "无视印度史无前例的军备扩张",
+              "alternatives": [],
+              "synonym": "overlook India's unprecedented military buildup"
+            },
+            {
+              "id": "u2-q8",
+              "number": 8,
+              "answer": "maintain a credible deterrent",
+              "translation": "维持可信的威慑力",
+              "alternatives": [],
+              "synonym": "preserve a believable deterrent"
+            }
+          ]
+        },
+        {
+          "id": "u2-p4",
+          "title": "新闻 4 · 疾病研究捐赠",
+          "parts": [
+            {
+              "text": "The founder of Facebook, Mark Zuckerberg and his wife, Priscilla Chan, "
+            },
+            {
+              "blank": "u2-q9"
+            },
+            {
+              "text": " . Their stated aim is to  "
+            },
+            {
+              "blank": "u2-q10"
+            },
+            {
+              "text": " within their children's lifetime."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q9",
+              "number": 9,
+              "answer": "have pledged 3 billion dollars over the next 10 years for scientific research to fight disease",
+              "translation": "承诺未来十年捐30亿美元用于抗击疾病的科学研究",
+              "alternatives": [],
+              "synonym": "committed three billion dollars to disease research over a decade"
+            },
+            {
+              "id": "u2-q10",
+              "number": 10,
+              "answer": "cure, prevent or manage all disease",
+              "translation": "治愈、预防或控制所有疾病",
+              "alternatives": [],
+              "synonym": "treat, avert or control every disease"
+            }
+          ]
+        },
+        {
+          "id": "u2-p5",
+          "title": "新闻 5 · 英国情报局扩招",
+          "parts": [
+            {
+              "text": "The BBC has learned that "
+            },
+            {
+              "blank": "u2-q11"
+            },
+            {
+              "text": " , MI6, is to hire almost 1,000 staff over the next four years. MI6 has said the expansion is necessary "
+            },
+            {
+              "blank": "u2-q12"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q11",
+              "number": 11,
+              "answer": "Britain's secret intelligence service",
+              "translation": "英国秘密情报局",
+              "alternatives": [],
+              "synonym": "the UK's Secret Intelligence Service"
+            },
+            {
+              "id": "u2-q12",
+              "number": 12,
+              "answer": "because of the development of the Internet and technology",
+              "translation": "由于互联网和技术的发展",
+              "alternatives": [],
+              "synonym": "as a result of advances in the Internet and technology"
+            }
+          ]
+        },
+        {
+          "id": "u2-p6",
+          "title": "新闻 6 · 亚马孙森林火灾",
+          "parts": [
+            {
+              "text": "An enormous fire is  "
+            },
+            {
+              "blank": "u2-q13"
+            },
+            {
+              "text": " in Peru. Officials say the fire has  "
+            },
+            {
+              "blank": "u2-q14"
+            },
+            {
+              "text": " that's home to 5,000 members of the Ashaninka people, and destroyed more than "
+            },
+            {
+              "blank": "u2-q15"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q13",
+              "number": 13,
+              "answer": "threatening large areas of Amazon rainforest",
+              "translation": "威胁亚马孙雨林的大片区域",
+              "alternatives": [],
+              "synonym": "putting extensive areas of Amazon rainforest at risk"
+            },
+            {
+              "id": "u2-q14",
+              "number": 14,
+              "answer": "reached an indigenous reserve",
+              "translation": "蔓延到一个原住民保护区",
+              "alternatives": [],
+              "synonym": "spread to an indigenous protected area"
+            },
+            {
+              "id": "u2-q15",
+              "number": 15,
+              "answer": "20,000 hectares of pristine forest",
+              "translation": "两万公顷原始森林",
+              "alternatives": [],
+              "synonym": "20,000 hectares of untouched woodland"
+            }
+          ]
+        },
+        {
+          "id": "u2-p7",
+          "title": "新闻 7 · 罗马奥运申办",
+          "parts": [
+            {
+              "text": "The mayor of Rome has refused to "
+            },
+            {
+              "blank": "u2-q16"
+            },
+            {
+              "text": " . Virginia Raggi said that it would be irresponsible to support the bid, "
+            },
+            {
+              "blank": "u2-q17"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u2-q16",
+              "number": 16,
+              "answer": "endorse the city's campaign to host the 2024 Olympics",
+              "translation": "支持该市申办2024年奥运会",
+              "alternatives": [],
+              "synonym": "support the city's bid to stage the 2024 Olympics"
+            },
+            {
+              "id": "u2-q17",
+              "number": 17,
+              "answer": "as winning it would bury the city under huge debts",
+              "translation": "因为申办成功会使该市背负巨额债务",
+              "alternatives": [],
+              "synonym": "because success would leave the city heavily indebted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Unit 3 · 新闻听力",
+      "source": "Unit 3 题目.docx",
+      "answerSource": "听力 Unit 3 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 3 原课录音",
+          "path": "audio/unit-3.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u3-p1",
+          "title": "新闻 1 · 泰国国王逝世",
+          "parts": [
+            {
+              "text": "There has been  "
+            },
+            {
+              "blank": "u3-q1"
+            },
+            {
+              "text": " across Thailan as people mourn the death of King Bhumibol Adulyadei. When the news was announced, "
+            },
+            {
+              "blank": "u3-q2"
+            },
+            {
+              "text": " . King Adulyadej has been "
+            },
+            {
+              "blank": "u3-q3"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q1",
+              "number": 1,
+              "answer": "an outpouring of grief",
+              "translation": "悲痛情绪的集中流露",
+              "alternatives": [],
+              "synonym": "a wave of sorrow"
+            },
+            {
+              "id": "u3-q2",
+              "number": 2,
+              "answer": "crowds outside the hospital where he was treated broke down",
+              "translation": "他就医的医院外，人群悲痛崩溃",
+              "alternatives": [],
+              "synonym": "people outside the hospital where he received treatment burst into tears"
+            },
+            {
+              "id": "u3-q3",
+              "number": 3,
+              "answer": "the world's longest reigning monarch",
+              "translation": "世界上在位时间最长的君主",
+              "alternatives": [],
+              "synonym": "the monarch with the longest reign in the world"
+            }
+          ]
+        },
+        {
+          "id": "u3-p2",
+          "title": "新闻 2 · 鲍勃·迪伦获诺奖",
+          "parts": [
+            {
+              "text": "The American  "
+            },
+            {
+              "blank": "u3-q4"
+            },
+            {
+              "text": " Bob Dylan has won this year's Nobel Prize for literature. The Swedish Academy said Dylan had "
+            },
+            {
+              "blank": "u3-q5"
+            },
+            {
+              "text": " . It's the first time the award's gone to a songwriter."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q4",
+              "number": 4,
+              "answer": "singer-songwriter",
+              "translation": "创作型歌手",
+              "alternatives": [],
+              "synonym": "a performer who writes songs"
+            },
+            {
+              "id": "u3-q5",
+              "number": 5,
+              "answer": "created new poetic expressions within the great American song tradition",
+              "translation": "在伟大的美国歌曲传统中创造新的诗意表达",
+              "alternatives": [],
+              "synonym": "developed new poetic forms within the American song tradition"
+            }
+          ]
+        },
+        {
+          "id": "u3-p3",
+          "title": "新闻 3 · 联合国秘书长任命",
+          "parts": [
+            {
+              "text": "Portuguese politician Antonio Guterres has been  "
+            },
+            {
+              "blank": "u3-q6"
+            },
+            {
+              "text": " the next secretary general of the United Nations. The former Portuguese prime minister said "
+            },
+            {
+              "blank": "u3-q7"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q6",
+              "number": 6,
+              "answer": "officially appointed",
+              "translation": "正式任命",
+              "alternatives": [],
+              "synonym": "formally named"
+            },
+            {
+              "id": "u3-q7",
+              "number": 7,
+              "answer": "he would fulfill his role with gratitude and humility",
+              "translation": "他将怀着感激和谦逊履行职责",
+              "alternatives": [],
+              "synonym": "he would carry out his duties with thankfulness and modesty"
+            }
+          ]
+        },
+        {
+          "id": "u3-p4",
+          "title": "新闻 4 · 中非冲突",
+          "parts": [
+            {
+              "text": "The U.N. mission at the Central African Republic says 30 were killed by a militia group which attacked the central town of aga-Bandoro. The U.N. blamed Seleka, a largely Muslim rebel group which "
+            },
+            {
+              "blank": "u3-q8"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q8",
+              "number": 8,
+              "answer": "overthrew the government in 2013 sparking a civil war",
+              "translation": "2013年推翻政府并引发内战",
+              "alternatives": [],
+              "synonym": "removed the government in 2013 and triggered a civil war"
+            }
+          ]
+        },
+        {
+          "id": "u3-p5",
+          "title": "新闻 5 · 美国选举指控",
+          "parts": [
+            {
+              "text": "The U.S. Republican presidential candidate Donald Trump says he has substantial evidence to "
+            },
+            {
+              "blank": "u3-q9"
+            },
+            {
+              "text": " . Mr. Trump told a rally in Florida that "
+            },
+            {
+              "blank": "u3-q10"
+            },
+            {
+              "text": " , but he would gladly take the slings and arrows for his supporters."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q9",
+              "number": 9,
+              "answer": "contradict allegations that he sexually assaulted a number of women",
+              "translation": "反驳他性侵多名女性的指控",
+              "alternatives": [],
+              "synonym": "refute claims that he sexually assaulted several women"
+            },
+            {
+              "id": "u3-q10",
+              "number": 10,
+              "answer": "his opponents were conducting a vicious campaign against him",
+              "translation": "他的对手正在对他发起恶毒的攻势",
+              "alternatives": [],
+              "synonym": "his rivals were waging a malicious campaign against him"
+            }
+          ]
+        },
+        {
+          "id": "u3-p6",
+          "title": "新闻 6 · 英国脱欧选择",
+          "parts": [
+            {
+              "text": "The president of the European Council Donald Tusk said he believes  "
+            },
+            {
+              "blank": "u3-q11"
+            },
+            {
+              "text": " is between a hard Brexit and no Brexit. He insisted that the UK would not be able to  "
+            },
+            {
+              "blank": "u3-q12"
+            },
+            {
+              "text": " after it left."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q11",
+              "number": 11,
+              "answer": "the choice facing Britain in leaving the European Union",
+              "translation": "英国退出欧盟所面临的选择",
+              "alternatives": [],
+              "synonym": "the options Britain faced when leaving the EU"
+            },
+            {
+              "id": "u3-q12",
+              "number": 12,
+              "answer": "retain the benefits of EU membership",
+              "translation": "保留欧盟成员资格带来的利益",
+              "alternatives": [],
+              "synonym": "keep the advantages of EU membership"
+            }
+          ]
+        },
+        {
+          "id": "u3-p7",
+          "title": "新闻 7 · 国际足联改革",
+          "parts": [
+            {
+              "text": "The president of football's world governing body FIFA has been "
+            },
+            {
+              "blank": "u3-q13"
+            },
+            {
+              "text": " . Gianni Infantino told the BBC he will increase participation in the game by a third and "
+            },
+            {
+              "blank": "u3-q14"
+            },
+            {
+              "text": " . There'll also be changes to business practices. The FIFA council is meeting in Zurich."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u3-q13",
+              "number": 13,
+              "answer": "outlining plans to change the scandal-ridden organization",
+              "translation": "概述改造这一丑闻缠身机构的计划",
+              "alternatives": [],
+              "synonym": "setting out plans to reform the scandal-hit organization"
+            },
+            {
+              "id": "u3-q14",
+              "number": 14,
+              "answer": "double the number of women players to 60 million",
+              "translation": "将女性球员数量翻倍至6000万",
+              "alternatives": [],
+              "synonym": "increase the number of women players twofold to 60 million"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Unit 4 · 新闻听力",
+      "source": "Unit 4 题目.docx",
+      "answerSource": "听力 Unit 4 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 4 原课录音",
+          "path": "audio/unit-4.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u4-p1",
+          "title": "新闻 1 · 选举与网络攻击",
+          "parts": [
+            {
+              "text": "President Vladimir Putin has dismissed allegations that Russia tried to  "
+            },
+            {
+              "blank": "u4-q1"
+            },
+            {
+              "text": " Donald Trump by hacking computer systems. He described as hysterical claims by the White House that  "
+            },
+            {
+              "blank": "u4-q2"
+            },
+            {
+              "text": " of the U.S. Democratic Party computers."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q1",
+              "number": 1,
+              "answer": "sway the U.S. presidential election in favor of",
+              "translation": "影响美国总统选举，使其有利于",
+              "alternatives": [],
+              "synonym": "influence the US presidential election to favor"
+            },
+            {
+              "id": "u4-q2",
+              "number": 2,
+              "answer": "Russia was behind the cyber-attacks",
+              "translation": "俄罗斯是网络攻击的幕后主使",
+              "alternatives": [],
+              "synonym": "Russia was responsible for the cyber-attacks"
+            }
+          ]
+        },
+        {
+          "id": "u4-p2",
+          "title": "新闻 2 · 叙利亚人道危机",
+          "parts": [
+            {
+              "text": "The U.N. has warned that "
+            },
+            {
+              "blank": "u4-q3"
+            },
+            {
+              "text": " since the war began more than five years ago. A senior UN official, Yen Eggiland, said the "
+            },
+            {
+              "blank": "u4-q4"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q3",
+              "number": 3,
+              "answer": "the coming winter could be the hardest for the people of Syria",
+              "translation": "即将到来的冬天可能是叙利亚人民最艰难的冬季",
+              "alternatives": [],
+              "synonym": "the approaching winter might be Syria's most difficult"
+            },
+            {
+              "id": "u4-q4",
+              "number": 4,
+              "answer": "cruel conflict had become even more ruthless and was affecting more and more civilians",
+              "translation": "残酷的冲突变得更加无情，波及越来越多平民",
+              "alternatives": [],
+              "synonym": "the brutal conflict grew harsher and affected increasing numbers of civilians"
+            }
+          ]
+        },
+        {
+          "id": "u4-p3",
+          "title": "新闻 3 · 推特裁员",
+          "parts": [
+            {
+              "text": "Twitter has confirmed it's cutting 9% of its "
+            },
+            {
+              "blank": "u4-q5"
+            },
+            {
+              "text": " . The San Francisco-based company "
+            },
+            {
+              "blank": "u4-q6"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q5",
+              "number": 5,
+              "answer": "workforce as it tries to restructure its loss-making business",
+              "translation": "员工队伍，同时公司试图重组亏损业务",
+              "alternatives": [],
+              "synonym": "staff while attempting to reorganize its unprofitable business"
+            },
+            {
+              "id": "u4-q6",
+              "number": 6,
+              "answer": "plans to cut about 350 jobs",
+              "translation": "计划裁减约350个岗位",
+              "alternatives": [],
+              "synonym": "intends to eliminate around 350 positions"
+            }
+          ]
+        },
+        {
+          "id": "u4-p4",
+          "title": "新闻 4 · 委内瑞拉最低工资",
+          "parts": [
+            {
+              "text": "The President of Venezuela, Nicolas Maduro, has  "
+            },
+            {
+              "blank": "u4-q7"
+            },
+            {
+              "text": ", the fourth increment this year. The latest rise comes a day after hundreds of thousands of people "
+            },
+            {
+              "blank": "u4-q8"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q7",
+              "number": 7,
+              "answer": "offered a 40% pay rise in the minimum wage",
+              "translation": "宣布最低工资提高40%",
+              "alternatives": [],
+              "synonym": "announced a forty-percent increase in the minimum wage"
+            },
+            {
+              "id": "u4-q8",
+              "number": 8,
+              "answer": "took to the streets to protest against the government",
+              "translation": "走上街头抗议政府",
+              "alternatives": [],
+              "synonym": "marched in the streets in protest against the government"
+            }
+          ]
+        },
+        {
+          "id": "u4-p5",
+          "title": "新闻 5 · 西班牙组阁",
+          "parts": [
+            {
+              "text": "The Acting Prime Minister of Spain, Mariano Rajoy,  "
+            },
+            {
+              "blank": "u4-q9"
+            },
+            {
+              "text": " in Parliament. But in a second vote on Saturday, the opposition Socialist Party has already said it would "
+            },
+            {
+              "blank": "u4-q10"
+            },
+            {
+              "text": " , allowing Mr. Rajoy's Popular Party to "
+            },
+            {
+              "blank": "u4-q11"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q9",
+              "number": 9,
+              "answer": "has lost a preliminary symbolic vote of confidence",
+              "translation": "在初步的象征性信任投票中落败",
+              "alternatives": [],
+              "synonym": "failed to win an initial symbolic confidence vote"
+            },
+            {
+              "id": "u4-q10",
+              "number": 10,
+              "answer": "abstain",
+              "translation": "弃权",
+              "alternatives": [],
+              "synonym": "refrain from voting"
+            },
+            {
+              "id": "u4-q11",
+              "number": 11,
+              "answer": "form a minority government",
+              "translation": "组建少数派政府",
+              "alternatives": [],
+              "synonym": "establish a government without a parliamentary majority"
+            }
+          ]
+        },
+        {
+          "id": "u4-p6",
+          "title": "新闻 6 · 外交人员驱逐",
+          "parts": [
+            {
+              "text": "Pakistan has expelled an Indian diplomat hours after Delhi ordered the Pakistani official to go home, "
+            },
+            {
+              "blank": "u4-q12"
+            },
+            {
+              "text": " . The statement in Islamabad said the activities of the Indian official "
+            },
+            {
+              "blank": "u4-q13"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q12",
+              "number": 12,
+              "answer": "accusing him of spying",
+              "translation": "指控他从事间谍活动",
+              "alternatives": [],
+              "synonym": "claiming he had engaged in espionage"
+            },
+            {
+              "id": "u4-q13",
+              "number": 13,
+              "answer": "were in violation of the Vienna Convention",
+              "translation": "违反《维也纳公约》",
+              "alternatives": [],
+              "synonym": "breached the Vienna Convention"
+            }
+          ]
+        },
+        {
+          "id": "u4-p7",
+          "title": "新闻 7 · 使馆外袭警",
+          "parts": [
+            {
+              "text": "The police in Kenya say they have shot dead a man who  "
+            },
+            {
+              "blank": "u4-q14"
+            },
+            {
+              "text": " in the capital Nairobi. It said the attacker "
+            },
+            {
+              "blank": "u4-q15"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q14",
+              "number": 14,
+              "answer": "attacked a police officer guarding the U.S. Embassy",
+              "translation": "袭击一名守卫美国使馆的警官",
+              "alternatives": [],
+              "synonym": "assaulted an officer protecting the US Embassy"
+            },
+            {
+              "id": "u4-q15",
+              "number": 15,
+              "answer": "stabbed the officer in the hand",
+              "translation": "刺伤该警官的手",
+              "alternatives": [],
+              "synonym": "wounded the officer's hand with a knife"
+            }
+          ]
+        },
+        {
+          "id": "u4-p8",
+          "title": "新闻 8 · 圈养北极熊请愿",
+          "parts": [
+            {
+              "text": "More than a million people have "
+            },
+            {
+              "blank": "u4-q16"
+            },
+            {
+              "text": " . Animal rights groups have released a video of the creature, named Pizza, "
+            },
+            {
+              "blank": "u4-q17"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u4-q16",
+              "number": 16,
+              "answer": "signed a petition, demanding a captive polar bear in China be moved",
+              "translation": "签署请愿书，要求转移中国一只圈养的北极熊",
+              "alternatives": [],
+              "synonym": "backed a petition calling for relocation of a captive polar bear in China"
+            },
+            {
+              "id": "u4-q17",
+              "number": 17,
+              "answer": "in a small glass enclosure in a shopping mall",
+              "translation": "在购物中心里的小型玻璃围栏中",
+              "alternatives": [],
+              "synonym": "inside a small glass pen in a shopping center"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Unit 5 · 新闻听力",
+      "source": "Unit 5 题目.docx",
+      "answerSource": "听力 Unit 5 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 5 原课录音",
+          "path": "audio/unit-5.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u5-p1",
+          "title": "新闻 1 · 奥运田径纪录",
+          "parts": [
+            {
+              "text": "The first athletics world record has been broken at the Rio Olympics, "
+            },
+            {
+              "blank": "u5-q1"
+            },
+            {
+              "text": " . Almaz Ayana of Ethiopia "
+            },
+            {
+              "blank": "u5-q2"
+            },
+            {
+              "text": " , smashing a 23-year-old world record by nearly 14 seconds."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q1",
+              "number": 1,
+              "answer": "a dramatic start to the opening day of track and field events",
+              "translation": "田径比赛开幕日的戏剧性开局",
+              "alternatives": [],
+              "synonym": "a spectacular beginning to the first day of athletics"
+            },
+            {
+              "id": "u5-q2",
+              "number": 2,
+              "answer": "took gold in the women's 10,000 meters",
+              "translation": "获得女子一万米金牌",
+              "alternatives": [],
+              "synonym": "won the women's 10,000-meter race"
+            }
+          ]
+        },
+        {
+          "id": "u5-p2",
+          "title": "新闻 2 · 婴儿拐卖案",
+          "parts": [
+            {
+              "text": "Police in the Pakistani city of Peshawar say they have arrested seven members of a gang which  "
+            },
+            {
+              "blank": "u5-q3"
+            },
+            {
+              "text": " for up to 2,500 dollars. Officers said the gang  "
+            },
+            {
+              "blank": "u5-q4"
+            },
+            {
+              "text": " of babies who had previously died."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q3",
+              "number": 3,
+              "answer": "kidnapped babies from hospitals and sold them to mainly childless couples",
+              "translation": "从医院绑架婴儿并主要卖给无子女夫妇",
+              "alternatives": [],
+              "synonym": "abducted hospital babies and sold them mostly to childless couples"
+            },
+            {
+              "id": "u5-q4",
+              "number": 4,
+              "answer": "swapped newborn babies with the frozen bodies",
+              "translation": "将新生儿与冷冻遗体掉包",
+              "alternatives": [],
+              "synonym": "exchanged newborn infants for frozen bodies"
+            }
+          ]
+        },
+        {
+          "id": "u5-p3",
+          "title": "新闻 3 · 赞比亚选举争议",
+          "parts": [
+            {
+              "text": "The main Opposition presidential candidate in Zambia, Hakainde Hichilema,  "
+            },
+            {
+              "blank": "u5-q5"
+            },
+            {
+              "text": " colluding with the governing party to delay announcing the election result. A day after the Thursday's poll, a spokesman for the United Party for National Development "
+            },
+            {
+              "blank": "u5-q6"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q5",
+              "number": 5,
+              "answer": "has accused the electoral commission of",
+              "translation": "指控选举委员会",
+              "alternatives": [],
+              "synonym": "has alleged that the electoral commission was"
+            },
+            {
+              "id": "u5-q6",
+              "number": 6,
+              "answer": "described the delay as suspicious",
+              "translation": "称这一延迟可疑",
+              "alternatives": [],
+              "synonym": "called the postponement suspicious"
+            }
+          ]
+        },
+        {
+          "id": "u5-p4",
+          "title": "新闻 4 · 美国候选人税单",
+          "parts": [
+            {
+              "text": "The Democratic nominee for the US presidential election Hillary Clinton has disclosed her latest tax return showing "
+            },
+            {
+              "blank": "u5-q7"
+            },
+            {
+              "text": " . Her billionaire Republican rival Donald Trump has said he "
+            },
+            {
+              "blank": "u5-q8"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q7",
+              "number": 7,
+              "answer": "she and her husband Bill earned 10.6 million dollars last year",
+              "translation": "她和丈夫比尔去年收入1060万美元",
+              "alternatives": [],
+              "synonym": "she and Bill earned 10.6 million dollars in the previous year"
+            },
+            {
+              "id": "u5-q8",
+              "number": 8,
+              "answer": "can't reveal his tax affairs until an official order is completed",
+              "translation": "正式命令完成前不能披露税务情况（原答案用 order，需听音核验）",
+              "alternatives": [],
+              "synonym": "cannot disclose his tax information until the official process ends"
+            }
+          ]
+        },
+        {
+          "id": "u5-p5",
+          "title": "新闻 5 · 连体婴儿救治",
+          "parts": [
+            {
+              "text": "Conjoined twin baby boys in Syria have been  "
+            },
+            {
+              "blank": "u5-q9"
+            },
+            {
+              "text": " in Damascus. Syrian doctors abroad had warned "
+            },
+            {
+              "blank": "u5-q10"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q9",
+              "number": 9,
+              "answer": "evacuated from a rebel stronghold to a children's hospital",
+              "translation": "从反叛武装据点转移到儿童医院",
+              "alternatives": [],
+              "synonym": "moved out of a rebel stronghold to a pediatric hospital"
+            },
+            {
+              "id": "u5-q10",
+              "number": 10,
+              "answer": "the twins would die if they didn't receive life-saving surgery",
+              "translation": "若不能接受救命手术，这对双胞胎就会死亡",
+              "alternatives": [],
+              "synonym": "the twins would not survive without life-saving surgery"
+            }
+          ]
+        },
+        {
+          "id": "u5-p6",
+          "title": "新闻 6 · 布隆迪人权指控",
+          "parts": [
+            {
+              "text": "United Nations Committee against Torture has accused the authorities in Burundi of "
+            },
+            {
+              "blank": "u5-q11"
+            },
+            {
+              "text": " , torture and rape. It said what it described as  "
+            },
+            {
+              "blank": "u5-q12"
+            },
+            {
+              "text": " has been used. It's given the government two months to respond."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q11",
+              "number": 11,
+              "answer": "carrying out extrajudicial killings",
+              "translation": "实施法外处决",
+              "alternatives": [],
+              "synonym": "conducting killings outside legal procedures"
+            },
+            {
+              "id": "u5-q12",
+              "number": 12,
+              "answer": "genocide rhetoric",
+              "translation": "种族灭绝言论",
+              "alternatives": [],
+              "synonym": "language promoting genocide"
+            }
+          ]
+        },
+        {
+          "id": "u5-p7",
+          "title": "新闻 7 · 纽约冰淇淋盗窃",
+          "parts": [
+            {
+              "blank": "u5-q13"
+            },
+            {
+              "text": " in New York has put up a reward of 5,000 dollars. John Catsimatidis hopes to "
+            },
+            {
+              "blank": "u5-q14"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u5-q13",
+              "number": 13,
+              "answer": "The billionaire owner of a chain of grocery shops",
+              "translation": "一家连锁食品杂货店的亿万富翁老板",
+              "alternatives": [],
+              "synonym": "the billionaire proprietor of a grocery chain"
+            },
+            {
+              "id": "u5-q14",
+              "number": 14,
+              "answer": "catch thieves targeting ice-cream as the city copes with heat wave",
+              "translation": "抓住趁城市应对热浪时偷窃冰淇淋的窃贼",
+              "alternatives": [],
+              "synonym": "catch people stealing ice cream during the city's heat wave"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Unit 6 · 新闻听力",
+      "source": "Unit 6 题目.docx",
+      "answerSource": "听力 Unit 6 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 6 原课录音",
+          "path": "audio/unit-6.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u6-p1",
+          "title": "新闻 1 · 欧佩克减产",
+          "parts": [
+            {
+              "text": "The oil cartel OPEC has agreed to cut production for the first time  "
+            },
+            {
+              "blank": "u6-q1"
+            },
+            {
+              "text": " boosting prices. The decision, which was announced after talks in Vienna, follows a period of unusually low prices which has strained "
+            },
+            {
+              "blank": "u6-q2"
+            },
+            {
+              "text": " . OPEC's current president said key non-OPEC countries "
+            },
+            {
+              "blank": "u6-q3"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u6-q1",
+              "number": 1,
+              "answer": "in eight years in the hope of",
+              "translation": "八年来首次，抱着……的希望",
+              "alternatives": [],
+              "synonym": "for the first time in eight years, hoping to"
+            },
+            {
+              "id": "u6-q2",
+              "number": 2,
+              "answer": "the finances of producer nations",
+              "translation": "石油生产国的财政",
+              "alternatives": [],
+              "synonym": "the financial resources of producer countries"
+            },
+            {
+              "id": "u6-q3",
+              "number": 3,
+              "answer": "were party to the deal",
+              "translation": "是这项协议的参与方",
+              "alternatives": [],
+              "synonym": "were participants in the agreement"
+            }
+          ]
+        },
+        {
+          "id": "u6-p2",
+          "title": "新闻 2 · 阿勒颇援助",
+          "parts": [
+            {
+              "text": "A UN envoy to Syria has warned that Aleppo risks becoming a giant graveyard as  "
+            },
+            {
+              "blank": "u6-q4"
+            },
+            {
+              "text": " try to crush rebel enclave there. The remark by the aid coordinator Stephen O'Brien came in an address to the UN Security Council. He pleaded with it  "
+            },
+            {
+              "blank": "u6-q5"
+            },
+            {
+              "text": " of the besieged rebel-held neighborhoods."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u6-q4",
+              "number": 4,
+              "answer": "government forces continue to",
+              "translation": "政府军继续",
+              "alternatives": [],
+              "synonym": "state forces keep trying to"
+            },
+            {
+              "id": "u6-q5",
+              "number": 5,
+              "answer": "to secure assistance for the people",
+              "translation": "为民众争取援助",
+              "alternatives": [],
+              "synonym": "obtain assistance for residents"
+            }
+          ]
+        },
+        {
+          "id": "u6-p3",
+          "title": "新闻 3 · 当选总统与利益冲突",
+          "parts": [
+            {
+              "text": "The US  "
+            },
+            {
+              "blank": "u6-q6"
+            },
+            {
+              "text": " Donald Trump has announced that he is going to stop managing his business empire "
+            },
+            {
+              "blank": "u6-q7"
+            },
+            {
+              "text": " . In a series of tweets, he said he wanted to "
+            },
+            {
+              "blank": "u6-q8"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u6-q6",
+              "number": 6,
+              "answer": "president-elect",
+              "translation": "当选总统（尚未就职）",
+              "alternatives": [],
+              "synonym": "incoming president"
+            },
+            {
+              "id": "u6-q7",
+              "number": 7,
+              "answer": "so he can focus on his presidency",
+              "translation": "以便专注于总统职务",
+              "alternatives": [],
+              "synonym": "so that he can concentrate on presidential duties"
+            },
+            {
+              "id": "u6-q8",
+              "number": 8,
+              "answer": "ensure there was no appearance of conflict of interest",
+              "translation": "确保不存在利益冲突的表象",
+              "alternatives": [],
+              "synonym": "make sure there is no perceived conflict of interest"
+            }
+          ]
+        },
+        {
+          "id": "u6-p4",
+          "title": "新闻 4 · 哥伦比亚空难",
+          "parts": [
+            {
+              "text": "A picture is beginning to emerge about  "
+            },
+            {
+              "blank": "u6-q9"
+            },
+            {
+              "text": " in Colombia that killed most members of the Brazilian football team. According to Colombian air traffic control,  "
+            },
+            {
+              "blank": "u6-q10"
+            },
+            {
+              "text": " ground controllers after the pilot reported an electrical fault, but other pilots flying in the area said they had heard the fateful plane's pilot reporting he was low on fuel as well and "
+            },
+            {
+              "blank": "u6-q11"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u6-q9",
+              "number": 9,
+              "answer": "the events leading up to the plane crash",
+              "translation": "飞机失事前的一系列事件",
+              "alternatives": [],
+              "synonym": "the sequence of events preceding the air crash"
+            },
+            {
+              "id": "u6-q10",
+              "number": 10,
+              "answer": "the charter plane lost contact with",
+              "translation": "包机与……失去联系",
+              "alternatives": [],
+              "synonym": "the chartered aircraft lost communication with"
+            },
+            {
+              "id": "u6-q11",
+              "number": 11,
+              "answer": "requesting to land",
+              "translation": "请求降落",
+              "alternatives": [],
+              "synonym": "asking for permission to land"
+            }
+          ]
+        },
+        {
+          "id": "u6-p5",
+          "title": "新闻 5 · 乌克兰导弹测试",
+          "parts": [
+            {
+              "text": "Russian air defense forces have been put on high alert ahead of two days of planned Ukrainian "
+            },
+            {
+              "blank": "u6-q12"
+            },
+            {
+              "text": " , west of the Crimean Peninsula which Russia annexed  "
+            },
+            {
+              "blank": "u6-q13"
+            },
+            {
+              "text": " . Reports say Moscow has sent a letter to the government in Kiev warning that it would respond."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u6-q12",
+              "number": 12,
+              "answer": "missile tests",
+              "translation": "导弹试验",
+              "alternatives": [],
+              "synonym": "missile testing"
+            },
+            {
+              "id": "u6-q13",
+              "number": 13,
+              "answer": "two years ago",
+              "translation": "两年前",
+              "alternatives": [],
+              "synonym": "two years earlier"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Unit 7 · 新闻听力",
+      "source": "Unit 7 题目.docx",
+      "answerSource": "听力 Unit 7 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 7 原课录音",
+          "path": "audio/unit-7.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u7-p1",
+          "title": "新闻 1 · 气候与高温纪录",
+          "parts": [
+            {
+              "text": "Scientists at an international climate conference in Morocco say "
+            },
+            {
+              "blank": "u7-q1"
+            },
+            {
+              "text": " . Delegates concerned about the possible effect of Donald Trump presidency on "
+            },
+            {
+              "blank": "u7-q2"
+            },
+            {
+              "text": " . Mr. Trump has previously "
+            },
+            {
+              "blank": "u7-q3"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q1",
+              "number": 1,
+              "answer": "this year is set to be the hottest on record",
+              "translation": "今年预计将成为有记录以来最热的一年",
+              "alternatives": [],
+              "synonym": "this year is expected to be the warmest ever recorded"
+            },
+            {
+              "id": "u7-q2",
+              "number": 2,
+              "answer": "the landmark Paris Climate Agreement reached last year",
+              "translation": "去年达成的具有里程碑意义的《巴黎气候协定》",
+              "alternatives": [],
+              "synonym": "the historic Paris climate accord agreed the previous year"
+            },
+            {
+              "id": "u7-q3",
+              "number": 3,
+              "answer": "dismissed global warming as a hoax",
+              "translation": "把全球变暖斥为骗局",
+              "alternatives": [],
+              "synonym": "rejected global warming as a deception"
+            }
+          ]
+        },
+        {
+          "id": "u7-p2",
+          "title": "新闻 2 · 财政支出与利率",
+          "parts": [
+            {
+              "text": "Expectations that Mr. Trump will  "
+            },
+            {
+              "blank": "u7-q4"
+            },
+            {
+              "text": " have led to a wave of selling on international bond markets. Correspondents say the markets are betting on the Federal Reserve "
+            },
+            {
+              "blank": "u7-q5"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q4",
+              "number": 4,
+              "answer": "boost US spending and therefore fuel inflation",
+              "translation": "增加美国支出，从而推高通货膨胀",
+              "alternatives": [],
+              "synonym": "raise US expenditure and consequently drive inflation"
+            },
+            {
+              "id": "u7-q5",
+              "number": 5,
+              "answer": "raising interest rates more quickly",
+              "translation": "更快地提高利率",
+              "alternatives": [],
+              "synonym": "increasing interest rates at a faster pace"
+            }
+          ]
+        },
+        {
+          "id": "u7-p3",
+          "title": "新闻 3 · 费卢杰爆炸",
+          "parts": [
+            {
+              "text": "Two bomb attacks in the Iraqi city of Fallujah have "
+            },
+            {
+              "blank": "u7-q6"
+            },
+            {
+              "text": " . The attack is the first since government forces recaptured Fallujah from  "
+            },
+            {
+              "blank": "u7-q7"
+            },
+            {
+              "text": " in June."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q6",
+              "number": 6,
+              "answer": "killed at least nine people and wounded 25 others",
+              "translation": "造成至少9人死亡、另25人受伤",
+              "alternatives": [],
+              "synonym": "left at least nine dead and twenty-five injured"
+            },
+            {
+              "id": "u7-q7",
+              "number": 7,
+              "answer": "Islamic State militants",
+              "translation": "“伊斯兰国”武装分子",
+              "alternatives": [],
+              "synonym": "IS fighters"
+            }
+          ]
+        },
+        {
+          "id": "u7-p4",
+          "title": "新闻 4 · 波兰空难调查",
+          "parts": [
+            {
+              "text": "Prosecutors in Poland have begun the exhumation of the country's former president Lech Kaczynski and his wife as  "
+            },
+            {
+              "blank": "u7-q8"
+            },
+            {
+              "text": " in which they were killed six years ago. The governing Law and Justice Party which is led by Mr. Kaczynski's twin brother Jaroslaw says the aircraft may have been "
+            },
+            {
+              "blank": "u7-q9"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q8",
+              "number": 8,
+              "answer": "part of a fresh investigation into the plane crash",
+              "translation": "作为对坠机事件新一轮调查的一部分",
+              "alternatives": [],
+              "synonym": "within a renewed inquiry into the air crash"
+            },
+            {
+              "id": "u7-q9",
+              "number": 9,
+              "answer": "brought down deliberately",
+              "translation": "被蓄意击落",
+              "alternatives": [],
+              "synonym": "deliberately caused to crash"
+            }
+          ]
+        },
+        {
+          "id": "u7-p5",
+          "title": "新闻 5 · 切尔诺贝利防护罩",
+          "parts": [
+            {
+              "text": "Workers began to move a giant shield over "
+            },
+            {
+              "blank": "u7-q10"
+            },
+            {
+              "text": " at Chernobyl in Ukraine 30 years ago. The concrete and steel arch will "
+            },
+            {
+              "blank": "u7-q11"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q10",
+              "number": 10,
+              "answer": "the site of the world's worst nuclear accident",
+              "translation": "世界最严重核事故发生地",
+              "alternatives": [],
+              "synonym": "the location of the world's worst nuclear disaster"
+            },
+            {
+              "id": "u7-q11",
+              "number": 11,
+              "answer": "eventually cover the remains of the reactor",
+              "translation": "最终覆盖反应堆残骸",
+              "alternatives": [],
+              "synonym": "ultimately enclose what remains of the reactor"
+            }
+          ]
+        },
+        {
+          "id": "u7-p6",
+          "title": "新闻 6 · 俄罗斯战机坠毁",
+          "parts": [
+            {
+              "blank": "u7-q12"
+            },
+            {
+              "text": " in the eastern Mediterranean Sea. Russian officials confirmed that an accident took place near the Admiral Kuznetsov  "
+            },
+            {
+              "blank": "u7-q13"
+            },
+            {
+              "text": " which is involved in military operations in Syria. Officials say that "
+            },
+            {
+              "blank": "u7-q14"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q12",
+              "number": 12,
+              "answer": "A Russian fighter jet has crashed",
+              "translation": "一架俄罗斯战斗机坠毁",
+              "alternatives": [],
+              "synonym": "a Russian combat aircraft has gone down"
+            },
+            {
+              "id": "u7-q13",
+              "number": 13,
+              "answer": "aircraft carrier",
+              "translation": "航空母舰",
+              "alternatives": [],
+              "synonym": "a warship carrying military aircraft"
+            },
+            {
+              "id": "u7-q14",
+              "number": 14,
+              "answer": "the pilot safely ejected",
+              "translation": "飞行员安全弹射逃生",
+              "alternatives": [],
+              "synonym": "the pilot escaped safely by ejection"
+            }
+          ]
+        },
+        {
+          "id": "u7-p7",
+          "title": "新闻 7 · 阿根廷海狸种群",
+          "parts": [
+            {
+              "text": "The authorities in the Argentine province of Tierra del Fuego say "
+            },
+            {
+              "blank": "u7-q15"
+            },
+            {
+              "text": " to cull an estimated 100,000 beavers. The animals are  "
+            },
+            {
+              "blank": "u7-q16"
+            },
+            {
+              "text": " from a small number introduced to the area in 1946 for their fur. With no local predators, the beaver "
+            },
+            {
+              "blank": "u7-q17"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u7-q15",
+              "number": 15,
+              "answer": "they are planning",
+              "translation": "他们正在计划",
+              "alternatives": [],
+              "synonym": "they are making plans"
+            },
+            {
+              "id": "u7-q16",
+              "number": 16,
+              "answer": "descended",
+              "translation": "是……的后代；源自",
+              "alternatives": [],
+              "synonym": "originated"
+            },
+            {
+              "id": "u7-q17",
+              "number": 17,
+              "answer": "population has expanded rapidly",
+              "translation": "种群数量迅速增加",
+              "alternatives": [],
+              "synonym": "the population has grown quickly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Unit 8 · 新闻听力",
+      "source": "Unit 8 题目.docx",
+      "answerSource": "听力 Unit 8 答案.docx",
+      "audio": [
+        {
+          "label": "Unit 8 原课录音",
+          "path": "audio/unit-8.mp3"
+        }
+      ],
+      "passages": [
+        {
+          "id": "u8-p1",
+          "title": "新闻 1 · 寨卡公共卫生事件",
+          "parts": [
+            {
+              "text": "The World Health Organization has declared that the Zika "
+            },
+            {
+              "blank": "u8-q1"
+            },
+            {
+              "text": " is now over, but its spokesman says  "
+            },
+            {
+              "blank": "u8-q2"
+            },
+            {
+              "text": " which has been linked to brain defects in babies remains endemic in about 75 countries."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q1",
+              "number": 1,
+              "answer": "international public health emergency",
+              "translation": "国际公共卫生紧急事件",
+              "alternatives": [],
+              "synonym": "a global public-health emergency"
+            },
+            {
+              "id": "u8-q2",
+              "number": 2,
+              "answer": "the infection",
+              "translation": "这种感染",
+              "alternatives": [],
+              "synonym": "the infectious condition"
+            }
+          ]
+        },
+        {
+          "id": "u8-p2",
+          "title": "新闻 2 · 特朗普大学诉讼和解",
+          "parts": [
+            {
+              "text": "The US president-elect Donald Trump has agreed to pay 25 million dollars to settle lawsuits which  "
+            },
+            {
+              "blank": "u8-q3"
+            },
+            {
+              "text": " he defrauded thousands of students at his failed property investment school Trump University. New York's attorney general said the agreement marked "
+            },
+            {
+              "blank": "u8-q4"
+            },
+            {
+              "text": " by Mr. Trump."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q3",
+              "number": 3,
+              "answer": "alleged",
+              "translation": "声称；指控（尚待证实）",
+              "alternatives": [],
+              "synonym": "claimed"
+            },
+            {
+              "id": "u8-q4",
+              "number": 4,
+              "answer": "a stunning reversal",
+              "translation": "令人震惊的逆转",
+              "alternatives": [],
+              "synonym": "a remarkable turnaround"
+            }
+          ]
+        },
+        {
+          "id": "u8-p3",
+          "title": "新闻 3 · 北极油气钻探",
+          "parts": [
+            {
+              "text": "The Obama administration has "
+            },
+            {
+              "blank": "u8-q5"
+            },
+            {
+              "text": " in the Arctic Ocean as part of a five-year plan. Environmental groups have welcomed the decision, but politicians and energy industry groups in Alaska, who argued that offshore drilling would be good for the local "
+            },
+            {
+              "blank": "u8-q6"
+            },
+            {
+              "text": " , are reported to be furious."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q5",
+              "number": 5,
+              "answer": "blocked new drilling for oil and gas",
+              "translation": "禁止新的石油和天然气钻探",
+              "alternatives": [],
+              "synonym": "barred new oil and gas exploration drilling"
+            },
+            {
+              "id": "u8-q6",
+              "number": 6,
+              "answer": "economy",
+              "translation": "经济",
+              "alternatives": [],
+              "synonym": "the economic system"
+            }
+          ]
+        },
+        {
+          "id": "u8-p4",
+          "title": "新闻 4 · 毒品贩运判决",
+          "parts": [
+            {
+              "text": "A federal jury in the United States has found two nephews of the Venezuelan first lady Cilia Flores "
+            },
+            {
+              "blank": "u8-q7"
+            },
+            {
+              "text": " . The men were arrested a year ago in Haiti by undercover American agents and put in a plane to New York where  "
+            },
+            {
+              "blank": "u8-q8"
+            },
+            {
+              "text": " to smuggle cocaine into the U.S. They pleaded not guilty."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q7",
+              "number": 7,
+              "answer": "guilty of drug trafficking",
+              "translation": "犯有毒品贩运罪",
+              "alternatives": [],
+              "synonym": "convicted of trafficking drugs"
+            },
+            {
+              "id": "u8-q8",
+              "number": 8,
+              "answer": "they were charged with conspiring",
+              "translation": "他们被控共谋",
+              "alternatives": [],
+              "synonym": "they faced charges of plotting"
+            }
+          ]
+        },
+        {
+          "id": "u8-p5",
+          "title": "新闻 5 · 阿根廷反贫困抗议",
+          "parts": [
+            {
+              "text": "There has been a big protest in the Argentine capital Buenos Aires to demand a new law to fight worsening "
+            },
+            {
+              "blank": "u8-q9"
+            },
+            {
+              "text": " . The government says that it can't afford to increase "
+            },
+            {
+              "blank": "u8-q10"
+            },
+            {
+              "text": " and create jobs using public funds."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q9",
+              "number": 9,
+              "answer": "poverty",
+              "translation": "贫困",
+              "alternatives": [],
+              "synonym": "deprivation"
+            },
+            {
+              "id": "u8-q10",
+              "number": 10,
+              "answer": "welfare payments",
+              "translation": "福利金支出",
+              "alternatives": [],
+              "synonym": "social benefit payments"
+            }
+          ]
+        },
+        {
+          "id": "u8-p6",
+          "title": "新闻 6 · 巴西反腐调查",
+          "parts": [
+            {
+              "text": "Brazilian prosecutors leading the country's biggest ever  "
+            },
+            {
+              "blank": "u8-q11"
+            },
+            {
+              "text": " have returned 60 million dollars to the state oil company PetroBras. The corruption scheme is estimated to have cost PetroBras "
+            },
+            {
+              "blank": "u8-q12"
+            },
+            {
+              "text": " ."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q11",
+              "number": 11,
+              "answer": "corruption investigation",
+              "translation": "腐败调查",
+              "alternatives": [],
+              "synonym": "an inquiry into corruption"
+            },
+            {
+              "id": "u8-q12",
+              "number": 12,
+              "answer": "more than one billion dollars",
+              "translation": "超过十亿美元",
+              "alternatives": [],
+              "synonym": "over one billion dollars"
+            }
+          ]
+        },
+        {
+          "id": "u8-p7",
+          "title": "新闻 7 · 非洲杯与联赛赛程",
+          "parts": [
+            {
+              "text": "The manager of the English Premier League football club Crystal Palace has said the timing of the Africa Cup of Nations in January "
+            },
+            {
+              "blank": "u8-q13"
+            },
+            {
+              "text": " . Alan Pardew said the clubs now had to consider whether African players would be "
+            },
+            {
+              "blank": "u8-q14"
+            },
+            {
+              "text": " before signing them."
+            }
+          ],
+          "questions": [
+            {
+              "id": "u8-q13",
+              "number": 13,
+              "answer": "is disruptive to the English football season",
+              "translation": "扰乱英格兰足球赛季",
+              "alternatives": [],
+              "synonym": "disrupts the English football season"
+            },
+            {
+              "id": "u8-q14",
+              "number": 14,
+              "answer": "joining the tournament",
+              "translation": "参加该赛事",
+              "alternatives": [],
+              "synonym": "taking part in the competition"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+# Local secrets and provider metadata must never enter this public repository.
+.env
+.env.*
+!.env.example
+**/.openai/
+**/.codex/
+**/.agents/
+.supabase/
+supabase/.temp/
+supabase/.branches/
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+id_ed25519*
+*credentials*.json
+*credential*.json
+*token*.json
+*secret*.json
+service-account*.json
+
+# Local state, dependencies, logs and generated test artifacts.
+node_modules/
+.cache/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+playwright-report/
+test-results/
+test-artifacts/
+artifacts/
+screenshots/
+coverage/
+scripts/github_api.py
+scripts/upgrade_ui.py
+scripts/fix_cloud_ui.py
+scripts/prepare_public.py
+scripts/ui_polish.py
+scripts/create-repo.json
+scripts/enable-pages.json
+tmp/
+*.zip
+*.tar
+*.tar.gz
+
+# dist/config.js contains only public Supabase connection configuration.
+# dist itself is the checked-in deployable static application.

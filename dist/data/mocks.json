@@ -1,0 +1,430 @@
+{
+  "papers": [
+    {
+      "id": "A",
+      "title": "模拟卷 A",
+      "duration": 100,
+      "totalPoints": 100,
+      "sections": [
+        {
+          "id": "listening",
+          "title": "一、新闻听力填空",
+          "instruction": "共 10 空，每空 2 分。听力稿为原创练习材料，不是实际新闻或官方试题。首次练习请让同伴朗读或使用设备朗读，不要先看答案册。也可换用原 Unit MP3 及其对应题目；不能用原 MP3 回答本卷新编题。",
+          "questions": [
+            {
+              "id": "A-L1",
+              "type": "listening",
+              "prompt": "校园节能计划\nA university has announced a new energy-saving programme after electricity use rose by [1] __________ last year. The programme will begin in January and cover all [2] __________. Staff will replace old lights and ask students to turn off computers after use. According to the project manager, the main aim is to [3] __________ rather than limit essential research. A student committee will [4] __________ every month. The university plans to publish its first progress report at the end of the [5] __________.",
+              "answer": "1. twelve percent\n2. teaching buildings\n3. reduce waste\n4. collect feedback\n5. spring term",
+              "explanation": "按听力稿原词填写；每空 2 分，搭配与词形均需正确。",
+              "points": 10
+            },
+            {
+              "id": "A-L2",
+              "type": "listening",
+              "prompt": "城市阅读调查\nA city library has released the results of a survey of [6] __________. The report shows that online reading is becoming more popular, but many older readers still prefer [7] __________. In response to the findings, the library will offer free digital skills classes [8] __________. Volunteers will help participants search for [9] __________ and compare different sources. The director said that the project was intended to improve access to information. Its effects will be evaluated after [10] __________.",
+              "answer": "6. eight hundred residents\n7. printed books\n8. twice a week\n9. reliable information\n10. six months",
+              "explanation": "按听力稿原词填写；每空 2 分，搭配与词形均需正确。",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "correction",
+          "title": "二、句子纠错",
+          "instruction": "每题 2 分，共 20 分。写出完整改后句；合理等价改法可得分。",
+          "questions": [
+            {
+              "id": "A-C1",
+              "type": "correction",
+              "prompt": "Because the library closed early. We studied in the classroom.",
+              "answer": "Because the library closed early, we studied in the classroom.",
+              "explanation": "从属连词 because 引导的片段需连接主句。",
+              "points": 2
+            },
+            {
+              "id": "A-C2",
+              "type": "correction",
+              "prompt": "The survey was small, the results were useful.",
+              "answer": "The survey was small, but the results were useful.",
+              "explanation": "两个独立分句不能仅用逗号连接；也可用分号。",
+              "points": 2
+            },
+            {
+              "id": "A-C3",
+              "type": "correction",
+              "prompt": "Each of the participants have completed the form.",
+              "answer": "Each of the participants has completed the form.",
+              "explanation": "主语是 each，谓语用单数。",
+              "points": 2
+            },
+            {
+              "id": "A-C4",
+              "type": "correction",
+              "prompt": "The course improves reading, writing, and how to speak.",
+              "answer": "The course improves reading, writing, and speaking.",
+              "explanation": "并列成分保持动名词结构一致。",
+              "points": 2
+            },
+            {
+              "id": "A-C5",
+              "type": "correction",
+              "prompt": "Although the task was difficult, but the students finished it.",
+              "answer": "Although the task was difficult, the students finished it.",
+              "explanation": "although 与 but 不在同一结构中重复连接。",
+              "points": 2
+            },
+            {
+              "id": "A-C6",
+              "type": "correction",
+              "prompt": "Students should check their sources it is important.",
+              "answer": "Students should check their sources; it is important.",
+              "explanation": "连续句需加边界，也可分成两句。",
+              "points": 2
+            },
+            {
+              "id": "A-C7",
+              "type": "correction",
+              "prompt": "The researchers collected many useful informations.",
+              "answer": "The researchers collected much useful information.",
+              "explanation": "information 通常不可数，不能加 s。",
+              "points": 2
+            },
+            {
+              "id": "A-C8",
+              "type": "correction",
+              "prompt": "When students use another writer's ideas, he must cite them.",
+              "answer": "When students use another writer's ideas, they must cite them.",
+              "explanation": "students 为复数，回指代词应为 they；them 指 ideas。",
+              "points": 2
+            },
+            {
+              "id": "A-C9",
+              "type": "correction",
+              "prompt": "Walking into the library, the noise surprised Li.",
+              "answer": "Walking into the library, Li was surprised by the noise.",
+              "explanation": "分词短语的逻辑主语应为走入图书馆的人。",
+              "points": 2
+            },
+            {
+              "id": "A-C10",
+              "type": "correction",
+              "prompt": "The first study was limited. however, it raised an important question.",
+              "answer": "The first study was limited. However, it raised an important question.",
+              "explanation": "句首首字母大写，however 后加逗号。",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "paragraph",
+          "title": "三、段落改写与续写",
+          "instruction": "每题 8 分，共 16 分。关注主题、支撑、统一与连贯。",
+          "questions": [
+            {
+              "id": "A-P1",
+              "type": "paragraph",
+              "prompt": "删除偏离主题的一句，再用适当连接词改写为连贯段落（60–90 词）。\nRegular reading can improve academic writing. Students notice how authors organise arguments. They learn useful word combinations. The university cafeteria sells cheap lunches. Reading also helps students distinguish claims from evidence.",
+              "answer": "Regular reading can improve academic writing in several ways. First, students notice how authors organise their arguments, which gives them models for their own work. In addition, they learn useful word combinations in meaningful contexts. Finally, reading helps them distinguish claims from supporting evidence. By paying attention to both language and reasoning, students can gradually make their own writing clearer and more persuasive.",
+              "explanation": "删除 cafeteria 句（2分）；主题与支撑统一（2分）；连接与指代（2分）；语言（2分）。示例不是唯一答案。",
+              "points": 8
+            },
+            {
+              "id": "A-P2",
+              "type": "paragraph",
+              "prompt": "续写主题句，完成 60–90 词段落。至少使用一个具体例子，并给出结句。\nKeeping a study diary can help postgraduate students use their time more effectively.",
+              "answer": "Keeping a study diary can help postgraduate students use their time more effectively. A diary makes daily goals visible and allows students to compare their plans with what they actually achieve. For example, a student may discover that reading one difficult article takes two hours rather than thirty minutes. This information can guide a more realistic plan for the following week. Regular reflection therefore turns the diary into a practical tool for improving study habits.",
+              "explanation": "主题展开（2分）；具体例子（2分）；逻辑与结句（2分）；语言（2分）。",
+              "points": 8
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "四、Paraphrase",
+          "instruction": "每题 3 分，共 9 分。保留原意、范围和语气，同时改变用词与句式。",
+          "questions": [
+            {
+              "id": "A-R1",
+              "type": "paraphrase",
+              "prompt": "Regular exercise can improve students' concentration.",
+              "answer": "Students may concentrate better if they exercise regularly.",
+              "explanation": "保留 can 的可能性，调整主语和条件结构。 原意1分、改写幅度1分、语言1分。",
+              "points": 3
+            },
+            {
+              "id": "A-R2",
+              "type": "paraphrase",
+              "prompt": "Because transport costs increased, some students chose to live near the university.",
+              "answer": "Higher transport costs led some students to choose accommodation close to the university.",
+              "explanation": "因果从句变为名词短语；不应把 some 改成 all。 原意1分、改写幅度1分、语言1分。",
+              "points": 3
+            },
+            {
+              "id": "A-R3",
+              "type": "paraphrase",
+              "prompt": "The study found that online feedback was useful, although it could not replace face-to-face discussion.",
+              "answer": "According to the study, online feedback was helpful but could not substitute for discussion in person.",
+              "explanation": "保留信息来源与让步关系。 原意1分、改写幅度1分、语言1分。",
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "五、Summary",
+          "instruction": "用 40–60 个英文词概括下文。保留主旨和限制，不添加个人观点。10 分。",
+          "questions": [
+            {
+              "id": "A-S1",
+              "type": "summary",
+              "prompt": "A university library introduced short workshops on evaluating online sources. Before attending, many students judged a website mainly by its appearance or its position in search results. During the workshops, librarians asked students to examine authorship, publication dates and supporting evidence. Students then compared two websites that made different claims about the same topic. In follow-up assignments, participants were more likely to explain why they trusted a source. However, the librarians noted that the project involved only volunteers and did not include a comparison group. They therefore viewed the results as encouraging rather than conclusive. The university plans to repeat the project with a larger group next year.",
+              "answer": "A university library offered workshops that taught students to evaluate online sources by checking authorship, dates and evidence. Participants later explained their source choices more clearly. However, the voluntary sample and absence of a comparison group limited the conclusions, so the library plans further testing.",
+              "explanation": "主旨3分；关键方法/结果3分；限制或条件2分；简洁与语言2分。例文可有其他表达。",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "essay",
+          "title": "六、短文写作",
+          "instruction": "150–200 个英文词，25 分。范文仅供对照，不要求背诵。",
+          "questions": [
+            {
+              "id": "A-E1",
+              "type": "essay",
+              "prompt": "Should universities require first-year postgraduate students to attend an academic writing course? Write an argumentative essay of 150–200 words. State your position, give two supported reasons, address one opposing view, and write a conclusion.",
+              "answer": "Universities should require first-year postgraduate students to take an academic writing course because clear writing is essential to research. Such a course can support both effective communication and responsible scholarship.\n\nFirst, students need to learn how to organise complex ideas. A strong topic sentence and relevant evidence help readers follow an argument. For example, a short assignment on paragraph structure can reveal weaknesses that are difficult to notice in a full research paper. Second, a writing course can teach students to paraphrase accurately and acknowledge their sources. These skills help them explain existing research without copying its language.\n\nSome students may argue that a compulsory course takes time away from their experiments. This concern is reasonable, especially when schedules are already crowded. However, a practical course can use students' own research topics, making the work directly relevant to their projects.\n\nIn conclusion, an academic writing course offers useful preparation for postgraduate research. If it includes focused practice and constructive feedback, the time invested can improve the quality of students' later work.",
+              "explanation": "内容与任务完成7分；结构与支撑7分；语言准确与多样性7分；衔接、拼写和标点4分。",
+              "points": 25
+            }
+          ]
+        }
+      ],
+      "listeningScripts": [
+        {
+          "title": "校园节能计划",
+          "text": "A university has announced a new energy-saving programme after electricity use rose by twelve percent last year. The programme will begin in January and cover all teaching buildings. Staff will replace old lights and ask students to turn off computers after use. According to the project manager, the main aim is to reduce waste rather than limit essential research. A student committee will collect feedback every month. The university plans to publish its first progress report at the end of the spring term."
+        },
+        {
+          "title": "城市阅读调查",
+          "text": "A city library has released the results of a survey of eight hundred residents. The report shows that online reading is becoming more popular, but many older readers still prefer printed books. In response to the findings, the library will offer free digital skills classes twice a week. Volunteers will help participants search for reliable information and compare different sources. The director said that the project was intended to improve access to information. Its effects will be evaluated after six months."
+        }
+      ],
+      "rubric": "自编训练卷，分值与 100 分钟时限为训练安排，不代表官方考试。开放题需人工判断，参考答案不应作字符串匹配。"
+    },
+    {
+      "id": "B",
+      "title": "模拟卷 B",
+      "duration": 100,
+      "totalPoints": 100,
+      "sections": [
+        {
+          "id": "listening",
+          "title": "一、新闻听力填空",
+          "instruction": "共 10 空，每空 2 分。听力稿为原创练习材料，不是实际新闻或官方试题。首次练习请让同伴朗读或使用设备朗读，不要先看答案册。也可换用原 Unit MP3 及其对应题目；不能用原 MP3 回答本卷新编题。",
+          "questions": [
+            {
+              "id": "B-L1",
+              "type": "listening",
+              "prompt": "城市绿地项目\nLocal officials have approved a plan to turn an empty factory site into a [1] __________. Construction is expected to begin in March, following a [2] __________. The project will include walking paths and a small area for outdoor classes. Environmental researchers say that urban green spaces can reduce [3] __________ and provide opportunities for exercise. However, they warn that these benefits depend on [4] __________. The council has promised to publish the [5] __________ before work begins.",
+              "answer": "1. public park\n2. public consultation\n3. summer temperatures\n4. careful maintenance\n5. full budget",
+              "explanation": "按听力稿原词填写；每空 2 分，搭配与词形均需正确。",
+              "points": 10
+            },
+            {
+              "id": "B-L2",
+              "type": "listening",
+              "prompt": "研究技能工作坊\nA university writing centre is introducing a series of workshops for new [6] __________. The sessions will focus on summarising research and [7] __________. In a recent survey, students identified paraphrasing as their [8] __________. Tutors will therefore teach them to record the central idea before changing [9] __________. They will also explain why replacing a few words is not enough to avoid plagiarism. Participants will complete a short writing task, and receive individual feedback within [10] __________.",
+              "answer": "6. postgraduate students\n7. acknowledging sources\n8. greatest difficulty\n9. sentence structure\n10. one week",
+              "explanation": "按听力稿原词填写；每空 2 分，搭配与词形均需正确。",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "correction",
+          "title": "二、句子纠错",
+          "instruction": "每题 2 分，共 20 分。写出完整改后句；合理等价改法可得分。",
+          "questions": [
+            {
+              "id": "B-C1",
+              "type": "correction",
+              "prompt": "After the participants had read the instructions.",
+              "answer": "After the participants had read the instructions, they began the task.",
+              "explanation": "原句只有从句，是片段；补合理主句。",
+              "points": 2
+            },
+            {
+              "id": "B-C2",
+              "type": "correction",
+              "prompt": "The method was simple it produced reliable results.",
+              "answer": "The method was simple, and it produced reliable results.",
+              "explanation": "两个独立分句应使用正确标点和连接。",
+              "points": 2
+            },
+            {
+              "id": "B-C3",
+              "type": "correction",
+              "prompt": "One of the most important findings are discussed below.",
+              "answer": "One of the most important findings is discussed below.",
+              "explanation": "one 是主语中心词。",
+              "points": 2
+            },
+            {
+              "id": "B-C4",
+              "type": "correction",
+              "prompt": "Students need to read carefully, taking notes, and revise regularly.",
+              "answer": "Students need to read carefully, take notes, and revise regularly.",
+              "explanation": "to 后并列动词原形 read/take/revise。",
+              "points": 2
+            },
+            {
+              "id": "B-C5",
+              "type": "correction",
+              "prompt": "Despite the sample was small, the study was useful.",
+              "answer": "Although the sample was small, the study was useful.",
+              "explanation": "despite 后接名词或动名词；although 后接完整从句。",
+              "points": 2
+            },
+            {
+              "id": "B-C6",
+              "type": "correction",
+              "prompt": "The evidence supports the claim, therefore we accept it.",
+              "answer": "The evidence supports the claim; therefore, we accept it.",
+              "explanation": "therefore 是连接副词，前面的独立分句需分号或句号。",
+              "points": 2
+            },
+            {
+              "id": "B-C7",
+              "type": "correction",
+              "prompt": "The report gives an advice about time management.",
+              "answer": "The report gives advice about time management.",
+              "explanation": "advice 不可数；可说 a piece of advice。",
+              "points": 2
+            },
+            {
+              "id": "B-C8",
+              "type": "correction",
+              "prompt": "The results of the experiment shows a clear pattern.",
+              "answer": "The results of the experiment show a clear pattern.",
+              "explanation": "中心词 results 是复数。",
+              "points": 2
+            },
+            {
+              "id": "B-C9",
+              "type": "correction",
+              "prompt": "To understand the passage, a dictionary was used by Mei.",
+              "answer": "To understand the passage, Mei used a dictionary.",
+              "explanation": "目的状语的逻辑主语是 Mei。",
+              "points": 2
+            },
+            {
+              "id": "B-C10",
+              "type": "correction",
+              "prompt": "The article is clear, logical and it provides useful examples.",
+              "answer": "The article is clear and logical, and it provides useful examples.",
+              "explanation": "将两个形容词并列，再连接完整分句；有其他正确改法。",
+              "points": 2
+            }
+          ]
+        },
+        {
+          "id": "paragraph",
+          "title": "三、段落改写与续写",
+          "instruction": "每题 8 分，共 16 分。关注主题、支撑、统一与连贯。",
+          "questions": [
+            {
+              "id": "B-P1",
+              "type": "paragraph",
+              "prompt": "重写为统一、连贯的 60–90 词段落，可删去无关信息并增加必要连接。\nOnline courses offer flexibility. Students can watch lectures after work. The city has several old buildings. Some learners live far from the campus. Recorded lessons allow learners to review difficult points.",
+              "answer": "Online courses offer flexibility in both time and place. Students who work during the day can watch lectures in the evening, while those who live far from the campus can study at home. In addition, recorded lessons allow learners to pause a lecture and review difficult points at their own pace. These features make online courses particularly useful for people who cannot attend regular classroom sessions.",
+              "explanation": "删除 old buildings 句（2分）；主题统一（2分）；组织与衔接（2分）；语言（2分）。",
+              "points": 8
+            },
+            {
+              "id": "B-P2",
+              "type": "paragraph",
+              "prompt": "续写主题句，完成 60–90 词段落。用两个具体理由支持观点，并写结句。\nUniversities should teach new students how to evaluate online information.",
+              "answer": "Universities should teach new students how to evaluate online information. First, search results often mix carefully researched articles with unsupported opinions, so students need to check who wrote a source and what evidence it provides. Second, even accurate information can become outdated. Students should therefore examine publication dates and compare several reliable sources. These habits can help them build stronger arguments and avoid repeating misleading claims in their academic work.",
+              "explanation": "两个有效理由各2分；逻辑与结句2分；语言2分。",
+              "points": 8
+            }
+          ]
+        },
+        {
+          "id": "paraphrase",
+          "title": "四、Paraphrase",
+          "instruction": "每题 3 分，共 9 分。保留原意、范围和语气，同时改变用词与句式。",
+          "questions": [
+            {
+              "id": "B-R1",
+              "type": "paraphrase",
+              "prompt": "Many students find it difficult to identify the main idea of a long article.",
+              "answer": "Identifying the central point of a lengthy article is difficult for many students.",
+              "explanation": "动名词主语转换；保留 many。 原意1分、改写幅度1分、语言1分。",
+              "points": 3
+            },
+            {
+              "id": "B-R2",
+              "type": "paraphrase",
+              "prompt": "The library extended its opening hours in order to meet students' needs.",
+              "answer": "To respond to students' needs, the library remained open for longer.",
+              "explanation": "目的结构前置，避免改变时态。 原意1分、改写幅度1分、语言1分。",
+              "points": 3
+            },
+            {
+              "id": "B-R3",
+              "type": "paraphrase",
+              "prompt": "Researchers must acknowledge borrowed ideas even when they express them in their own words.",
+              "answer": "Ideas taken from other authors require acknowledgement, even if researchers rephrase them.",
+              "explanation": "必须保留引用义务；换词不能免除引用。 原意1分、改写幅度1分、语言1分。",
+              "points": 3
+            }
+          ]
+        },
+        {
+          "id": "summary",
+          "title": "五、Summary",
+          "instruction": "用 40–60 个英文词概括下文。保留主旨和限制，不添加个人观点。10 分。",
+          "questions": [
+            {
+              "id": "B-S1",
+              "type": "summary",
+              "prompt": "A writing centre tested a peer-review activity in an introductory academic writing course. Students first read a short checklist covering topic sentences, relevant support and clear connections. They then exchanged drafts and marked places where the argument was difficult to follow. Most students revised their organisation after receiving comments. Some also said that reading another person's draft helped them notice similar problems in their own writing. However, several students were uncertain about grammar and sometimes offered incorrect corrections. The tutors concluded that peer review was useful for organisation but still required teacher guidance. They recommended giving students models of constructive feedback before the next activity.",
+              "answer": "A writing centre found that guided peer review helped students improve organisation and recognise problems in their own drafts. However, peers sometimes gave inaccurate grammar advice. Tutors therefore recommended teacher support and examples of constructive feedback to make future peer-review activities more effective.",
+              "explanation": "主旨3分；关键方法/结果3分；限制或条件2分；简洁与语言2分。例文可有其他表达。",
+              "points": 10
+            }
+          ]
+        },
+        {
+          "id": "essay",
+          "title": "六、短文写作",
+          "instruction": "150–200 个英文词，25 分。范文仅供对照，不要求背诵。",
+          "questions": [
+            {
+              "id": "B-E1",
+              "type": "essay",
+              "prompt": "Why do some postgraduate students struggle with academic writing in English, and what effects can these difficulties have? Write a cause-and-effect essay of 150–200 words. Discuss at least two causes and two effects, with clear connections and examples.",
+              "answer": "Many postgraduate students find academic writing in English difficult. Two common causes are limited exposure to academic texts and insufficient practice in organising an argument. These difficulties can affect both communication and study time.\n\nStudents who rarely read academic English may know individual words but remain unfamiliar with common word combinations. As a result, they may translate directly from their first language and produce unclear sentences. For example, choosing a dictionary synonym without checking its context can change the meaning of a claim.\n\nA second cause is the belief that good writing depends mainly on correct grammar. Students who focus only on sentence-level accuracy may give too little attention to topic sentences, relevant evidence and logical order. Consequently, readers can struggle to understand how the ideas are connected. Students may then need several rounds of revision, leaving less time for other research tasks.\n\nThese effects are not inevitable. Regular reading, short writing exercises and feedback on organisation can help students improve. Addressing both language and structure is therefore a practical way to make academic writing clearer and more efficient.",
+              "explanation": "内容与任务完成7分；结构与支撑7分；语言准确与多样性7分；衔接、拼写和标点4分。",
+              "points": 25
+            }
+          ]
+        }
+      ],
+      "listeningScripts": [
+        {
+          "title": "城市绿地项目",
+          "text": "Local officials have approved a plan to turn an empty factory site into a public park. Construction is expected to begin in March, following a public consultation. The project will include walking paths and a small area for outdoor classes. Environmental researchers say that urban green spaces can reduce summer temperatures and provide opportunities for exercise. However, they warn that these benefits depend on careful maintenance. The council has promised to publish the full budget before work begins."
+        },
+        {
+          "title": "研究技能工作坊",
+          "text": "A university writing centre is introducing a series of workshops for new postgraduate students. The sessions will focus on summarising research and acknowledging sources. In a recent survey, students identified paraphrasing as their greatest difficulty. Tutors will therefore teach them to record the central idea before changing sentence structure. They will also explain why replacing a few words is not enough to avoid plagiarism. Participants will complete a short writing task, and receive individual feedback within one week."
+        }
+      ],
+      "rubric": "自编训练卷，分值与 100 分钟时限为训练安排，不代表官方考试。开放题需人工判断，参考答案不应作字符串匹配。"
+    }
+  ]
+}

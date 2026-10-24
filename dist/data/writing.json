@@ -1,0 +1,2367 @@
+{
+  "lessons": [
+    {
+      "id": "sentence",
+      "title": "Sentence skills",
+      "subtitle": "先补句子骨架，再修五类常见错误",
+      "source": "Sentence skills.pdf，PDF 1–32页；1. Sentence skills answer key.pdf，PDF 1–11页（与另一同名答案内容重复）。",
+      "markdownPath": "materials/02_写作精华/Sentence skills精华.md",
+      "fileName": "Sentence skills精华.md",
+      "rules": [
+        {
+          "title": "独立从句与从属从句",
+          "explanation": "独立从句有主语、限定动词并能独立表达完整意思。从属连词 because/although/when 等会使句子不能独立；要接主句。短语中有 -ing 不等于有谓语。",
+          "example": "原创示例：Because the experiment failed, we revised the method.",
+          "before": "Because the experiment failed.",
+          "after": "Because the experiment failed, we revised the method."
+        },
+        {
+          "title": "四种句型",
+          "explanation": "simple：一个独立从句，可有并列主语/谓语；compound：至少两个独立从句；complex：一个独立从句加至少一个从属从句；compound-complex：至少两个独立从句加至少一个从属从句。按从句结构判断，不按长短判断。",
+          "example": "原创示例：Although the task was difficult, we persisted, and we finished it.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "并列句三种合法连接",
+          "explanation": "独立句 + 逗号 + FANBOYS（for/and/nor/but/or/yet/so）；独立句 + 分号 + however/therefore 等 + 逗号；或语意密切的两句用分号。however 本身不能替代连词。nor 连接否定并列分句时常需倒装。",
+          "example": "原创示例：The sample was small; therefore, the result requires caution.",
+          "before": "The sample was small, however, the effect was clear.",
+          "after": "The sample was small; however, the effect was clear."
+        },
+        {
+          "title": "主从句与信息重点",
+          "explanation": "把主要信息放主句，把原因/条件/让步放从句。前置状语从句后通常用逗号。名词从句和定语从句需要与所属成分相连。避免 because...so 和 although...but 双重连接。",
+          "example": "原创示例：Although tuition is high, many students attend college.",
+          "before": "Although tuition is high, but many students attend college.",
+          "after": "Although tuition is high, many students attend college."
+        },
+        {
+          "title": "平行结构",
+          "explanation": "and/or 及 both...and、either...or、neither...nor、not only...but also 两侧结构要对应：名词对名词、动名词对动名词、从句对从句。比较结构也需要平行。",
+          "example": "原创示例：The course develops reading, writing, and critical thinking.",
+          "before": "The course develops reading, writing, and to think critically.",
+          "after": "The course develops reading, writing, and critical thinking."
+        },
+        {
+          "title": "Fragment、run-on 与 comma splice",
+          "explanation": "fragment 缺完整句骨架；run-on 把独立句直接粘连；comma splice 仅用逗号连接独立句。可补主句、加句号/分号、加并列连词或改为主从结构。",
+          "example": "原创示例：The data were incomplete, so we collected more.",
+          "before": "The data were incomplete we collected more.",
+          "after": "The data were incomplete, so we collected more."
+        },
+        {
+          "title": "Choppy 与 stringy",
+          "explanation": "choppy 是连续短句过碎，用逻辑连接合并；stringy 是 and/so 串联过长，先分组再拆句。不是句子越长越学术，关键是信息关系明确。",
+          "example": "原创示例：We reviewed the evidence before choosing a method.",
+          "before": "We reviewed the evidence, and we chose a method, and we ran a test, and we wrote a report.",
+          "after": "After reviewing the evidence, we chose a method. We then ran a test and wrote a report."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "sentence-1",
+          "type": "correction",
+          "prompt": "改错：Because the library was closed. We studied at home.",
+          "answer": "Because the library was closed, we studied at home.",
+          "explanation": "合并从属从句与主句，消除 fragment。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-2",
+          "type": "correction",
+          "prompt": "改错：The results were promising, however, the sample was small.",
+          "answer": "The results were promising; however, the sample was small.",
+          "explanation": "however 是连接副词，前面应句号或分号。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-3",
+          "type": "correction",
+          "prompt": "改错：Students need to read carefully, taking notes, and to review regularly.",
+          "answer": "Students need to read carefully, take notes, and review regularly.",
+          "explanation": "并列谓语都用动词原形，承接 need to。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-4",
+          "type": "correction",
+          "prompt": "用 although 合并：The method is simple. It is effective.",
+          "answer": "Although the method is simple, it is effective.",
+          "explanation": "让步从句前置后加逗号。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-5",
+          "type": "correction",
+          "prompt": "用 so 合并：The recording was unclear. We listened again.",
+          "answer": "The recording was unclear, so we listened again.",
+          "explanation": "两个独立从句用逗号加并列连词。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-6",
+          "type": "correction",
+          "prompt": "改错：The paper discusses both the causes and how the problem can be solved.",
+          "answer": "The paper discusses both the causes and the solutions.",
+          "explanation": "both...and 两侧统一为名词短语。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-7",
+          "type": "correction",
+          "prompt": "改错：The students completed the task they checked their answers.",
+          "answer": "The students completed the task; they checked their answers.",
+          "explanation": "也可用句号或 and 修复 run-on。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-8",
+          "type": "correction",
+          "prompt": "用 nor 续写：The report does not explain the cause, ...（也没有提出解决办法）",
+          "answer": "The report does not explain the cause, nor does it propose a solution.",
+          "explanation": "nor 后倒装，does 后动词原形。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-9",
+          "type": "correction",
+          "prompt": "判断句型：Although it was late, we continued working, and we finished the draft.",
+          "answer": "compound-complex sentence（并列复合句）",
+          "explanation": "一个从属从句、两个独立从句。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-10",
+          "type": "correction",
+          "prompt": "合并碎句：The course is useful. It improves reading. It develops writing.",
+          "answer": "The course is useful because it improves reading and develops writing.",
+          "explanation": "用原因从句和并列谓语整合。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-11",
+          "type": "correction",
+          "prompt": "拆分串句：I studied all morning, and I attended class all afternoon, and I revised at night, so I was tired.",
+          "answer": "I studied all morning and attended class all afternoon. Since I also revised at night, I was tired.",
+          "explanation": "保留时间顺序与原因，减少连续 and。",
+          "openEnded": true
+        },
+        {
+          "id": "sentence-12",
+          "type": "correction",
+          "prompt": "改错：Although the question was difficult, but she answered it correctly.",
+          "answer": "Although the question was difficult, she answered it correctly.",
+          "explanation": "although 不与 but 重复连接同一关系。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "判别独立/从属从句",
+        "用FANBOYS、连接副词、分号合句",
+        "but与yet语意选择",
+        "主从句识别、标点",
+        "多方式合句",
+        "平行结构改写",
+        "fragment、choppy、run-on/comma splice、stringy改错",
+        "段落综合编辑"
+      ],
+      "sourceExamples": [
+        {
+          "text": "The sun rose.",
+          "page": "教材 PDF 2页（印刷页163）",
+          "note": "独立从句的最简骨架。"
+        },
+        {
+          "text": "Learning a new language is like learning to swim, for it takes a lot of practice.",
+          "page": "答案 PDF 9页（印刷页38）",
+          "note": "并列连词 for 引出解释。"
+        }
+      ]
+    },
+    {
+      "id": "paragraph",
+      "title": "paragraph structure",
+      "subtitle": "一个段落，一个中心",
+      "source": "paragraph structure.pdf，PDF 1–16页；paragraph strurcture  answer key.pdf，PDF 1–3页。",
+      "markdownPath": "materials/02_写作精华/paragraph structure精华.md",
+      "fileName": "paragraph structure精华.md",
+      "rules": [
+        {
+          "title": "段落三部分",
+          "explanation": "topic sentence 提出主题与控制思想；supporting sentences 解释和证明；concluding sentence 回收主旨。独立段落通常需要结句，长文中的每个主体段不一定都要单独结句。",
+          "example": "原创示例：Regular review improves vocabulary retention. Short daily sessions help learners revisit difficult words.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "Topic + controlling idea",
+          "explanation": "主题回答“写什么”；控制思想回答“从哪个具体角度写”。主题句必须完整，范围适中；不能只是标题、极泛的事实或孤立细节。",
+          "example": "原创示例：Studying with a partner offers two practical benefits.",
+          "before": "Education is important.",
+          "after": "Peer study improves learning by encouraging explanation and regular review."
+        },
+        {
+          "title": "支撑必须具体",
+          "explanation": "用解释、例子、事实、数据发展控制思想。每句都要回答“为什么/如何/例如”；不要把主旨换词反复说。练习中的数字若自拟，必须标明，不冒充调查。",
+          "example": "原创示例：For example, learners can explain difficult grammar rules to each other.",
+          "before": "Study groups are good. They are very helpful.",
+          "after": "Study groups help members identify errors by comparing their answers."
+        },
+        {
+          "title": "识别主题句与段落顺序",
+          "explanation": "主题句常在开头，也可能居中或结尾。选句题要看整段覆盖范围：过宽无法统摄，过窄只覆盖一个例子。",
+          "example": "原创示例：A list of two study benefits needs a topic sentence that covers both.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "结句收束、不加新论点",
+          "explanation": "结句可换说主题句或总结主要支撑。不能突然引入尚未讨论的新好处。In conclusion 等不是每段必需，也不宜机械重复。",
+          "example": "原创示例：These benefits make peer study a useful part of exam preparation.",
+          "before": "In conclusion, peer study also improves physical health.",
+          "after": "Together, shared explanations and regular practice make peer study effective."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "paragraph-1",
+          "type": "correction",
+          "prompt": "指出 topic 和 controlling idea：Online courses offer flexibility for working students.",
+          "answer": "topic: Online courses；controlling idea: offer flexibility for working students",
+          "explanation": "主题与讨论角度分开。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-2",
+          "type": "correction",
+          "prompt": "把标题改成主题句：The advantages of regular review",
+          "answer": "Regular review helps learners remember and use new vocabulary.",
+          "explanation": "补主语谓语并限定角度。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-3",
+          "type": "correction",
+          "prompt": "选择合适主题句：A. Education matters. B. Daily listening practice improves recognition of common phrases. C. I listened for ten minutes yesterday.",
+          "answer": "B",
+          "explanation": "A太泛，C是细节。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-4",
+          "type": "correction",
+          "prompt": "为“Libraries provide a good environment for study.”写一个具体支撑句。",
+          "answer": "Quiet reading areas allow students to concentrate without frequent interruptions.",
+          "explanation": "须说明环境如何支持学习，答案不唯一。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-5",
+          "type": "correction",
+          "prompt": "删去离题句：Regular review improves memory. It brings difficult words back to attention. My classroom has blue walls. It also reveals what needs more practice.",
+          "answer": "My classroom has blue walls.",
+          "explanation": "颜色不支撑复习的作用。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-6",
+          "type": "correction",
+          "prompt": "为“Peer study helps students compare answers and explain difficult ideas.”写结句。",
+          "answer": "For these reasons, studying with peers can make review more effective.",
+          "explanation": "回收两项好处，不添加新主张。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-7",
+          "type": "correction",
+          "prompt": "改进过泛主题句：Technology changes everything.",
+          "answer": "Online learning tools make exam preparation more flexible.",
+          "explanation": "限定技术类型与使用场景。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-8",
+          "type": "correction",
+          "prompt": "改进过细主题句：I reviewed twelve words at eight yesterday.",
+          "answer": "Short daily vocabulary sessions help me maintain a regular review habit.",
+          "explanation": "用控制思想覆盖可发展的内容。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-9",
+          "type": "correction",
+          "prompt": "排序：A. For example, it lets students pause a recording. B. Digital audio supports careful listening. C. This control helps them notice difficult phrases.",
+          "answer": "B → A → C",
+          "explanation": "先主旨，再例子，最后解释作用。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-10",
+          "type": "correction",
+          "prompt": "判断：一个学术段落必须刚好五句话。",
+          "answer": "错误。长度取决于主旨是否充分展开。",
+          "explanation": "教材强调发展主旨，句数不是硬标准。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-11",
+          "type": "correction",
+          "prompt": "判断：长文的每个主体段都必须以 In conclusion 开始结句。",
+          "answer": "错误。主体段可直接转入下段，结句是否需要由内容决定。",
+          "explanation": "避免把独立段落模板机械套用。",
+          "openEnded": true
+        },
+        {
+          "id": "paragraph-12",
+          "type": "correction",
+          "prompt": "扩写：Regular reading supports vocabulary learning.（再写两句支撑）",
+          "answer": "Readers meet familiar words in new contexts. These repeated encounters help them understand how the words are used.",
+          "explanation": "解释机制而非简单重复主旨。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "识别主题句",
+        "区分topic与controlling idea",
+        "写主题句",
+        "判断支撑是否充分",
+        "用例子支撑",
+        "写结句",
+        "段落写作与自改"
+      ],
+      "sourceExamples": [
+        {
+          "text": "Gold, a precious metal, is prized for two important characteristics.",
+          "page": "教材 PDF 2页（印刷页3）",
+          "note": "以Gold为主题，以two important characteristics限定讨论范围。"
+        },
+        {
+          "text": "In conclusion, gold is treasured not only for its beauty but also for its utility.",
+          "page": "教材 PDF 3页（印刷页4）",
+          "note": "总结美观与用途，未引入第三项新内容。"
+        }
+      ]
+    },
+    {
+      "id": "coherence",
+      "title": "unity and coherence",
+      "subtitle": "删离题句，把句与句连起来",
+      "source": "unity and coherence.pdf，PDF 1–21页；unity and coherence answer key.pdf，PDF 1–4页。",
+      "markdownPath": "materials/02_写作精华/unity and coherence精华.md",
+      "fileName": "unity and coherence精华.md",
+      "rules": [
+        {
+          "title": "Unity：只讨论一个中心",
+          "explanation": "删去与控制思想无关的句子；一段如果出现两个大主题，拆段。相关词出现不等于逻辑相关。",
+          "example": "原创示例：讨论听力复习方法时，“耳机价格上涨”通常需要删去。",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "四条连贯路径",
+          "explanation": "重复关键词；使用一致且指代清楚的代词；选择准确连接信号；按逻辑顺序组织。连贯不等于堆连接词。",
+          "example": "原创示例：Daily review is useful. This habit keeps difficult phrases active in memory.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "关键词与代词",
+          "explanation": "适量重复关键名词有助清晰；不要为避免重复随意换成含义不同的词。人称、单复数保持一致；it/they/this 必须能找到明确先行词。",
+          "example": "原创示例：Students should review their notes before they begin the task.",
+          "before": "Students should review your notes before he begins.",
+          "after": "Students should review their notes before they begin."
+        },
+        {
+          "title": "连接词先语义，后语法",
+          "explanation": "递进 furthermore；转折 however；因果 therefore/as a result；举例 for example；比较 similarly/in contrast。because + 从句，because of + 名词短语；although + 从句，despite + 名词/动名词。",
+          "example": "原创示例：Despite the high cost, the course remained popular.",
+          "before": "Despite the course was expensive, it remained popular.",
+          "after": "Although the course was expensive, it remained popular."
+        },
+        {
+          "title": "标点与位置",
+          "explanation": "连接副词放两独立句之间时用分号/句号；并列连词用逗号连接；前置从属从句后通常加逗号。连接词不能代替句子结构。",
+          "example": "原创示例：The task was difficult; nevertheless, they completed it.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "逻辑顺序与节制",
+          "explanation": "按时间、分类分点、比较对照组织；先明确结构再加连接信号。过多 First/Next/Then 不会自动改善逻辑，显然的步骤可省略。",
+          "example": "原创示例：Read the passage, identify its main points, and then write a summary.",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "coherence-1",
+          "type": "correction",
+          "prompt": "填入合适连接词：The recording was fast. ___, I understood its main point.",
+          "answer": "However / Nevertheless",
+          "explanation": "语义是让步转折。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-2",
+          "type": "correction",
+          "prompt": "填入合适连接词：The room was noisy. ___, I moved to the library.",
+          "answer": "Therefore / As a result",
+          "explanation": "第二句是结果。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-3",
+          "type": "correction",
+          "prompt": "改错：Despite the exam was difficult, she remained calm.",
+          "answer": "Although the exam was difficult, she remained calm.",
+          "explanation": "也可改 Despite the difficulty of the exam。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-4",
+          "type": "correction",
+          "prompt": "改错：Because of the library closed early, we left.",
+          "answer": "Because the library closed early, we left.",
+          "explanation": "because 后可接完整从句。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-5",
+          "type": "correction",
+          "prompt": "改错：Students need practice if you want to improve their writing.",
+          "answer": "Students need practice if they want to improve their writing.",
+          "explanation": "保持第三人称复数一致。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-6",
+          "type": "correction",
+          "prompt": "澄清指代：The tutor gave the student a book, but she did not read it.（未读者是学生）",
+          "answer": "The tutor gave the student a book, but the student did not read it.",
+          "explanation": "重复名词以消除歧义。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-7",
+          "type": "correction",
+          "prompt": "删除离题句：Audio practice builds phrase recognition. Short clips can be replayed. My phone case is green. Repetition helps learners notice word boundaries.",
+          "answer": "My phone case is green.",
+          "explanation": "段落中心是音频练习的作用。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-8",
+          "type": "correction",
+          "prompt": "改错：The task was demanding, therefore, we planned it carefully.",
+          "answer": "The task was demanding; therefore, we planned it carefully.",
+          "explanation": "修复comma splice。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-9",
+          "type": "correction",
+          "prompt": "识别顺序：先列原因一，再列原因二，最后列原因三。",
+          "answer": "logical division of ideas（分点/分类顺序）",
+          "explanation": "不是时间顺序。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-10",
+          "type": "correction",
+          "prompt": "排序：A. Finally, check the source again. B. First, read for meaning. C. Then, write from notes.",
+          "answer": "B → C → A",
+          "explanation": "改写任务的时间/步骤顺序。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-11",
+          "type": "correction",
+          "prompt": "减少冗余：First, open the file. Next, then, read the first paragraph. Finally, in conclusion, take notes.",
+          "answer": "Open the file and read the first paragraph. Then take notes.",
+          "explanation": "同义连接信号重复应删去。",
+          "openEnded": true
+        },
+        {
+          "id": "coherence-12",
+          "type": "correction",
+          "prompt": "把两个句子连贯地接起来：Daily practice builds confidence. Confidence helps students remain calm during the test.",
+          "answer": "Daily practice builds confidence. This confidence helps students remain calm during the test.",
+          "explanation": "关键词重复加指示词建立承接；原句本身也可接受。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "判别/修改unity",
+        "补重复关键词和近义替换",
+        "改一致代词",
+        "识别、选择并标点连接词",
+        "删过量连接词",
+        "辨认时间、分点、比较顺序",
+        "综合coherence编辑"
+      ],
+      "sourceExamples": [
+        {
+          "text": "There are four ways to achieve coherence:",
+          "page": "教材 PDF 5页（印刷页22）",
+          "note": "随后列出关键词、代词、连接信号、逻辑顺序四项。"
+        },
+        {
+          "text": "Although the company’s sales increased last year, its net profit declined.",
+          "page": "教材 PDF 12页（印刷页29）",
+          "note": "前置让步从句后用逗号。"
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "title": "supporting details",
+      "subtitle": "用事实、引文和数据支撑观点",
+      "source": "supporting details.pdf，PDF 1–16页；supporting details answer key.pdf，PDF 1–3页。",
+      "markdownPath": "materials/02_写作精华/supporting details精华.md",
+      "fileName": "supporting details精华.md",
+      "rules": [
+        {
+          "title": "观点需要具体依据",
+          "explanation": "fact 可查证，opinion 是判断；事实也需核对出处与语境。论点→证据→解释，避免只有引文没有自己的分析。教材旧数据是语言练习材料，不当作今天的统计。",
+          "example": "原创示例：A quiet room supports concentration because it reduces interruptions.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "直接引语",
+          "explanation": "保留原词，用引号并标来源。报告语在前通常接逗号；引号内句首大写。中间插入报告语时，原句第二部分不因此强制大写。",
+          "example": "原创示例：The tutor said, \"Review your notes carefully.\"",
+          "before": "The tutor said \"review your notes carefully\".",
+          "after": "The tutor said, \"Review your notes carefully.\""
+        },
+        {
+          "title": "间接引语",
+          "explanation": "不加引号，按语境调整代词、时间词和时态。过去式报告动词常触发时态后移；仍成立的事实可保留现在时，不能机械后移。陈述语序保留。",
+          "example": "原创示例：The tutor said that the task was useful.",
+          "before": "The tutor said that \"the task was useful.\"",
+          "after": "The tutor said that the task was useful."
+        },
+        {
+          "title": "报告动词与解释",
+          "explanation": "according to、report、state、argue、suggest 反映来源立场；不要把 suggest 升格为 prove。引文后解释它如何支持主旨。",
+          "example": "原创示例：The author argues that regular review is valuable. This view supports a daily practice plan.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "统计信息与图表",
+          "explanation": "先交代来源和主趋势，再选择关键对比。检查单位、年份、分母、百分比与百分点；区分观察值与预测值。不得虚构数据填补论据。",
+          "example": "原创练习数据：A rate rising from 20% to 30% increases by 10 percentage points, or 50% relative to the initial rate.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "来源可追溯",
+          "explanation": "直接引语、转述、摘要、非公共知识的数据均需要来源。文内引用与文末条目对应；教材含较旧引用格式，考试按教师指定版本。",
+          "example": "原创示例：According to the provided chart, participation increased between the two years.",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "support-1",
+          "type": "correction",
+          "prompt": "判断：Regular review is the best study method. 属于可直接查证的事实还是观点？",
+          "answer": "观点",
+          "explanation": "best 是评价，需要比较标准和证据。",
+          "openEnded": true
+        },
+        {
+          "id": "support-2",
+          "type": "correction",
+          "prompt": "给引语加标点：The tutor said review the final paragraph carefully",
+          "answer": "The tutor said, \"Review the final paragraph carefully.\"",
+          "explanation": "报告语后逗号、句首大写、引号。",
+          "openEnded": true
+        },
+        {
+          "id": "support-3",
+          "type": "correction",
+          "prompt": "改成间接引语，报告时间在过去：Lina said, \"I am tired.\"",
+          "answer": "Lina said that she was tired.",
+          "explanation": "I随说话人改为she，am通常后移为was。",
+          "openEnded": true
+        },
+        {
+          "id": "support-4",
+          "type": "correction",
+          "prompt": "改成间接引语：The student said, \"I have completed the task.\"",
+          "answer": "The student said that they had completed the task.",
+          "explanation": "也可按已知性别用he/she；现在完成时通常后移。",
+          "openEnded": true
+        },
+        {
+          "id": "support-5",
+          "type": "correction",
+          "prompt": "改错：According to the author argues that review is useful.",
+          "answer": "According to the author, review is useful.",
+          "explanation": "或 The author argues that review is useful。两个报告结构不要叠加。",
+          "openEnded": true
+        },
+        {
+          "id": "support-6",
+          "type": "correction",
+          "prompt": "给观点补一种具体证据：Short recordings are useful for repeated listening.",
+          "answer": "For example, a learner can replay the same short section until the phrase boundaries become clear.",
+          "explanation": "用可理解的实例解释作用，不虚构研究。",
+          "openEnded": true
+        },
+        {
+          "id": "support-7",
+          "type": "correction",
+          "prompt": "练习数据：比例从40%升到50%，增加多少个百分点？",
+          "answer": "10 percentage points",
+          "explanation": "相对增幅为25%，不是10%。",
+          "openEnded": true
+        },
+        {
+          "id": "support-8",
+          "type": "correction",
+          "prompt": "练习数据：某图表的2020年值为实测，2030年值为预测。写比较句。",
+          "answer": "The chart records the 2020 value and projects a higher value for 2030.",
+          "explanation": "须用projects/expected等区分预测；仅在图中较高时成立。",
+          "openEnded": true
+        },
+        {
+          "id": "support-9",
+          "type": "correction",
+          "prompt": "判断：把引文改成自己的话后就不需要引用。",
+          "answer": "错误。改写仍使用来源的思想，需要标注来源。",
+          "explanation": "文字改写不改变思想归属。",
+          "openEnded": true
+        },
+        {
+          "id": "support-10",
+          "type": "correction",
+          "prompt": "修正过度断言：The author suggests an association. Therefore, the study proves causation.",
+          "answer": "The author suggests an association; this does not by itself establish causation.",
+          "explanation": "保留原证据力度。",
+          "openEnded": true
+        },
+        {
+          "id": "support-11",
+          "type": "correction",
+          "prompt": "为引文添加解释：“Daily practice provides repeated exposure.”（练习自拟引文）",
+          "answer": "This repeated exposure may help learners recognize familiar phrases more quickly.",
+          "explanation": "解释证据和学习效果的联系；不冒充真实文献。",
+          "openEnded": true
+        },
+        {
+          "id": "support-12",
+          "type": "correction",
+          "prompt": "检查数据句：The number rose significantly. 缺少哪些信息？",
+          "answer": "缺少起止值、时间、单位与来源；significantly若指统计显著还需检验依据。",
+          "explanation": "补具体信息才可验证，不能擅自编数字。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "判断具体支撑细节",
+        "给直接引语加标点",
+        "直接变间接引语",
+        "用引语支撑段落",
+        "图表信息填空",
+        "以统计数据写段落"
+      ],
+      "sourceExamples": [
+        {
+          "text": "Like quotations, statistics are good supporting details.",
+          "page": "教材 PDF 13页（印刷页51）",
+          "note": "同页明确统计数据也要交代来源。"
+        },
+        {
+          "text": "You must also cite the source of statistical data.",
+          "page": "教材 PDF 13页（印刷页51；原句中段）",
+          "note": "数据不能脱离来源。"
+        }
+      ]
+    },
+    {
+      "id": "essay",
+      "title": "from paragraph to essay",
+      "subtitle": "从段落扩展为有中心的文章",
+      "source": "from paragrpah to essay.pdf，PDF 1–25页；from paragrpah to essay answer key.pdf，PDF 1–5页。原文件paragrpah为拼写错误。",
+      "markdownPath": "materials/02_写作精华/from paragraph to essay精华.md",
+      "fileName": "from paragraph to essay精华.md",
+      "rules": [
+        {
+          "title": "三段式功能，不是固定三段",
+          "explanation": "引言提出背景和thesis；主体每段一项分论点；结论重述中心、概括主要理由并收束。150–200词训练可用四段，但字数与段数是训练安排，不是已确认考试要求。",
+          "example": "原创示例：Introduction → benefit 1 → benefit 2 → conclusion.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "引言从一般到具体",
+          "explanation": "funnel introduction 先背景、再具体问题、最后thesis；也可用相关事例吸引注意。不能开头堆泛泛套话。",
+          "example": "原创示例：Many students use digital resources. For exam preparation, short audio clips offer flexible and focused practice.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "Thesis 可发展、范围可控",
+          "explanation": "避免只是事实、空泛评价或“This essay will discuss...”式纯宣布；明确中心判断和可选分点。列举分点须平行，且与主体段顺序一致。",
+          "example": "原创示例：Daily review improves preparation by strengthening recall and revealing weaknesses.",
+          "before": "This essay is about learning.",
+          "after": "Daily review improves preparation by strengthening recall and revealing weaknesses."
+        },
+        {
+          "title": "Logical division 与提纲",
+          "explanation": "将主题拆成互不重复、共同支撑thesis的分点。提纲各层级对齐：I/II/III 为大部分；A/B 为主体段；1/2 为支撑细节。",
+          "example": "原创示例：Body A: stronger recall → repeated exposure；Body B: clearer priorities → identify errors.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "段间衔接",
+          "explanation": "新段主题句可承接上段词汇或总结上段后转入下一点。只添加Moreover而没有主题关联，仍会松散。",
+          "example": "原创示例：In addition to improving recall, regular review reveals persistent errors.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "结论三任务",
+          "explanation": "标记收尾；重述thesis或概括分点；给与论证一致的最后评述。不能引入未经论证的新理由，也不逐字照抄引言。",
+          "example": "原创示例：By improving recall and exposing weaknesses, daily review makes preparation more focused.",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "essay-1",
+          "type": "correction",
+          "prompt": "改进thesis：This essay will discuss the Internet.",
+          "answer": "The Internet supports academic study by widening access to information and enabling collaboration.",
+          "explanation": "具体主题、中心判断、平行分点。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-2",
+          "type": "correction",
+          "prompt": "改进事实型thesis：Universities have libraries.",
+          "answer": "University libraries support independent learning by providing reliable resources and quiet study spaces.",
+          "explanation": "事实改为可展开的中心判断。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-3",
+          "type": "correction",
+          "prompt": "修正不平行分点：Good study habits require planning, to review, and that you rest.",
+          "answer": "Good study habits require planning, reviewing, and resting.",
+          "explanation": "全部动名词。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-4",
+          "type": "correction",
+          "prompt": "给thesis“Peer study improves understanding and motivation.”列两个主体段主题。",
+          "answer": "1. Explaining ideas to peers improves understanding. 2. A shared schedule strengthens motivation.",
+          "explanation": "每段一项，顺序与thesis对应。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-5",
+          "type": "correction",
+          "prompt": "排序引言：A. Short listening sessions are especially useful for exam review. B. Digital media are common in education. C. Many students now use recordings to study independently.",
+          "answer": "B → C → A",
+          "explanation": "一般背景逐渐收窄。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-6",
+          "type": "correction",
+          "prompt": "为第二主体段写衔接句：第一段谈词汇记忆，第二段谈发现薄弱点。",
+          "answer": "Besides strengthening vocabulary recall, regular review helps students identify weaknesses.",
+          "explanation": "承接旧点，引入新点。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-7",
+          "type": "correction",
+          "prompt": "写结论重述：Daily practice improves accuracy and confidence.",
+          "answer": "Consistent practice can make students both more accurate and more confident.",
+          "explanation": "保持原义，用不同结构。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-8",
+          "type": "correction",
+          "prompt": "判断：结论中突然提出一个此前没有讨论的新研究结果。",
+          "answer": "通常不合适；应在主体论证后再在结论概括。",
+          "explanation": "结论不能新增无支撑论据。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-9",
+          "type": "correction",
+          "prompt": "识别结构：先背景，接thesis，然后逐项讲三种原因。",
+          "answer": "logical division of ideas（按分点展开）",
+          "explanation": "主体三段分别发展一种原因。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-10",
+          "type": "correction",
+          "prompt": "将“阅读—讨论—写作”组织成简短提纲，主题是学术英语训练。",
+          "answer": "I. Introduction: integrated practice; II. Reading for models; III. Discussion for understanding; IV. Writing for application; V. Conclusion.",
+          "explanation": "提纲层级、平行形式与逻辑即可；答案不唯一。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-11",
+          "type": "correction",
+          "prompt": "为“Studying abroad involves academic and cultural adjustment.”补引言背景句。",
+          "answer": "Students who enter a university in another country often encounter unfamiliar expectations.",
+          "explanation": "背景要通向thesis而非与之无关。",
+          "openEnded": true
+        },
+        {
+          "id": "essay-12",
+          "type": "correction",
+          "prompt": "检查thesis与主体一致性：thesis说两项好处，主体分别写好处、费用、食物。",
+          "answer": "重组为两项好处；费用与食物只有直接支撑这两项时才保留。",
+          "explanation": "全文统一性依赖各段服从thesis。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "分析范文结构",
+        "引言排序",
+        "识别和写thesis",
+        "logical division分点",
+        "段间连接",
+        "选择/写结论",
+        "补全正式提纲",
+        "整篇essay写作"
+      ],
+      "sourceExamples": [
+        {
+          "text": "An essay is a piece of writing several paragraphs long.",
+          "page": "教材 PDF 1页（印刷页56）",
+          "note": "文章通过多个段落展开同一中心。"
+        },
+        {
+          "text": "A healthy lifestyle involves eating a nutritious diet, exercising regularly, and getting enough sleep at night.",
+          "page": "教材 PDF 12页（印刷页67）",
+          "note": "thesis中的三个分点均为动名词短语。"
+        }
+      ]
+    },
+    {
+      "id": "cause",
+      "title": "cause and effect essays",
+      "subtitle": "分清因果方向，再选择展开方式",
+      "source": "cause and effect essays.pdf，PDF 1–22页；cause and effect essays answer keys.pdf，PDF 1–3页，限Chapter 4内容，答案页含相邻章节片段。",
+      "markdownPath": "materials/02_写作精华/cause and effect essays精华.md",
+      "fileName": "cause and effect essays精华.md",
+      "rules": [
+        {
+          "title": "Cause与effect",
+          "explanation": "cause回答为什么发生，effect回答导致什么。先确定中心结果或中心原因，再列支撑；不能只按时间先后就断定因果。",
+          "example": "原创示例：A lack of sleep may reduce concentration.",
+          "before": "After the course began, scores rose, so the course must have caused the increase.",
+          "after": "Scores rose after the course began, but other explanations should also be considered."
+        },
+        {
+          "title": "Chain organization",
+          "explanation": "一个原因引出结果，这个结果成为下一环原因。适合真正逐环联系的因果链，每一环需解释，而不只是事件列表。",
+          "example": "原创示例：Repeated crop failure → food shortage → migration.（结构练习，不额外证明史实）",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "Block organization",
+          "explanation": "各原因或结果没有直接先后依赖时，按块逐项分析。可以集中多个原因解释一个结果，也可由一个原因分析多个结果。",
+          "example": "原创示例：Poor concentration may reflect noise, fatigue, and unclear instructions.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "证据与限制语",
+          "explanation": "解释机制并用资料、实例、统计或引文支撑；检查遗漏原因、反向因果、过度简化。证据有限时用may/might/contribute to，不把相关性写成必然。",
+          "example": "原创示例：Noise may contribute to poor concentration.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "因果信号语法",
+          "explanation": "because/since + 从句；because of/due to/owing to + 名词短语；result in + 结果，result from + 原因；lead to/contribute to 后接名词或动名词。therefore前需句号/分号。",
+          "example": "原创示例：The delay resulted from bad weather.",
+          "before": "The delay resulted in bad weather.",
+          "after": "The delay resulted from bad weather."
+        },
+        {
+          "title": "平行结构与短语动词",
+          "explanation": "教材同时训练并列项对称，及put up、depend on、bring about等短语动词的可分/不可分。可分动词带代词宾语时通常把代词置中间。",
+          "example": "原创示例：The city needs to improve housing, reduce pollution, and expand transport.",
+          "before": "The change brought about it.",
+          "after": "The change brought it about."
+        },
+        {
+          "title": "引用与写作流程",
+          "explanation": "先找原因/结果和可靠来源，再定chain/block，列提纲、起草、检查论据、修订和校对。引用之后要解释与因果主旨的关系。",
+          "example": "原创示例：The report describes a shortage. This shortage may help explain the subsequent migration.",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "cause-1",
+          "type": "correction",
+          "prompt": "填词：The delay resulted ___ a lack of staff.",
+          "answer": "from",
+          "explanation": "后面是原因。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-2",
+          "type": "correction",
+          "prompt": "填词：A lack of staff resulted ___ delays.",
+          "answer": "in",
+          "explanation": "后面是结果。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-3",
+          "type": "correction",
+          "prompt": "改错：Because of the roads were closed, deliveries stopped.",
+          "answer": "Because the roads were closed, deliveries stopped.",
+          "explanation": "从句用because。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-4",
+          "type": "correction",
+          "prompt": "选择结构：一次停电导致设备停止、数据丢失和服务中断；三项后果并列。",
+          "answer": "block organization",
+          "explanation": "三项结果不要求互相构成因果链。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-5",
+          "type": "correction",
+          "prompt": "选择结构：持续干旱→收成下降→粮价上升→家庭开支增加。",
+          "answer": "chain organization",
+          "explanation": "上一结果成为下一环原因。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-6",
+          "type": "correction",
+          "prompt": "改写避免强断言：Using this app will always improve every student’s score.",
+          "answer": "Using this app may help some students improve their scores.",
+          "explanation": "移除always/every，按证据保留范围。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-7",
+          "type": "correction",
+          "prompt": "修正平行结构：The policy aims to reduce costs, improving access, and support teachers.",
+          "answer": "The policy aims to reduce costs, improve access, and support teachers.",
+          "explanation": "三个不定式谓语平行。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-8",
+          "type": "correction",
+          "prompt": "解释问题：It rained before my test, so the rain caused my low score.",
+          "answer": "时间先后不足以证明因果，还需机制并排除其他解释。",
+          "explanation": "属于把顺序误当因果。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-9",
+          "type": "correction",
+          "prompt": "用because合并：The room was noisy. I could not concentrate.",
+          "answer": "I could not concentrate because the room was noisy.",
+          "explanation": "正确表达因果方向。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-10",
+          "type": "correction",
+          "prompt": "用therefore合并：The bus was late. We missed the opening talk.",
+          "answer": "The bus was late; therefore, we missed the opening talk.",
+          "explanation": "连接副词前用分号。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-11",
+          "type": "correction",
+          "prompt": "改错：The reform brought about it.",
+          "answer": "The reform brought it about.",
+          "explanation": "it代词放在可分短语动词中间。",
+          "openEnded": true
+        },
+        {
+          "id": "cause-12",
+          "type": "correction",
+          "prompt": "写一句限定因果结论：数据只显示学习时间与成绩相关。",
+          "answer": "Longer study time was associated with higher scores, but this relationship does not establish causation.",
+          "explanation": "不把关联升级为因果。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "分析因果范文",
+        "短语动词可分性",
+        "分析/发展段落支撑",
+        "辨别原因或结果",
+        "补因果过渡",
+        "识别/写/纠正平行结构",
+        "引语标点与大小写",
+        "因果essay和摘要"
+      ],
+      "sourceExamples": [
+        {
+          "text": "A cause is a reason something happened or is happening, while an effect is the change that results from something happening.",
+          "page": "教材 PDF 2页（印刷页65）",
+          "note": "因果的方向定义。"
+        },
+        {
+          "text": "A chain organization examines causes and effects that are directly linked sequentially.",
+          "page": "教材 PDF 9页（印刷页72）",
+          "note": "链式须有直接递进关联。"
+        }
+      ]
+    },
+    {
+      "id": "argument",
+      "title": "argumentative essays",
+      "subtitle": "有立场，也要处理反对意见",
+      "source": "argumentative essays.pdf，PDF 1–23页；argumentative essays answer key.pdf，PDF 1–2页，限Chapter 8，含相邻章节答案片段。",
+      "markdownPath": "materials/02_写作精华/argumentative essays精华.md",
+      "fileName": "argumentative essays精华.md",
+      "rules": [
+        {
+          "title": "论证的组成",
+          "explanation": "争议背景→明确立场→理由与证据→counterargument→rebuttal→结论。论证不是情绪化争吵，也不是只列正方理由。",
+          "example": "原创示例：Although online classes offer flexibility, some tasks still benefit from face-to-face interaction.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "Block 与 point-by-point",
+          "explanation": "block：反方与反驳集中一组，己方论证集中另一组；point-by-point：每一重点下呈现反方、反驳和证据。两种都要让读者知道作者最终立场。",
+          "example": "原创示例：Cost objection → response; quality objection → response.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "框定争议与受众",
+          "explanation": "引言交代双方争点和作者判断。考虑supportive/neutral/antagonistic读者；不同受众需要不同背景与证据，但不能歪曲对方观点。",
+          "example": "原创示例：Some students question the cost of university, while others emphasize its long-term value.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "让步与反驳",
+          "explanation": "可以指出证据不充分、承认部分合理再说明局限，或权衡双方后坚持立场。避免稻草人，反驳针对理由而非攻击持论者。",
+          "example": "原创示例：Admittedly, the course is expensive. However, its flexible schedule can reduce travel costs.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "情态动词与短语情态",
+          "explanation": "should建议，must强要求，may/might可能，could可能/建议；后接动词原形。be able to/have to/ought to按各自结构，be/have随主语与时态变化。",
+          "example": "原创示例：Students should evaluate evidence carefully.",
+          "before": "Students should to evaluate evidence.",
+          "after": "Students should evaluate evidence."
+        },
+        {
+          "title": "建议类虚拟语气",
+          "explanation": "suggest/recommend/require/insist等表示建议或要求时可用that + 主语 + 动词原形；否定为not + 原形，被动为be + 过去分词。注意suggest表示“表明”时不机械套虚拟。",
+          "example": "原创示例：The committee recommends that the policy be revised.",
+          "before": "The committee recommends that the policy is revised.",
+          "after": "The committee recommends that the policy be revised."
+        },
+        {
+          "title": "报告动词和词性",
+          "explanation": "claim/argue/assert指提出主张；concede承认部分；challenge/refute质疑/反驳。词性变化要适配句子，如benefit/beneficial、significance/significant。",
+          "example": "原创示例：Critics challenge the claim, but supporters provide additional evidence.",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "argument-1",
+          "type": "correction",
+          "prompt": "改错：Students should to consider both sides.",
+          "answer": "Students should consider both sides.",
+          "explanation": "should后动词原形。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-2",
+          "type": "correction",
+          "prompt": "改错：The tutor recommends that every student writes an outline.",
+          "answer": "The tutor recommends that every student write an outline.",
+          "explanation": "建议类that从句用原形。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-3",
+          "type": "correction",
+          "prompt": "补全：The committee requires that the proposal ___ revised.",
+          "answer": "be",
+          "explanation": "虚拟语气被动be revised。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-4",
+          "type": "correction",
+          "prompt": "改错：The teacher insists that the student not submits the unfinished draft.",
+          "answer": "The teacher insists that the student not submit the unfinished draft.",
+          "explanation": "要求类虚拟否定not + 原形。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-5",
+          "type": "correction",
+          "prompt": "改错：She have to support her argument with evidence.",
+          "answer": "She has to support her argument with evidence.",
+          "explanation": "phrasal modal随主语变化。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-6",
+          "type": "correction",
+          "prompt": "区分：Some claim that online classes reduce interaction. However, well-designed discussion tasks can address this problem. 哪句为counterargument？",
+          "answer": "第一句是counterargument；第二句是rebuttal。",
+          "explanation": "识别对立观点与回应。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-7",
+          "type": "correction",
+          "prompt": "选择结构：每个主体段先提一项质疑，再用证据回应该质疑。",
+          "answer": "point-by-point organization",
+          "explanation": "逐点对照反驳。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-8",
+          "type": "correction",
+          "prompt": "用让步写一句：同意电子书便携，但认为纸书仍有价值。",
+          "answer": "Although e-books are convenient to carry, printed books can still be valuable for focused reading.",
+          "explanation": "承认合理点并保持立场，答案不唯一。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-9",
+          "type": "correction",
+          "prompt": "修改人身攻击：Anyone who disagrees with this policy is stupid.",
+          "answer": "Critics raise concerns about cost, but these concerns should be weighed against the expected benefits.",
+          "explanation": "回应论点，不评价对方人格。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-10",
+          "type": "correction",
+          "prompt": "选择词形：The findings are of great ___ (significant/significance).",
+          "answer": "significance",
+          "explanation": "of great后接名词。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-11",
+          "type": "correction",
+          "prompt": "写立场句：大学是否应保留面对面小组讨论？",
+          "answer": "Universities should retain face-to-face discussion because it supports immediate feedback and active participation.",
+          "explanation": "明确立场加可发展的理由。",
+          "openEnded": true
+        },
+        {
+          "id": "argument-12",
+          "type": "correction",
+          "prompt": "判断：只给正方论据，从不提反方意见，也完全满足本章argumentative essay训练。",
+          "answer": "不满足本章重点；需要呈现并处理对立立场。",
+          "explanation": "教材明确要求counterargument与rebuttal。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "范文主旨/论证分析",
+        "语境同义词",
+        "情态动词造句",
+        "phrasal modals",
+        "subjunctive mode",
+        "论证/反论证动词",
+        "定位argument与response",
+        "正确词形",
+        "争议议论文"
+      ],
+      "sourceExamples": [
+        {
+          "text": "I suggest that computer simulations be used.",
+          "page": "教材 PDF 9页（印刷页154，示例表格合并阅读）",
+          "note": "that后用be，不受主句时态或主语数影响。"
+        },
+        {
+          "text": "An argument, however, is not a fight.",
+          "page": "教材 PDF 2页（印刷页147）",
+          "note": "本章强调证据论证。"
+        }
+      ]
+    },
+    {
+      "id": "paraphrase",
+      "title": "paraphrase and summary",
+      "subtitle": "保留原义，真正重组表达",
+      "source": "paraphrase and summary.pdf，PDF 1–15页；paraphrase and summary answer key.pdf，PDF 1–2页；zip中的同名教材内容重复。",
+      "markdownPath": "materials/02_写作精华/paraphrase and summary精华.md",
+      "fileName": "paraphrase and summary精华.md",
+      "rules": [
+        {
+          "title": "Paraphrase与summary",
+          "explanation": "paraphrase以自己词汇和句式保留原段的主要信息与必要细节，长度通常相近；summary显著缩短，只保留主旨和主要支撑。两者均不能添加个人观点或改变原义。",
+          "example": "原创示例：Original: Regular practice can improve recall. Paraphrase: Learners may remember more effectively through consistent practice.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "两类常见问题",
+          "explanation": "没有引用思想来源；虽有引用却只换少数词、保留原句结构。考试判断标签包括Too sim.、No cit.、Inc./Inacc.。",
+          "example": "原创示例：may不能改成will，some不能改成all。",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "五步改写",
+          "explanation": "反复读懂→记关键词而非整句→合上原文写→逐项对照范围、因果、否定、数字与语气→加文内引用。术语可保留，不强求每个词都找近义词。",
+          "example": "原创示例：理解原因/结果关系后，再用result from代替because结构。",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "同义替换加句法重构",
+          "explanation": "主动/被动转换；名词化/动词化；拆句/合句；从句与短语转换；改变信息起点。变化服务于准确，不为改写而扭曲重点。",
+          "example": "原创示例：The researchers analyzed the data. → The data were analyzed by the researchers.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "摘要取舍",
+          "explanation": "保留研究/文章核心问题、主要发现或主张及必要限制；删去例子、重复、次要数字与修辞。依据题干要求决定是否保留作者名、字数与来源。",
+          "example": "原创示例：A passage that gives three examples of review benefits can be summarized by the shared benefit.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "作为论据使用",
+          "explanation": "先写自己的主题句，再用来源的改写/摘要支撑，随后解释联系。不是把别人的摘要拼在一起替代自己的论证。",
+          "example": "原创示例：Frequent review deserves a place in study plans. The supplied passage explains how repeated exposure supports recall. This supports short daily sessions.",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "paraphrase-1",
+          "type": "correction",
+          "prompt": "改写：Students can access the recordings at any time.",
+          "answer": "The recordings are available to students whenever they need them.",
+          "explanation": "改变主语与句式，保留随时可访问的意思。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-2",
+          "type": "correction",
+          "prompt": "改写：The high cost prevented some students from joining the course.",
+          "answer": "Some students could not enroll in the course because it was too expensive.",
+          "explanation": "保留some与因果关系。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-3",
+          "type": "correction",
+          "prompt": "改写：Daily review may improve vocabulary retention.",
+          "answer": "Learners may retain vocabulary better if they review it every day.",
+          "explanation": "保留may，不升格为保证。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-4",
+          "type": "correction",
+          "prompt": "判断错误：原文Some learners benefit from group work. 改写All learners learn best in groups.",
+          "answer": "不准确：some变all，并增加best。",
+          "explanation": "范围与比较力度被改变。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-5",
+          "type": "correction",
+          "prompt": "判断错误：有引用，但只把important换成significant，其余逐字相同。",
+          "answer": "Too similar（过度接近原文）。",
+          "explanation": "引用不能替代实质性改写，原词照引需引号。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-6",
+          "type": "correction",
+          "prompt": "判断错误：准确改写某作者观点但没有标明来源。",
+          "answer": "No citation（缺引用）。",
+          "explanation": "思想来源仍需标注。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-7",
+          "type": "correction",
+          "prompt": "改成被动：The researchers collected the responses online.",
+          "answer": "The responses were collected online by the researchers.",
+          "explanation": "保持过去时与动作对象。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-8",
+          "type": "correction",
+          "prompt": "以名词短语改写：Because the population grew rapidly, housing became scarce.",
+          "answer": "Rapid population growth contributed to a housing shortage.",
+          "explanation": "注意原文若明确单一因果，contributed to较谨慎；也可用led to。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-9",
+          "type": "correction",
+          "prompt": "合并改写：The task was difficult. The students completed it successfully.",
+          "answer": "Despite the difficulty of the task, the students completed it successfully.",
+          "explanation": "使用让步短语，保留成功完成。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-10",
+          "type": "correction",
+          "prompt": "写一句摘要：Short recordings can be replayed easily. Learners can focus on difficult phrases. They can also compare their answers with the transcript.",
+          "answer": "Short recordings support focused listening practice through replay and comparison with transcripts.",
+          "explanation": "删具体过程，保留共同主旨。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-11",
+          "type": "correction",
+          "prompt": "摘要中可否加入“I strongly agree with the author”？",
+          "answer": "纯summary不应加入；若题目要求summary-response，应另列response部分。",
+          "explanation": "区分摘要与评价。",
+          "openEnded": true
+        },
+        {
+          "id": "paraphrase-12",
+          "type": "correction",
+          "prompt": "改写练习并引用：给定来源Li，练习页码12；原句Regular practice helps students identify recurring errors.",
+          "answer": "Students can notice repeated mistakes through consistent practice (Li 12).",
+          "explanation": "这是教材MLA式练习占位来源，不是真实文献；内容与来源对应。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "最佳改写选择",
+        "判别Too sim./No cit./Inc.-Inacc.",
+        "写paraphrase",
+        "用改写支撑段落",
+        "最佳summary选择",
+        "写summary",
+        "用摘要支撑段落"
+      ],
+      "sourceExamples": [
+        {
+          "text": "Humans communicate through language.",
+          "page": "教材 PDF 2页（印刷页128）",
+          "note": "对照原句Language is the main means of communication between peoples，信息起点变化。"
+        },
+        {
+          "text": "Do not change the meaning of the original.",
+          "page": "教材 PDF 3页、11页（印刷页129、137）",
+          "note": "改写与摘要共同底线。"
+        }
+      ]
+    },
+    {
+      "id": "ra",
+      "title": "Overview of RA",
+      "subtitle": "RA = Research Articles：研究论文结构与语气",
+      "source": "9. Overview of RA.zip / Overview of RA.pdf，PDF 1–24页（印刷页3–26）。无独立answer key。",
+      "markdownPath": "materials/02_写作精华/Overview of RA精华.md",
+      "fileName": "Overview of RA精华.md",
+      "rules": [
+        {
+          "title": "RA实际含义与功能",
+          "explanation": "首页明确为Overview of Research Articles。研究论文报告原创研究，以证据、数据和事实推进学科知识；不要误解成Rhetorical Analysis或Reading Analysis。",
+          "example": "原文短例：A research article (henceforth RA) is a written paper reporting the findings of an original study.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "各部分功能",
+          "explanation": "Title定位主题；Abstract浓缩全篇；Introduction背景与问题；Literature Review相关工作；Methods如何研究；Results发现什么；Discussion意义、解释与局限；Conclusion收束；References列来源。",
+          "example": "原创示例：Methods: Participants completed an online questionnaire.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "结构与信息流",
+          "explanation": "IMRD是常见结构，不是所有学科唯一结构；教材还列出带Literature Review/Conclusion或合并Results-Discussion的变体。通常一般背景→具体研究→更广意义。",
+          "example": "原创示例：General research problem → specific method and findings → broader implications.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "标题分类",
+          "explanation": "standard如Methods；functional如Interpretation of the findings；content如Learning effort comparison。按功能识别，不只靠固定名称。",
+          "example": "原文短例：General discussion（functional heading）",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "五类语言特征",
+          "explanation": "formality正式、complexity复杂性、objectivity客观性、precision精确性、stance taking立场表达。正式不等于故意用长词；名词化和名词短语压缩有助信息密度，但可读性优先。",
+          "example": "原创示例：The data do not support this interpretation.",
+          "before": "The data don’t back up this stuff.",
+          "after": "The data do not support this interpretation."
+        },
+        {
+          "title": "语气与作者立场",
+          "explanation": "hedges（may/suggest/likely）限制确定性；boosters（clearly/definitely）加强；attitudinal markers评价重要/惊讶；self-mentions如we/I表明作者参与。按证据选用；教材也承认第一人称因学科而异，不是一律禁止。",
+          "example": "原创示例：These findings suggest that repeated practice may improve recall.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "客观与精确",
+          "explanation": "明确对象、范围、单位、来源和限制。被动可突出过程，但过多会模糊行动者。避免空泛a lot of；只有来源给出数字时才改成数字。",
+          "example": "原创示例：The survey included 42 students.（自拟练习数据）",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "ra-1",
+          "type": "correction",
+          "prompt": "RA在本资料中指什么？",
+          "answer": "Research Article(s)，研究论文。",
+          "explanation": "由首页完整标题确认。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-2",
+          "type": "correction",
+          "prompt": "研究对象招募、测量工具与步骤通常放哪一部分？",
+          "answer": "Methods",
+          "explanation": "回答如何开展研究。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-3",
+          "type": "correction",
+          "prompt": "解释发现的意义并讨论局限通常放哪部分？",
+          "answer": "Discussion",
+          "explanation": "Results主要报告发现，Discussion解释意义。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-4",
+          "type": "correction",
+          "prompt": "判断：“所有研究论文必须有完全相同的IMRD四个标题”。",
+          "answer": "错误。结构与标题随学科、研究类型和期刊而变。",
+          "explanation": "教材列出多种变体。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-5",
+          "type": "correction",
+          "prompt": "将口语表达改正式：We can’t figure out why it happened.",
+          "answer": "We cannot determine why it happened.",
+          "explanation": "去缩写，换正式表达。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-6",
+          "type": "correction",
+          "prompt": "判断语言特征：The findings may indicate an association.",
+          "answer": "hedging（审慎限定）",
+          "explanation": "may和indicate限制断言强度。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-7",
+          "type": "correction",
+          "prompt": "分类标题：Interpretation of the findings",
+          "answer": "functional heading",
+          "explanation": "按部分功能命名。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-8",
+          "type": "correction",
+          "prompt": "分类标题：Effects of Online Discussion on Participation",
+          "answer": "content heading",
+          "explanation": "以具体研究内容命名。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-9",
+          "type": "correction",
+          "prompt": "把直接问句转为陈述：Why does this pattern occur?",
+          "answer": "It remains unclear why this pattern occurs.",
+          "explanation": "用于学术问题陈述；保持从句陈述语序。",
+          "openEnded": true
+        },
+        {
+          "id": "ra-10",
+          "type": "correction",
+          "prompt": "判断：“学术论文永远不能使用we”。",
+          "answer": "错误。教材明确讨论self-mentions及学科差异。",
+          "explanation": "应根据学科惯例和表达需要选择。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "识别论文及子章节标题",
+        "分析整体组织与一般-具体信息流",
+        "在节选中定位正式/复杂/客观/精确/立场表达",
+        "学术词义和词形",
+        "收集本专业RA作结构比较"
+      ],
+      "sourceExamples": [
+        {
+          "text": "Overview of Research Articles",
+          "page": "教材 PDF 1页（印刷页3）",
+          "note": "RA含义的直接证据。"
+        },
+        {
+          "text": "The features to be discussed here are formality, complexity, objectivity, precision, and stance taking.",
+          "page": "教材 PDF 5页（印刷页7）",
+          "note": "五类语言特征。"
+        }
+      ]
+    },
+    {
+      "id": "sources",
+      "title": "引用与避免剽窃",
+      "subtitle": "补充包：把来源交代清楚",
+      "source": "8. Paraphrase and Summary.zip：12a research documents and resources（9页）及答案（1页）；12b documents sources with MLA and APA formats（9页）；avoid plagiarism（11页）；Documenting sources（13页）；Helping nonnative english speakers avoid plagiarism（14页）。",
+      "markdownPath": "materials/02_写作精华/引用与避免剽窃精华.md",
+      "fileName": "引用与避免剽窃精华.md",
+      "rules": [
+        {
+          "title": "评估来源",
+          "explanation": "看作者资格、发布机构、日期、目的、证据、偏向和能否追溯。搜索排名高不等于可靠，网址后缀也不能单独保证可靠。",
+          "example": "原创示例：A peer-reviewed article is usually more suitable than an anonymous promotional page for a technical claim.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "引用两层结构",
+          "explanation": "文内短引用让读者定位文末完整条目；文末列真实使用过的来源。引号只解决原词归属，不能取代来源信息。",
+          "example": "原创练习：Lee (2020) argues that ... / ... (Lee, 2020).",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "MLA与APA识别",
+          "explanation": "教材MLA常用作者+页码、Works Cited；APA常用作者+年份、References，直接引语加页码。教材收录版本较旧，不当作最新规范；考试格式以教师指定版本为准。",
+          "example": "原创练习：MLA: (Lee 12)；APA: (Lee, 2020, p. 12).",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "直接、间接与摘要都需来源",
+          "explanation": "逐字引用要引号/按要求块引并标出处；改写与摘要仍引用。常识是否可不引取决于读者领域与任务，不要把专业结论都视作常识。",
+          "example": "原创示例：用自己的句式概述作者结论，仍保留文内来源。",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "避免patchwriting",
+          "explanation": "逐词换同义词和拼接原句不能替代理解。记录笔记时分开原句、作者观点和自己的评论；保存页码，写时离开原文，再回核。",
+          "example": "原创示例：Notes: source claim / evidence / my interpretation / page.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "无意剽窃与检测局限",
+          "explanation": "附加教学文章强调分阶段练习、记录来源、改写反馈；相似度工具不能判断所有思想归属，也不能代替读懂和准确引用。",
+          "example": "原创示例：A low similarity score does not prove that all sources have been acknowledged.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "书目信息与特殊来源",
+          "explanation": "保存作者、年份、题名、期刊/出版社、卷期页码与可用定位信息。二手转引应明确二手关系；未实际读取的原文不能冒充读过。",
+          "example": "原创示例：As cited in ...（先说明实际读到的二手来源）",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "sources-1",
+          "type": "correction",
+          "prompt": "选择更适合支撑学术主张的来源：署名有方法的研究报告，或无作者的广告页？",
+          "answer": "通常选择署名且方法透明的研究报告，同时核查质量与相关性。",
+          "explanation": "评估来源不能只看外观。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-2",
+          "type": "correction",
+          "prompt": "识别格式：(Lee 12)",
+          "answer": "教材MLA式作者-页码文内引用。",
+          "explanation": "不是APA作者-年份。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-3",
+          "type": "correction",
+          "prompt": "识别格式：(Lee, 2020)",
+          "answer": "APA式作者-年份文内引用。",
+          "explanation": "练习占位例。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-4",
+          "type": "correction",
+          "prompt": "判断：引用原词加了引号就不用写来源。",
+          "answer": "错误。引号与来源都需要。",
+          "explanation": "引号说明原词，引用说明谁说的、哪里可查。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-5",
+          "type": "correction",
+          "prompt": "判断：引用句子写得与原文很像，但相似度低于某阈值就一定没问题。",
+          "answer": "错误。没有通用阈值能替代对原词和思想归属的检查。",
+          "explanation": "要看实际使用方式。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-6",
+          "type": "correction",
+          "prompt": "把练习来源信息做APA短引：作者Chen，年份2021，直接引用第8页。",
+          "answer": "(Chen, 2021, p. 8)",
+          "explanation": "仅为格式练习，不是真实文献。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-7",
+          "type": "correction",
+          "prompt": "文内引用Brown，文末完全找不到Brown，应怎样修正？",
+          "answer": "核查实际来源后补齐对应条目，或纠正文内作者信息。",
+          "explanation": "不能凭空生成条目。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-8",
+          "type": "correction",
+          "prompt": "抄下原句做笔记时应同时记录什么？",
+          "answer": "标明原句、作者、题名、年份、页码/定位信息，并与自己的笔记分开。",
+          "explanation": "防止笔记阶段丢失出处。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-9",
+          "type": "correction",
+          "prompt": "只读到A转引B，能否把B写成自己直接读过的来源？",
+          "answer": "不能。应查看B原文或明确二手转引关系。",
+          "explanation": "来源透明。",
+          "openEnded": true
+        },
+        {
+          "id": "sources-10",
+          "type": "correction",
+          "prompt": "判断：这份教材里的MLA/APA排版细节就是2026年的最新要求。",
+          "answer": "不能这样认定。教材含较旧版本，应按考试指定版本复习。",
+          "explanation": "此训练总结课程材料，不冒充最新格式手册。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "评估纸质与网络来源（12a答案明确列出）",
+        "整理Works-Cited条目",
+        "MLA/APA格式转换",
+        "判断不当借用",
+        "引语、改写和摘要练习",
+        "文内与文末引用匹配"
+      ],
+      "sourceExamples": [
+        {
+          "text": "There are two steps to this process.",
+          "page": "12b documents sources with MLA and APA formats.pdf，PDF 1页",
+          "note": "先文内引用，再文末完整条目。"
+        },
+        {
+          "text": "Writing with sources is a complex skill to master even in one’s own language.",
+          "page": "Helping nonnative english speakers avoid plagiarism.pdf，PDF 4页",
+          "note": "强调循序练习，而非仅用检测工具。"
+        }
+      ]
+    },
+    {
+      "id": "editing",
+      "title": "学术写作常见问题",
+      "subtitle": "补充包：从冠词到句子负担",
+      "source": "9. Overview of RA.zip / 中国研究生学术写作常见问题.pdf，PDF 1–17页；实际为Felicia Brittman英文写作问题报告，正文主要在1–13页，含附录与参考文献。",
+      "markdownPath": "materials/02_写作精华/学术写作常见问题精华.md",
+      "fileName": "学术写作常见问题精华.md",
+      "rules": [
+        {
+          "title": "冠词与可数性",
+          "explanation": "单数可数名词通常需要限定词；a/an用于非特指，the用于已确定对象。选a/an看发音。equipment、information通常不可数，不加复数-s。",
+          "example": "原创示例：We used an instrument to collect the information.",
+          "before": "We bought an equipment.",
+          "after": "We bought a piece of equipment."
+        },
+        {
+          "title": "控制句长，突出主干",
+          "explanation": "把主语谓语放在易读位置，过长列举可拆句或列表；前置背景过长会让读者找不到动作。清楚优先于句长。",
+          "example": "原创示例：The team tested the method under three conditions. It then compared the results.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "Respectively要一一对应",
+          "explanation": "respectively用于前后两组顺序对应，只有一项或没有对应关系时不要添加。",
+          "example": "原创示例：Groups A and B included 20 and 25 students, respectively.（练习数据）",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "Study与paper",
+          "explanation": "study指研究工作；paper指呈现研究的文章。动词与对象对应：study investigates，paper presents/describes。避免重复this paper is organized as follows式套话。",
+          "example": "原创示例：This study examines recall. This paper presents the results.",
+          "before": "",
+          "after": ""
+        },
+        {
+          "title": "避免冗余和错误搭配",
+          "explanation": "检查shown in Figure、research/equipment等用法；such as表示举例，列完整清单时可用冒号。删除obviously等无证据评价。",
+          "example": "原创示例：The results are shown in Figure 2.",
+          "before": "The results are showed as Figure 2.",
+          "after": "The results are shown in Figure 2."
+        },
+        {
+          "title": "校对有优先级",
+          "explanation": "先意义和结构，再句子、冠词、词形与格式。报告中的若干建议属作者编辑偏好，并非全部是不可违反的语法规则；如句首状语、短句和第一人称应按语境判断。",
+          "example": "原创示例：先问主张是否清楚，再检查每个单数可数名词的限定词。",
+          "before": "",
+          "after": ""
+        }
+      ],
+      "exercises": [
+        {
+          "id": "editing-1",
+          "type": "correction",
+          "prompt": "改错：We used an equipment to measure the temperature.",
+          "answer": "We used a piece of equipment to measure the temperature.",
+          "explanation": "equipment不可数。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-2",
+          "type": "correction",
+          "prompt": "改错：The results are showed as Figure 2.",
+          "answer": "The results are shown in Figure 2.",
+          "explanation": "过去分词shown，介词in。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-3",
+          "type": "correction",
+          "prompt": "选冠词：___ university；___ hour",
+          "answer": "a university；an hour",
+          "explanation": "按首音而非字母。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-4",
+          "type": "correction",
+          "prompt": "改错：Many informations were collected.",
+          "answer": "Much information was collected.",
+          "explanation": "information不可数，谓语单数。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-5",
+          "type": "correction",
+          "prompt": "说明respectively的配对：Groups A and B contained 10 and 15 students, respectively.",
+          "answer": "A组10人，B组15人。",
+          "explanation": "前后顺序一一对应。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-6",
+          "type": "correction",
+          "prompt": "删去无用词：The only group contained 20 students, respectively.",
+          "answer": "The only group contained 20 students.",
+          "explanation": "没有两组对应，无需respectively。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-7",
+          "type": "correction",
+          "prompt": "区分：This paper presents the findings of the study.",
+          "answer": "paper为文章，study为研究。",
+          "explanation": "两者不能机械互换。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-8",
+          "type": "correction",
+          "prompt": "修正完整清单：The test has three parts such as listening, editing, and writing.",
+          "answer": "The test has three parts: listening, editing, and writing.",
+          "explanation": "如果确为全部三项，用冒号；such as是举例。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-9",
+          "type": "correction",
+          "prompt": "删除无依据评价：Obviously, our method is the best.",
+          "answer": "The method performed well under the tested conditions.",
+          "explanation": "按证据限制范围；若没有测试信息，应进一步删改而非补编。",
+          "openEnded": true
+        },
+        {
+          "id": "editing-10",
+          "type": "correction",
+          "prompt": "判断：技术文章句子越长越显得专业。",
+          "answer": "错误。准确、清楚且逻辑完整比长度重要。",
+          "explanation": "过长句可拆分。",
+          "openEnded": true
+        }
+      ],
+      "questionTypes": [
+        "冠词判断",
+        "长句拆分",
+        "respectively用法",
+        "study/paper区别",
+        "数字、图表和段落格式",
+        "用词冗余和不可数名词校对"
+      ],
+      "sourceExamples": [
+        {
+          "text": "The results are shown in Figure 2.",
+          "page": "资料 PDF 13页",
+          "note": "原报告列为正确搭配。"
+        },
+        {
+          "text": "Respectively refers back to two or more persons or things only in the order they were previously designated or mentioned.",
+          "page": "资料 PDF 8页",
+          "note": "对应关系是使用前提。"
+        }
+      ]
+    }
+  ],
+  "notice": {
+    "examNoticeFound": false,
+    "imageMeaning": "请假审批流程说明局部截图，与考试范围无关。",
+    "examDate": null,
+    "examFormat": "依教材推测，未发现正式试卷结构、分值、考试日期或字数要求。",
+    "raMeaning": "Research Articles"
+  },
+  "coverage": [
+    {
+      "title": "1. Sentence skills answer key.pdf",
+      "pages": 11,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "argumentative essays answer key.pdf",
+      "pages": 2,
+      "readPages": [
+        1,
+        2
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "原文字层可提取。"
+    },
+    {
+      "title": "argumentative essays.pdf",
+      "pages": 23,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "cause and effect essays answer keys.pdf",
+      "pages": 3,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "原文字层可提取。"
+    },
+    {
+      "title": "cause and effect essays.pdf",
+      "pages": 22,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "from paragrpah to essay answer key.pdf",
+      "pages": 5,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "from paragrpah to essay.pdf",
+      "pages": 25,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "paragraph structure.pdf",
+      "pages": 16,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "paragraph strurcture  answer key.pdf",
+      "pages": 3,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "paraphrase and summary answer key.pdf",
+      "pages": 2,
+      "readPages": [
+        1,
+        2
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "paraphrase and summary.pdf",
+      "pages": 15,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "Sentence skills.pdf",
+      "pages": 32,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "supporting details answer key.pdf",
+      "pages": 3,
+      "readPages": [
+        1,
+        2,
+        3
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "supporting details.pdf",
+      "pages": 16,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "unity and coherence answer key.pdf",
+      "pages": 4,
+      "readPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "unity and coherence.pdf",
+      "pages": 21,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "12a research documents and resources .pdf",
+      "pages": 9,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "12a research documents and resources answer key.pdf",
+      "pages": 1,
+      "readPages": [
+        1
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "12b documents sources with MLA and APA formats.pdf",
+      "pages": 9,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "avoid plagiarism.pdf",
+      "pages": 11,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "Documenting sources.pdf",
+      "pages": 13,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "Helping nonnative english speakers avoid plagiarism.pdf",
+      "pages": 14,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "Overview of RA.pdf",
+      "pages": 24,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    },
+    {
+      "title": "中国研究生学术写作常见问题.pdf",
+      "pages": 17,
+      "readPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "method": "原文字层或英文OCR；核心教学规则与题型人工核读，关键页视觉复核",
+      "ocrCaution": "英文OCR可能有字符错误；扫描中文未做可靠自动识别，不能直接引用OCR乱码。"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "files": [
+    {
+      "title": "公开版使用说明",
+      "path": "materials/公开版使用说明.md",
+      "group": "计划与学习工具",
+      "description": "登录同步 · 学习方法 · 课程范围与原答案疑点"
+    },
+    {
+      "title": "00_备考计划",
+      "path": "materials/00_备考计划.md",
+      "group": "计划与学习工具",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "03_词汇表使用说明",
+      "path": "materials/03_词汇表使用说明.md",
+      "group": "计划与学习工具",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "05_作文模板与句型",
+      "path": "materials/05_作文模板与句型.md",
+      "group": "计划与学习工具",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "03_词汇短语总表",
+      "path": "materials/03_词汇短语总表.csv",
+      "group": "计划与学习工具",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "听力使用方法",
+      "path": "materials/01_听力训练/听力使用方法.md",
+      "group": "听力训练",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "听力答案合集",
+      "path": "materials/01_听力训练/听力答案合集.md",
+      "group": "听力训练",
+      "description": "答案与解析 · 自测后再打开"
+    },
+    {
+      "title": "听力题目合集",
+      "path": "materials/01_听力训练/听力题目合集.md",
+      "group": "听力训练",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "听力高频短语表",
+      "path": "materials/01_听力训练/听力高频短语表.csv",
+      "group": "听力训练",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "argumentative essays精华",
+      "path": "materials/02_写作精华/argumentative essays精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "cause and effect essays精华",
+      "path": "materials/02_写作精华/cause and effect essays精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "from paragraph to essay精华",
+      "path": "materials/02_写作精华/from paragraph to essay精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "Overview of RA精华",
+      "path": "materials/02_写作精华/Overview of RA精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "paragraph structure精华",
+      "path": "materials/02_写作精华/paragraph structure精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "paraphrase and summary精华",
+      "path": "materials/02_写作精华/paraphrase and summary精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "Sentence skills精华",
+      "path": "materials/02_写作精华/Sentence skills精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "supporting details精华",
+      "path": "materials/02_写作精华/supporting details精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "unity and coherence精华",
+      "path": "materials/02_写作精华/unity and coherence精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "学术写作常见问题精华",
+      "path": "materials/02_写作精华/学术写作常见问题精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "引用与避免剽窃精华",
+      "path": "materials/02_写作精华/引用与避免剽窃精华.md",
+      "group": "写作精华",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "模拟卷A",
+      "path": "materials/04_模拟卷/模拟卷A.md",
+      "group": "模拟卷与答案",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "模拟卷A_答案与评分要点",
+      "path": "materials/04_模拟卷/模拟卷A_答案与评分要点.md",
+      "group": "模拟卷与答案",
+      "description": "答案与解析 · 自测后再打开"
+    },
+    {
+      "title": "模拟卷B",
+      "path": "materials/04_模拟卷/模拟卷B.md",
+      "group": "模拟卷与答案",
+      "description": "根据课程资料整理 · 可下载"
+    },
+    {
+      "title": "模拟卷B_答案与评分要点",
+      "path": "materials/04_模拟卷/模拟卷B_答案与评分要点.md",
+      "group": "模拟卷与答案",
+      "description": "答案与解析 · 自测后再打开"
+    }
+  ]
+}
