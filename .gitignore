@@ -32,6 +32,9 @@ test-results/
 test-artifacts/
 artifacts/
 screenshots/
+_preview-*.png
+.playwright-cli/
+output/playwright/
 coverage/
 scripts/github_api.py
 scripts/upgrade_ui.py

@@ -200,7 +200,9 @@
     let callbacks, initialized = false, user = null, epoch = 0, document = emptyDocument(), revision = 0, visible;
     let activeSync = null, syncTimer = null, pollTimer = null, recovery = false, deferred = false, localOnly = true;
     let unlisten, destroyed = false, signedOutLatch = false, lastSyncAt = null, liveConflicts = [];
-    const status = { user: null, status: 'initializing', message: '正在准备学习进度…', configured: configuration.configured, pending: 0, conflicts: 0, recovery: false, guestAvailable: false, deferred: false, storageOK: !storageError, lastSyncAt: null };
+    let authProbe = null, authProbeController = null;
+    const authProvider = config.authProvider === 'github' ? 'github' : 'email';
+    const status = { user: null, status: 'initializing', message: '正在准备学习进度…', configured: configuration.configured, authProvider, oauthReady: null, oauthChecking: false, oauthMessage: '', pending: 0, conflicts: 0, recovery: false, guestAvailable: false, deferred: false, storageOK: !storageError, lastSyncAt: null };
     const userId = () => user?.id || null;
     const cacheKey = uid => prefix + 'cache:' + uid;
     const opPrefix = uid => prefix + 'op:' + uid + ':';
@@ -246,6 +248,13 @@
       status.conflicts = getConflicts().length; status.recovery = recovery;
       status.guestAvailable = initialized && guestAvailable(); status.deferred = deferred;
       status.storageOK = !storageError; status.lastSyncAt = lastSyncAt; status.localOnly = localOnly;
+      // Provider availability is separate from session/sync health: a current session remains usable.
+      if (authProvider === 'github' && configuration.configured && !user && status.status !== 'oauth-redirect') {
+        if (status.oauthChecking) { status.status = 'oauth-checking'; status.message = '正在确认 GitHub 登录服务；游客学习可继续。'; }
+        else if (status.oauthReady === false) { status.status = 'oauth-unavailable'; status.message = 'GitHub 登录待配置；现在可继续游客学习。'; }
+        else if (status.oauthReady !== true) { status.status = 'oauth-unknown'; status.message = '未能确认 GitHub 登录服务；可重试，或继续游客学习。'; }
+        else if (status.status.startsWith('oauth-')) { status.status = 'guest'; status.message = 'GitHub 登录已启用；游客进度保存在此浏览器。'; }
+      }
       if (storageError) { status.status = 'storage-error'; status.message = '浏览器存储不可用或已满；尚未上传的修改可能丢失，请立即导出备份。'; }
       for (const fn of listeners) { try { fn(clone(status)); } catch { /* UI subscribers cannot stop persistence. */ } }
       return clone(status);
@@ -410,6 +419,36 @@
       return url.href;
     }
     function requireClient() { if (!configuration.configured || !client) throw new Error(configuration.message || '云同步尚未配置。'); }
+    function refreshAuthSettings() {
+      if (authProvider !== 'github' || !configuration.configured || destroyed) return Promise.resolve(clone(status));
+      if (authProbe) return authProbe;
+      if (status.status === 'oauth-redirect') status.status = 'guest';
+      status.oauthChecking = true; status.oauthReady = null; status.oauthMessage = '正在确认 GitHub 登录服务…'; emit();
+      const fetcher = options.fetch || env.fetch?.bind(env);
+      const controller = typeof AbortController === 'function' ? new AbortController() : null;
+      authProbeController = controller;
+      let timeout;
+      const request = Promise.resolve().then(async () => {
+        if (!fetcher) throw new Error('Settings fetch is unavailable');
+        const response = await fetcher(configuration.url + '/auth/v1/settings', { method: 'GET', headers: { apikey: configuration.key }, cache: 'no-store', ...(controller ? { signal: controller.signal } : {}) });
+        if (!response.ok) throw new Error('Settings request failed');
+        const settings = await response.json();
+        if (typeof settings?.external?.github !== 'boolean') throw new Error('Provider status is missing');
+        return settings.external.github;
+      });
+      const deadline = new Promise((_, reject) => { timeout = timer(() => { controller?.abort(); reject(new Error('Settings request timed out')); }, 8000); });
+      authProbe = Promise.race([request, deadline]).then(ready => {
+        status.oauthReady = ready;
+        status.oauthMessage = ready ? 'GitHub 登录已启用。' : 'GitHub 登录待配置。站点管理员启用后即可登录，游客学习不受影响。';
+      }, () => {
+        status.oauthReady = null;
+        status.oauthMessage = '未能确认 GitHub 登录服务，请检查网络后重试；游客学习仍可继续。';
+      }).then(() => {
+        untimer(timeout); status.oauthChecking = false; authProbe = null; authProbeController = null;
+        return destroyed ? clone(status) : emit();
+      });
+      return authProbe;
+    }
     function credentials(email, password) {
       if (typeof email !== 'string' || email.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) throw new Error('请输入有效邮箱。');
       if (password !== undefined && (typeof password !== 'string' || password.length < 8 || password.length > 256)) throw new Error('密码长度应为 8–256 个字符。');
@@ -425,6 +464,20 @@
       const data = await authCall('signInWithPassword', { email: email.trim(), password });
       if (!data?.session) throw new Error('未收到有效登录会话，请重试。');
       await adoptSession(data.session); client.auth.startAutoRefresh?.(); return clone(status);
+    }
+    async function signInWithGitHub() {
+      requireClient();
+      if (authProvider !== 'github') throw new Error('当前站点未启用 GitHub 登录方式。');
+      await refreshAuthSettings();
+      if (status.oauthReady !== true) throw new Error(status.oauthMessage);
+      signedOutLatch = false;
+      try {
+        await authCall('signInWithOAuth', { provider: 'github', options: { redirectTo: redirectURL() } });
+      } catch (error) {
+        status.oauthReady = null; status.oauthMessage = 'GitHub 登录未能发起，请重新检测登录服务后再试。';
+        emit(); throw error;
+      }
+      return emit('oauth-redirect', '正在前往 GitHub 完成登录；请在返回本站后继续学习。');
     }
     async function signUp(email, password) {
       credentials(email, password); signedOutLatch = false;
@@ -500,6 +553,7 @@
       }
       if (configuration.configured && !client) configuration = { configured: false, message: '登录组件未能加载；请刷新或联系站点维护者。游客进度仍可保存。' };
       if (!configuration.configured) { emit('unconfigured', configuration.message); return clone(status); }
+      if (authProvider === 'github') refreshAuthSettings();
       if (!adapter) adapter = createSupabaseAdapter(client);
       const subscription = client.auth.onAuthStateChange((event, session) => {
         // The SDK's auth lock must not be re-entered from its synchronous callback.
@@ -531,10 +585,10 @@
     }
     const api = {
       storageNamespace: prefix, guestStorageKey: guestKey,
-      init, save, syncNow, signIn, signUp, resetPassword, updatePassword, signOut, importGuest, getConflicts, resolveConflict,
+      init, save, syncNow, signIn, signInWithGitHub, refreshAuthSettings, signUp, resetPassword, updatePassword, signOut, importGuest, getConflicts, resolveConflict,
       onStatus(fn) { listeners.add(fn); fn(clone(status)); return () => listeners.delete(fn); },
       getStatus() { return clone(status); },
-      destroy() { destroyed = true; epoch++; if (syncTimer) untimer(syncTimer); if (pollTimer) untimer(pollTimer); unlisten?.(); api._cleanup?.(); listeners.clear(); },
+      destroy() { destroyed = true; epoch++; authProbeController?.abort(); if (syncTimer) untimer(syncTimer); if (pollTimer) untimer(pollTimer); unlisten?.(); api._cleanup?.(); listeners.clear(); },
     };
     return api;
   }

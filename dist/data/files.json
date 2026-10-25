@@ -16,7 +16,7 @@
       "title": "03_词汇表使用说明",
       "path": "materials/03_词汇表使用说明.md",
       "group": "计划与学习工具",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "辅助复习，不代表独立词汇考试项目"
     },
     {
       "title": "05_作文模板与句型",
@@ -28,7 +28,7 @@
       "title": "03_词汇短语总表",
       "path": "materials/03_词汇短语总表.csv",
       "group": "计划与学习工具",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "辅助复习，不代表独立词汇考试项目"
     },
     {
       "title": "听力使用方法",
@@ -58,91 +58,187 @@
       "title": "argumentative essays精华",
       "path": "materials/02_写作精华/argumentative essays精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "cause and effect essays精华",
       "path": "materials/02_写作精华/cause and effect essays精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "from paragraph to essay精华",
       "path": "materials/02_写作精华/from paragraph to essay精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "Overview of RA精华",
       "path": "materials/02_写作精华/Overview of RA精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "paragraph structure精华",
       "path": "materials/02_写作精华/paragraph structure精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "paraphrase and summary精华",
       "path": "materials/02_写作精华/paraphrase and summary精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "Sentence skills精华",
       "path": "materials/02_写作精华/Sentence skills精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "supporting details精华",
       "path": "materials/02_写作精华/supporting details精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "unity and coherence精华",
       "path": "materials/02_写作精华/unity and coherence精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "学术写作常见问题精华",
       "path": "materials/02_写作精华/学术写作常见问题精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "引用与避免剽窃精华",
       "path": "materials/02_写作精华/引用与避免剽窃精华.md",
       "group": "写作精华",
-      "description": "根据课程资料整理 · 可下载"
+      "description": "教材规则中文讲解；末尾题目为自编拓展，不是教材原题"
     },
     {
       "title": "模拟卷A",
       "path": "materials/04_模拟卷/模拟卷A.md",
-      "group": "模拟卷与答案",
-      "description": "根据课程资料整理 · 可下载"
+      "group": "自编拓展练习",
+      "description": "自编模拟，不是教材原题或官方试卷"
     },
     {
       "title": "模拟卷A_答案与评分要点",
       "path": "materials/04_模拟卷/模拟卷A_答案与评分要点.md",
-      "group": "模拟卷与答案",
-      "description": "答案与解析 · 自测后再打开"
+      "group": "自编拓展练习",
+      "description": "自编模拟，不是教材原题或官方试卷"
     },
     {
       "title": "模拟卷B",
       "path": "materials/04_模拟卷/模拟卷B.md",
-      "group": "模拟卷与答案",
-      "description": "根据课程资料整理 · 可下载"
+      "group": "自编拓展练习",
+      "description": "自编模拟，不是教材原题或官方试卷"
     },
     {
       "title": "模拟卷B_答案与评分要点",
       "path": "materials/04_模拟卷/模拟卷B_答案与评分要点.md",
-      "group": "模拟卷与答案",
-      "description": "答案与解析 · 自测后再打开"
+      "group": "自编拓展练习",
+      "description": "自编模拟，不是教材原题或官方试卷"
+    },
+    {
+      "title": "Sentence skills · Chapters 10–11",
+      "path": "textbook/sentence/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "Sentence skills answer key · Chapters 10–11",
+      "path": "textbook/sentence/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "paragraph structure.pdf",
+      "path": "textbook/paragraph/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "paragraph strurcture  answer key.pdf",
+      "path": "textbook/paragraph/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "unity and coherence.pdf",
+      "path": "textbook/coherence/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "unity and coherence answer key.pdf",
+      "path": "textbook/coherence/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "supporting details.pdf",
+      "path": "textbook/support/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "supporting details answer key.pdf",
+      "path": "textbook/support/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "from paragrpah to essay.pdf",
+      "path": "textbook/essay/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "from paragrpah to essay answer key.pdf",
+      "path": "textbook/essay/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "cause and effect essays.pdf",
+      "path": "textbook/cause/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "cause and effect essays answer keys.pdf",
+      "path": "textbook/cause/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "argumentative essays.pdf",
+      "path": "textbook/argument/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "argumentative essays answer key.pdf",
+      "path": "textbook/argument/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "paraphrase and summary.pdf",
+      "path": "textbook/paraphrase/book.pdf",
+      "group": "原教材PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
+    },
+    {
+      "title": "paraphrase and summary answer key.pdf",
+      "path": "textbook/paraphrase/key.pdf",
+      "group": "配套答案PDF",
+      "description": "用户提供的原文件副本；对应关卡中可逐页练习与核对"
     }
   ]
 }

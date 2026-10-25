@@ -122,6 +122,37 @@ if(writing) {
   for(const lesson of writing.lessons || []) if(lesson.markdownPath) checkAsset(lesson.markdownPath,'index.html','lesson handout');
 }
 const vocabulary=readJSON('data/vocabulary.json');
+const textbookParts=['data/textbook-sentence.json','data/textbook-core.json'].map(readJSON);
+if(textbookParts.every(Boolean)) {
+  const courses=textbookParts.flatMap(p=>p.courses||[]);
+  const expected=['sentence','paragraph','coherence','support','essay','cause','argument','paraphrase'];
+  if(courses.length!==8||expected.some(id=>!courses.some(c=>c.id===id)))fail('textbook data','expected eight unique core textbook courses');
+  stats.textbookCourses=courses.length;
+  stats.textbookMissions=courses.reduce((n,c)=>n+(c.missions||[]).length,0);
+  stats.automaticallyCheckedItems=0;
+  for(const c of courses) {
+    checkAsset(c.sourcePdf,'index.html','source textbook PDF');
+    checkAsset(c.answerPdf,'index.html','source answer key PDF');
+    if(!c.coverageNote)fail(c.id,'source coverage note is required');
+    if(!c.missions?.length)fail(c.id,'source exercise missions are missing');
+    const ids=new Set();
+    for(const m of c.missions||[]) {
+      if(!m.id||ids.has(m.id))fail(c.id,'duplicate or empty mission ID');ids.add(m.id);
+      if(!m.title||!m.bookPages||!m.sourcePages?.length)fail(c.id+':'+m.id,'source page mapping is required');
+      for(const p of [...(m.sourcePages||[]),...(m.answerPages||[])]) {
+        if(!Number.isInteger(p.page)||p.page<1||!p.label)fail(c.id+':'+m.id,'page index and label must be explicit');
+        checkAsset(p.src,'index.html','textbook image');
+      }
+      const itemIds=new Set();
+      for(const item of m.items||[]) {
+        stats.automaticallyCheckedItems++;
+        if(!item.id||itemIds.has(item.id))fail(c.id+':'+m.id,'duplicate item ID');itemIds.add(item.id);
+        if(!item.prompt||!item.explanation||!item.sourceLabel)fail(c.id+':'+m.id,'automatic item requires prompt, explanation and source');
+        if(item.options&&!item.options.some(o=>o.value===item.answer))fail(c.id+':'+m.id,'answer is not an available choice');
+      }
+    }
+  }
+}
 if(vocabulary) {
   const words=vocabulary.words || []; stats.vocabulary=words.length;
   if(words.length<500 || words.length>800)fail('data/vocabulary.json','expected 500–800 entries');

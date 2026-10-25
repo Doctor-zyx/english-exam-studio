@@ -15,13 +15,16 @@ async function app(){
   w.TextEncoder=TextEncoder;w.TextDecoder=TextDecoder;
   w.matchMedia=()=>({matches:false,addEventListener(){},removeEventListener(){}});
   w.scrollTo=()=>{};w.confirm=()=>true;
+  w.HTMLElement.prototype.scrollIntoView=function(){};
   w.speechSynthesis={cancel(){},speaking:false,getVoices(){return []}};
   w.HTMLMediaElement.prototype.pause=function(){};
   w.HTMLDialogElement.prototype.showModal=function(){this.open=true};
   w.HTMLDialogElement.prototype.close=function(){this.open=false};
   w.StudyFX={enabled:true,setEnabled(v){this.enabled=v},isEnabled(){return this.enabled},celebrate(){}};
   w.fetch=async url=>{const f=path.resolve(dist,String(url).replace(/^\.\//,''));assert.ok(f.startsWith(dist+path.sep));const buffer=fs.readFileSync(f);return{ok:true,json:async()=>JSON.parse(buffer.toString('utf8')),text:async()=>buffer.toString('utf8')}};
-  for(const file of ['config.js','cloud.js','auth-ui.js','app.js'])vm.runInContext(fs.readFileSync(path.join(dist,file),'utf8'),dom.getInternalVMContext(),{filename:file});
+  // Deterministic compatibility fixture: production settings and keys are not test inputs.
+  w.STUDY_CLOUD_CONFIG={};
+  for(const file of ['cloud.js','auth-ui.js','journey.js','listening-flow.js','chapter.js','app.js'])vm.runInContext(fs.readFileSync(path.join(dist,file),'utf8'),dom.getInternalVMContext(),{filename:file});
   for(let i=0;i<30&&!w.document.querySelector('.hero');i++)await pause();
   assert.ok(w.document.querySelector('.hero'),'dashboard booted');
   const q=s=>w.document.querySelector(s);
@@ -30,13 +33,15 @@ async function app(){
   return{dom,w,q,route,input,failures,close:()=>{w.StudyCloud.destroy();w.close()}};
 }
 
-test('public app boots under a repository path, truthfully reports unconfigured auth, and persists guest tasks',async()=>{
+test('public app prioritizes textbook practice, reports unconfigured auth, and persists guest work',async()=>{
   const a=await app();try{
-    assert.match(a.q('h1').textContent,/欢迎回到轨道/);
+    assert.match(a.q('h1').textContent,/今天再闯一关/);
     assert.match(a.q('#save-state').textContent,/未配置|未启用|游客|本机/);
-    const task=a.q('[data-task]');task.checked=true;task.dispatchEvent(new a.w.Event('change'));
+    assert.equal(a.w.document.querySelectorAll('.preview-map .course-node').length,3);
+    assert.equal(a.q('#nav a[href="#vocabulary"]'),null);
+    assert.equal(a.q('#nav a[href="#mocks"]'),null);
+    await a.route('freewriting');a.input('#essay-draft','Guest progress is saved.');
     assert.match(a.q('#sidebar-level').textContent,/LV\. 01/);
-    assert.equal(a.q('.orbit-value').textContent,'30');
     await a.route('account');assert.ok(a.q('#auth-submit').disabled);
     assert.match(a.q('#main').textContent,/账号服务尚未启用/);
     assert.equal(a.w.StudyCloud.getStatus().user,null);
@@ -45,24 +50,32 @@ test('public app boots under a repository path, truthfully reports unconfigured 
   }finally{a.close()}
 });
 
-test('listening retains per-blank scoring, decimal accuracy, edited-answer notice and mistake collection',async()=>{
+test('listening separates the learning guide and checks only the current report',async()=>{
   const a=await app();try{
-    await a.route('listening');assert.equal(a.w.document.querySelectorAll('[data-blank]').length,15);
+    await a.route('listening');assert.equal(a.w.document.querySelectorAll('[data-blank]').length,0);
+    a.q('#enter-listening').click();assert.equal(a.w.document.querySelectorAll('.listening-passage:not([hidden])').length,1);
+    assert.equal(a.w.document.querySelectorAll('.listening-passage:not([hidden]) [data-blank]').length,3);
+    a.q('#submit-listening').click();assert.doesNotMatch(a.q('#listen-score').textContent,/参考答案/);
     a.input('#blank-u1-q1','THE MOST POWERFUL ATLANTIC HURRICANES.');a.q('#submit-listening').click();
-    assert.match(a.q('#listen-score').textContent,/1 \/ 15/);
+    assert.match(a.q('#listen-score').textContent,/1 \/ 3/);
     a.input('#blank-u1-q1','wrong');assert.match(a.q('#listen-score').textContent,/重新提交/);
-    await a.route('mistakes');assert.equal(a.w.document.querySelectorAll('[data-resolved]').length,14);
+    a.q('#listen-next').click();assert.equal(a.w.document.querySelectorAll('.listening-passage:not([hidden]) [data-blank]').length,2);
+    a.q('#listen-previous').click();assert.equal(a.q('#blank-u1-q1').value,'wrong');
+    await a.route('mistakes');assert.equal(a.w.document.querySelectorAll('[data-resolved]').length,2);
     assert.equal(a.w.eval("normalize('10.6 million')===normalize('106 million')"),false);
     assert.deepEqual(a.failures,[]);
   }finally{a.close()}
 });
 
-test('writing, vocabulary, effects and library remain usable in redesigned UI',async()=>{
+test('chapter map separates eight core books from optional tools and preserves drafts',async()=>{
   const a=await app();try{
-    await a.route('writing');assert.equal(a.w.document.querySelectorAll('[data-lesson]').length,11);
+    await a.route('writing');assert.equal(a.w.document.querySelectorAll('.course-node').length,8);
+    assert.equal(a.w.document.querySelectorAll('.supplement-list [data-course]').length,3);
+    a.q('[data-course="sentence"]').click();assert.match(a.q('#main').textContent,/Sentence skills/);
+    assert.equal(a.q('[data-exercise]'),null);
+    await a.route('freewriting');
     a.input('#essay-draft','This is my original paragraph.');assert.equal(a.q('#essay-count').textContent,'5 words');
-    a.q('[data-lesson]').click();a.input('#exercise-0','Because the library was closed, we studied at home.');a.q('[data-checkexercise]').click();assert.match(a.q('#exercise-feedback-0').textContent,/一致/);
-    a.q('#full-lesson').click();await pause();assert.match(a.q('#reader-body').textContent,/Sentence skills精华/);a.q('#reader-close').click();
+    await a.route('tools');assert.match(a.q('#main').textContent,/非独立考项/);assert.match(a.q('#main').textContent,/不是教材原题/);
     await a.route('vocabulary');a.q('#flash').click();a.q('#word-known').click();assert.match(a.q('.status-row').textContent,/2 \/ 20/);
     a.input('#vocab-search','academic');assert.match(a.q('#word-results').textContent,/找到 1 个词条/);
     await a.route('settings');const fx=a.q('#particles-enabled');fx.checked=false;fx.dispatchEvent(new a.w.Event('change'));assert.equal(a.w.StudyFX.enabled,false);
@@ -139,5 +152,68 @@ test('signup with an immediate session enters the app instead of falsely asking 
     a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
     assert.equal(a.w.location.hash,'#home');assert.match(a.q('#toast').textContent,/账号已创建并登录/);
     assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('chapter map links return to the catalog after visiting an individual chapter',async()=>{
+  const a=await app();try{
+    a.q('[data-course="sentence"]').click();await pause();assert.ok(a.q('.ch-console'));
+    await a.route('home');a.q('[data-go="writing"]').click();await pause();
+    assert.equal(a.q('.ch-console'),null);assert.equal(a.w.document.querySelectorAll('.course-map .course-node').length,8);
+    a.q('[data-course="paragraph"]').click();await pause();assert.ok(a.q('.ch-console'));
+    a.q('#nav a[href="#writing"]').click();await pause();
+    assert.equal(a.q('.ch-console'),null);assert.equal(a.w.document.querySelectorAll('.course-map .course-node').length,8);
+    assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('textbook self-review is listed centrally and opens the exact original mission',async()=>{
+  const a=await app();try{
+    await a.route('writing');a.q('[data-course="paragraph"]').click();
+    a.q('[data-ch-action="mission"][data-index="1"]').click();
+    a.input('#ch-open-answer','1. My attempt at the original textbook exercise.');
+    a.q('[data-ch-action="submit-open"]').click();
+    a.q('[data-ch-action="self-mission"][data-choice="review"]').click();
+    await a.route('home');assert.match(a.q('.review-portal').textContent,/1 组原题待复习/);
+    await a.route('mistakes');const button=a.q('[data-review-course="paragraph"]');assert.ok(button);
+    const expected=button.dataset.reviewMission;button.click();await pause();
+    assert.ok(a.q('#ch-open-answer'));assert.match(a.q('#ch-open-answer').value,/My attempt/);
+    assert.equal(a.w.eval("JSON.parse(S.drafts['chapter:paragraph:position']).missionIndex"),1);
+    assert.equal(expected,a.w.eval('D.courses.find(c=>c.id==="paragraph").missions[1].id'));
+    a.q('[data-ch-action="review-toggle"]').click();await a.route('mistakes');
+    assert.equal(a.q('[data-review-course]'),null);assert.match(a.q('#main').textContent,/暂时没有待复习/);
+    assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('GitHub account mode hides email signup and unavailable provider offers retry plus guest study',async()=>{
+  const a=await app();try{
+    await a.route('account');const disabled={configured:true,authProvider:'github',oauthReady:false,oauthChecking:false,oauthMessage:'GitHub 登录待配置。',user:null,status:'oauth-unavailable'};
+    a.w.AccountUI.onStatus(disabled);
+    assert.equal(a.q('#auth-email'),null);assert.equal(a.q('#auth-form'),null);assert.equal(a.q('[data-auth-mode="signup"]'),null);
+    assert.equal(a.q('#auth-github').disabled,true);assert.match(a.q('.account-panel').textContent,/登录待配置/);assert.ok(a.q('[data-go="home"]'));
+    let retries=0;a.w.StudyCloud.refreshAuthSettings=async()=>{retries++;const s={...disabled,oauthReady:null,oauthMessage:'未能确认 GitHub 登录服务。',status:'oauth-unknown'};a.w.AccountUI.onStatus(s);return s};
+    a.q('#auth-retry').click();await pause();assert.equal(retries,1);assert.match(a.q('.account-panel').textContent,/未能确认/);assert.equal(a.q('#auth-github').disabled,true);assert.equal(a.q('#auth-retry').disabled,false);
+    a.w.AccountUI.onStatus({...disabled,oauthReady:true,oauthMessage:'GitHub 登录已启用。',status:'guest'});assert.equal(a.q('#auth-github').disabled,false);assert.equal(a.q('#auth-email'),null);
+    assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('GitHub sign-in calls OAuth once while checking and pending redirect never pretends to be signed in',async()=>{
+  const a=await app();try{
+    await a.route('account');const ready={configured:true,authProvider:'github',oauthReady:true,oauthChecking:false,oauthMessage:'GitHub 登录已启用。',user:null,status:'guest'};
+    a.w.AccountUI.onStatus(ready);let finish,calls=0;
+    a.w.StudyCloud.signInWithGitHub=()=>{calls++;return new Promise(resolve=>{finish=resolve})};
+    a.q('#auth-github').click();assert.equal(a.q('#auth-github').disabled,true);assert.equal(a.q('#auth-retry').disabled,true);a.q('#auth-github').click();assert.equal(calls,1);
+    a.w.AccountUI.onStatus({...ready,oauthChecking:true,oauthReady:null});a.w.AccountUI.onStatus({...ready,status:'oauth-redirect'});finish({user:null});await pause();
+    assert.match(a.q('#auth-message').textContent,/GitHub/);assert.equal(a.q('#sign-out'),null);assert.equal(a.q('#auth-github').disabled,true);assert.equal(a.w.location.hash,'#account');
+    assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('GitHub provider probe errors leave signed-in account sync controls intact',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus({configured:true,authProvider:'github',oauthReady:null,oauthChecking:false,oauthMessage:'未能确认登录服务',user:{id:'github-user',email:'learner@example.com'},status:'synced',message:'已同步'});
+    assert.ok(a.q('#sync-now'));assert.ok(a.q('#sign-out'));assert.equal(a.q('#auth-github'),null);assert.match(a.q('.account-panel').textContent,/已同步/);assert.deepEqual(a.failures,[]);
   }finally{a.close()}
 });

@@ -1,6 +1,6 @@
 const PREFIX='orbit-'+new URL(self.registration.scope).pathname+'-';
-const CACHE=PREFIX+'v2';
-const SHELL=['./','index.html','style.css','app.js','config.js','cloud.js','auth-ui.js','effects.js','vendor/supabase-2.118.0.js','icon.svg','manifest.webmanifest','data/listening.json','data/writing.json','data/vocabulary.json','data/mocks.json','data/files.json'];
+const CACHE=PREFIX+'v3-textbook';
+const SHELL=['./','index.html','style.css','journey.css','chapter.css','journey.js','listening-flow.js','chapter.js','app.js','config.js','cloud.js','auth-ui.js','effects.js','vendor/supabase-2.118.0.js','icon.svg','manifest.webmanifest','data/listening.json','data/writing.json','data/vocabulary.json','data/mocks.json','data/files.json','data/textbook-sentence.json','data/textbook-core.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{const u=new URL(event.request.url);if(event.request.method!=='GET'||u.origin!==location.origin||!u.href.startsWith(self.registration.scope)||u.search||event.request.headers.has('range')||u.pathname.includes('/audio/'))return;event.respondWith(fetch(event.request).then(response=>{if(response.ok&&response.type==='basic'){const copy=response.clone();caches.open(CACHE).then(c=>c.put(event.request,copy))}return response}).catch(()=>caches.open(CACHE).then(c=>c.match(event.request)).then(r=>r||new Response('离线时此资料尚未缓存，请联网后重试。',{status:503,headers:{'Content-Type':'text/plain; charset=utf-8'}}))))});

@@ -55,6 +55,7 @@ function fakeAuth(uid) {
   auth.onAuthStateChange = fn => { auth.callback = fn; return { data: { subscription: { unsubscribe() {} } } }; };
   auth.signInWithPassword = async ({ email }) => { auth.session = { user: { id: email.split('@')[0], email } }; return { data: { session: auth.session }, error: null }; };
   auth.signUp = async args => { auth.calls.push(['signUp', args]); return { data: { user: { id: 'new' }, session: null }, error: null }; };
+  auth.signInWithOAuth = async args => { auth.calls.push(['oauth', args]); return { data: { provider: 'github', url: 'https://testing.supabase.co/auth/v1/authorize' }, error: null }; };
   auth.signOut = async args => { auth.calls.push(['signOut', args]); auth.session = null; return { error: null }; };
   auth.resetPasswordForEmail = async (email, options) => { auth.calls.push(['reset', email, options]); return { data: {}, error: null }; };
   auth.updateUser = async args => { auth.calls.push(['update', args]); return { data: { user: auth.session?.user }, error: null }; };
@@ -66,7 +67,7 @@ async function device(server, options = {}) {
   let state = blank(), lastMeta = null, tick = options.clock || 1000, seq = 0;
   const storage = options.storage || new Storage(), auth = fakeAuth(options.uid === undefined ? 'a' : options.uid);
   const timers = new Map(); let timerId = 0;
-  const cloud = createCloud({ config: options.config === undefined ? config : options.config, client: { auth }, adapter: server.adapter(auth), storage,
+  const cloud = createCloud({ config: options.config === undefined ? config : options.config, client: { auth }, adapter: server.adapter(auth), storage, fetch: options.fetch,
     now: () => ++tick, randomId: () => (options.name || 'device') + '-' + (++seq),
     setTimeout: (fn, delay) => { timers.set(++timerId, { fn, delay }); return timerId; }, clearTimeout: id => timers.delete(id),
     root: { location: { href: options.url || 'https://example.github.io/english-workbench/?old=1#settings' } }
@@ -303,4 +304,74 @@ test('different Supabase projects and GitHub repo paths have isolated auth/cache
   assert.equal(b.state.essays.draft, undefined); assert.equal(c.state.essays.draft, undefined);
   assert.equal(b.cloud.getStatus().pending, 0); assert.equal(c.cloud.getStatus().pending, 0);
   a.cloud.destroy(); b.cloud.destroy(); c.cloud.destroy();
+});
+
+test('GitHub OAuth verifies public provider settings and uses the official SDK with a clean return URL', async () => {
+  const requests=[];
+  const d=await device(new Server(),{uid:null,config:{...config,authProvider:'github'},fetch:async(url,options)=>{
+    requests.push({url,options});return{ok:true,json:async()=>({external:{github:true}})};
+  }});
+  try{
+    await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().oauthReady,true);
+    const status=await d.cloud.signInWithGitHub();
+    assert.equal(status.user,null);assert.equal(status.status,'oauth-redirect');
+    assert.deepEqual(d.auth.calls.find(x=>x[0]==='oauth')[1],{provider:'github',options:{redirectTo:'https://example.github.io/english-workbench/'}});
+    for(const r of requests){assert.equal(r.url,'https://testing.supabase.co/auth/v1/settings');assert.equal(r.options.headers.apikey,config.publishableKey);assert.equal(r.options.method,'GET');assert.equal(r.options.cache,'no-store');assert.equal(r.options.headers.Authorization,undefined)}
+  }finally{d.cloud.destroy()}
+});
+
+test('disabled GitHub provider blocks OAuth but guest learning persists and can retry later', async () => {
+  let enabled=false;
+  const d=await device(new Server(),{uid:null,config:{...config,authProvider:'github'},fetch:async()=>({ok:true,json:async()=>({external:{github:enabled,email:true}})})});
+  try{
+    await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().oauthReady,false);assert.equal(d.cloud.getStatus().status,'oauth-unavailable');
+    await assert.rejects(d.cloud.signInWithGitHub(),/待配置/);assert.equal(d.auth.calls.filter(x=>x[0]==='oauth').length,0);
+    d.edit(s=>{s.tasks['learn:test:0']=true});assert.equal(d.state.tasks['learn:test:0'],true);assert.match(d.cloud.getStatus().message,/待配置/);
+    enabled=true;await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().oauthReady,true);assert.equal(d.cloud.getStatus().status,'guest');
+  }finally{d.cloud.destroy()}
+});
+
+test('settings failures and malformed statuses stay unknown; existing sessions continue syncing', async () => {
+  const server=new Server();let response='network';
+  const d=await device(server,{config:{...config,authProvider:'github'},fetch:async()=>{
+    if(response==='network')throw Error('Network down');return{ok:response!=='http',json:async()=>({external:{github:'true'}})};
+  }});
+  try{
+    for(const failure of ['network','http','missing']){
+      response=failure;await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().oauthReady,null);assert.equal(d.cloud.getStatus().oauthChecking,false);assert.match(d.cloud.getStatus().oauthMessage,/未能确认/);
+      assert.equal(d.cloud.getStatus().user.id,'a');assert.notEqual(d.cloud.getStatus().status,'oauth-unknown');
+    }
+    d.edit(s=>{s.tasks['book:test:mission']=true});await d.cloud.syncNow();assert.equal(d.cloud.getStatus().status,'synced');assert.equal(server.row('a').document.cells[P('tasks','book:test:mission')].value,true);
+  }finally{d.cloud.destroy()}
+});
+
+test('unconfirmed GitHub provider is retryable and does not call SDK; email defaults skip probing', async () => {
+  let calls=0;
+  const d=await device(new Server(),{uid:null,config:{...config,authProvider:'github'},fetch:async()=>{calls++;throw Error('offline')}});
+  try{
+    await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().status,'oauth-unknown');
+    await assert.rejects(d.cloud.signInWithGitHub(),/未能确认/);assert.ok(calls>=2);assert.equal(d.auth.calls.length,0);
+  }finally{d.cloud.destroy()}
+  const email=await device(new Server(),{uid:null,fetch:async()=>{throw Error('must not probe')}});
+  try{assert.equal(email.cloud.getStatus().authProvider,'email');await email.cloud.refreshAuthSettings();await email.cloud.signUp('new@test.invalid','password1');assert.equal(email.cloud.getStatus().status,'confirm-email')}finally{email.cloud.destroy()}
+});
+
+test('OAuth SDK errors remain visible without claiming a redirect or a valid session', async () => {
+  const d=await device(new Server(),{uid:null,config:{...config,authProvider:'github'},fetch:async()=>({ok:true,json:async()=>({external:{github:true}})})});
+  try{
+    d.auth.signInWithOAuth=async()=>({data:null,error:{message:'Provider is not enabled'}});
+    await assert.rejects(d.cloud.signInWithGitHub(),/Provider is not enabled/);
+    assert.equal(d.cloud.getStatus().user,null);assert.equal(d.cloud.getStatus().oauthReady,null);assert.equal(d.cloud.getStatus().status,'oauth-unknown');
+  }finally{d.cloud.destroy()}
+});
+
+test('a stalled settings probe times out, deduplicates retries and never blocks guest progress', async () => {
+  let requests=0;
+  const d=await device(new Server(),{uid:null,config:{...config,authProvider:'github'},fetch:()=>{requests++;return new Promise(()=>{})}});
+  try{
+    const pending=d.cloud.refreshAuthSettings();assert.equal(d.cloud.refreshAuthSettings(),pending);assert.equal(d.cloud.getStatus().oauthChecking,true);
+    d.edit(s=>{s.essays.draft='Still learning offline'});assert.equal(d.state.essays.draft,'Still learning offline');
+    const deadline=[...d.timers.values()].find(t=>t.delay===8000);assert.ok(deadline);deadline.fn();await pending;
+    assert.equal(requests,1);assert.equal(d.cloud.getStatus().oauthChecking,false);assert.equal(d.cloud.getStatus().oauthReady,null);assert.equal(d.cloud.getStatus().status,'oauth-unknown');
+  }finally{d.cloud.destroy()}
 });
