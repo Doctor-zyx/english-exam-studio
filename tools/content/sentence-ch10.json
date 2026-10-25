@@ -1,0 +1,1788 @@
+{
+  "missions": [
+    {
+      "id": "ch10-p1",
+      "instructions": "判断原句属于独立还是从属分句，并决定句末是否补句号。网页把原题的两步填写合为一次选择；所有原编号1–15都保留。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p1-1-sentence",
+          "sourceNumber": "1",
+          "prompt": "1. Globalization means more travel for businessmen and women",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "主语是 Globalization，谓语是 means；意思已经说完整。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 163（原书 PDF 第 2 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）；第1、2题答案见原书已填示例",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — Globalization means more travel for businessmen and women.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-2-sentence",
+          "sourceNumber": "2",
+          "prompt": "2. As business executives fly around the globe to sell their companies’ products and services",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "dependent-none",
+          "autoGrade": true,
+          "explanation": "As 在这里引出从属分句。虽然有主语 executives 和谓语 fly，仍需主句说明同时发生什么。 因此选择从属分句；直接加句号不能补齐缺少的主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 163（原书 PDF 第 2 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）；第1、2题答案见原书已填示例",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Dep.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-3-sentence",
+          "sourceNumber": "3",
+          "prompt": "3. Jet lag affects most long-distance travelers",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "Jet lag 是主语，affects 是谓语；已经完整说明时差影响谁。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 163（原书 PDF 第 2 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — Jet lag affects most long-distance travelers.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-4-sentence",
+          "sourceNumber": "4",
+          "prompt": "4. Which is simply the urge to sleep at inappropriate times",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "dependent-none",
+          "autoGrade": true,
+          "explanation": "Which 引出的关系分句需要依附前面的先行词，不能单独作为本题中的完整句。 因此选择从属分句；直接加句号不能补齐缺少的主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 163（原书 PDF 第 2 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Dep.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-5-sentence",
+          "sourceNumber": "5",
+          "prompt": "5. During long journeys through several time zones, the body’s inner clock is disrupted",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "During 后面是名词短语，不是使整句从属化的连接词；主句 the body’s inner clock is disrupted 完整。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 163（原书 PDF 第 2 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — During long journeys through several time zones, the body’s inner clock is disrupted.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-6-sentence",
+          "sourceNumber": "6",
+          "prompt": "6. For some reason, travel from west to east causes greater jet lag than travel from east to west",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "For some reason 只是介词短语；travel 是主语，causes 是谓语，后面有完整的比较内容。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 163（原书 PDF 第 2 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — For some reason, travel from west to east causes greater jet lag than travel from east to west.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-7-sentence",
+          "sourceNumber": "7",
+          "prompt": "7. Also, changes in work schedules can cause jet lag",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "Also 是补充信息的副词，不会把主句变成从句。changes ... can cause 已构成完整陈述。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — Also, changes in work schedules can cause jet lag.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-8-sentence",
+          "sourceNumber": "8",
+          "prompt": "8. When hospital nurses change from a day shift to a night shift, for example",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "dependent-none",
+          "autoGrade": true,
+          "explanation": "When 表示“当……时”，这里只有时间从句，缺少“那时会怎样”的主句。for example 不能补上主句。 因此选择从属分句；直接加句号不能补齐缺少的主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Dep.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-9-sentence",
+          "sourceNumber": "9",
+          "prompt": "9. Although there is no sure way to prevent jet lag",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "dependent-none",
+          "autoGrade": true,
+          "explanation": "Although 表示“虽然”，这句还没有说“但是怎样”，因此缺少主句。 因此选择从属分句；直接加句号不能补齐缺少的主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Dep.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-10-sentence",
+          "sourceNumber": "10",
+          "prompt": "10. There are some ways to minimize it",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "There are 是完整的存在句结构；后面的 to minimize it 修饰 ways。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — There are some ways to minimize it.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-11-sentence",
+          "sourceNumber": "11",
+          "prompt": "11. Because jet lag is caused at least partially by loss of sleep, not just a change in the time of sleep",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "dependent-none",
+          "autoGrade": true,
+          "explanation": "Because 引出原因，从句内部再完整也不能在本题中单独成为主句；还缺它所解释的结果。 因此选择从属分句；直接加句号不能补齐缺少的主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Dep.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-12-sentence",
+          "sourceNumber": "12",
+          "prompt": "12. A traveler should plan to arrive at his or her destination as late as possible",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "A traveler 是主语，should plan 是谓语，后面的不定式说明计划的内容。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — A traveler should plan to arrive at his or her destination as late as possible.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-13-sentence",
+          "sourceNumber": "13",
+          "prompt": "13. Upon arriving, he or she should immediately go to bed",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "Upon arriving 是开头的时间短语；后面的 he or she should go to bed 是完整主句。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — Upon arriving, he or she should immediately go to bed.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-14-sentence",
+          "sourceNumber": "14",
+          "prompt": "14. Then the traveler should start to live in the new time zone immediately",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "independent-period",
+          "autoGrade": true,
+          "explanation": "Then 只表示先后次序；the traveler should start 是主句，不受从属连词限制。 因此选择独立分句，并在原句末补句号。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Indep. — Then the traveler should start to live in the new time zone immediately.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        },
+        {
+          "id": "ch10-p1-15-sentence",
+          "sourceNumber": "15",
+          "prompt": "15. Even when the traveler arrives early in the morning and cannot go to bed immediately",
+          "instruction": "选择分句类别及句末处理：完整句要补句号；从属分句还需要主句。",
+          "answer": "dependent-none",
+          "autoGrade": true,
+          "explanation": "Even when 引出让步意味的时间从句。arrives 和 cannot go 共用一个主语，但增加谓语不会补出独立主句。 因此选择从属分句；直接加句号不能补齐缺少的主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "分类正确。",
+            "完整句末补句号；从属分句不能只加句号就当作完整句。"
+          ],
+          "referenceAnswer": "Dep.",
+          "options": [
+            {
+              "value": "independent-period",
+              "label": "Indep. · 独立分句，句末补句号"
+            },
+            {
+              "value": "independent-none",
+              "label": "Indep. · 独立分句，句末不补句号"
+            },
+            {
+              "value": "dependent-period",
+              "label": "Dep. · 从属分句，直接加句号结束"
+            },
+            {
+              "value": "dependent-none",
+              "label": "Dep. · 从属分句，还需要主句"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p2",
+      "instructions": "按每题给定的主语、谓语数量，各写两个简单句。简单句可以有并列主语或并列谓语，但只有一个独立分句。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p2-1",
+          "sourceNumber": "1",
+          "prompt": "1. Write two simple sentences with one subject and one verb.",
+          "instruction": "按原要求写两个英语简单句。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。\n检查标准：共两句；每句一个主语、一个谓语。",
+          "autoGrade": false,
+          "explanation": "先找“谁/什么”与“做什么/是什么”。两个例句都应各自表达一个完整意思。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "必须写出两个句子。",
+            "每句一个主语、一个谓语。",
+            "每句只有一个独立分句，意思完整，首字母与句末标点正确。"
+          ]
+        },
+        {
+          "id": "ch10-p2-2",
+          "sourceNumber": "2",
+          "prompt": "2. Write two simple sentences with one subject and two verbs.",
+          "instruction": "按原要求写两个英语简单句。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。\n检查标准：共两句；每句一个主语、两个并列谓语。",
+          "autoGrade": false,
+          "explanation": "两个动作共用同一个主语；不要另加一个主语写成两个独立分句。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "必须写出两个句子。",
+            "每句一个主语、两个并列谓语。",
+            "每句只有一个独立分句，意思完整，首字母与句末标点正确。"
+          ]
+        },
+        {
+          "id": "ch10-p2-3",
+          "sourceNumber": "3",
+          "prompt": "3. Write two simple sentences with two subjects and one verb.",
+          "instruction": "按原要求写两个英语简单句。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。\n检查标准：共两句；每句两个并列主语、一个谓语。",
+          "autoGrade": false,
+          "explanation": "把两个人或事物作为并列主语，共用同一个谓语；注意主谓一致。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "必须写出两个句子。",
+            "每句两个并列主语、一个谓语。",
+            "每句只有一个独立分句，意思完整，首字母与句末标点正确。"
+          ]
+        },
+        {
+          "id": "ch10-p2-4",
+          "sourceNumber": "4",
+          "prompt": "4. Write two simple sentences with two subjects and two verbs.",
+          "instruction": "按原要求写两个英语简单句。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。\n检查标准：共两句；每句两个并列主语、两个并列谓语。",
+          "autoGrade": false,
+          "explanation": "两个人或事物共同执行两个动作；并列成分多，仍然可以只有一个独立分句。",
+          "sourceLabel": "Sentence skills 第10章，书页 164（原书 PDF 第 3 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "必须写出两个句子。",
+            "每句两个并列主语、两个并列谓语。",
+            "每句只有一个独立分句，意思完整，首字母与句末标点正确。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p3",
+      "instructions": "在每个空格中填写 but 或 yet，辨别一般对照与出人意料的转折。原题为填空，不改成选择题。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p3-1a",
+          "sourceNumber": "1a",
+          "prompt": "1a. Too much sun damages the skin, ____ many people still do not use sunscreen.",
+          "instruction": "填写 but 或 yet。",
+          "answer": "yet",
+          "autoGrade": true,
+          "explanation": "前面说阳光过量会损伤皮肤，后面却说很多人仍不用防晒，突出了令人意外的结果。答案册选 yet。 原书第166页同时说明 but 可表达这两种转折，所以 but 也是可接受表达；yet 更突出本题要练的意外感。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（用法说明见166）（原书 PDF 第 6（说明见5） 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "alternatives": [
+            "but"
+          ]
+        },
+        {
+          "id": "ch10-p3-1b",
+          "sourceNumber": "1b",
+          "prompt": "1b. Too much sun damages the skin, ____ too little sun also causes health problems.",
+          "instruction": "填写 but 或 yet。",
+          "answer": "but",
+          "autoGrade": true,
+          "explanation": "这里对照“太多”与“太少”两种情况，不是描述出乎意料的结果，答案册用 but。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（用法说明见166）（原书 PDF 第 6（说明见5） 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）"
+        },
+        {
+          "id": "ch10-p3-2a",
+          "sourceNumber": "2a",
+          "prompt": "2a. The company’s sales increased last year, ____ its profits declined.",
+          "instruction": "填写 but 或 yet。",
+          "answer": "yet",
+          "autoGrade": true,
+          "explanation": "销售额增长通常让人预期利润增长，利润却下降，答案册用 yet 突出反常结果。 原书第166页同时说明 but 可表达这两种转折，所以 but 也是可接受表达；yet 更突出本题要练的意外感。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（用法说明见166）（原书 PDF 第 6（说明见5） 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "alternatives": [
+            "but"
+          ]
+        },
+        {
+          "id": "ch10-p3-2b",
+          "sourceNumber": "2b",
+          "prompt": "2b. The company moved its marketing division to Phoenix, ____ the operations division stayed in Boston.",
+          "instruction": "填写 but 或 yet。",
+          "answer": "but",
+          "autoGrade": true,
+          "explanation": "营销部门搬走与运营部门留下形成一般对照，答案册用 but。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（用法说明见166）（原书 PDF 第 6（说明见5） 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）"
+        },
+        {
+          "id": "ch10-p3-3a",
+          "sourceNumber": "3a",
+          "prompt": "3a. Population growth has slowed in most developing countries, ____ it has not slowed enough to avoid serious problems.",
+          "instruction": "填写 but 或 yet。",
+          "answer": "but",
+          "autoGrade": true,
+          "explanation": "后半句限制前半句的程度：“是放缓了，但还不够”。答案册的目标答案是 but。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（用法说明见166）（原书 PDF 第 6（说明见5） 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）"
+        },
+        {
+          "id": "ch10-p3-3b",
+          "sourceNumber": "3b",
+          "prompt": "3b. The fertility rate in India has decreased from 6 to 3 births per female, ____ India’s population is expanding at the rate of 18 million per year.",
+          "instruction": "填写 but 或 yet。",
+          "answer": "yet",
+          "autoGrade": true,
+          "explanation": "前面说生育率下降，后面却说人口仍快速增长，答案册用 yet 表示预期与结果不一致。 原书第166页同时说明 but 可表达这两种转折，所以 but 也是可接受表达；yet 更突出本题要练的意外感。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（用法说明见166）（原书 PDF 第 6（说明见5） 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "alternatives": [
+            "but"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p4",
+      "instructions": "A：补写第二个独立分句，标出并列连词并补标点。B：用合适的 FANBOYS 连词合并原句；原书第1题是示例，已恢复待答，第2—8题各使用七个连词一次。C：自己写七个并列句，每个 FANBOYS 连词各用一次。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p4-a1",
+          "sourceNumber": "A.1",
+          "prompt": "A.1. The college campus is located in the center of the city so ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "原书第1题示范答案：\nThe college campus is located in the center of the city, so it is very easy to get there by public transportation.\n并列连词：so",
+          "autoGrade": false,
+          "explanation": "位于市中心是原因，交通方便是结果；so 后面仍要有主语和谓语。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a2",
+          "sourceNumber": "A.2",
+          "prompt": "A.2. According to the Big Bang Theory, the universe began expanding about 13.7 billion years ago and ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nAccording to the Big Bang Theory, the universe began expanding about 13.7 billion years ago, and it has been expanding ever since.\n并列连词：and",
+          "autoGrade": false,
+          "explanation": "and 补充另一条相关信息；不能只接一个没有主语的短语来代替原要求的独立分句。 答案册此处印作 every since；按固定表达修正为 ever since，已在核对文档记录。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a3",
+          "sourceNumber": "A.3",
+          "prompt": "A.3. Does the universe have an outer edge or ____?",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nDoes the universe have an outer edge, or is it infinite?\n并列连词：or",
+          "autoGrade": false,
+          "explanation": "or 连接两个可能性；这里两个分句都是疑问句，第二部分也要有完整疑问结构。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a4",
+          "sourceNumber": "A.4",
+          "prompt": "A.4. Scientists predict that intelligent life exists somewhere in the universe but ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nScientists predict that intelligent life exists somewhere in the universe, but we have not been able to find any sign of it yet.\n并列连词：but",
+          "autoGrade": false,
+          "explanation": "预测存在与尚未找到证据构成转折；but 前用逗号分开两个独立分句。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a5",
+          "sourceNumber": "A.5",
+          "prompt": "A.5. Mars probes have photographed rocks with water markings on them yet ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nMars probes have photographed rocks with water markings on them, yet there is no water there now.\n并列连词：yet",
+          "autoGrade": false,
+          "explanation": "水痕容易让人预期有水，后半句给出相反结果；yet 适合表达这种意外感。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a6",
+          "sourceNumber": "A.6",
+          "prompt": "A.6. We may not be able to communicate with other life forms for ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nWe may not be able to communicate with other life forms, for we will not know their language.\n并列连词：for",
+          "autoGrade": false,
+          "explanation": "for 放在后面补充原因，与前面的判断相联系；这里不是表示“为了”的介词。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a7",
+          "sourceNumber": "A.7",
+          "prompt": "A.7. Instead of taking the psychology final exam, we can write a 10-page research paper or ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nInstead of taking the psychology final exam, we can write a 10-page research paper, or we can give a presentation.\n并列连词：or",
+          "autoGrade": false,
+          "explanation": "or 提供另一个选择。题目要求独立分句，所以答案保留 we can，不能只接 give a presentation。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a8",
+          "sourceNumber": "A.8",
+          "prompt": "A.8. I want to write a research paper yet ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nI want to write a research paper, yet I do not know what to write about.\n并列连词：yet",
+          "autoGrade": false,
+          "explanation": "“想写”与“不知道写什么”形成转折；第二部分需要完整的 I do not know。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a9",
+          "sourceNumber": "A.9",
+          "prompt": "A.9. Three weeks before the end of the term, I had not started my paper nor ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nThree weeks before the end of the term, I had not started my paper, nor had I even chosen a topic.\n并列连词：nor",
+          "autoGrade": false,
+          "explanation": "nor 接在否定陈述后表示“也没有”；后面把助动词 had 放在主语 I 前，使用倒装。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。",
+            "nor 后用助动词＋主语的倒装，不能再写第二个 not。"
+          ]
+        },
+        {
+          "id": "ch10-p4-a10",
+          "sourceNumber": "A.10",
+          "prompt": "A.10. I needed help choosing a topic so ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出完整句并补标点；另写出要圈出的并列连词。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nI needed help choosing a topic, so I went to the professor to ask for suggestions.\n并列连词：so",
+          "autoGrade": false,
+          "explanation": "需要帮助是原因，向教授请教是结果；用 so 连接，并在 so 前加逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 167（原书 PDF 第 6 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留原句给定内容及连词。",
+            "补写的是完整独立分句，逻辑与连词相符。",
+            "连词前使用逗号，并正确标出连词。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b1",
+          "sourceNumber": "B.1",
+          "prompt": "B.1. Nuclear accidents can happen. Nuclear power plants must have strict safety controls.",
+          "instruction": "把这两个独立分句合成一个并列句，选用合适的 FANBOYS 连词并补标点。这是恢复为待答的原书示例。",
+          "answer": "原书示例：\nNuclear accidents can happen, so nuclear power plants must have strict safety controls.",
+          "autoGrade": false,
+          "explanation": "可能出事故，因此必须严格控制安全；后半句是结果。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b2",
+          "sourceNumber": "B.2",
+          "prompt": "B.2. The accident at the nuclear power plant at Three Mile Island in the United States created fears about the safety of this energy source. The disaster at Chernobyl in the former Soviet Union confirmed them.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。",
+          "answer": "答案册参考：\nThe accident at the nuclear power plant at Three Mile Island in the United States created fears about the safety of this energy source, and the disaster at Chernobyl in the former Soviet Union confirmed them.",
+          "autoGrade": false,
+          "explanation": "后一次事故进一步印证了前面的担忧，是补充递进的信息。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b3",
+          "sourceNumber": "B.3",
+          "prompt": "B.3. Solar heating systems are economical to operate. The cost of installation is very high.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。",
+          "answer": "答案册参考：\nSolar heating systems are economical to operate, but the cost of installation is very high.",
+          "autoGrade": false,
+          "explanation": "运行省钱与安装昂贵形成对照；注意 operate 后面的逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b4",
+          "sourceNumber": "B.4",
+          "prompt": "B.4. Energy needs are not going to decrease. Energy sources are not going to increase.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。 原题指定用 nor；第二分句改为疑问句式词序，并删去 not。",
+          "answer": "答案册参考：\nEnergy needs are not going to decrease, nor are energy sources going to increase.",
+          "autoGrade": false,
+          "explanation": "两个都是否定判断。原题要求 nor，并删除第二句的 not，把 are 移到主语前。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。",
+            "nor 后倒装并删去原第二句的 not。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b5",
+          "sourceNumber": "B.5",
+          "prompt": "B.5. Burning fossil fuels causes serious damage to our planet. We need to develop other sources of energy.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。",
+          "answer": "答案册参考：\nBurning fossil fuels causes serious damage to our planet, so we need to develop other sources of energy.",
+          "autoGrade": false,
+          "explanation": "后一句给出因前述危害而需要采取的行动，是结果。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b6",
+          "sourceNumber": "B.6",
+          "prompt": "B.6. Ecologists know that burning fossil fuels causes holes in the ozone layer. People continue to do it.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。",
+          "answer": "答案册参考：\nEcologists know that burning fossil fuels causes holes in the ozone layer, yet people continue to do it.",
+          "autoGrade": false,
+          "explanation": "明知有害却继续做，突出意外转折；本组每个连词一次时用 yet。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 30（答案 PDF 第 1 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b7",
+          "sourceNumber": "B.7",
+          "prompt": "B.7. Developing nations especially will continue this harmful practice. They do not have the money to develop “clean” energy sources.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。",
+          "answer": "答案册参考：\nDeveloping nations especially will continue this harmful practice, for they do not have the money to develop “clean” energy sources.",
+          "autoGrade": false,
+          "explanation": "后半句解释为什么会继续这种做法；原因放在后面用 for。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-b8",
+          "sourceNumber": "B.8",
+          "prompt": "B.8. All nations of the world must take action. Our children and grandchildren will suffer the consequences.",
+          "instruction": "把这两个独立分句合成一个并列句，选择合适的 FANBOYS 连词并补标点。第2—8题七个连词各用一次。",
+          "answer": "答案册参考：\nAll nations of the world must take action, or our children and grandchildren will suffer the consequences.",
+          "autoGrade": false,
+          "explanation": "or 在这里表示“否则”：不行动就要承担后果。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两句的信息，组成一个并列句。",
+            "连词符合原意，连词前有逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p4-c",
+          "sourceNumber": "C",
+          "prompt": "C. Write seven compound sentences of your own, using each coordinator once.",
+          "instruction": "自己写七个并列句，for、and、nor、but、or、yet、so 各用一次。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。\n七句话必须分别使用 for、and、nor、but、or、yet、so。",
+          "autoGrade": false,
+          "explanation": "先决定每句两条信息的关系：原因、补充、否定补充、对照、选择、意外转折或结果，再挑连接词。每个连接词两侧都应是独立分句。",
+          "sourceLabel": "Sentence skills 第10章，书页 168（原书 PDF 第 7 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "共七句，每个指定连词恰好使用一次。",
+            "每句连接两个独立分句，连词前有逗号。",
+            "nor 后使用倒装；每句关系和含义合理。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p5",
+      "instructions": "A：补写第二个独立分句，圈出连接副词并补标点。B：把 Practice 4B 第3、5、6、8题改用连接副词合并，另外恢复第1题示例；所有引用原句均在本组展开。C：用指定的五个连接副词各写一句。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p5-a1",
+          "sourceNumber": "A.1",
+          "prompt": "A.1. The college campus is located in the center of the city therefore ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "原书第1题示范答案：\nThe college campus is located in the center of the city; therefore, it is very easy to get there by public transportation.\n连接副词/短语：therefore",
+          "autoGrade": false,
+          "explanation": "市中心的位置使出行方便，是原因到结果。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a2",
+          "sourceNumber": "A.2",
+          "prompt": "A.2. According to the Big Bang Theory, the universe began expanding about 13.7 billion years ago moreover ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nAccording to the Big Bang Theory, the universe began expanding about 13.7 billion years ago; moreover, it has been expanding ever since.\n连接副词/短语：moreover",
+          "autoGrade": false,
+          "explanation": "moreover 表示再补充一点；两个分句都要完整。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a3",
+          "sourceNumber": "A.3",
+          "prompt": "A.3. Students must pay their tuition and fees before they register for classes otherwise ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nStudents must pay their tuition and fees before they register for classes; otherwise, they will have to pay a late fee.\n连接副词/短语：otherwise",
+          "autoGrade": false,
+          "explanation": "otherwise 表示“如果不这样做，就……”，后面写未按要求做的后果。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a4",
+          "sourceNumber": "A.4",
+          "prompt": "A.4. Scientists predict that intelligent life exists somewhere in the universe however ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nScientists predict that intelligent life exists somewhere in the universe; however, we have not been able to find any signs of it yet.\n连接副词/短语：however",
+          "autoGrade": false,
+          "explanation": "however 引出与前面预期不同的信息；它不是可以单靠前置逗号连接两句的并列连词。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a5",
+          "sourceNumber": "A.5",
+          "prompt": "A.5. Mars probes have photographed rocks with water markings on them nevertheless ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nMars probes have photographed rocks with water markings on them; nevertheless, there is no water there now.\n连接副词/短语：nevertheless",
+          "autoGrade": false,
+          "explanation": "nevertheless 表示“尽管如此”，后面应与前面的预期构成转折。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a6",
+          "sourceNumber": "A.6",
+          "prompt": "A.6. My roommate scored high on the English placement test as a result ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nMy roommate scored high on the English placement test; as a result, he is exempt from taking English classes.\n连接副词/短语：as a result",
+          "autoGrade": false,
+          "explanation": "as a result 引出结果；成绩高带来免修的结果。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a7",
+          "sourceNumber": "A.7",
+          "prompt": "A.7. Tuition and fees increase every year for example ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nTuition and fees increase every year; for example, tuition this year is $50 more per unit than it was last year.\n连接副词/短语：for example",
+          "autoGrade": false,
+          "explanation": "for example 后面给具体例子支撑“每年上涨”；例子仍要写成完整分句。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-a8",
+          "sourceNumber": "A.8",
+          "prompt": "A.8. The class thought the teacher would give a test last Friday instead ____",
+          "instruction": "补写一个有主语和谓语的独立分句，写出加好标点的完整句；另写出要圈出的连接副词或短语。",
+          "answer": "答案册示例（合理续写不必逐字相同）：\nThe class thought the teacher would give a test last Friday; instead, she gave a party.\n连接副词/短语：instead",
+          "autoGrade": false,
+          "explanation": "instead 说明实际发生的事取代了原来以为会发生的事。 标点采用“独立分句；连接副词，独立分句”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留原句与指定连接副词，补成两个独立分句。",
+            "连接副词前用分号，后用逗号。",
+            "正确标出连接副词/短语，前后意义相符。"
+          ]
+        },
+        {
+          "id": "ch10-p5-b1",
+          "sourceNumber": "B.1",
+          "prompt": "B.1. Nuclear accidents can happen. Nuclear power plants must have strict safety controls.",
+          "instruction": "用合适的连接副词合并这两句并补标点。这是恢复待答的本组原示例。",
+          "answer": "原书示例：\nNuclear accidents can happen; therefore, nuclear power plants must have strict safety controls.",
+          "autoGrade": false,
+          "explanation": "therefore 表示结果，前后仍是两个完整分句。 不要仅用逗号把两个独立分句接起来；这里应在连接副词前用分号，后用逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（交叉引用168）（原书 PDF 第 9（引用7） 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两个原句的意思，选择符合关系的连接副词。",
+            "写成一个并列句；连接副词前分号、后逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p5-b3",
+          "sourceNumber": "B.3",
+          "prompt": "B.3. Solar heating systems are economical to operate. The cost of installation is very high.",
+          "instruction": "用合适的连接副词合并这两句并补标点。原题交叉引用 Practice 4B 第3题，原句已完整展开。",
+          "answer": "答案册参考：\nSolar heating systems are economical to operate; however, the cost of installation is very high.",
+          "autoGrade": false,
+          "explanation": "运行费用低和安装费用高相互对照，用 however。 不要仅用逗号把两个独立分句接起来；这里应在连接副词前用分号，后用逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（交叉引用168）（原书 PDF 第 9（引用7） 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两个原句的意思，选择符合关系的连接副词。",
+            "写成一个并列句；连接副词前分号、后逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p5-b5",
+          "sourceNumber": "B.5",
+          "prompt": "B.5. Burning fossil fuels causes serious damage to our planet. We need to develop other sources of energy.",
+          "instruction": "用合适的连接副词合并这两句并补标点。原题交叉引用 Practice 4B 第5题，原句已完整展开。",
+          "answer": "答案册参考：\nBurning fossil fuels causes serious damage to our planet; therefore, we need to develop other sources of energy.",
+          "autoGrade": false,
+          "explanation": "therefore 把环境损害与需要采取的行动连接为因果关系。 不要仅用逗号把两个独立分句接起来；这里应在连接副词前用分号，后用逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（交叉引用168）（原书 PDF 第 9（引用7） 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两个原句的意思，选择符合关系的连接副词。",
+            "写成一个并列句；连接副词前分号、后逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p5-b6",
+          "sourceNumber": "B.6",
+          "prompt": "B.6. Ecologists know that burning fossil fuels causes holes in the ozone layer. People continue to do it.",
+          "instruction": "用合适的连接副词合并这两句并补标点。原题交叉引用 Practice 4B 第6题，原句已完整展开。",
+          "answer": "答案册参考：\nEcologists know that burning fossil fuels causes holes in the ozone layer; nevertheless, people continue to do it.",
+          "autoGrade": false,
+          "explanation": "nevertheless 表示尽管知道有害，人们仍继续这样做。 不要仅用逗号把两个独立分句接起来；这里应在连接副词前用分号，后用逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（交叉引用168）（原书 PDF 第 9（引用7） 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两个原句的意思，选择符合关系的连接副词。",
+            "写成一个并列句；连接副词前分号、后逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p5-b8",
+          "sourceNumber": "B.8",
+          "prompt": "B.8. All nations of the world must take action. Our children and grandchildren will suffer the consequences.",
+          "instruction": "用合适的连接副词合并这两句并补标点。原题交叉引用 Practice 4B 第8题，原句已完整展开。",
+          "answer": "答案册参考：\nAll nations of the world must take action; otherwise, our children and grandchildren will suffer the consequences.",
+          "autoGrade": false,
+          "explanation": "otherwise 表示否则，说明不采取行动的后果。 不要仅用逗号把两个独立分句接起来；这里应在连接副词前用分号，后用逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（交叉引用168）（原书 PDF 第 9（引用7） 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "保留两个原句的意思，选择符合关系的连接副词。",
+            "写成一个并列句；连接副词前分号、后逗号。"
+          ]
+        },
+        {
+          "id": "ch10-p5-c",
+          "sourceNumber": "C",
+          "prompt": "C. Write five compound sentences, using each of these conjunctive adverbs once: in addition, nevertheless, on the other hand, therefore, and for instance.",
+          "instruction": "写五个并列句，in addition、nevertheless、on the other hand、therefore、for instance 各用一次。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。",
+          "autoGrade": false,
+          "explanation": "五个表达分别用于补充、让步转折、另一面、结果和举例。先写出两个能独立成立的分句，再按关系连接；每句都用“；连接副词，”。",
+          "sourceLabel": "Sentence skills 第10章，书页 170（原书 PDF 第 9 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "共五句，每个指定表达恰好一次。",
+            "每句有两个意思相关的独立分句。",
+            "连接副词前分号、后逗号，逻辑与词义相符。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p6",
+      "instructions": "A：在每题两个独立分句之间补一个分号，保留全部原词。B：自己写三个并列句，只用分号连接各句中的两个独立分句。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p6-a1",
+          "sourceNumber": "A.1",
+          "prompt": "A.1. The practice of yoga strengthens the body and promotes flexibility it also strengthens the mind and refreshes the soul.",
+          "instruction": "只补一个分号，写出修改后的完整句；不要增删单词。",
+          "answer": "The practice of yoga strengthens the body and promotes flexibility; it also strengthens the mind and refreshes the soul.",
+          "autoGrade": true,
+          "explanation": "第一个分句的主语是 The practice of yoga，第二个是 it。分号放在 flexibility 后，不能放在同一主语的两个并列谓语之间。",
+          "sourceLabel": "Sentence skills 第10章，书页 171（原书 PDF 第 10 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）"
+        },
+        {
+          "id": "ch10-p6-a2",
+          "sourceNumber": "A.2",
+          "prompt": "A.2. Motherhood causes some women to quit their jobs others continue working despite having young children to care for.",
+          "instruction": "只补一个分号，写出修改后的完整句；不要增删单词。",
+          "answer": "Motherhood causes some women to quit their jobs; others continue working despite having young children to care for.",
+          "autoGrade": true,
+          "explanation": "Motherhood causes ... 和 others continue ... 各自有主语和谓语。分号放在 jobs 后，连接两种相关的情况。",
+          "sourceLabel": "Sentence skills 第10章，书页 171（原书 PDF 第 10 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）"
+        },
+        {
+          "id": "ch10-p6-a3",
+          "sourceNumber": "A.3",
+          "prompt": "A.3. Three hundred guests attended his wedding two attended his funeral.",
+          "instruction": "只补一个分号，写出修改后的完整句；不要增删单词。",
+          "answer": "Three hundred guests attended his wedding; two attended his funeral.",
+          "autoGrade": true,
+          "explanation": "两部分分别说婚礼与葬礼的出席人数，各是完整分句；在 wedding 后用分号连接，突出对照。",
+          "sourceLabel": "Sentence skills 第10章，书页 171（原书 PDF 第 10 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）"
+        },
+        {
+          "id": "ch10-p6-b",
+          "sourceNumber": "B",
+          "prompt": "B. Write three compound sentences of your own, using a semicolon to join the independent clauses.",
+          "instruction": "自己写三个并列句，每句只用分号连接两个独立分句。",
+          "answer": "答案册：Individual responses（自由作答，无唯一答案）。",
+          "autoGrade": false,
+          "explanation": "分号两侧都必须能独立成句，而且含义要紧密相关。这里练的是仅用分号连接，不必添加并列连词或连接副词。",
+          "sourceLabel": "Sentence skills 第10章，书页 171（原书 PDF 第 10 页）；Sentence skills answer key 答案书页 31（答案 PDF 第 2 页）",
+          "rubric": [
+            "共三个句子。",
+            "每句分号两边都有独立分句，含义紧密相关。",
+            "没有逗号拼接或把分号用在短语之间。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p7",
+      "instructions": "改写短文 Robots：尽可能合并原文中较短的句子，尝试把三种并列句连接方法各用至少一次。第13、14句原题指定用 otherwise。保留原意，写出整篇改写稿；存在多种合理答案。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p7-text",
+          "sourceNumber": "Practice 7（整文，句1—15）",
+          "prompt": "整文. Robots（原文第1—15句）",
+          "instruction": "把下方整篇短文改写得更连贯。尝试使用三种方法各至少一次：逗号＋并列连词、分号＋连接副词＋逗号、仅分号。第13、14句必须用 otherwise 合并。提交完整改写稿。",
+          "answer": "答案册注明 Answers will vary，给出以下局部合并示例，并未提供唯一完整改写稿：\n第2＋3句：First of all, robots can perform repetitive tasks without becoming tired or bored; therefore, they are used in automobile factories to weld and paint.\n第4＋5句：Robots can also function in hostile environments; as a result, they are useful for exploring the ocean bottom as well as deep outer space.\n第8＋9句：For instance, a robot can kill a brain tumor, and it can operate on a fetus with great precision.\n第11＋12句：However, robots cannot think conceptually, nor can they function independently.\n第13＋14句：Humans have to program them; otherwise, they are useless.\n其余句子的合理组合也可接受。原题还要求尝试“仅用分号”这一方法；答案册所列示例没有覆盖它，需另行检查自己的全文。",
+          "autoGrade": false,
+          "explanation": "先看两句是什么关系，再决定怎么连：2和3是说明用途的因果关系，8和9是并列补充，11和12都是否定，13和14是“否则”的条件后果。不要为了把句子变长而删掉信息。答案册的示例不穷尽所有可行写法。",
+          "sourceLabel": "Sentence skills 第10章，书页 171（原书 PDF 第 10 页）；Sentence skills answer key 答案书页 31—32（答案 PDF 第 2—3 页）",
+          "passage": "Robots\n\n(1) A robot is a mechanical device that can perform boring, dangerous, and difficult tasks. (2) First of all, robots can perform repetitive tasks without becoming tired or bored. (3) They are used in automobile factories to weld and paint. (4) Robots can also function in hostile environments. (5) They are useful for exploring the ocean bottom as well as deep outer space. (6) Finally, robots can perform tasks requiring pinpoint accuracy. (7) In the operating room, robotic equipment can assist the surgeon. (8) For instance, a robot can kill a brain tumor. (9) It can operate on a fetus with great precision.\n\n(10) The field of artificial intelligence is giving robots a limited ability to think and to make decisions. (11) However, robots cannot think conceptually. (12) Robots cannot function independently. (13) Humans have to program them. (14) They are useless. (15) Therefore, humans should not worry that robots will take over the world—at least not yet.",
+          "rubric": [
+            "全文保留原文两段的主要信息，句与句衔接自然。",
+            "尝试三种并列连接方法各至少一次，并正确使用逗号/分号。",
+            "第13、14句用 otherwise 合并，说明不编程就无法工作。",
+            "nor 连接否定分句时倒装；不得用一个逗号直接连接两个独立分句。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p8",
+      "instructions": "A：把独立分句部分用实线标出，把从属分句用虚线标出，并在从属引导词上标 Sub.。文字作答时请分别列出“实线部分 / 从属分句 / Sub.”；有一题含两个从属分句。B：给每个从属分句补一个逻辑合理的主句并正确标点。原书两处第1题示例均已恢复待答。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p8-a1",
+          "sourceNumber": "A.1",
+          "prompt": "A.1. Because the cost of education is rising, many students must work part-time.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "原书示例的标注：\n实线部分（主句主干）：many students must work part-time\n虚线部分（从属分句）：Because the cost of education is rising\nSub.：Because",
+          "autoGrade": false,
+          "explanation": "Because 引出原因；后面的 many students must work part-time 才能独立陈述结果。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）；第1题答案见原书示例",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a2",
+          "sourceNumber": "A.2",
+          "prompt": "A.2. When students from other countries come to the United States, they often suffer from culture shock.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：they often suffer from culture shock\n虚线部分（从属分句）：When students from other countries come to the United States\nSub.：When",
+          "autoGrade": false,
+          "explanation": "When 引出时间；主句说在那个时候他们常经历文化冲击。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a3",
+          "sourceNumber": "A.3",
+          "prompt": "A.3. Because financial aid is difficult to obtain, many students have to work part-time.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：many students have to work part-time\n虚线部分（从属分句）：Because financial aid is difficult to obtain\nSub.：Because",
+          "autoGrade": false,
+          "explanation": "前半句给原因，后半句给结果。原因从句位于句首，后面用逗号分开。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a4",
+          "sourceNumber": "A.4",
+          "prompt": "A.4. Please tell me where the student union is.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：Please tell me\n虚线部分（从属分句）：where the student union is\nSub.：where",
+          "autoGrade": false,
+          "explanation": "where 引出 tell me 的宾语内容；从句用陈述词序 the student union is，不能写成 where is the student union。实线标的是主句主干，祈使句主语 you 省略。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a5",
+          "sourceNumber": "A.5",
+          "prompt": "A.5. Engineers, who have an aptitude for drafting and mechanics, must also be artistic and imaginative.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：Engineers / must also be artistic and imaginative\n虚线部分（从属分句）：who have an aptitude for drafting and mechanics\nSub.：who",
+          "autoGrade": false,
+          "explanation": "who 从句插在主语与谓语之间，用来补充说明 engineers。把插入部分拿掉，主句主干仍是 Engineers must also be artistic and imaginative。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a6",
+          "sourceNumber": "A.6",
+          "prompt": "A.6. While the contractor follows the blueprint, the engineer checks the construction in progress.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：the engineer checks the construction in progress\n虚线部分（从属分句）：While the contractor follows the blueprint\nSub.：While",
+          "autoGrade": false,
+          "explanation": "While 从句说明同时发生的情况；主句主语是 the engineer。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a7",
+          "sourceNumber": "A.7",
+          "prompt": "A.7. Since the blueprint presents the details of the engineer’s plans, it must be interpreted accurately by the contractor.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：it must be interpreted accurately by the contractor\n虚线部分（从属分句）：Since the blueprint presents the details of the engineer’s plans\nSub.：Since",
+          "autoGrade": false,
+          "explanation": "这里 Since 表示原因，主句中的 it 指 blueprint；被动语态 must be interpreted 仍是完整谓语。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a8",
+          "sourceNumber": "A.8",
+          "prompt": "A.8. Students should declare a major by their junior year unless they have not made up their minds.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：Students should declare a major by their junior year\n虚线部分（从属分句）：unless they have not made up their minds\nSub.：unless",
+          "autoGrade": false,
+          "explanation": "unless 引出例外条件，前面是完整主句。不要把从句中的 not 当成整个句子不完整的原因。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a9",
+          "sourceNumber": "A.9",
+          "prompt": "A.9. Even though students declare a major now, they can change it later.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：they can change it later\n虚线部分（从属分句）：Even though students declare a major now\nSub.：Even though",
+          "autoGrade": false,
+          "explanation": "Even though 是一个引导让步从句的词组，完整标出两个词，不只标 though。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a10",
+          "sourceNumber": "A.10",
+          "prompt": "A.10. The government says that inflation is holding steady.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：The government says\n虚线部分（从属分句）：that inflation is holding steady\nSub.：that",
+          "autoGrade": false,
+          "explanation": "that 从句是 says 的宾语内容；主句主干与宾语从句分开标记。这里 that 不指代一个名词。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。"
+          ]
+        },
+        {
+          "id": "ch10-p8-a11",
+          "sourceNumber": "A.11",
+          "prompt": "A.11. Economists are concerned that the rate of inflation will double if the government does not take immediate steps to control it.",
+          "instruction": "分别写出应画实线的主句部分、应画虚线的从属分句，以及所有应标 Sub. 的引导词。",
+          "answer": "按答案册标注转写：\n实线部分（主句主干）：Economists are concerned\n虚线部分（从属分句）：that the rate of inflation will double if the government does not take immediate steps to control it；其中嵌套的条件从句：if the government does not take immediate steps to control it\nSub.：that；if",
+          "autoGrade": false,
+          "explanation": "本题有两层从属关系：that 引出的内容从句里又有 if 条件从句。所以两个引导词都标 Sub.；不要因为整段画一条虚线就漏掉 if。",
+          "sourceLabel": "Sentence skills 第10章，书页 172—173（本题173）（原书 PDF 第 11—12（本题12） 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "实线部分与从属分句范围正确。",
+            "正确指出从属引导词；多词引导词应完整标出。",
+            "that 与 if 两个引导词都标出，能识别嵌套条件。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b1",
+          "sourceNumber": "B.1",
+          "prompt": "B.1. ____ until I pay my tuition.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "原书第1题示例：\nI cannot register for classes until I pay my tuition.",
+          "autoGrade": false,
+          "explanation": "until 从句说明时间界限；前面要补一个主句，表示交费前不能做什么。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b2",
+          "sourceNumber": "B.2",
+          "prompt": "B.2. Unless I take 12 units each term ____.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nUnless I take 12 units each term, I am not a full-time student.",
+          "autoGrade": false,
+          "explanation": "Unless 表示“除非”；条件从句在句首，后接逗号，再补完整主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b3",
+          "sourceNumber": "B.3",
+          "prompt": "B.3. ____ that computer engineering is a popular major.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nMy adviser told me that computer engineering is a popular major.",
+          "autoGrade": false,
+          "explanation": "that 从句在这里可作 told me 的宾语内容；主句和内容从句之间不加逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b4",
+          "sourceNumber": "B.4",
+          "prompt": "B.4. ____ who taught this course last term?",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nDo you know who taught this course last term?",
+          "autoGrade": false,
+          "explanation": "整个句子是问题，所以句末保留问号。who 在宾语从句里本身作主语，不应重复添加另一个主语。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b5",
+          "sourceNumber": "B.5",
+          "prompt": "B.5. Because I had to look for a part-time job ____.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nBecause I had to look for a part-time job, I could not take as many classes as I wanted to.",
+          "autoGrade": false,
+          "explanation": "Because 从句给原因，补写的主句应是合乎逻辑的结果；句首原因从句后加逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b6",
+          "sourceNumber": "B.6",
+          "prompt": "B.6. ____ if I want to get to school on time.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nI have to leave home at 6:00 in the morning if I want to get to school on time.",
+          "autoGrade": false,
+          "explanation": "if 引出条件，前面可以写为满足条件必须做的事；后置条件从句通常不用逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 32（答案 PDF 第 3 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b7",
+          "sourceNumber": "B.7",
+          "prompt": "B.7. ____ whether I should take advanced calculus.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nMy math teacher will tell me whether I should take advanced calculus.",
+          "autoGrade": false,
+          "explanation": "whether 引出“是否”的内容，可作 tell me 的宾语；这里不用疑问句倒装。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b8",
+          "sourceNumber": "B.8",
+          "prompt": "B.8. ____ whom I met at the math club meeting last week.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nThis is my new friend John, whom I met at the math club meeting last week.",
+          "autoGrade": false,
+          "explanation": "whom 指前面的 John，在从句中作 met 的宾语；补充说明一个已明确的人时可用逗号。答案册写 last month，但题干给的是 last week；这里保留题干原意并已记录差异。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b9",
+          "sourceNumber": "B.9",
+          "prompt": "B.9. When I left my country ____.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nWhen I left my country, I felt both sad and excited.",
+          "autoGrade": false,
+          "explanation": "When 从句在句首，先补逗号，再补一个说明当时情况的完整主句。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        },
+        {
+          "id": "ch10-p8-b10",
+          "sourceNumber": "B.10",
+          "prompt": "B.10. ____ that my college adviser recommends.",
+          "instruction": "补一个逻辑合理的主句，保留给定从属分句，写出标点正确的完整句。",
+          "answer": "答案册示例（其他合理主句也可）：\nI will take the classes that my college adviser recommends.",
+          "autoGrade": false,
+          "explanation": "that 从句修饰前面的 classes，说明具体哪些课；限制性定语从句前不加逗号。",
+          "sourceLabel": "Sentence skills 第10章，书页 173（原书 PDF 第 12 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留给定的从属分句，补写部分与它连接后构成完整句。",
+            "含义合理；句首状语从句后加逗号，宾语从句前不误加逗号。",
+            "保留句末应有的句号或问号。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p9",
+      "instructions": "每题同时完成两步：给独立分句部分画实线、从属分句画虚线；再补必要的逗号或分号。文字作答请写“修改后的完整句”，并列出主句部分与从属分句；只补标点不算完成原任务。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p9-1",
+          "sourceNumber": "1",
+          "prompt": "1. Information and communication technology is reaching out to help people in the poorest countries improve their lives for example fishermen on the Bay of Bengal can now receive online weather reports that tell them when it is safe to go out.",
+          "instruction": "写出补好逗号或分号的完整句；再列出应画实线的主句部分和应画虚线的从属分句。",
+          "answer": "答案册标点：\nInformation and communication technology is reaching out to help people in the poorest countries improve their lives; for example, fishermen on the Bay of Bengal can now receive online weather reports that tell them when it is safe to go out.\n实线部分（主句主干）：Information and communication technology is reaching out to help people in the poorest countries improve their lives / fishermen on the Bay of Bengal can now receive online weather reports\n虚线部分（从属分句）：主层：that tell them when it is safe to go out；其中还有 when it is safe to go out。",
+          "autoGrade": false,
+          "explanation": "for example 在这里连接两个独立分句，前面用分号、后面用逗号。that 修饰 reports；when 从句说明报告告诉渔民什么。答案册的实线还把衔接语 for example 标在第二主句一侧。",
+          "sourceLabel": "Sentence skills 第10章，书页 174（原书 PDF 第 13 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留原词，补上独立分句之间与句首状语从句之后所需的标点。",
+            "独立部分、从属部分都已标出，嵌入的定语从句不遗漏。",
+            "不把短语或同一主语的并列谓语误当成独立分句。"
+          ]
+        },
+        {
+          "id": "ch10-p9-2",
+          "sourceNumber": "2",
+          "prompt": "2. Furthermore, when the fishermen bring in a boatload of fish they can find out the current market prices for their fish, which will help them bargain with the middlemen to whom they sell their catch.",
+          "instruction": "写出补好逗号或分号的完整句；再列出应画实线的主句部分和应画虚线的从属分句。",
+          "answer": "答案册标点：\nFurthermore, when the fishermen bring in a boatload of fish, they can find out the current market prices for their fish, which will help them bargain with the middlemen to whom they sell their catch.\n实线部分（主句主干）：they can find out the current market prices for their fish\n虚线部分（从属分句）：when the fishermen bring in a boatload of fish / which will help them bargain with the middlemen to whom they sell their catch；后者内部还有 to whom they sell their catch。",
+          "autoGrade": false,
+          "explanation": "句首 when 时间从句在 fish 后结束，需要逗号。which 补充说明查到价格的作用；to whom 修饰 middlemen。Furthermore 是衔接副词，本身不是从属引导词。",
+          "sourceLabel": "Sentence skills 第10章，书页 174（原书 PDF 第 13 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留原词，补上独立分句之间与句首状语从句之后所需的标点。",
+            "独立部分、从属部分都已标出，嵌入的定语从句不遗漏。",
+            "不把短语或同一主语的并列谓语误当成独立分句。"
+          ]
+        },
+        {
+          "id": "ch10-p9-3",
+          "sourceNumber": "3",
+          "prompt": "3. The cost of the cheapest computer is at least $200 and since this is more than an individual fisherman can afford several fishing villages together can pool their money and buy one to share.",
+          "instruction": "写出补好逗号或分号的完整句；再列出应画实线的主句部分和应画虚线的从属分句。",
+          "answer": "答案册标点：\nThe cost of the cheapest computer is at least $200, and since this is more than an individual fisherman can afford, several fishing villages together can pool their money and buy one to share.\n实线部分（主句主干）：The cost of the cheapest computer is at least $200 / several fishing villages together can pool their money and buy one to share\n虚线部分（从属分句）：since this is more than an individual fisherman can afford",
+          "autoGrade": false,
+          "explanation": "两个主句在 and 前用逗号分开；第二主句前插入 since 原因从句，在 afford 后再加逗号。pool 和 buy 共用主语，不应在它们之间另断成一个主句。since 从句内部含比较结构 than an individual fisherman can afford，答案册把它与 since 从句连续画虚线。",
+          "sourceLabel": "Sentence skills 第10章，书页 174（原书 PDF 第 13 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留原词，补上独立分句之间与句首状语从句之后所需的标点。",
+            "独立部分、从属部分都已标出，嵌入的定语从句不遗漏。",
+            "不把短语或同一主语的并列谓语误当成独立分句。"
+          ]
+        },
+        {
+          "id": "ch10-p9-4",
+          "sourceNumber": "4",
+          "prompt": "4. The worldwide reach of the Internet is also providing employment opportunities in developing countries and as greater numbers of people learn the technology these opportunities will expand.",
+          "instruction": "写出补好逗号或分号的完整句；再列出应画实线的主句部分和应画虚线的从属分句。",
+          "answer": "答案册标点：\nThe worldwide reach of the Internet is also providing employment opportunities in developing countries; and as greater numbers of people learn the technology, these opportunities will expand.\n实线部分（主句主干）：The worldwide reach of the Internet is also providing employment opportunities in developing countries / these opportunities will expand\n虚线部分（从属分句）：as greater numbers of people learn the technology",
+          "autoGrade": false,
+          "explanation": "第二主句前有 as 时间/变化过程从句，在 technology 后补逗号。答案册在 countries 后用分号，再接 and；此处改用逗号连接两个主句也合理，不能因与参考标点不同就直接判错。",
+          "sourceLabel": "Sentence skills 第10章，书页 174（原书 PDF 第 13 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留原词，补上独立分句之间与句首状语从句之后所需的标点。",
+            "独立部分、从属部分都已标出，嵌入的定语从句不遗漏。",
+            "不把短语或同一主语的并列谓语误当成独立分句。"
+          ]
+        },
+        {
+          "id": "ch10-p9-5",
+          "sourceNumber": "5",
+          "prompt": "5. When you call your U.S. bank you may find yourself speaking to a customer service representative who is sitting in the Philippines or Puerto Rico and when you need technical support for your home computer you will probably get help from a programmer in New Delhi.",
+          "instruction": "写出补好逗号或分号的完整句；再列出应画实线的主句部分和应画虚线的从属分句。",
+          "answer": "答案册标点：\nWhen you call your U.S. bank, you may find yourself speaking to a customer service representative who is sitting in the Philippines or Puerto Rico, and when you need technical support for your home computer, you will probably get help from a programmer in New Delhi.\n实线部分（主句主干）：you may find yourself speaking to a customer service representative / you will probably get help from a programmer in New Delhi\n虚线部分（从属分句）：When you call your U.S. bank / who is sitting in the Philippines or Puerto Rico / when you need technical support for your home computer",
+          "autoGrade": false,
+          "explanation": "两个 when 从句分别放在两个主句前，结束处 bank 和 computer 后要加逗号。两组主从结构再由逗号＋and 连接。who 修饰 representative，不能漏标。",
+          "sourceLabel": "Sentence skills 第10章，书页 174（原书 PDF 第 13 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "rubric": [
+            "保留原词，补上独立分句之间与句首状语从句之后所需的标点。",
+            "独立部分、从属部分都已标出，嵌入的定语从句不遗漏。",
+            "不把短语或同一主语的并列谓语误当成独立分句。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch10-p10",
+      "instructions": "A：改写 Equal Rights for Women，把合适的并列句改为主从复合句，after、although、because、when 各用一次。B：改写 Nonverbal Communication，用多种合句方法减少过多的简单句。两题均须提交完整段落/短文，参考答案不是唯一写法。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch10-p10-a",
+          "sourceNumber": "A",
+          "prompt": "A. Equal Rights for Women（整段改写）",
+          "instruction": "保留下方整段原意，把合适的并列句改为主从复合句。after、although、because、when 各使用一次，写出完整改写稿。",
+          "answer": "答案册参考改写（Answers will vary）：\nRussian women started to gain equality earlier than women in the United States. Because the concept of equal rights and responsibilities for women was part of communist philosophy, Russians of both sexes had equal access to education and jobs from the beginning of the Soviet Union. Although the 1937 Soviet constitution declared that women and men had equal rights and responsibilities, women in the United States do not have legal equality even today. An amendment to the U.S. Constitution giving women equal rights has never been approved. Before World War II, few U.S. women worked outside the home. When millions of men left to become soldiers during the war, women took over their jobs. Suddenly, women discovered that they could do anything. After the men returned home, women began to demand the equality that they had earned.",
+          "autoGrade": false,
+          "explanation": "先配关系：理念与平等机会是原因关系，用 because；两国法律地位形成让步对照，用 although；男性参战与女性接手工作在时间上相接，用 when；男性归来之后开始争取平等，用 after。句首状语从句后加逗号。内容是教材原时代语境，不作为当前事实资料。 原书题文把 amendment 误拼为 admendment，这里保留题文拼写以便对照；参考稿按答案册写为 amendment，此拼写差异不作为本题句型掌握的扣分依据。",
+          "sourceLabel": "Sentence skills 第10章，书页 176（原书 PDF 第 15 页）；Sentence skills answer key 答案书页 33（答案 PDF 第 4 页）",
+          "passage": "Equal Rights for Women\n\nRussian women started to gain equality earlier than women in the United States. The concept of equal rights and responsibilities for women was part of communist philosophy, so Russians of both sexes had equal access to education and jobs from the beginning of the Soviet Union. The 1937 Soviet constitution declared that women and men had equal rights and responsibilities, but women in the United States do not have legal equality even today. An admendment to the U.S. Constitution giving women equal rights has never been approved. Before World War II, few U.S. women worked outside the home. Millions of men left to become soldiers during the war, and women took over their jobs. Suddenly, women discovered that they could do anything. The men returned home, and women began to demand the equality that they had earned.",
+          "rubric": [
+            "保留整段信息，不只提交四个连接词。",
+            "after、although、because、when 各用一次，前后逻辑符合原意。",
+            "原先适合改写的并列结构改为主从结构，标点和大小写正确。"
+          ]
+        },
+        {
+          "id": "ch10-p10-b",
+          "sourceNumber": "B",
+          "prompt": "B. Nonverbal Communication（四段短文改写）",
+          "instruction": "用你学过的不同合句方法改善下方四段短文，减少过多的短简单句；保留原意，提交整篇改写稿。",
+          "answer": "答案册参考改写（Answers will vary）：\nNonverbal communication, or body language, is used everywhere in the world. It is a very powerful means of communication, for it communicates much more than spoken words.\n\nOne example of nonverbal communication is what occurs between parents and child. When parents smile at their child, they communicate love, acceptance, and reassurance. The child feels comfortable and safe since the smile signifies approval; therefore, the child is happy and well adjusted.\n\nAnother example of such communication is the image a person shows in public. When a woman is walking alone on an unfamiliar, possibly dangerous street and wants to appear confident, she walks quickly even though she may be tired. She walks with her shoulders straight, her head held high, and her eyes focused straight ahead. If someone is looking at her, she returns the glance without hesitation. In contrast, a nervous woman appears afraid if she walks slowly with her shoulders and eyes down.\n\nIndeed, body language can express more than spoken language. Merely by raising an eyebrow, clenching a jaw, or softening the eyes, a person can express disapproval, anger, or love. It is a very strong method of communication.\n\n答案册对第4段注明“No changes to the concluding paragraph.”，所以这里原样保留结尾段。",
+          "autoGrade": false,
+          "explanation": "不必把所有句子合成一个长句。参考稿把原因用 for/since 表达，把时间和条件用 when/if 表达，把出乎预期的情况用 even though 表达；同一人的动作或状态也可以整合为并列成分。结尾本来已连贯，答案册允许不改。",
+          "sourceLabel": "Sentence skills 第10章，书页 177（原书 PDF 第 16 页）；Sentence skills answer key 答案书页 33—34（答案 PDF 第 4—5 页）",
+          "passage": "Nonverbal Communication\n\n1. Nonverbal communication, or body language, is used everywhere in the world. It is a very powerful means of communication. It communicates much more than spoken words.\n\n2. One example of nonverbal communication is what occurs between parents and child. Parents smile at their child. They communicate love, acceptance, and reassurance. The child feels comfortable and safe. The smile signifies approval. The child is happy and well adjusted.\n\n3. Another example of nonverbal communication is the image a person shows in public. A woman is walking alone on an unfamiliar and possibly dangerous street. She wants to appear confident. She walks quickly. She may be tired. She walks with her shoulders straight and her head held high. Her eyes are focused straight ahead. Someone is looking at her. She returns the glance without hesitation. In contrast, a nervous woman appears afraid. She walks slowly with her shoulders and eyes down.\n\n4. Indeed, body language can express more than spoken language. Merely by raising an eyebrow, clenching a jaw, or softening the eyes, a person can express disapproval, anger, or love. It is a very strong method of communication.",
+          "rubric": [
+            "四段的主要信息与段落作用都保留。",
+            "使用多种合句方式，连接词表达的关系准确。",
+            "独立分句连接处标点正确，从句不独立写成残句。",
+            "改写后可读性提高，不靠无限延长句子或删去重要内容。"
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "type": "coverage",
+      "status": "complete",
+      "detail": "Chapter 10 Practice 1—10 全部原练习任务文字化，10组、91个作答单元；包括全部 A/B/C、原书已填示例、跨页引用句和3篇需要作答的共享短文。textComplete 只声明这10组练习任务完整，不声明整章说明文字全文转录。"
+    },
+    {
+      "type": "counts",
+      "missions": {
+        "ch10-p1": 15,
+        "ch10-p2": 4,
+        "ch10-p3": 6,
+        "ch10-p4": 19,
+        "ch10-p5": 14,
+        "ch10-p6": 4,
+        "ch10-p7": 1,
+        "ch10-p8": 21,
+        "ch10-p9": 5,
+        "ch10-p10": 2
+      },
+      "totalItems": 91,
+      "autoGradeItems": 9,
+      "selfAssessmentItems": 82
+    },
+    {
+      "type": "visual-verification",
+      "detail": "逐页视觉核对原书 PNG：11-002、003、005、006、007、009、010、011、012、013、015、016；答案 PNG：00-001—005。OCR 仅用于辅助提取，题干、编号、标注范围、段落及参考答案以原页图为准。未修改任何原件。"
+    },
+    {
+      "type": "restored-examples",
+      "items": [
+        "ch10-p1-1-sentence",
+        "ch10-p1-2-sentence",
+        "ch10-p4-a1",
+        "ch10-p4-b1",
+        "ch10-p5-a1",
+        "ch10-p5-b1",
+        "ch10-p8-a1",
+        "ch10-p8-b1"
+      ],
+      "detail": "8处原书已完成示例恢复为待答；其预填分类、末尾句号、补句、完整合句、圈词与下划线不留在题干，参考结果只放答案区。"
+    },
+    {
+      "type": "id-compatibility",
+      "detail": "保留全部10个mission ID。P3的6个既有item ID语义相同，原样保留。P1原旧13项只判断Indep./Dep.；现恢复分类＋标点双任务，15项ID统一加-sentence，不把旧分类完成记录误算作新任务完成。"
+    },
+    {
+      "type": "original-task-shape",
+      "detail": "P2每个原编号要求两句，保留为4个双句任务；P4C、P5C、P6B分别是一次写7/5/3句的原任务，各作为一个作答单元；P7整篇和P10A/B整段/整篇改写保持原任务，不拆为自编选择题。P8A、P9的画线要求转为文字列出分句，未删去标注步骤。"
+    },
+    {
+      "type": "cross-reference",
+      "item": "ch10-p5",
+      "detail": "P5B原书只印第1示例，并引用P4B第3、5、6、8题；本数据展开全部5对原句，编号保留B.1、B.3、B.5、B.6、B.8，未误判漏掉B.2、B.4、B.7。"
+    },
+    {
+      "type": "scope-clarification",
+      "item": "ch10-p4",
+      "detail": "P4B中第1题原为已做示例（so）；第2—8题七个未做题分别用and/but/nor/so/yet/for/or。恢复示例后共8题，故“每个FANBOYS只用一次”在说明中限定为第2—8题，避免把两个so当成矛盾。"
+    },
+    {
+      "type": "accepted-alternatives",
+      "items": [
+        "ch10-p3-1a",
+        "ch10-p3-2a",
+        "ch10-p3-3b"
+      ],
+      "detail": "答案册首选yet；原书166页明确but可表达一般对照和意外转折，因此上述3题保留yet为参考、alternatives接受but，并解释教材本题首选。"
+    },
+    {
+      "type": "answer-key-erratum",
+      "item": "ch10-p4-a2",
+      "detail": "答案册30页将ever since印作every since；展示参考答案改为ever since，explanation明确说明该勘误。"
+    },
+    {
+      "type": "source-key-difference",
+      "item": "ch10-p8-b8",
+      "detail": "原书173页题干是last week，答案册33页示例是last month。展示答案保留题干last week，其余使用答案册句子，explanation记录差异。"
+    },
+    {
+      "type": "source-typo",
+      "item": "ch10-p10-a",
+      "detail": "原书176页题文实际印作admendment；passage忠实保留该词，答案册33页正确作amendment，answer按答案册展示，explanation说明此差异不应计入句型任务扣分。"
+    },
+    {
+      "type": "answer-key-punctuation",
+      "item": "ch10-p9-4",
+      "detail": "答案册33页在countries后用分号再接and，参考答案按原页保留；解释同时承认用逗号连接两个主句也合理。本题为多步开放标注，不做唯一字符串判分。"
+    },
+    {
+      "type": "answer-key-limit",
+      "item": "ch10-p7-text",
+      "detail": "答案册31—32页只给出5组合句示例，未给唯一整篇，也未展示“仅分号”这一原题要求的方法。answer明确说明样例不穷尽；rubric仍保留三种方法的原要求，不伪造完整官方答案。"
+    },
+    {
+      "type": "answer-key-limit",
+      "items": [
+        "ch10-p2",
+        "ch10-p4-c",
+        "ch10-p5-c",
+        "ch10-p6-b"
+      ],
+      "detail": "答案册只标Individual responses的创作题没有官方唯一答案。answer如实注明自由作答；提供标准而不编造官方范句。其他开放题的参考改写标明示例，不能用逐字比较判错。"
+    },
+    {
+      "type": "non-exercise-exclusion",
+      "detail": "Rosa Parks等位于说明部分的MODEL/阅读范文未伪造为练习；任务所需Robots、Equal Rights for Women、Nonverbal Communication原文均完整放入passage。"
+    },
+    {
+      "type": "historical-context",
+      "detail": "科学、人口、法律和技术内容忠实保留教材当时语境，供句型训练，不作为最新事实资料；未进行现代事实替换或增写原文。"
+    },
+    {
+      "type": "known-limit",
+      "detail": "开放题82项需要按参考答案与rubric自评，不能据此声称已有自动语义批改。全部题面所需原文已录入；当前无未辨认字词导致的待补任务。"
+    },
+    {
+      "type": "interaction-adaptation",
+      "detail": "升级集成时将P1原分类＋补标点双任务合成四选项交互；全部15原句原编号保留，referenceAnswer仍为完整原参考写法。此处自动核对原两项要求，不新增或删除原书题目。最终Ch10自动24项、自评67项。"
+    }
+  ]
+}

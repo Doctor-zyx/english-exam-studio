@@ -68,7 +68,14 @@ for (const file of files) {
   if (internalNames.test(name)) fail(name, 'internal handoff/audit record must not be published');
   if (!textExtensions.has(ext)) continue;
   const text = fs.readFileSync(file, 'utf8');
-  for (const [pattern, message] of forbidden) if (pattern.test(text)) fail(name, message);
+  // Decode JSON strings before path checks: a prose label ending in "sentences:"
+  // followed by an escaped newline is not an s:\\ drive path.
+  let pathText=text;
+  if(ext==='.json')try{
+    const strings=value=>typeof value==='string'?[value]:value&&typeof value==='object'?Object.values(value).flatMap(strings):[];
+    pathText=strings(JSON.parse(text.replace(/^\uFEFF/,''))).join('\n');
+  }catch{/* JSON syntax is validated separately. */}
+  for (const [pattern, message] of forbidden) if (pattern.test(message==='local Windows filesystem path is present'?pathText:text)) fail(name, message);
   for (const match of text.matchAll(/\beyJ[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\b/g)) {
     try {
       const payload = JSON.parse(Buffer.from(match[0].split('.')[1], 'base64url').toString('utf8'));
@@ -130,6 +137,9 @@ if(textbookParts.every(Boolean)) {
   stats.textbookCourses=courses.length;
   stats.textbookMissions=courses.reduce((n,c)=>n+(c.missions||[]).length,0);
   stats.automaticallyCheckedItems=0;
+  stats.textItems=0;
+  stats.blockedItems=0;
+  stats.transcribedCourses=courses.filter(c=>c.contentVersion===2).length;
   for(const c of courses) {
     checkAsset(c.sourcePdf,'index.html','source textbook PDF');
     checkAsset(c.answerPdf,'index.html','source answer key PDF');
@@ -145,10 +155,13 @@ if(textbookParts.every(Boolean)) {
       }
       const itemIds=new Set();
       for(const item of m.items||[]) {
-        stats.automaticallyCheckedItems++;
+        stats.textItems++;
+        if(item.blocked)stats.blockedItems++;
+        else if(item.autoGrade!==false&&(item.options?.length||item.autoGrade===true||item.answerMode==='exact'))stats.automaticallyCheckedItems++;
         if(!item.id||itemIds.has(item.id))fail(c.id+':'+m.id,'duplicate item ID');itemIds.add(item.id);
-        if(!item.prompt||!item.explanation||!item.sourceLabel)fail(c.id+':'+m.id,'automatic item requires prompt, explanation and source');
-        if(item.options&&!item.options.some(o=>o.value===item.answer))fail(c.id+':'+m.id,'answer is not an available choice');
+        if(!item.prompt||(!item.blocked&&!item.explanation)||!item.sourceLabel)fail(c.id+':'+m.id,'item requires prompt, explanation and source');
+        if(item.blocked&&!item.missingReason)fail(c.id+':'+m.id,'blocked task requires a specific missing-source reason');
+        if(item.options&&!(Array.isArray(item.answer)?item.answer:[item.answer]).every(a=>item.options.some(o=>o.value===a)))fail(c.id+':'+m.id,'answer is not an available choice');
       }
     }
   }

@@ -1,0 +1,435 @@
+{
+  "courses": [
+    {
+      "id": "sentence",
+      "sourceTitle": "Sentence skills · Chapters 10–11",
+      "sourcePdf": "textbook/sentence/book.pdf",
+      "answerTitle": "Sentence skills answer key · Chapters 10–11",
+      "answerPdf": "textbook/sentence/key.pdf",
+      "sourcePageCount": 32,
+      "answerPageCount": 11,
+      "missions": [
+        {
+          "id": "ch10-p1",
+          "title": "Chapter 10 · Practice 1 · 独立与从属分句",
+          "bookPages": "163–164",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-002.webp",
+              "page": 2,
+              "label": "教材第 163 页 · PDF 2/32"
+            },
+            {
+              "src": "textbook/sentence/page-003.webp",
+              "page": 3,
+              "label": "教材第 164 页 · PDF 3/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-001.webp",
+              "page": 1,
+              "label": "答案第 30 页 · PDF 1/11"
+            }
+          ],
+          "instructions": "原题 1、2 已给出示例，不计入待答题。先完成原题 3–15 的独立/从属判断，再在整组作答中抄写独立分句并补上句号。题目保留教材无句末标点的形式。",
+          "itemsPartial": true
+        },
+        {
+          "id": "ch10-p2",
+          "title": "Chapter 10 · Practice 2 · 简单句造句",
+          "bookPages": "164",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-003.webp",
+              "page": 3,
+              "label": "教材第 164 页 · PDF 3/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-001.webp",
+              "page": 1,
+              "label": "答案第 30 页 · PDF 1/11"
+            }
+          ],
+          "instructions": "按原页四种结构各写两个原创简单句（共八句）：一个主语/一个谓语、一个主语/两个谓语、两个主语/一个谓语、两个主语/两个谓语。答案册注明 Individual responses；按结构自评。"
+        },
+        {
+          "id": "ch10-p3",
+          "title": "Chapter 10 · Practice 3 · But versus Yet",
+          "bookPages": "167",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-006.webp",
+              "page": 6,
+              "label": "教材第 167 页 · PDF 6/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-001.webp",
+              "page": 1,
+              "label": "答案第 30 页 · PDF 1/11"
+            }
+          ],
+          "instructions": "完成原题 1a–3b 共六个空。答案采用随书答案册，but 与 yet 在自然语言中存在重叠；本关重点是教材规定的对照与反预期关系。",
+          "itemsPartial": false
+        },
+        {
+          "id": "ch10-p4",
+          "title": "Chapter 10 · Practice 4 · 并列连词连接分句",
+          "bookPages": "167–168",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-006.webp",
+              "page": 6,
+              "label": "教材第 167 页 · PDF 6/32"
+            },
+            {
+              "src": "textbook/sentence/page-007.webp",
+              "page": 7,
+              "label": "教材第 168 页 · PDF 7/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-001.webp",
+              "page": 1,
+              "label": "答案第 30 页 · PDF 1/11"
+            },
+            {
+              "src": "textbook/sentence/key-002.webp",
+              "page": 2,
+              "label": "答案第 31 页 · PDF 2/11"
+            }
+          ],
+          "instructions": "完成 A、B、C 三部分。A：给 2–10 补完整独立分句，圈连词并加标点；B：组合 2–8 的句对并按原页要求使用 FANBOYS；C：自写七个并列句，每个连词用一次。A1、B1 为已解示例。开放补写和造句存在多种合理答案。"
+        },
+        {
+          "id": "ch10-p5",
+          "title": "Chapter 10 · Practice 5 · 连接副词",
+          "bookPages": "170（另附 168 页回指题目）",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-009.webp",
+              "page": 9,
+              "label": "教材第 170 页 · PDF 9/32"
+            },
+            {
+              "src": "textbook/sentence/page-007.webp",
+              "page": 7,
+              "label": "教材第 168 页 · PDF 7/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-002.webp",
+              "page": 2,
+              "label": "答案第 31 页 · PDF 2/11"
+            }
+          ],
+          "instructions": "完成 A、B、C：A2–8 补独立分句、圈连接副词并标点；B 按第 170 页要求改写 Practice 4B 第 3、5、6、8 题（附第 168 页原题）；C 用 in addition、nevertheless、on the other hand、therefore、for instance 各造一句。原页第 1 题为示例。"
+        },
+        {
+          "id": "ch10-p6",
+          "title": "Chapter 10 · Practice 6 · 分号连接分句",
+          "bookPages": "171",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-010.webp",
+              "page": 10,
+              "label": "教材第 171 页 · PDF 10/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-002.webp",
+              "page": 2,
+              "label": "答案第 31 页 · PDF 2/11"
+            }
+          ],
+          "instructions": "完成 A 的三个句子：在两个独立分句之间加分号。B 自写三个由分号连接的并列句。比较语义是否紧密相关，分号两侧是否均为独立分句。"
+        },
+        {
+          "id": "ch10-p7",
+          "title": "Chapter 10 · Practice 7 · Robots 段落编辑",
+          "bookPages": "171",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-010.webp",
+              "page": 10,
+              "label": "教材第 171 页 · PDF 10/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-002.webp",
+              "page": 2,
+              "label": "答案第 31 页 · PDF 2/11"
+            },
+            {
+              "src": "textbook/sentence/key-003.webp",
+              "page": 3,
+              "label": "答案第 32 页 · PDF 3/11"
+            }
+          ],
+          "instructions": "改写 Robots 短文，尽可能组合过短句，三种连接方法各尝试至少一次；按原文提示用 otherwise 组合句 13、14。答案为示例，不要求逐字一致。"
+        },
+        {
+          "id": "ch10-p8",
+          "title": "Chapter 10 · Practice 8 · 复合句",
+          "bookPages": "172–173",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-011.webp",
+              "page": 11,
+              "label": "教材第 172 页 · PDF 11/32"
+            },
+            {
+              "src": "textbook/sentence/page-012.webp",
+              "page": 12,
+              "label": "教材第 173 页 · PDF 12/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-003.webp",
+              "page": 3,
+              "label": "答案第 32 页 · PDF 3/11"
+            },
+            {
+              "src": "textbook/sentence/key-004.webp",
+              "page": 4,
+              "label": "答案第 33 页 · PDF 4/11"
+            }
+          ],
+          "instructions": "A2–11：区分独立/从属分句，并标出从属连接词；有一句含两个从句。可在作答中用 [主句]、[从句]、SUB 标记代替画线。B2–10：为从句补合逻辑的主句并正确标点。A1、B1 为示例。"
+        },
+        {
+          "id": "ch10-p9",
+          "title": "Chapter 10 · Practice 9 · 复合并列句标点",
+          "bookPages": "174",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-013.webp",
+              "page": 13,
+              "label": "教材第 174 页 · PDF 13/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-004.webp",
+              "page": 4,
+              "label": "答案第 33 页 · PDF 4/11"
+            }
+          ],
+          "instructions": "完成全部五个句子：先区分主句与从句，再补需要的逗号或分号。作答可用括号标明从句，随后给出完整的加标点版本；对照原答案页的画线与标点。"
+        },
+        {
+          "id": "ch10-p10",
+          "title": "Chapter 10 · Practice 10 · 多种方式合并句子",
+          "bookPages": "176–177",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-015.webp",
+              "page": 15,
+              "label": "教材第 176 页 · PDF 15/32"
+            },
+            {
+              "src": "textbook/sentence/page-016.webp",
+              "page": 16,
+              "label": "教材第 177 页 · PDF 16/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-004.webp",
+              "page": 4,
+              "label": "答案第 33 页 · PDF 4/11"
+            },
+            {
+              "src": "textbook/sentence/key-005.webp",
+              "page": 5,
+              "label": "答案第 34 页 · PDF 5/11"
+            }
+          ],
+          "instructions": "A：改写 Equal Rights for Women，将过多并列句改成复合句，after、although、because、when 各用一次。B：改写 Nonverbal Communication，运用多种合句方式。上方 Rosa Parks Revised Essay 是讲解示范，不是本关待答题；两篇改写均可有多种答案。"
+        },
+        {
+          "id": "ch11-p1",
+          "title": "Chapter 11 · Practice 1 · 平行结构",
+          "bookPages": "181–183",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-020.webp",
+              "page": 20,
+              "label": "教材第 181 页 · PDF 20/32"
+            },
+            {
+              "src": "textbook/sentence/page-021.webp",
+              "page": 21,
+              "label": "教材第 182 页 · PDF 21/32"
+            },
+            {
+              "src": "textbook/sentence/page-022.webp",
+              "page": 22,
+              "label": "教材第 183 页 · PDF 22/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-006.webp",
+              "page": 6,
+              "label": "答案第 35 页 · PDF 6/11"
+            }
+          ],
+          "instructions": "A2–11：标出平行成分和连接词；B2–8：找出不平行部分并改写；C：按原页七个连接词各写一句。A1、B1 为示例。C 位于教材第 183 页，虽答案标题只写 181–182，已纳入本关。答案 A11 的末尾措辞与教材不同，按本书原页作答并核对平行结构。"
+        },
+        {
+          "id": "ch11-p2",
+          "title": "Chapter 11 · Practice 2 · 修复句子片段",
+          "bookPages": "184–185",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-023.webp",
+              "page": 23,
+              "label": "教材第 184 页 · PDF 23/32"
+            },
+            {
+              "src": "textbook/sentence/page-024.webp",
+              "page": 24,
+              "label": "教材第 185 页 · PDF 24/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-006.webp",
+              "page": 6,
+              "label": "答案第 35 页 · PDF 6/11"
+            },
+            {
+              "src": "textbook/sentence/key-007.webp",
+              "page": 7,
+              "label": "答案第 36 页 · PDF 7/11"
+            }
+          ],
+          "instructions": "A：判断全部 15 句是 Frag. 还是 Comp.，并将每个片段补成完整句。B：在 Women Drivers 短文中标记片段并改正。按语法结构自评；短文中的性别概括和旧统计仅为教材练习材料。"
+        },
+        {
+          "id": "ch11-p3",
+          "title": "Chapter 11 · Practice 3 · 合并零碎短句",
+          "bookPages": "186–188",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-025.webp",
+              "page": 25,
+              "label": "教材第 186 页 · PDF 25/32"
+            },
+            {
+              "src": "textbook/sentence/page-026.webp",
+              "page": 26,
+              "label": "教材第 187 页 · PDF 26/32"
+            },
+            {
+              "src": "textbook/sentence/page-027.webp",
+              "page": 27,
+              "label": "教材第 188 页 · PDF 27/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-008.webp",
+              "page": 8,
+              "label": "答案第 37 页 · PDF 8/11"
+            }
+          ],
+          "instructions": "原题 1 是完整示例；完成 2–6。每题写出两句地位是否相等、主要思想、句间逻辑关系，再给出组合后的句子。部分题允许并列或从属等不同合句方案，按逻辑与语法对照示例自评。"
+        },
+        {
+          "id": "ch11-p4",
+          "title": "Chapter 11 · Practice 4 · 连写句与逗号拼接",
+          "bookPages": "189–190",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-028.webp",
+              "page": 28,
+              "label": "教材第 189 页 · PDF 28/32"
+            },
+            {
+              "src": "textbook/sentence/page-029.webp",
+              "page": 29,
+              "label": "教材第 190 页 · PDF 29/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-008.webp",
+              "page": 8,
+              "label": "答案第 37 页 · PDF 8/11"
+            },
+            {
+              "src": "textbook/sentence/key-009.webp",
+              "page": 9,
+              "label": "答案第 38 页 · PDF 9/11"
+            },
+            {
+              "src": "textbook/sentence/key-010.webp",
+              "page": 10,
+              "label": "答案第 39 页 · PDF 10/11"
+            }
+          ],
+          "instructions": "本关包括 A、B、C。A 按指定方法改写五组原句；B 的第 1 题已解，先在下面判断 2–11，再在整组作答中改正所有错误句；C 找出两段中的四处错误、标 RO/CS 并重写。逐题选择仅覆盖 B 的分类部分，完成整组后再对照自评。",
+          "itemsPartial": true
+        },
+        {
+          "id": "ch11-p5",
+          "title": "Chapter 11 · Practice 5 · 修复冗长串联句",
+          "bookPages": "191",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-030.webp",
+              "page": 30,
+              "label": "教材第 191 页 · PDF 30/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-010.webp",
+              "page": 10,
+              "label": "答案第 39 页 · PDF 10/11"
+            }
+          ],
+          "instructions": "改写全部五句 stringy sentences，适当拆分、合并或从属化，保持原意与清楚的逻辑关系。原页上方是讲解示例，下方 Review 是复习说明；待答题为中间编号 1–5。"
+        },
+        {
+          "id": "ch11-editing",
+          "title": "Chapter 11 · Editing Practice · 段落综合纠错",
+          "bookPages": "193",
+          "sourcePages": [
+            {
+              "src": "textbook/sentence/page-032.webp",
+              "page": 32,
+              "label": "教材第 193 页 · PDF 32/32"
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/sentence/key-010.webp",
+              "page": 10,
+              "label": "答案第 39 页 · PDF 10/11"
+            },
+            {
+              "src": "textbook/sentence/key-011.webp",
+              "page": 11,
+              "label": "答案第 40 页 · PDF 11/11"
+            }
+          ],
+          "instructions": "完成 The United States: Melting Pot or Salad Bowl?：标出平行结构及各类句子问题并改正，再重写两段。并非每句都有错。答案页先列问题句，再给示例改写；旧教材的社会描述与预测不作为现时事实。"
+        }
+      ],
+      "exerciseCoverageNote": "覆盖所给 32 页教材中的全部作答组：Chapter 10 Practice 1–10；Chapter 11 Practice 1–5 及末页 Editing Practice，共 16 关。每关均保留整组原页，含原题中的造句、段落改写与 A/B/C 分部。29 道为核对原页和答案后转录的逐题选择；其余采用原页作答及答案对照自评。Review（177–178、191–192 页）是知识归纳及已解示例，没有另列待答题；所给章节没有额外 Writing Assignment、Writing Practice 或 Try It Out 作答区。",
+      "coverageNote": "教材印刷页 162–193 对应 PDF 1–32；答案印刷页 30–40 对应 PDF 1–11。全部页图及原 PDF 均保留，可通过完整教材入口阅读规则、Review 和示例。扫描原页可能已有示例答案或手写批注；这些已解示例不计入本关逐题数量。选择题按随书答案判分，开放题答案仅为参考。个别答案的末尾用词与题干不完全一致，训练以教材原题为准。教材中的旧数字、科学陈述及社会概括未作为现时事实核验。"
+    }
+  ]
+}

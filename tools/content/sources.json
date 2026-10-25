@@ -1,0 +1,15 @@
+{
+  "sentence": [
+    "sentence-ch10.json",
+    "sentence-ch11.json"
+  ],
+  "lessons": "sentence-lessons.json",
+  "core": [
+    "core-paragraph.json",
+    "core-essay-cause.json",
+    "core-coherence.json",
+    "core-argument.json",
+    "core-paraphrase.json",
+    "core-support.json"
+  ]
+}

@@ -1,0 +1,1403 @@
+{
+  "courses": [
+    {
+      "id": "coherence",
+      "missions": [
+        {
+          "id": "coherence-practice-1",
+          "instructions": "A比较三段统一性；B写出主题句并删离题句；C划分两段、确定两句主题句并删离题句。阅读材料完整提供，读段本身不另计题。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-1-a1",
+              "sourceNumber": "A.1",
+              "prompt": "Which paragraph has unity?",
+              "answer": "2",
+              "explanation": "第2段始终围绕颜色引起的身体反应及行为变化。",
+              "sourceLabel": "Unity and Coherence 书页 19—20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Effects of Color\n\nParagraph 1\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, prisoners were put in a pink room, and they underwent a drastic and measurable decrease in muscle strength and hostility within 2.7 seconds. In another study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Other studies have shown that the color green is calming. Green was a sacred color to the Egyptians, representing the hope and joy of spring. It is also a sacred color to Moslems. Many mosques and religious temples throughout the world use green (the color of renewal and growth) and blue (the color of heaven) to balance heavenly peace with spiritual growth. To sum up, color influences us in many ways (Daniels 10).\n\nParagraph 2\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, prisoners were put in a pink room, and they underwent a drastic and measurable decrease in muscle strength and hostility within 2.7 seconds. In another study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Other studies have shown that the color green is calming. After London's Blackfriars Bridge was painted green, the number of suicides decreased by 34 percent. These and other studies clearly demonstrate that color affects not only our moods but our behavior as well (Daniels 10).\n\nParagraph 3\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Blue is not a good color for dinnerware, however. Food looks less appetizing when it is served on blue plates, perhaps because very few foods in nature are of that color. Other studies have shown that the color green is calming. After London's Blackfriars Bridge was painted green, the number of suicides from it decreased by 34 percent. It is clear that color affects not just our moods, but our behavior as well (Daniels 10).",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Paragraph 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Paragraph 2"
+                },
+                {
+                  "value": "3",
+                  "label": "Paragraph 3"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-1-a2",
+              "sourceNumber": "A.2",
+              "prompt": "Which paragraph lacks unity because it discusses two different topics?",
+              "answer": "1",
+              "explanation": "第1段从身体反应转到了颜色的宗教意义，这是两个不同的中心。",
+              "sourceLabel": "Unity and Coherence 书页 19—20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Effects of Color\n\nParagraph 1\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, prisoners were put in a pink room, and they underwent a drastic and measurable decrease in muscle strength and hostility within 2.7 seconds. In another study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Other studies have shown that the color green is calming. Green was a sacred color to the Egyptians, representing the hope and joy of spring. It is also a sacred color to Moslems. Many mosques and religious temples throughout the world use green (the color of renewal and growth) and blue (the color of heaven) to balance heavenly peace with spiritual growth. To sum up, color influences us in many ways (Daniels 10).\n\nParagraph 2\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, prisoners were put in a pink room, and they underwent a drastic and measurable decrease in muscle strength and hostility within 2.7 seconds. In another study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Other studies have shown that the color green is calming. After London's Blackfriars Bridge was painted green, the number of suicides decreased by 34 percent. These and other studies clearly demonstrate that color affects not only our moods but our behavior as well (Daniels 10).\n\nParagraph 3\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Blue is not a good color for dinnerware, however. Food looks less appetizing when it is served on blue plates, perhaps because very few foods in nature are of that color. Other studies have shown that the color green is calming. After London's Blackfriars Bridge was painted green, the number of suicides from it decreased by 34 percent. It is clear that color affects not just our moods, but our behavior as well (Daniels 10).",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Paragraph 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Paragraph 2"
+                },
+                {
+                  "value": "3",
+                  "label": "Paragraph 3"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-1-a3",
+              "sourceNumber": "A.3",
+              "prompt": "Which paragraph lacks unity because it includes sentences unrelated to the main topic?",
+              "answer": "3",
+              "explanation": "第3段关于蓝色餐具与食物外观的两句偏离本段的身体反应与行为主线。",
+              "sourceLabel": "Unity and Coherence 书页 19—20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Effects of Color\n\nParagraph 1\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, prisoners were put in a pink room, and they underwent a drastic and measurable decrease in muscle strength and hostility within 2.7 seconds. In another study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Other studies have shown that the color green is calming. Green was a sacred color to the Egyptians, representing the hope and joy of spring. It is also a sacred color to Moslems. Many mosques and religious temples throughout the world use green (the color of renewal and growth) and blue (the color of heaven) to balance heavenly peace with spiritual growth. To sum up, color influences us in many ways (Daniels 10).\n\nParagraph 2\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, prisoners were put in a pink room, and they underwent a drastic and measurable decrease in muscle strength and hostility within 2.7 seconds. In another study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Other studies have shown that the color green is calming. After London's Blackfriars Bridge was painted green, the number of suicides decreased by 34 percent. These and other studies clearly demonstrate that color affects not only our moods but our behavior as well (Daniels 10).\n\nParagraph 3\nColors create biological reactions in our bodies. These reactions, in turn, can change our behavior. In one study, athletes needing short bursts of energy were exposed to red light. Their muscle strength increased by 13.5 percent, and electrical activity in their arm muscles increased by 5.8 percent. Athletes needing more endurance for longer performances responded best when exposed to blue light. Blue is not a good color for dinnerware, however. Food looks less appetizing when it is served on blue plates, perhaps because very few foods in nature are of that color. Other studies have shown that the color green is calming. After London's Blackfriars Bridge was painted green, the number of suicides from it decreased by 34 percent. It is clear that color affects not just our moods, but our behavior as well (Daniels 10).",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Paragraph 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Paragraph 2"
+                },
+                {
+                  "value": "3",
+                  "label": "Paragraph 3"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-1-b1-topic",
+              "sourceNumber": "B.1, Step 1",
+              "prompt": "写出本段的主题句。",
+              "answer": "Adventure travel is the hot trend in the tourism industry.",
+              "explanation": "先找能概括其余主要例子的句子，而不是某一个具体活动。",
+              "sourceLabel": "Unity and Coherence 书页 20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Adventure travel is the hot trend in the tourism industry. Ordinary people are no longer content to spend their two weeks away from the office resting on a sunny beach in Florida. More and more often, they are choosing to spend their vacations rafting down wild rivers, hiking through steamy rain forests, climbing the world’s highest mountains, or crossing slippery glaciers. People of all ages are choosing educational study tours for their vacations.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-b1-delete",
+              "sourceNumber": "B.1, Step 2",
+              "prompt": "写出应删去的离题句。",
+              "answer": "People of all ages are choosing educational study tours for their vacations.",
+              "explanation": "教育游不一定是冒险游，不能仅因都属于旅游就留在此段。",
+              "sourceLabel": "Unity and Coherence 书页 20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Adventure travel is the hot trend in the tourism industry. Ordinary people are no longer content to spend their two weeks away from the office resting on a sunny beach in Florida. More and more often, they are choosing to spend their vacations rafting down wild rivers, hiking through steamy rain forests, climbing the world’s highest mountains, or crossing slippery glaciers. People of all ages are choosing educational study tours for their vacations.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-b2-topic",
+              "sourceNumber": "B.2, Step 1",
+              "prompt": "写出本段的主题句。",
+              "answer": "Daredevil sports are also becoming popular.",
+              "explanation": "先找能概括其余主要例子的句子，而不是某一个具体活动。",
+              "sourceLabel": "Unity and Coherence 书页 20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Daredevil sports are also becoming popular. Young people especially are increasingly willing to risk life and limb while mountain biking, backcountry snowboarding, or high-speed skateboarding. Soccer is also popular in the United States now, although football is still more popular. One of the riskiest new sports is skysurfing, in which people jump out of airplanes with boards attached to their feet. Skysurfing rivals skydiving and bungee jumping for the amount of thrills—and risk.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-b2-delete",
+              "sourceNumber": "B.2, Step 2",
+              "prompt": "写出应删去的离题句。",
+              "answer": "Soccer is also popular in the United States now, although football is still more popular.",
+              "explanation": "足球流行与极限运动承担的风险无直接关系。",
+              "sourceLabel": "Unity and Coherence 书页 20；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Daredevil sports are also becoming popular. Young people especially are increasingly willing to risk life and limb while mountain biking, backcountry snowboarding, or high-speed skateboarding. Soccer is also popular in the United States now, although football is still more popular. One of the riskiest new sports is skysurfing, in which people jump out of airplanes with boards attached to their feet. Skysurfing rivals skydiving and bungee jumping for the amount of thrills—and risk.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-c1-divide",
+              "sourceNumber": "C.1, Step 1",
+              "prompt": "指出应从哪一句另起一段，并写出分段后两段各自的主题句。",
+              "answer": "第二段从以下第2句主题句开始。\n第一段主题句：Because the Internet makes the world a smaller place, the value of having a common language is greatly increased.\n第二段主题句：Someday, software may be available to instantly translate both written and spoken language so well that the need for any common language could decline.",
+              "explanation": "前半段讲共同语言的价值，后半段讲翻译软件可能降低这种需求；段落边界落在中心转换处。",
+              "sourceLabel": "Unity and Coherence 书页 21；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Because the Internet makes the world a smaller place, the value of having a common language is greatly increased. The question is—which language? Because the Internet grew up in the United States, the largest percentage of its content is now in English. Bill Gates, Microsoft's president, believes that English will remain valuable for a long time as a common language for international communication. His company spends $200 million a year translating software into other languages. He says, “Unless you read English passably well, you miss out on some of the Internet experience.” Someday, software may be available to instantly translate both written and spoken language so well that the need for any common language could decline. That day is decades away, however, because flawless machine translation is a very tough problem. Computer spelling checkers also exist for various languages. Software that does crude translations already exists. It is useful if all you are trying to do is understand the general idea of something you see on your computer screen. However, if you are trying to negotiate a contract or discuss a scientific subject where details are important, machine translation is totally useless (Gates).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-c1-delete",
+              "sourceNumber": "C.1, Step 2",
+              "prompt": "写出两个段落中应删除的离题句。",
+              "answer": "His company spends $200 million a year translating software into other languages.\nComputer spelling checkers also exist for various languages.",
+              "explanation": "翻译支出没有直接证明共同语言的沟通价值；拼写检查也不是翻译能力。",
+              "sourceLabel": "Unity and Coherence 书页 21；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Because the Internet makes the world a smaller place, the value of having a common language is greatly increased. The question is—which language? Because the Internet grew up in the United States, the largest percentage of its content is now in English. Bill Gates, Microsoft's president, believes that English will remain valuable for a long time as a common language for international communication. His company spends $200 million a year translating software into other languages. He says, “Unless you read English passably well, you miss out on some of the Internet experience.” Someday, software may be available to instantly translate both written and spoken language so well that the need for any common language could decline. That day is decades away, however, because flawless machine translation is a very tough problem. Computer spelling checkers also exist for various languages. Software that does crude translations already exists. It is useful if all you are trying to do is understand the general idea of something you see on your computer screen. However, if you are trying to negotiate a contract or discuss a scientific subject where details are important, machine translation is totally useless (Gates).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-c2-divide",
+              "sourceNumber": "C.2, Step 1",
+              "prompt": "指出应从哪一句另起一段，并写出分段后两段各自的主题句。",
+              "answer": "第二段从以下第2句主题句开始。\n第一段主题句：Even when you try to be polite, it is easy to do the wrong thing inadvertently in a new culture.\n第二段主题句：Although North Americans are usually very direct in social matters, there are a few occasions when they are not.",
+              "explanation": "前半段讲跨文化礼貌误解，后半段讲直接表达也有不直接的例外；让步句明确开启第二中心。",
+              "sourceLabel": "Unity and Coherence 书页 21；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Even when you try to be polite, it is easy to do the wrong thing inadvertently in a new culture. For example, when someone offers you food or a beverage in the United States, accept it the first time it is offered. If you say, “No, thank you” because it is polite to decline the first one or two offers in your culture, you could become very hungry and thirsty in the United States. There, a host thinks that “no” means “no” and will usually not offer again. Meals in the United States are usually more informal than meals in other countries, and the times of meals may be different. Although North Americans are usually very direct in social matters, there are a few occasions when they are not. If a North American says, “Please drop by sometime,” he may or may not want you to visit him in his home. Your clue that this may not be a real invitation is the word “sometime.” In some areas of the United States, people do not expect you to visit them unless you have an invitation for a specific day and time. In other areas of the United States, however, “dropping by” is a friendly, neighborly gesture. Idioms are often difficult for newcomers to understand.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-1-c2-delete",
+              "sourceNumber": "C.2, Step 2",
+              "prompt": "写出两个段落中应删除的离题句。",
+              "answer": "Meals in the United States are usually more informal than meals in other countries, and the times of meals may be different.\nIdioms are often difficult for newcomers to understand.",
+              "explanation": "用餐时间/正式程度偏离如何理解拒绝；习语难懂偏离是否真邀请来访。",
+              "sourceLabel": "Unity and Coherence 书页 21；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Even when you try to be polite, it is easy to do the wrong thing inadvertently in a new culture. For example, when someone offers you food or a beverage in the United States, accept it the first time it is offered. If you say, “No, thank you” because it is polite to decline the first one or two offers in your culture, you could become very hungry and thirsty in the United States. There, a host thinks that “no” means “no” and will usually not offer again. Meals in the United States are usually more informal than meals in other countries, and the times of meals may be different. Although North Americans are usually very direct in social matters, there are a few occasions when they are not. If a North American says, “Please drop by sometime,” he may or may not want you to visit him in his home. Your clue that this may not be a real invitation is the word “sometime.” In some areas of the United States, people do not expect you to visit them unless you have an invitation for a specific day and time. In other areas of the United States, however, “dropping by” is a friendly, neighborly gesture. Idioms are often difficult for newcomers to understand.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-model-gold",
+          "instructions": "读Gold，找出gold及所有指代gold的代词。文字列出词语和句号编号代替圈选，不展示原页解释或圈线。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-model-gold-reference",
+              "sourceNumber": "原模型圈划",
+              "prompt": "列出所有gold，以及指向gold的it和its；注明句号编号。",
+              "answer": "gold：第1、2、4、6、8、9（gold-plated）、10句，共7处。\nit：第3、7句，共2处。\nits：第6句1处，第10句2处，共3处。\n第5句it指coin，不圈。",
+              "explanation": "代词只看形式会误圈：第5句说的是古币被制造，it的先行词是coin。第9句复合词gold-plated中的gold按教材说明计入。",
+              "sourceLabel": "Unity and Coherence 书页22（教材PDF第5页）；答案为同页模型后的印刷说明。",
+              "autoGrade": false,
+              "passage": "Gold\n\n1. Gold, a precious metal, is prized for two important characteristics. 2. First of all, gold has a lustrous beauty that is resistant to corrosion. 3. Therefore, it is suitable for jewelry, coins, and ornamental purposes. 4. Gold never needs to be polished and will remain beautiful forever. 5. For example, a Macedonian coin remains as untarnished today as the day it was made 25 centuries ago. 6. Another important characteristic of gold is its usefulness to industry and science. 7. For many years, it has been used in hundreds of industrial applications, such as photography and dentistry. 8. The most recent use of gold is in astronauts’ suits. 9. Astronauts wear gold-plated heat shields for protection when they go outside spaceships in space. 10. In conclusion, gold is treasured not only for its beauty but also for its utility.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-2",
+          "instructions": "保留全段信息，适量将代词换回关键名词，使指代清楚；不存在固定唯一替换位置。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-2-a",
+              "sourceNumber": "A",
+              "prompt": "用English替换必要的it，写出更连贯的整段。",
+              "answer": "答案册：Responses will vary，没有固定逐句答案。核对重点：第3句第二语言是English；第7句应清楚表达English has displaced French（两个it不能仍含混）。其他位置可适量重现English。",
+              "explanation": "不要把所有it都替成English：第7句第二个it指French。关键是消除歧义并保持流畅，不是追求某个重复次数。",
+              "sourceLabel": "Unity and Coherence 书页 23；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "English\n\n1. English has almost become an international language. 2. Except for Chinese, more people speak it than any other language. 3. Spanish is the official language of more countries in the world, but more countries have it as their official or unofficial second language. 4. More than 70 percent of the world’s mail is written in it. 5. It is the primary language on the Internet. 6. In international business, it is used more than any other language, and it is the language of airline pilots and air traffic controllers all over the world. 7. Moreover, although French used to be the language of diplomacy, it has displaced it throughout the world. 8. Therefore, unless you plan to spend your life alone on a desert island in the middle of the Pacific Ocean, it is a useful language to know.",
+              "rubric": [
+                "全段主要信息保留。",
+                "第3、7句的语言指代清楚，未把French误换成English。",
+                "适量重复关键名词，其他代词仍有清楚先行词。"
+              ]
+            },
+            {
+              "id": "coherence-practice-2-b",
+              "sourceNumber": "B",
+              "prompt": "用恰当的单数或复数名词替换部分代词，写出更连贯的Dolphins段。",
+              "answer": "答案册：Responses will vary。可用dolphins/the other dolphins/the sick dolphin等明确指代；不是要求每个代词都换掉。",
+              "explanation": "第6—8句既有帮助者（复数海豚），也有患病者（单数海豚）；改写时首先把这两类分清。第9句的they是海豚，不是whales。",
+              "sourceLabel": "Unity and Coherence 书页 23；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Dolphins\n\n1. Dolphins are interesting because they display almost human behavior at times. 2. For example, they display the human emotions of joy and sadness. 3. During training, when they do something correctly, they squeal excitedly and race toward their trainer. 4. When they make a mistake, however, they droop noticeably and mope around their pool. 5. Furthermore, they help each other when they are in trouble. 6. If one is sick, it sends out a message, and others in the area swim to help it. 7. They push it to the surface of the water so that it can breathe. 8. They stay with it for days or weeks until it recovers or dies. 9. They have also helped trapped or lost whales navigate their way safely out to the open sea. 10. They are so intelligent and helpful, in fact, that the U.S. Navy is training them to become underwater bomb disposal experts.",
+              "rubric": [
+                "帮助者与患病者的单复数清楚。",
+                "第9—10句仍正确指向dolphins。",
+                "保留全部主要信息，读者不必反复猜代词对象。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-3",
+          "instructions": "找出主题关键名词，再列出其重复、指代与同义替代表达，代替原书下划线及10处圈选。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-3-step1",
+              "sourceNumber": "Step 1",
+              "prompt": "主题句中命名本段主题的关键名词是什么？",
+              "answer": "throw（句末名词：游行中抛送的纪念小物）。",
+              "explanation": "句首Throw me的Throw是动词，不是本题要求的关键名词。",
+              "sourceLabel": "Unity and Coherence 书页 24；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "A Mardi Gras Custom\n\n1. “Throw me something, mister,” is the customary plea for a Mardi Gras “throw.” 2. In the final days of Mardi Gras, the season of parties, parades, and revelry that precedes the Christian period of fasting and penance called Lent, crowds of spectators line the streets of New Orleans. 3. They hope to catch a Mardi Gras souvenir tossed from parading floats. 4. Mardi Gras organizations called “krewes” build the floats and sponsor the parades, and while cruising along parade routes, costumed krewe members throw plastic trinkets to the crowds below. 5. The trinkets, which are called “throws,” consist of bead necklaces, coins, cups, toys, Frisbees, and figurines stamped with the krewe’s symbol or the parade theme. 6. Mardi Gras throws are big business for the companies that supply them. 7. Krewe members spend an average of $800 on them, and some spend $2,000 or more. 8. By far the most treasured of the Mardi Gras mementos are gaudy bead necklaces. 9. Originally made of glass, they are now made of plastic (Roach).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-3-step2",
+              "sourceNumber": "Step 2",
+              "prompt": "按3类列出应圈的10处：关键名词3处、代词3处、同义替代4处；注明句号编号。",
+              "answer": "名词：throw/throws，句1、5、6。\n代词：them（句6）、them（句7）、they（句9）。\n同义替代：souvenir（句3）、trinkets（句4、5）、mementos（句8）。",
+              "explanation": "沿着“抛送的小物件”追踪整条指代链。第3句They指观众，不属于这条链。答案册另列krewe以及不准确的句号，但krewe是组织而非throw的同义词，也会使总数超出原题10处；这里按原题明确的3+3+4要求呈现，并保留此差异说明。",
+              "sourceLabel": "Unity and Coherence 书页 24；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "A Mardi Gras Custom\n\n1. “Throw me something, mister,” is the customary plea for a Mardi Gras “throw.” 2. In the final days of Mardi Gras, the season of parties, parades, and revelry that precedes the Christian period of fasting and penance called Lent, crowds of spectators line the streets of New Orleans. 3. They hope to catch a Mardi Gras souvenir tossed from parading floats. 4. Mardi Gras organizations called “krewes” build the floats and sponsor the parades, and while cruising along parade routes, costumed krewe members throw plastic trinkets to the crowds below. 5. The trinkets, which are called “throws,” consist of bead necklaces, coins, cups, toys, Frisbees, and figurines stamped with the krewe’s symbol or the parade theme. 6. Mardi Gras throws are big business for the companies that supply them. 7. Krewe members spend an average of $800 on them, and some spend $2,000 or more. 8. By far the most treasured of the Mardi Gras mementos are gaudy bead necklaces. 9. Originally made of glass, they are now made of plastic (Roach).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-4",
+          "instructions": "改正Olympic Athletes中不一致的人称/单复数代词，提交完整段落。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-4-rewrite",
+              "sourceNumber": "原段改写",
+              "prompt": "统一代词，写出修正后的整段。",
+              "answer": "Olympic athletes must be strong both physically and mentally. First of all, if they hope to compete in an Olympic sport, they must be physically strong. Furthermore, aspiring Olympians must train rigorously for many years. For the most demanding sports, they train several hours a day, five or six days a week, for ten or more years. In addition to being physically strong, athletes must also be mentally tough. This means that they have to be totally dedicated to their sport, often giving up a normal school, family, and social life. Being mentally strong also means that they must be able to withstand the intense pressure of international competition with its accompanying media coverage. Finally, not everyone can win a medal, so Olympians must possess the inner strength to live with defeat.",
+              "explanation": "全文主体是复数第三人称Olympic athletes：you应改they，your改their，he or she改they。原本正确的they不必再改。",
+              "sourceLabel": "Unity and Coherence 书页 25；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Olympic athletes must be strong both physically and mentally. First of all, if you hope to compete in an Olympic sport, you must be physically strong. Furthermore, aspiring Olympians must train rigorously for many years. For the most demanding sports, they train several hours a day, five or six days a week, for ten or more years. In addition to being physically strong, athletes must also be mentally tough. This means that you have to be totally dedicated to your sport, often giving up a normal school, family, and social life. Being mentally strong also means that he or she must be able to withstand the intense pressure of international competition with its accompanying media coverage. Finally, not everyone can win a medal, so Olympians must possess the inner strength to live with defeat.",
+              "rubric": [
+                "两处句首you、This means中的you均改为they。",
+                "your sport改their sport；he or she改they。",
+                "保留段落原意和其他已正确表达。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-5",
+          "instructions": "比较两段的连贯性，并找出过渡信号。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-5-which",
+              "sourceNumber": "段落判断",
+              "prompt": "Which paragraph contains transition signals and is more coherent?",
+              "answer": "2",
+              "explanation": "第2段不仅提供事实，还明确说明举例、两条原因、因果和冷热对照。",
+              "sourceLabel": "Unity and Coherence 书页 25—26；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Paragraph 1\nOne difference among the world’s seas and oceans is that the salinity varies in different climate zones. The Baltic Sea in northern Europe is only one-fourth as salty as the Red Sea in the Middle East. There are reasons for this. In warm climates, water evaporates rapidly. The concentration of salt is greater. The surrounding land is dry and does not contribute much freshwater to dilute the salty seawater. In cold climate zones, water evaporates slowly. The runoff created by melting snow adds a considerable amount of freshwater to dilute the saline seawater.\n\nParagraph 2\nOne difference among the world’s seas and oceans is that the salinity varies in different climate zones. For example, the Baltic Sea in northern Europe is only one-fourth as saline as the Red Sea in the Middle East. There are two reasons for this. First of all, in warm climate zones, water evaporates rapidly; therefore, the concentration of salt is greater. Second, the surrounding land is dry; consequently, it does not contribute much freshwater to dilute the salty seawater. In cold climate zones, on the other hand, water evaporates slowly. Furthermore, the runoff created by melting snow adds a considerable amount of freshwater to dilute the saline seawater.",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Paragraph 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Paragraph 2"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-5-signals",
+              "sourceNumber": "圈划信号",
+              "prompt": "写出第2段中的过渡信号。",
+              "answer": "For example; There are two reasons for this; First of all; therefore; Second; consequently; on the other hand; Furthermore.",
+              "explanation": "过渡信号不只有单个连接词：“There are two reasons for this”也预告结构，让读者知道下面应有两条理由。",
+              "sourceLabel": "Unity and Coherence 书页 25—26；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Paragraph 1\nOne difference among the world’s seas and oceans is that the salinity varies in different climate zones. The Baltic Sea in northern Europe is only one-fourth as salty as the Red Sea in the Middle East. There are reasons for this. In warm climates, water evaporates rapidly. The concentration of salt is greater. The surrounding land is dry and does not contribute much freshwater to dilute the salty seawater. In cold climate zones, water evaporates slowly. The runoff created by melting snow adds a considerable amount of freshwater to dilute the saline seawater.\n\nParagraph 2\nOne difference among the world’s seas and oceans is that the salinity varies in different climate zones. For example, the Baltic Sea in northern Europe is only one-fourth as saline as the Red Sea in the Middle East. There are two reasons for this. First of all, in warm climate zones, water evaporates rapidly; therefore, the concentration of salt is greater. Second, the surrounding land is dry; consequently, it does not contribute much freshwater to dilute the salty seawater. In cold climate zones, on the other hand, water evaporates slowly. Furthermore, the runoff created by melting snow adds a considerable amount of freshwater to dilute the saline seawater.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-6",
+          "instructions": "为Genetic Engineering两段找出过渡信号并补必要标点；原书已圈出的On the one hand恢复为无圈线题文。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-6-1",
+              "sourceNumber": "Paragraph 1, Steps 1—2",
+              "prompt": "列出过渡信号，并提交补好标点的完整段落。",
+              "answer": "答案册重点信号：On the one hand, For example, In addition, Indeed。\nGenetic research has produced both exciting and frightening possibilities. Scientists are now able to create new forms of life in the laboratory because of the development of gene splicing. On the one hand, the ability to create life in the laboratory could greatly benefit humankind. One beneficial application of gene splicing is in agriculture. For example, researchers have engineered a more nutritious type of rice that could help alleviate the serious problem of vitamin A deficiency. It is estimated that 124 million children worldwide lack vitamin A, putting them at risk of permanent blindness and other health issues. In addition, genetic engineers have created larger fish, frost-resistant strawberries, and cows that produce more milk. Indeed, agriculture has already benefited from the promise of genetic engineering.",
+              "explanation": "句首过渡短语后补逗号；第2段however连接两个完整句时用分号＋逗号，也可用句号另起句。because of、another等也有衔接作用，但原答案册重点圈出的为这里所列信号。文中科学报道按教材年代保留。",
+              "sourceLabel": "Unity and Coherence 书页 29—30；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Genetic research has produced both exciting and frightening possibilities. Scientists are now able to create new forms of life in the laboratory because of the development of gene splicing. On the one hand the ability to create life in the laboratory could greatly benefit humankind. One beneficial application of gene splicing is in agriculture. For example researchers have engineered a more nutritious type of rice that could help alleviate the serious problem of vitamin A deficiency. It is estimated that 124 million children worldwide lack vitamin A, putting them at risk of permanent blindness and other health issues. In addition genetic engineers have created larger fish, frost-resistant strawberries, and cows that produce more milk. Indeed agriculture has already benefited from the promise of genetic engineering.",
+              "rubric": [
+                "找出所列主要过渡信号。",
+                "句首信号后标点恰当。",
+                "however不能仅用两个逗号粘连两句；保留原段信息。"
+              ]
+            },
+            {
+              "id": "coherence-practice-6-2",
+              "sourceNumber": "Paragraph 2, Steps 1—2",
+              "prompt": "列出过渡信号，并提交补好标点的完整段落。",
+              "answer": "答案册重点信号：On the other hand, In fact, As a result, Furthermore；however。\nOn the other hand, not everyone is positive about gene-splicing technology. Some people feel that it could have terrible consequences. In fact, a type of corn engineered to kill a certain insect pest also threatened to annihilate desirable monarch butterflies. In another accident, a genetically engineered type of corn that was approved only for animal consumption because it was toxic to humans accidentally cross-pollinated with corn grown for humans. As a result, many countries banned imports of genetically modified corn for several years. Furthermore, the ability to clone human beings is a possibility that frightens many people. In 2004, two South Korean scientists reported that they had successfully cloned a human embryo (Dreifus). The embryo did not develop into a baby; however, it is possible that one could do so in the future, a possibility that not everyone is comfortable with.",
+              "explanation": "句首过渡短语后补逗号；第2段however连接两个完整句时用分号＋逗号，也可用句号另起句。because of、another等也有衔接作用，但原答案册重点圈出的为这里所列信号。文中科学报道按教材年代保留。",
+              "sourceLabel": "Unity and Coherence 书页 29—30；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "On the other hand not everyone is positive about gene-splicing technology. Some people feel that it could have terrible consequences. In fact a type of corn engineered to kill a certain insect pest also threatened to annihilate desirable monarch butterflies. In another accident, a genetically engineered type of corn that was approved only for animal consumption because it was toxic to humans accidentally cross-pollinated with corn grown for humans. As a result many countries banned imports of genetically modified corn for several years. Furthermore the ability to clone human beings is a possibility that frightens many people. In 2004, two South Korean scientists reported that they had successfully cloned a human embryo (Dreifus). The embryo did not develop into a baby however it is possible that one could do so in the future, a possibility that not everyone is comfortable with.",
+              "rubric": [
+                "找出所列主要过渡信号。",
+                "句首信号后标点恰当。",
+                "however不能仅用两个逗号粘连两句；保留原段信息。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-7",
+          "instructions": "A每题先选原括号中的信号，再写补好标点的连接处；B从词表各用一次填8空；C按关系提示填7空。原已填A1恢复待答。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-7-a1",
+              "sourceNumber": "A.1 选词",
+              "prompt": "A recent article in Era magazine suggested ways to reduce inflation. The article suggested that the president reduce the federal budget ______ it suggested that the government reduce federal, state, and local taxes.",
+              "answer": "furthermore",
+              "explanation": "后面继续增加第二个建议，属于递进。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "however",
+                  "label": "however"
+                },
+                {
+                  "value": "in contrast",
+                  "label": "in contrast"
+                },
+                {
+                  "value": "furthermore",
+                  "label": "furthermore"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a1-punctuation",
+              "sourceNumber": "A.1 标点",
+              "prompt": "为本题补写正确的连接处（前一词＋标点＋所选信号＋标点＋后一词）；也可写整句。",
+              "answer": "... budget; furthermore, it suggested ... / ... budget. Furthermore, it suggested ...",
+              "explanation": "后面继续增加第二个建议，属于递进。 这些是连接副词/过渡短语，连接两独立句需要分号或句号，不能只加逗号。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "A recent article in Era magazine suggested ways to reduce inflation. The article suggested that the president reduce the federal budget ______ it suggested that the government reduce federal, state, and local taxes.",
+              "rubric": [
+                "选择与逻辑相符。",
+                "连接两完整句处使用分号或句号。",
+                "信号后逗号和句首大小写正确；原题已有标点处不重复添加。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a2",
+              "sourceNumber": "A.2 选词",
+              "prompt": "The same article said that the causes of inflation were easy to find ______ the cure for inflation was not so easy to prescribe.",
+              "answer": "however",
+              "explanation": "原因容易找与治疗不易形成对照。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "however",
+                  "label": "however"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a2-punctuation",
+              "sourceNumber": "A.2 标点",
+              "prompt": "为本题补写正确的连接处（前一词＋标点＋所选信号＋标点＋后一词）；也可写整句。",
+              "answer": "... find; however, the cure ... / ... find. However, the cure ...",
+              "explanation": "原因容易找与治疗不易形成对照。 这些是连接副词/过渡短语，连接两独立句需要分号或句号，不能只加逗号。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "The same article said that the causes of inflation were easy to find ______ the cure for inflation was not so easy to prescribe.",
+              "rubric": [
+                "选择与逻辑相符。",
+                "连接两完整句处使用分号或句号。",
+                "信号后逗号和句首大小写正确；原题已有标点处不重复添加。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a3",
+              "sourceNumber": "A.3 选词",
+              "prompt": "Era also suggested that rising wages were one of the primary causes of inflation ______ the government should take action to control wages.",
+              "answer": "therefore",
+              "explanation": "前面给原因，后面提出由此推出的行动。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "however",
+                  "label": "however"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a3-punctuation",
+              "sourceNumber": "A.3 标点",
+              "prompt": "为本题补写正确的连接处（前一词＋标点＋所选信号＋标点＋后一词）；也可写整句。",
+              "answer": "... inflation; therefore, the government ... / ... inflation. Therefore, the government ...",
+              "explanation": "前面给原因，后面提出由此推出的行动。 这些是连接副词/过渡短语，连接两独立句需要分号或句号，不能只加逗号。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Era also suggested that rising wages were one of the primary causes of inflation ______ the government should take action to control wages.",
+              "rubric": [
+                "选择与逻辑相符。",
+                "连接两完整句处使用分号或句号。",
+                "信号后逗号和句首大小写正确；原题已有标点处不重复添加。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a4",
+              "sourceNumber": "A.4 选词",
+              "prompt": "In physics, the weight of an object is the gravitational force with which Earth attracts it; ______, if a man weighs 150 pounds, this means that Earth pulls him down with a force of 150 pounds.",
+              "answer": "for example",
+              "explanation": "150磅的情况把抽象定义具体化，是例子。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "moreover",
+                  "label": "moreover"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a4-punctuation",
+              "sourceNumber": "A.4 标点",
+              "prompt": "为本题补写正确的连接处（前一词＋标点＋所选信号＋标点＋后一词）；也可写整句。",
+              "answer": "... attracts it; for example, if a man ... / ... attracts it. For example, if a man ...",
+              "explanation": "150磅的情况把抽象定义具体化，是例子。 这些是连接副词/过渡短语，连接两独立句需要分号或句号，不能只加逗号。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "In physics, the weight of an object is the gravitational force with which Earth attracts it; ______, if a man weighs 150 pounds, this means that Earth pulls him down with a force of 150 pounds.",
+              "rubric": [
+                "选择与逻辑相符。",
+                "连接两完整句处使用分号或句号。",
+                "信号后逗号和句首大小写正确；原题已有标点处不重复添加。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a5",
+              "sourceNumber": "A.5 选词",
+              "prompt": "The farther away from Earth a person is, the less the gravitational force of Earth. ______ a man weighs less when he is 50,000 miles from Earth than when he is only 5,000 miles away.",
+              "answer": "therefore",
+              "explanation": "重量减小是距离增加、引力变弱的结果；保留原句号时首字母需大写。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "in conclusion",
+                  "label": "in conclusion"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                },
+                {
+                  "value": "however",
+                  "label": "however"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a5-punctuation",
+              "sourceNumber": "A.5 标点",
+              "prompt": "为本题补写正确的连接处（前一词＋标点＋所选信号＋标点＋后一词）；也可写整句。",
+              "answer": "... Earth. Therefore, a man ... / ... Earth; therefore, a man ...",
+              "explanation": "重量减小是距离增加、引力变弱的结果；保留原句号时首字母需大写。 这些是连接副词/过渡短语，连接两独立句需要分号或句号，不能只加逗号。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "The farther away from Earth a person is, the less the gravitational force of Earth. ______ a man weighs less when he is 50,000 miles from Earth than when he is only 5,000 miles away.",
+              "rubric": [
+                "选择与逻辑相符。",
+                "连接两完整句处使用分号或句号。",
+                "信号后逗号和句首大小写正确；原题已有标点处不重复添加。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a6",
+              "sourceNumber": "A.6 选词",
+              "prompt": "A tsunami is a tidal wave produced by an earthquake on the ocean floor. The waves are very long and low in open water, but when they get close to land, they encounter friction because the water is shallow ______ the waves increase in height and can cause considerable damage when they finally reach land.",
+              "answer": "as a result",
+              "explanation": "浅水摩擦与浪高增加在本段中构成原因结果关系。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "on the other hand",
+                  "label": "on the other hand"
+                },
+                {
+                  "value": "as a result",
+                  "label": "as a result"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                }
+              ]
+            },
+            {
+              "id": "coherence-practice-7-a6-punctuation",
+              "sourceNumber": "A.6 标点",
+              "prompt": "为本题补写正确的连接处（前一词＋标点＋所选信号＋标点＋后一词）；也可写整句。",
+              "answer": "... shallow; as a result, the waves ... / ... shallow. As a result, the waves ...",
+              "explanation": "浅水摩擦与浪高增加在本段中构成原因结果关系。 这些是连接副词/过渡短语，连接两独立句需要分号或句号，不能只加逗号。",
+              "sourceLabel": "Unity and Coherence 书页 30—31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "A tsunami is a tidal wave produced by an earthquake on the ocean floor. The waves are very long and low in open water, but when they get close to land, they encounter friction because the water is shallow ______ the waves increase in height and can cause considerable damage when they finally reach land.",
+              "rubric": [
+                "选择与逻辑相符。",
+                "连接两完整句处使用分号或句号。",
+                "信号后逗号和句首大小写正确；原题已有标点处不重复添加。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b1",
+              "sourceNumber": "B.1",
+              "prompt": "用词表完成第(1)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：In fact,",
+              "explanation": "给出常说的俗语作为加强说明。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b2",
+              "sourceNumber": "B.2",
+              "prompt": "用词表完成第(2)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：Also,",
+              "explanation": "在俗语之外再增加语言搭配的观察。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b3",
+              "sourceNumber": "B.3",
+              "prompt": "用词表完成第(3)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：For example,",
+              "explanation": "具体列举与time搭配的动词。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b4",
+              "sourceNumber": "B.4",
+              "prompt": "用词表完成第(4)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：Similarly,",
+              "explanation": "money有平行搭配，用相似关系。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b5",
+              "sourceNumber": "B.5",
+              "prompt": "用词表完成第(5)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：Second,",
+              "explanation": "开始第二类证据：把时间看成可拥有的东西。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b6",
+              "sourceNumber": "B.6",
+              "prompt": "用词表完成第(6)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：third",
+              "explanation": "修饰piece of evidence，前有A，故用小写序数词，不加逗号。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b7",
+              "sourceNumber": "B.7",
+              "prompt": "用词表完成第(7)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：Indeed,",
+              "explanation": "用迟到惩罚进一步强调准时的执着。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-b8",
+              "sourceNumber": "B.8",
+              "prompt": "用词表完成第(8)空，必要时补标点；每个信号全段只用一次。",
+              "answer": "答案册建议：final and most convincing",
+              "explanation": "修饰proof，说明最后且最有力的证据，不在形容词与名词间加逗号。 答案册注明Responses will vary；对照全段词语使用与逻辑自评。",
+              "sourceLabel": "Unity and Coherence 书页 31；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Time\n\nWord bank: for example / in fact / similarly / also / indeed / third / second / final and most convincing\n\nOne stereotype about North Americans says that they are obsessed with time. It sometimes seems true that for North Americans, time seems as valuable as money. (1) ______ they even say, “Time is money.” (2) ______ have you noticed how many verbs can be followed by both time and money? (3) ______ you can spend time, save time, lose time, find time, make time, waste time, and run out of time. (4) ______ you can spend, save, lose, find, make, waste, and run out of money. (5) ______ North Americans seem to regard time as a “thing” that one can own. You can have time, buy time, and take time. (One wonders how much it costs and where it is taken!) A (6) ______ piece of evidence that North Americans are obsessed with time is their fanaticism about always being on time. (7) ______ people who are habitually late risk punishment ranging from frowning disapproval to losing their jobs. The (8) ______ proof is that these poor people sometimes take courses in time management! That is really overdoing it, don’t you agree?",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c1",
+              "sourceNumber": "C.1",
+              "prompt": "按第(1)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：another",
+              "explanation": "another修饰单数revolution，表达又一次变化。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c2",
+              "sourceNumber": "C.2",
+              "prompt": "按第(2)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：First,",
+              "explanation": "列举第一项优点，用First并加逗号。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c3",
+              "sourceNumber": "C.3",
+              "prompt": "按第(3)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：in contrast",
+              "explanation": "比较DVD与BD容量；原题空格两侧已有逗号，不再重复。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c4",
+              "sourceNumber": "C.4",
+              "prompt": "按第(4)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：second",
+              "explanation": "A second advantage中second修饰名词，不加逗号。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c5",
+              "sourceNumber": "C.5",
+              "prompt": "按第(5)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：In addition",
+              "explanation": "在容量、高清之外补充传输率；原题空后已有逗号。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c6",
+              "sourceNumber": "C.6",
+              "prompt": "按第(6)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：As a result,",
+              "explanation": "传输率带来录制时间上的结果。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-7-c7",
+              "sourceNumber": "C.7",
+              "prompt": "按第(7)空括号的关系提示补一个过渡表达，保持已有标点。",
+              "answer": "答案册建议（按空格外已有标点调整）：Clearly,",
+              "explanation": "回收容量与成本优势，作结论。 原册允许其他合理表达；这是开放填补，不以单一字符串判错。",
+              "sourceLabel": "Unity and Coherence 书页 31—32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Move Over, DVD. Here Comes BD!\n\nFirst, CDs brought digital sound into our homes. Then DVD technology brought digital sound and video and revolutionized the movie industry. Soon there will be (1) ______ (additional idea) revolution: Blu-ray discs (BDs). A Blu-ray disc will have several advantages. (2) ______ (list in order) it has an enormous data storage capacity. A single-sided DVD can hold 4.7 gigabytes of information, about the size of an average 2-hour movie. A single-sided BD, (3) ______ (contrast), can hold up to 27 gigabytes, enough for 13 hours of standard video. A (4) ______ (list in order) advantage is that a BD can record, store, and play back high-definition video because of its larger capacity. A double-layer BD can store about 50 gigabytes, enough for 4.5 hours of high-definition video. The cost will be about the same. (5) ______ (additional idea), a BD has a higher date transfer rate—36 megabits per second—than today’s DVDs, which transfer at 10 megabits per second. (6) ______ (result) a BD can record 25 gigabytes of data in just over an hour and a half. (7) ______ (conclusion) because of their large storage capacity and comparable cost, BDs will probably take over the market when they become widely available.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-8",
+          "instructions": "从两个给定主题句中选一个展开段落，用恰当过渡表达连接支撑；可以用未列出的表达，也可加入不带过渡词的句子。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-8-writing",
+              "sourceNumber": "二选一写作",
+              "prompt": "选择一个原主题句，写出完整段落并自然使用过渡信号。",
+              "answer": "Responses will vary：无唯一范文。",
+              "explanation": "先按主题句承诺的范围安排支撑，再选信号；不能把所有提示词硬塞进去。如果选第一题，要兑现four noticeable differences。",
+              "sourceLabel": "Unity and Coherence 书页 32；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Sentence 1: There are four noticeable differences between British and American English.\n可用信号：the most noticeable difference; for example; another difference; for example; a third difference; such as; finally; for instance; in conclusion.\n原书建议小主题和例子：Pronunciation—British English不总读r；schedule在英式中[shed-u-al]、美式中[sked-u-al]。Spelling—colour/color; realise/realize; defence/defense。Vocabulary—petrol/gas; biscuit/cookie; pocket money/allowance; bonnet/hood。原表只列3类建议，但主题句要求four，可自行补充另一差异或把可区分的差异分开发展。\n\nSentence 2: Sometimes I enjoy being alone.\n可用信号：for instance; moreover; on the other hand; therefore.",
+              "rubric": [
+                "使用一个原给定主题句并充分展开。",
+                "支撑之间关系清楚，过渡表达意思和标点正确。",
+                "允许没有信号的句子，不为了凑连接词破坏自然表达。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-9",
+          "instructions": "删除How to Grow an Avocado Tree中过量的过渡信号，必要时合句并改大小写、标点；记录与同伴讨论修改的理由。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-9-rewrite",
+              "sourceNumber": "Steps 1—2",
+              "prompt": "写出减少过渡信号后的完整段落，并简述你保留/删除的理由。",
+              "answer": "Responses will vary：答案册没有唯一删改稿。可把wash the seed与dry it合写，去掉逐个动作前的Second/Third等机械排序；无对比的However可删。注意保留真正表示转折或必要顺序的信号。",
+              "explanation": "“洗、擦干、插牙签”等动作顺序已明显，没必要每句都编号；“不要过量浇水”与前面的浇水建议形成提醒对照，保留however可能有帮助。不同修改只要清楚合理均可。",
+              "sourceLabel": "Unity and Coherence 书页 33；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "After you have enjoyed the delicious taste of an avocado, do not throw out the seed! You can grow a beautiful houseplant or even your own tree by following these simple steps. First, wash the seed. Second, dry it. Third, insert three toothpicks into its thickest part. Then fill a glass or empty jar with water. After that, suspend the seed in the water with the pointed end up and the broad end down. The water should cover about an inch of the seed. Next, put the glass in a warm place, but not in direct sunlight. Add water when necessary to keep the bottom of the seed under water at all times. In two to six weeks, you should see roots begin to grow. Furthermore, the seed will crack open, and then a stem will emerge from the top. However, wait until the stem is 6 to 7 inches long. Then cut it back to about 3 inches. Now wait until the roots are thick and the stem has leafed out again. Then fill an 8- to 10-inch diameter clay pot with enriched potting soil. Plant the seed, leaving the top half exposed. Then water it well. After that, water frequently but lightly; also give the plant an occasional deep soaking. However, do not overwater your little tree. Yellow leaves are a sign of too much water. Then place the potted plant in a sunny window and watch it grow. The more sunlight, the better. Then, when the stem is 12 inches high, cut it back to 6 inches to encourage the growth of side branches. In just a few more weeks, you will have a beautiful indoor plant. In conclusion, enjoy your new plant, but do not expect it to bear fruit. Avocados grown from seed occasionally flower and bear fruit; however, first you will have to plant it outside and then wait anywhere from five to thirteen years.",
+              "rubric": [
+                "植物生长步骤与条件没有被删掉或打乱。",
+                "删减了不必要的连接信号，必要时正确合句。",
+                "保留有助理解的时间或对照关系，大小写和标点协调。",
+                "能说明修改理由；原题要求讨论，可记录讨论意见。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-10",
+          "instructions": "每段判断逻辑顺序、说明理由，并列出过渡信号。三项要求一起核对，不只猜类别。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-10-1",
+              "sourceNumber": "Paragraph 1",
+              "prompt": "判断逻辑顺序（comparison/contrast、chronological order或logical division of ideas），说明理由并列出全部过渡信号。",
+              "answer": "Chronological order. Signals: for example, first, Next, After that, Finally.",
+              "explanation": "这段按机器翻译的操作步骤推进；过程顺序也是chronological order。 答案册列出主要结构信号；合理补充不应机械判错。",
+              "sourceLabel": "Unity and Coherence 书页 34—36；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "The process of machine translation of languages is complex. To translate a document from English into Japanese, for example, the computer first analyzes an English sentence, determining its grammatical structure and identifying the subject, verb, objects, and modifiers. Next, the words are translated by an English-Japanese dictionary. After that, another part of the computer program analyzes the resulting awkward jumble of words and meanings and produces an intelligible sentence based on the rules of Japanese syntax and the machine's understanding of what the original English sentence meant. Finally, a human bilingual editor polishes the computer-produced translation.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-10-2",
+              "sourceNumber": "Paragraph 2",
+              "prompt": "判断逻辑顺序（comparison/contrast、chronological order或logical division of ideas），说明理由并列出全部过渡信号。",
+              "answer": "Comparison and contrast. Signals: for example, Furthermore, on the other hand, Another, in contrast, but, In addition, whereas, Another, however.",
+              "explanation": "逐项对照法国与美国管理方式，主题不是某一种方式的时间发展。 答案册列出主要结构信号；合理补充不应机械判错。",
+              "sourceLabel": "Unity and Coherence 书页 34—36；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "French and U.S. business managers have decidedly different management styles. French meetings, for example, are long and rambling and rarely end on time. Furthermore, meetings often end without closure. Managers in the United States, on the other hand, make an effort to start and stop a meeting on time, and North American business meetings typically end with decisions and action plans. Another difference involves documentation. North Americans adore documentation; they have a procedure manual for everything. The French, in contrast, think this is childish. French managers find it difficult to stick to a schedule, but U.S. managers are intolerant of delays. In addition, the French prefer to work alone, whereas North Americans like to work in teams. Another major difference in management style is that in French companies, authority comes from the top; French managers do not share information with subordinates and make decisions with little participation by employees beneath them. In U.S. companies, however, top managers share information and frequently solicit input from subordinates (“How French Managers”). ",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-10-3",
+              "sourceNumber": "Paragraph 3",
+              "prompt": "判断逻辑顺序（comparison/contrast、chronological order或logical division of ideas），说明理由并列出全部过渡信号。",
+              "answer": "Chronological order. Signals: In about 700 B.C.E., A few decades later, Then in 46 B.C.E., The very next, By 1580, in 1582.",
+              "explanation": "以日期和先后线索追踪历法的发展。 答案册列出主要结构信号；合理补充不应机械判错。",
+              "sourceLabel": "Unity and Coherence 书页 34—36；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "It took more than 2,500 years to develop the calendar used in most Western countries today. In about 700 B.C.E., the ancient Romans used a calendar that had 304 days divided into 10 months; March was the beginning of each year. There were more than 60 days missing from the calendar, so very soon the calendar did not match the seasons at all. Spring arrived when the calendar said that it was still winter. A few decades later, the Romans added the months of January and February to the end of the year. This calendar lasted about 600 years. Then in 46 B.C.E., Julius Caesar, the Roman ruler, made a new calendar. His calendar had 365 days, with one day added every fourth year. He also moved the beginning of the year to January 1, and he renamed a month for himself: Julius (July). In Caesar's calendar, February had 29 days. The very next emperor, Augustus, not only renamed a month for himself (August), but he also took one day from February and added it to August so that “his” month would be just as long as Caesar's. This calendar worked better than the previous ones, but it still was not perfect. By 1580, the first calendrical day of spring was 10 days too early, so in 1582, Pope Gregory XIII, the leader of the Roman Catholic religion, made a small change to make the calendar more accurate. In the Gregorian calendar, the year is still 26.3 seconds different from the solar year, but it will be a long time before this causes a problem. ",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "coherence-practice-10-4",
+              "sourceNumber": "Paragraph 4",
+              "prompt": "判断逻辑顺序（comparison/contrast、chronological order或logical division of ideas），说明理由并列出全部过渡信号。",
+              "answer": "Logical division of ideas. Signals: The first kind, A second kind, however, a third kind.",
+              "explanation": "将历法分为lunar、solar、lunisolar三类分别介绍，不是三个时代的单线演变。 答案册列出主要结构信号；合理补充不应机械判错。",
+              "sourceLabel": "Unity and Coherence 书页 34—36；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "The many different calendars used throughout the world are all based on the phases of the moon, on the revolution of Earth around the sun, or on a combination of the two. The first kind of calendar is the lunar calendar, based on the phases of the moon. A month is calculated as the time between two full moons, 29.5 days, and a year has 354 days. The Islamic calendar used in Muslim countries is a lunar calendar. It has 12 months and a cycle of 30 years in which the 2nd, 5th, 7th, 10th, 13th, 16th, 18th, 21st, 24th, 26th, and 29th years have 355 days, and the others 354 days. A second kind of calendar is the solar calendar, which is based on the revolution of Earth around the sun. The ancient Egyptians used a solar calendar divided into 12 months of 30 days each, which left 5 uncounted days at the end of each year. A very accurate calendar developed by the Mayan Indians in North America was also a solar calendar. It had 365 days, 364 of which were divided into 28 weeks of 13 days each. The new year began on the 365th day. Because the solar year is exactly 365 days, 5 hours, 48 minutes, and 46 seconds long, however, a solar calendar is not totally accurate, so many cultures developed a third kind of calendar, the lunisolar calendar. In a lunisolar calendar, extra days are added every so often to reconcile the lunar months with the solar year. The Chinese, Hebrew, and Gregorian calendars used today are lunisolar calendars.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-11",
+          "instructions": "重做Chapter1 Practice1B第2、3、4段的排序：写TS及SS1、SS2等。已展开跨章原句，不需要另找扫描页；按原要求跳过第1段。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-11-2",
+              "sourceNumber": "Paragraph 2",
+              "prompt": "按字母列出TS及SS1、SS2……，将该段支撑句排序。",
+              "answer": "TS=c; SS1=e; SS2=a; SS3=f; SS4=d; SS5=b。答案册也接受最后b、d互换。",
+              "explanation": "Initially开启时间线，Twelve years after接续；For almost50years总结两方竞争，再加入新参与者。末两句没有唯一硬性先后，答案册接受互换。",
+              "sourceLabel": "Unity and Coherence 书页37；跨引Paragraph Structure书页8；答案PDF第4页（书页7）。",
+              "autoGrade": false,
+              "passage": "a. Twelve years after Sputnik, the United States caught up by becoming the first nation to land a man on the moon.\nb. The Europeans have joined the competition, vowing to land European astronauts on the moon by 2025 and on Mars by 2035.\nc. The number of nations competing in the “space race” has grown since the early days of space exploration.\nd. China joined the competition in 2003 when it launched Shenzhou 5.\ne. Initially, the former Soviet Union took the lead when it sent the first man into Earth orbit in the spaceship Sputnik in 1957.\nf. For almost 50 years, the United States and Russia were the only competitors in the contest to explore space using manned spacecraft.",
+              "rubric": [
+                "主题句编号正确。",
+                "支撑顺序满足时间、指代与关键词线索。",
+                "Paragraph2末尾b/d两种次序均可，按答案册接受。"
+              ]
+            },
+            {
+              "id": "coherence-practice-11-3",
+              "sourceNumber": "Paragraph 3",
+              "prompt": "按字母列出TS及SS1、SS2……，将该段支撑句排序。",
+              "answer": "TS=d; SS1=b; SS2=e; SS3=a; SS4=f; SS5=c。",
+              "explanation": "earliest、another、final构成三个变化；e中的them接农家，f具体解释a中的居住工作自由。",
+              "sourceLabel": "Unity and Coherence 书页37；跨引Paragraph Structure书页8；答案PDF第4页（书页7）。",
+              "autoGrade": false,
+              "passage": "a. Another important change was that people had the freedom to live and work wherever they wanted.\nb. The earliest significant change was for farming families, who were no longer isolated.\nc. The final major change brought by the automobile was the building of superhighways, suburbs, huge shopping centers, and theme parks such as Disney World in Florida.\nd. The automobile revolutionized the way of life in the United States.\ne. The automobile enabled them to drive to towns and cities comfortably and conveniently.\nf. In fact, people could work in a busy metropolitan city and drive home to the quiet suburbs.",
+              "rubric": [
+                "主题句编号正确。",
+                "支撑顺序满足时间、指代与关键词线索。",
+                "Paragraph2末尾b/d两种次序均可，按答案册接受。"
+              ]
+            },
+            {
+              "id": "coherence-practice-11-4",
+              "sourceNumber": "Paragraph 4",
+              "prompt": "按字母列出TS及SS1、SS2……，将该段支撑句排序。",
+              "answer": "TS=b; SS1=e; SS2=f; SS3=c; SS4=a; SS5=d; SS6=g。",
+              "explanation": "plates collide→一块下沉→受热熔化→magma上升→产生热蒸汽压力→喷发；代词和物理过程共同约束顺序。",
+              "sourceLabel": "Unity and Coherence 书页37；跨引Paragraph Structure书页8；答案PDF第4页（书页7）。",
+              "autoGrade": false,
+              "passage": "a. In time, this melted part rises as magma.\nb. The formation of a volcanic eruption is a dramatic series of events.\nc. As the plate sinks, friction and Earth’s heat cause part of it to melt.\nd. The magma produces heat, steam, and pressure.\ne. First of all, most volcanoes are formed where two plates collide.\nf. Then one of the plates is forced under the other and sinks.\ng. When the heat, steam, and pressure from the magma finally reach the surface of Earth, a volcanic eruption occurs.",
+              "rubric": [
+                "主题句编号正确。",
+                "支撑顺序满足时间、指代与关键词线索。",
+                "Paragraph2末尾b/d两种次序均可，按答案册接受。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-12",
+          "instructions": "选给定题目写10—15句段落，重点检查unity/coherence，保存初稿、修改稿、终稿。原书引Appendix A及Worksheet2未提供，缺件单列，不伪造原表。",
+          "textComplete": false,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-12-writing",
+              "sourceNumber": "Steps 1—5",
+              "prompt": "从列表选一题写10—15句段落，记录自查、同伴讨论与修改，保存各稿。",
+              "answer": "开放写作，没有配套标准作文。正文可按所列标准检查；缺失的原worksheet待补。",
+              "explanation": "先给本段一个可控制的中心，逐句排查离题；再检查关键词、代词、过渡信号和逻辑顺序。原书后续要求自评、互评、讨论和交各稿；不要仅交初稿就宣称所有流程已完成。",
+              "sourceLabel": "Unity and Coherence 书页37—38；Appendix A、Worksheet2书页319—320未提供。",
+              "autoGrade": false,
+              "passage": "The influence of birth order on personality\nOne (or two) place(s) a visitor to your country should not miss\nThe disadvantages of being left-handed\nA fad, fashion, or activity of your generation that drives an older generation crazy\nAn interesting custom or special celebration from your culture",
+              "rubric": [
+                "正文10—15句，保持一个中心。",
+                "每个支撑都服务主题句。",
+                "代词清楚、连接准确、组织有顺序。",
+                "保存修改过程；未提供的原表不冒充已填。"
+              ]
+            }
+          ],
+          "missingTasks": [
+            {
+              "title": "Appendix A / Self-Editing Worksheet 2 / Peer-Editing Worksheet 2",
+              "reason": "提供材料不含写作过程附录和书页319—320的原自评互评表。"
+            }
+          ]
+        },
+        {
+          "id": "coherence-practice-13",
+          "instructions": "由教师定总时限，开头1—2分钟构思，结尾1分钟查错；其余时间写段落，尽量用具体例子。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "coherence-practice-13-writing",
+              "sourceNumber": "Writing under Pressure",
+              "prompt": "任选下列一题写组织清楚的段落。",
+              "answer": "开放写作，无唯一范文，教材未指定固定总分钟数。",
+              "explanation": "把有限时间留给一个主旨和可解释的例子；末尾检查代词是否突然从I跳到you、句子是否离题，不为追求连接词数量而堆砌。",
+              "sourceLabel": "Unity and Coherence 书页38；无配套标准作文。",
+              "autoGrade": false,
+              "passage": "Why you do a certain sport\nWhy you don’t like to do sports\nWhy you are a morning person (or a night person)\nYour opinion about genetic engineering",
+              "rubric": [
+                "围绕所选题目写完整段落。",
+                "主题句清楚，有具体例证。",
+                "按教师指定时间，保留原题要求的构思和检查时间。"
+              ]
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "title": "Unity：只讨论一个中心",
+          "explanation": "删去与控制思想无关的句子；一段如果出现两个大主题，拆段。相关词出现不等于逻辑相关。",
+          "example": "原创示例：讨论听力复习方法时，“耳机价格上涨”通常需要删去。",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先用一句话概括控制思想。",
+            "逐句问“它直接解释或证明这个思想吗？”",
+            "只是提到同一个词但讨论角度不同，也要删除或另起段。"
+          ],
+          "breakdown": [
+            {
+              "text": "一个中心",
+              "note": "颜色导致身体反应，与颜色的宗教意义都是colors，却不是同一控制思想。"
+            },
+            {
+              "text": "离题细节",
+              "note": "冒险旅游段加入普通教育游，不会因为同属tourism就自动合题。"
+            }
+          ],
+          "pitfall": "相同关键词不等于相同中心；不要把有关联误当有支撑作用。",
+          "sourceLabel": "Unity and Coherence书页18—21",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：一段讨论骑车节省通勤费用，哪句最可能离题？",
+            "options": [
+              {
+                "value": "1",
+                "label": "无需支付停车费。"
+              },
+              {
+                "value": "2",
+                "label": "骑车可以减少燃油支出。"
+              },
+              {
+                "value": "3",
+                "label": "我最喜欢蓝色自行车。"
+              }
+            ],
+            "answer": "3",
+            "explanation": "颜色偏好不能证明节省费用。"
+          }
+        },
+        {
+          "title": "四条连贯路径",
+          "explanation": "重复关键词；使用一致且指代清楚的代词；选择准确连接信号；按逻辑顺序组织。连贯不等于堆连接词。",
+          "example": "原创示例：Daily review is useful. This habit keeps difficult phrases active in memory.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先确定信息怎样排列。",
+            "关键对象用名词定期重现，代词能清楚回指。",
+            "在确有需要时用信号说明关系。"
+          ],
+          "breakdown": [
+            {
+              "text": "关键词",
+              "note": "像线索，把读者持续带回同一对象。"
+            },
+            {
+              "text": "代词",
+              "note": "少重复但不含混，人称和数量必须稳定。"
+            },
+            {
+              "text": "顺序与信号",
+              "note": "先后、分类、对照构成骨架，连接表达把骨架说清楚。"
+            }
+          ],
+          "pitfall": "不能靠每句开头写Furthermore来修复跳跃的信息。",
+          "sourceLabel": "Unity and Coherence书页21—22、34—37",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：两句各自语法正确，合起来却跳到无关事情，最缺什么？",
+            "options": [
+              {
+                "value": "1",
+                "label": "更长的词"
+              },
+              {
+                "value": "2",
+                "label": "信息之间清楚的联系"
+              },
+              {
+                "value": "3",
+                "label": "每句更多逗号"
+              }
+            ],
+            "answer": "2",
+            "explanation": "连贯要求读者能跟上信息推进。"
+          }
+        },
+        {
+          "title": "关键词与代词",
+          "explanation": "适量重复关键名词有助清晰；不要为避免重复随意换成含义不同的词。人称、单复数保持一致；it/they/this 必须能找到明确先行词。",
+          "example": "原创示例：Students should review their notes before they begin the task.",
+          "before": "Students should review your notes before he begins.",
+          "after": "Students should review their notes before they begin.",
+          "steps": [
+            "找出每个it/they/this究竟指谁。",
+            "出现两个可能对象时，换回关键名词。",
+            "检查you、he/she、they是否与原主体一致。"
+          ],
+          "breakdown": [
+            {
+              "text": "Students",
+              "note": "是复数第三人称对象。"
+            },
+            {
+              "text": "their notes",
+              "note": "他们的笔记，所有格跟主体一致。"
+            },
+            {
+              "text": "they begin",
+              "note": "仍指同一批学生，不能突然改为he或you。"
+            }
+          ],
+          "pitfall": "为了避免重复而全部使用it，可能让读者分不清English和French。",
+          "sourceLabel": "Unity and Coherence书页22—25",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：Students should bring ___ notes before ___ begin. 哪组一致？",
+            "options": [
+              {
+                "value": "1",
+                "label": "your / he"
+              },
+              {
+                "value": "2",
+                "label": "their / they"
+              },
+              {
+                "value": "3",
+                "label": "his / you"
+              }
+            ],
+            "answer": "2",
+            "explanation": "复数Students需要their与they。"
+          }
+        },
+        {
+          "title": "连接词先语义，后语法",
+          "explanation": "递进 furthermore；转折 however；因果 therefore/as a result；举例 for example；比较 similarly/in contrast。because + 从句，because of + 名词短语；although + 从句，despite + 名词/动名词。",
+          "example": "原创示例：Despite the high cost, the course remained popular.",
+          "before": "Despite the course was expensive, it remained popular.",
+          "after": "Although the course was expensive, it remained popular.",
+          "steps": [
+            "先用中文说两句关系：追加、对照、举例还是结果。",
+            "再看信号后接名词还是完整主谓。",
+            "最后才决定选哪个英语表达。"
+          ],
+          "breakdown": [
+            {
+              "text": "because",
+              "note": "后接有主谓的原因从句。"
+            },
+            {
+              "text": "because of",
+              "note": "后接名词或名词短语。"
+            },
+            {
+              "text": "therefore",
+              "note": "表达结果，但本身不能充当并列连词粘连两个句子。"
+            }
+          ],
+          "pitfall": "意思相近不代表语法结构相同；despite不能直接接the course was expensive。",
+          "sourceLabel": "Unity and Coherence书页25—29",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：___ the heavy rain, the match continued. 选哪项符合结构？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Although"
+              },
+              {
+                "value": "2",
+                "label": "Despite"
+              },
+              {
+                "value": "3",
+                "label": "Because"
+              }
+            ],
+            "answer": "2",
+            "explanation": "heavy rain是名词短语，Despite可直接接它。"
+          }
+        },
+        {
+          "title": "标点与位置",
+          "explanation": "连接副词放两独立句之间时用分号/句号；并列连词用逗号连接；前置从属从句后通常加逗号。连接词不能代替句子结构。",
+          "example": "原创示例：The task was difficult; nevertheless, they completed it.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "找两侧是否都是独立句。",
+            "however/therefore等连接两句时用分号或句号。",
+            "句号后信号首字母大写；句首信号通常用逗号隔开。"
+          ],
+          "breakdown": [
+            {
+              "text": "The task was difficult;",
+              "note": "前一独立句用分号结束连接处。"
+            },
+            {
+              "text": "nevertheless,",
+              "note": "表达转折，后面逗号隔开。"
+            },
+            {
+              "text": "they completed it.",
+              "note": "后一独立句有自己的主谓。"
+            }
+          ],
+          "pitfall": "A, however, B如果A和B均是独立句，仍是逗号粘连；however不是and。",
+          "sourceLabel": "Unity and Coherence书页26—30",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：哪种标点正确连接两个完整句？",
+            "options": [
+              {
+                "value": "1",
+                "label": "It rained, however, we continued."
+              },
+              {
+                "value": "2",
+                "label": "It rained; however, we continued."
+              },
+              {
+                "value": "3",
+                "label": "It rained however we continued."
+              }
+            ],
+            "answer": "2",
+            "explanation": "分号分隔两独立句；however后加逗号。"
+          }
+        },
+        {
+          "title": "逻辑顺序与节制",
+          "explanation": "按时间、分类分点、比较对照组织；先明确结构再加连接信号。过多 First/Next/Then 不会自动改善逻辑，显然的步骤可省略。",
+          "example": "原创示例：Read the passage, identify its main points, and then write a summary.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "过程按步骤，历史按时间，种类按分类，对比按相同维度。",
+            "给每句安排位置，再添加必要衔接。",
+            "朗读一遍，把显得机械多余的Then/Next删掉。"
+          ],
+          "breakdown": [
+            {
+              "text": "Chronological",
+              "note": "时间或操作步骤的先后。"
+            },
+            {
+              "text": "Logical division",
+              "note": "一个主题分成几类或几个方面。"
+            },
+            {
+              "text": "Comparison/contrast",
+              "note": "围绕共同维度比较对象，而不是来回随机跳。"
+            }
+          ],
+          "pitfall": "分类中的first kind是第一种，不一定表示时间上最早。",
+          "sourceLabel": "Unity and Coherence书页32—37",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：介绍三种历法，每种分别说明特点，主要用哪种结构？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Chronological order"
+              },
+              {
+                "value": "2",
+                "label": "Logical division of ideas"
+              },
+              {
+                "value": "3",
+                "label": "随意举例"
+              }
+            ],
+            "answer": "2",
+            "explanation": "按种类拆分主题，属于分类分点。"
+          }
+        }
+      ],
+      "audit": [
+        {
+          "type": "visual-verification",
+          "detail": "已逐页视觉核对15-001—021及14-001—004，跨引07-007。所有Practice1—13及Gold原圈划任务保留；37页Leap Year是已解释模型而非新作答区，不伪造练习。"
+        },
+        {
+          "type": "id-compatibility",
+          "detail": "保留旧coherence-practice-7-a2/a3/a4/a5的选词语义与ID；新增各题-punctuation补回原题标点任务。旧选词完成不会自动完成标点。"
+        },
+        {
+          "type": "restored-example",
+          "detail": "P7A1原填写furthermore及标点恢复；P6 On the one hand的圈选痕迹不泄露。"
+        },
+        {
+          "type": "key-anomaly",
+          "detail": "P3原题要求3关键词+3代词+4同义词=10圈。答案册额外列krewe及部分错误句号，与该数量/指代链不合；正文答案明确按throw链列10处并解释差异。"
+        },
+        {
+          "type": "cross-reference",
+          "detail": "P11展开Chapter1 P1B第2—4段完整乱序句及正式key；第2段b/d可互换。"
+        },
+        {
+          "type": "missing-source",
+          "mission": "coherence-practice-12",
+          "detail": "Appendix A、Worksheet2书页319—320未提供，textComplete=false，missingTasks显式列出；itemsPartial=false，已给正文仍完整文字训练。"
+        },
+        {
+          "type": "task-shape",
+          "detail": "P7选词和补标点分别为独立子任务，均标同一原题sourceNumber。开放改写、整段排序及写作仍以原形式自评；没有用自编选择题替换整段任务。"
+        },
+        {
+          "type": "source-typo",
+          "detail": "P7C原页印higher date transfer rate（应为data）；题文忠实保留date，不作为本题扣分点。P10第4段29th已按图纠正OCR的25th。"
+        },
+        {
+          "type": "historical-context",
+          "detail": "颜色研究、机器翻译、克隆、蓝光和历法等保留教材当时陈述，仅作语言训练，不以其当作现时事实。P10源段Gregorian归入lunisolar等内容未擅自改写。"
+        },
+        {
+          "type": "counts",
+          "missions": {
+            "coherence-practice-1": 11,
+            "coherence-model-gold": 1,
+            "coherence-practice-2": 2,
+            "coherence-practice-3": 2,
+            "coherence-practice-4": 1,
+            "coherence-practice-5": 2,
+            "coherence-practice-6": 2,
+            "coherence-practice-7": 27,
+            "coherence-practice-8": 1,
+            "coherence-practice-9": 1,
+            "coherence-practice-10": 4,
+            "coherence-practice-11": 3,
+            "coherence-practice-12": 1,
+            "coherence-practice-13": 1
+          },
+          "totalItems": 59,
+          "automaticItems": 10
+        }
+      ]
+    }
+  ]
+}

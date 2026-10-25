@@ -1,0 +1,1500 @@
+{
+  "courses": [
+    {
+      "id": "support",
+      "missions": [
+        {
+          "id": "support-practice-1",
+          "instructions": "Step 1：把17个陈述分为O、F-NP或SSD，原书已填的1—3也恢复待答。Step 2：对O和F-NP逐项提出可使用的具体支撑；原题为课堂讨论，这里用文字记录。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-practice-1-1",
+              "sourceNumber": "Step 1.1",
+              "prompt": "People who steal identities do a lot of damage before their victims become aware of it.",
+              "answer": "F-NP",
+              "explanation": "“造成很多损失”是可调查的概括，但这一句尚未给案例或数据。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-2",
+              "sourceNumber": "Step 1.2",
+              "prompt": "Punishment for identity thieves is not severe enough.",
+              "answer": "O",
+              "explanation": "not severe enough包含对惩罚是否足够的价值判断。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-3",
+              "sourceNumber": "Step 1.3",
+              "prompt": "Last year, the losses of victims totaled more than $7 billion.",
+              "answer": "SSD",
+              "explanation": "给出具体时间范围和损失金额，可以支撑损失严重这一概括。教材中的last year属于当时语境。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-4",
+              "sourceNumber": "Step 1.4",
+              "prompt": "Identity theft is more serious than any other type of theft.",
+              "answer": "O",
+              "explanation": "more serious than any other type是带评价的全面比较，需要明确衡量标准和证据。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-5",
+              "sourceNumber": "Step 1.5",
+              "prompt": "Identity theft is increasing at a rapid pace.",
+              "answer": "F-NP",
+              "explanation": "增长可核实，但rapid尚未由连续年份数据证明。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-6",
+              "sourceNumber": "Step 1.6",
+              "prompt": "In 2000, 31,000 cases of identity theft were reported to the Federal Trade Commission (FTC); in 2003, the number was 210,000.",
+              "answer": "SSD",
+              "explanation": "两个年份、具体数量和机构来源构成统计支撑。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-7",
+              "sourceNumber": "Step 1.7",
+              "prompt": "Most people do not report identity theft to the police.",
+              "answer": "F-NP",
+              "explanation": "most是可检验的比例概括；此句本身没有给出比例或来源。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-8",
+              "sourceNumber": "Step 1.8",
+              "prompt": "In 2003, 60 percent of identity theft victims did not notify the police, according to the FTC.",
+              "answer": "SSD",
+              "explanation": "具体年份、百分比和FTC来源使它成为可引用的支撑细节。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-9",
+              "sourceNumber": "Step 1.9",
+              "prompt": "Identity theft happens to ordinary people, not just to the wealthy.",
+              "answer": "F-NP",
+              "explanation": "把受害群体扩大到普通人仍是概括，需要具体案例或分组统计。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-10",
+              "sourceNumber": "Step 1.10",
+              "prompt": "As grocery clerk Sue Jamison reported, “My wallet was stolen, and within a week, the thieves had ordered an expensive cell phone package, applied for a VISA credit card, and received a PIN from the Department of Motor Vehicles to change my driving record online.”",
+              "answer": "SSD",
+              "explanation": "有姓名、身份和经历的直接引语是具体案例，不只是泛泛判断。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-11",
+              "sourceNumber": "Step 1.11",
+              "prompt": "It is easy for a thief to use the U.S. Postal Service to steal identities.",
+              "answer": "O",
+              "explanation": "答案册接受O或F-NP：easy可以是主观判断，也可理解为有待调查的概括事实。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ],
+              "alternatives": [
+                "F-NP"
+              ]
+            },
+            {
+              "id": "support-practice-1-12",
+              "sourceNumber": "Step 1.12",
+              "prompt": "For example, thieves steal credit card statements from mailboxes, and then send a change-of-address card to the postal service to have future statements sent to a different address.",
+              "answer": "F-NP",
+              "explanation": "答案册判F-NP。For example只是引例信号；本句仍概述一种手法，没有给实际个案、数量或可核实来源，不能仅凭该词就判SSD。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-13",
+              "sourceNumber": "Step 1.13",
+              "prompt": "Most victims of identity theft are young adults.",
+              "answer": "F-NP",
+              "explanation": "most和young adults需要用受害者年龄分布来证明。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-14",
+              "sourceNumber": "Step 1.14",
+              "prompt": "The Federal Trade Commission reports that there were more victims in the age group 18–29 than in any other group.",
+              "answer": "SSD",
+              "explanation": "指出机构和具体年龄组，并作组间比较；按本题答案册归SSD。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-15",
+              "sourceNumber": "Step 1.15",
+              "prompt": "The police should do more to protect citizens from identity theft.",
+              "answer": "O",
+              "explanation": "should do more表达建议和评价，不是已发生事实。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-16",
+              "sourceNumber": "Step 1.16",
+              "prompt": "“You cannot prevent identity theft entirely, but you can minimize your risk,” according to the Federal Trade Commission booklet “Facts for Consumers.”",
+              "answer": "SSD",
+              "explanation": "这是带有明确机构及出版物来源的直接引语。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-17",
+              "sourceNumber": "Step 1.17",
+              "prompt": "Most identity thieves operate in large, organized gangs.",
+              "answer": "F-NP",
+              "explanation": "对作案组织形态的多数判断，需要案例或调查统计。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion（观点）"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof（尚需证明的事实性陈述）"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail（具体支撑细节）"
+                }
+              ]
+            },
+            {
+              "id": "support-practice-1-1-support",
+              "sourceNumber": "Step 2.1",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：举一个受害人在发现之前已经蒙受损失的具体案例。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "People who steal identities do a lot of damage before their victims become aware of it.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-2-support",
+              "sourceNumber": "Step 2.2",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：列出一种实际处罚，说明为什么你认为处罚不足；这是书上示范方向，不要求虚构真实案件。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Punishment for identity thieves is not severe enough.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-4-support",
+              "sourceNumber": "Step 2.4",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：比较经济损失，或给出导致受害人财务困境的案例。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Identity theft is more serious than any other type of theft.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-5-support",
+              "sourceNumber": "Step 2.5",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：提供最近若干年的案件数量，再比较增幅。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Identity theft is increasing at a rapid pace.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-7-support",
+              "sourceNumber": "Step 2.7",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：提供未报案人数或比例的调查统计。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Most people do not report identity theft to the police.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-9-support",
+              "sourceNumber": "Step 2.9",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：给出一位普通人受害的具体案例。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Identity theft happens to ordinary people, not just to the wealthy.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-11-support",
+              "sourceNumber": "Step 2.11",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：说明已有报告中的情况，并给可追溯来源来证明便利程度。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "It is easy for a thief to use the U.S. Postal Service to steal identities.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-12-support",
+              "sourceNumber": "Step 2.12",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：用可核实的案件报道或权威机构说明来支持这类行为确有发生；答案册本项没有另给Step 2示范。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "For example, thieves steal credit card statements from mailboxes, and then send a change-of-address card to the postal service to have future statements sent to a different address.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-13-support",
+              "sourceNumber": "Step 2.13",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：提供按年龄分组的受害人数或比例。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Most victims of identity theft are young adults.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-15-support",
+              "sourceNumber": "Step 2.15",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：列出警察可采取的具体行动，或引用受害者要求采取行动的陈述。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "The police should do more to protect citizens from identity theft.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            },
+            {
+              "id": "support-practice-1-17-support",
+              "sourceNumber": "Step 2.17",
+              "prompt": "为下列陈述提出一种具体支撑；说明你需要哪类案例、数据或引语。",
+              "answer": "可行方向（不是唯一答案）：给出团伙案例、调查统计，或警方/FBI等机构的相关陈述。",
+              "explanation": "先确定本句需要证明的部分，再选择能证明该部分的材料。只说明所需证据即可；没有来源时不要编造调查结果、真实人物引语或数字。",
+              "sourceLabel": "Supporting Details 书页 40—41；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Most identity thieves operate in large, organized gangs.",
+              "rubric": [
+                "提出具体且相关的支撑方向。",
+                "说明支撑如何服务原陈述。",
+                "不把自己编造的案例、数字或引语冒充真实来源。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-model-direct",
+          "instructions": "阅读完整两段模型，回答5个Writing Technique Questions。分析引用方式；不把模型中人物的观点当作经核实的普遍结论。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-model-direct-1",
+              "sourceNumber": "1",
+              "prompt": "Which sentence states the main idea of the first paragraph?",
+              "answer": "Sentence 1.",
+              "explanation": "第1句提出“使用已持续数十年”，第2句的历史引语直接支持这一点。",
+              "sourceLabel": "Supporting Details 书页 43；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-direct-2",
+              "sourceNumber": "2",
+              "prompt": "What direct quotation supports it? What phrase introduces the quotation?",
+              "answer": "引语：第2句的“From the brute steroids ... gold, silver, and bronze”。引入语：According to an article in Forbes magazine.",
+              "explanation": "引号内是原话，According to ...在引号外交代出处。",
+              "sourceLabel": "Supporting Details 书页 43；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-direct-3",
+              "sourceNumber": "3",
+              "prompt": "What is the main idea of the second paragraph? What three direct quotations support it?",
+              "answer": "主旨：第5句。三处直接引语：第6—7句完整引语；第9句“a large percentage”；第10句“A lot of experts, at least in private, feel that way”。",
+              "explanation": "直接引语可以是完整的两句，也可以只是短语。人物陈述被作者用来支撑观点，不等于该观点自动成为事实。",
+              "sourceLabel": "Supporting Details 书页 43；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-direct-4",
+              "sourceNumber": "4",
+              "prompt": "What verbs introduce the quotations in the second paragraph?",
+              "answer": "states; believes; claims.",
+              "explanation": "它们位于第6、9、10句。said在第6句的关系从句中交代既往陈述，不是这里三处引语的引入动词。",
+              "sourceLabel": "Supporting Details 书页 43；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-direct-5",
+              "sourceNumber": "5",
+              "prompt": "Explain the in-text citation at the end of the second paragraph: Who spoke the words? Who wrote the article? Is the source printed or online, and how can you tell?",
+              "answer": "说话者：Charles Yesalis。文章作者：Herper。按教材说明是online article，因为par. 6指第6段；qtd. in表示经该文章转引。",
+              "explanation": "区分原说话人和你实际读到的文章作者。此处按教材给定来源判断网络文章，不能把所有带段落号的来源一概视为网络材料。",
+              "sourceLabel": "Supporting Details 书页 43；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-practice-2",
+          "instructions": "给6项直接引语补全标点，并在需要时调整大小写。保留原句内容，不改成间接引语。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-practice-2-1",
+              "sourceNumber": "1",
+              "prompt": "补全标点与大小写：\nDr. Yixuan Ma, a well-known astrophysicist who has been studying black holes, said they are the most interesting phenomena we astrophysicists have ever studied.",
+              "answer": "Dr. Yixuan Ma, a well-known astrophysicist who has been studying black holes, said, “They are the most interesting phenomena we astrophysicists have ever studied.”",
+              "explanation": "said后加逗号；完整引语首字母They大写；按本书美式标点，句号放在结束引号内。",
+              "sourceLabel": "Supporting Details 书页 46；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原话和报告语边界正确。",
+                "逗号、句号、成对引号正确。",
+                "完整引语开头大写；中断句的后半部分不过度大写。"
+              ]
+            },
+            {
+              "id": "support-practice-2-2",
+              "sourceNumber": "2",
+              "prompt": "补全标点与大小写：\nAs she explained in black holes the laws of nature do not seem to apply.",
+              "answer": "As she explained, “In black holes, the laws of nature do not seem to apply.”",
+              "explanation": "引入语和引语用逗号分开；引语内In black holes作开头背景短语，后加逗号。",
+              "sourceLabel": "Supporting Details 书页 46；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原话和报告语边界正确。",
+                "逗号、句号、成对引号正确。",
+                "完整引语开头大写；中断句的后半部分不过度大写。"
+              ]
+            },
+            {
+              "id": "support-practice-2-3",
+              "sourceNumber": "3",
+              "prompt": "补全标点与大小写：\nA black hole is a tiny point with the mass 25 times the mass of our sun explained Ma’s associate, Chun-Yi Su. Black holes are created by the death of a very large star she stated.",
+              "answer": "“A black hole is a tiny point with the mass 25 times the mass of our sun,” explained Ma’s associate, Chun-Yi Su. “Black holes are created by the death of a very large star,” she stated.",
+              "explanation": "两处引语都在报告语前，末尾用逗号连接报告语；结束完整报告句才用句号。答案册第一处逗号漏印/不清，按教材书页45规则补齐。",
+              "sourceLabel": "Supporting Details 书页 46；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原话和报告语边界正确。",
+                "逗号、句号、成对引号正确。",
+                "完整引语开头大写；中断句的后半部分不过度大写。"
+              ]
+            },
+            {
+              "id": "support-practice-2-4",
+              "sourceNumber": "4",
+              "prompt": "补全标点与大小写：\nIt is an invisible vacuum cleaner in space she added with tremendous gravitational pull.",
+              "answer": "“It is an invisible vacuum cleaner in space,” she added, “with tremendous gravitational pull.”",
+              "explanation": "同一个句子被she added插开，两段都加引号；with继续原句，不能机械大写。",
+              "sourceLabel": "Supporting Details 书页 46；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原话和报告语边界正确。",
+                "逗号、句号、成对引号正确。",
+                "完整引语开头大写；中断句的后半部分不过度大写。"
+              ]
+            },
+            {
+              "id": "support-practice-2-5",
+              "sourceNumber": "5",
+              "prompt": "补全标点与大小写：\nAccording to Dr. Su, if a person falls into a black hole, he will eventually be crushed due to the tremendous gravitational forces.",
+              "answer": "According to Dr. Su, “If a person falls into a black hole, he will eventually be crushed due to the tremendous gravitational forces.”",
+              "explanation": "According to来源短语在引号外；原话是完整条件句，所以If大写。",
+              "sourceLabel": "Supporting Details 书页 46；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原话和报告语边界正确。",
+                "逗号、句号、成对引号正确。",
+                "完整引语开头大写；中断句的后半部分不过度大写。"
+              ]
+            },
+            {
+              "id": "support-practice-2-6",
+              "sourceNumber": "6",
+              "prompt": "补全标点与大小写：\nTime will slow down for him as he approaches the point of no return she said and when he reaches the point of no return, time will stand still for him.",
+              "answer": "“Time will slow down for him as he approaches the point of no return,” she said, “and when he reaches the point of no return, time will stand still for him.”",
+              "explanation": "报告语插入同一句，前后用逗号；and仍承接原句，不大写。原题科学描述仅作为标点练习材料。",
+              "sourceLabel": "Supporting Details 书页 46；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原话和报告语边界正确。",
+                "逗号、句号、成对引号正确。",
+                "完整引语开头大写；中断句的后半部分不过度大写。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-model-indirect",
+          "instructions": "将书页47模型与书页43直接引语模型第二段逐句对照。保留两版原文和句号编号，完成5个原题。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-model-indirect-1",
+              "sourceNumber": "1",
+              "prompt": "In sentence 6, identify said and stated. What tense are these verbs?",
+              "answer": "said与stated都是simple past（一般过去时）。",
+              "explanation": "两词都是报告动词，先看报告动词时态，才能判断后面是否需要时态后移。",
+              "sourceLabel": "Supporting Details 书页 43、47；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).\n\nDrugs and the Olympic Games 2\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, stated that if [athletes] were especially gifted, [they] might win once, but from his experience [they] couldn’t continue to win without drugs. 7. He asserted that the field was just too filled with drug users (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes that “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. He claims that a lot of experts, at least in private, feel that way (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-indirect-2",
+              "sourceNumber": "2",
+              "prompt": "列出第6句said和stated后间接引语中的动词，与书页43相应形式比较：相同还是变化？",
+              "answer": "had prescribed保持过去完成时；are→were；may win→might win；can’t continue→couldn’t continue。答案册还补列第10句feel保持现在时。",
+              "explanation": "原题明确指第6句两个动词之后，故核心是第6句四个动词组。第10句claims为现在时，所以feel不后移；它是答案册额外对照，不强加为本题必答。",
+              "sourceLabel": "Supporting Details 书页 43、47；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).\n\nDrugs and the Olympic Games 2\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, stated that if [athletes] were especially gifted, [they] might win once, but from his experience [they] couldn’t continue to win without drugs. 7. He asserted that the field was just too filled with drug users (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes that “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. He claims that a lot of experts, at least in private, feel that way (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-indirect-3",
+              "sourceNumber": "3",
+              "prompt": "Compare sentence 7 in both models. What has been added? How did the verb in the quotation change?",
+              "answer": "新增He asserted that；is变为was。",
+              "explanation": "原话改为转述后需要报告框架；asserted是过去式，转述动词相应后移。",
+              "sourceLabel": "Supporting Details 书页 43、47；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).\n\nDrugs and the Olympic Games 2\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, stated that if [athletes] were especially gifted, [they] might win once, but from his experience [they] couldn’t continue to win without drugs. 7. He asserted that the field was just too filled with drug users (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes that “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. He claims that a lot of experts, at least in private, feel that way (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-indirect-4",
+              "sourceNumber": "4",
+              "prompt": "In sentence 6, why are athletes and they in square brackets?",
+              "answer": "教材用方括号标示作者为说明指代而加入或替换的词。",
+              "explanation": "模型让读者看见you在转述中被换成[athletes]/[they]。这是教材的对照展示，不意味着普通间接引语的人称改变一律要方括号。",
+              "sourceLabel": "Supporting Details 书页 43、47；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).\n\nDrugs and the Olympic Games 2\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, stated that if [athletes] were especially gifted, [they] might win once, but from his experience [they] couldn’t continue to win without drugs. 7. He asserted that the field was just too filled with drug users (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes that “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. He claims that a lot of experts, at least in private, feel that way (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-indirect-5",
+              "sourceNumber": "5",
+              "prompt": "Compare sentence 9 in both models. Did any words change?",
+              "answer": "逐页核对：书页47在believes后增加了that；“a large percentage”及其余实质内容、时态未变。答案册给No，忽略了这个that。",
+              "explanation": "此题不设唯一自动判定。若回答“内容/时态没有改变”符合答案册意图；若指出that新增，则更准确反映原页。保留差异说明，不要求学生把确有变化答成完全无变化。",
+              "sourceLabel": "Supporting Details 书页 43、47；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Drugs and the Olympic Games 1\n\n1. It is no secret that performance-enhancing drugs have been used by Olympic athletes for decades. 2. According to an article in Forbes magazine, “From the brute steroids the East Germans reportedly used on their Olympians during the Cold War to today’s man-made versions of natural human proteins, drugs have been as much a staple of the Games as gold, silver, and bronze” (Herper, par. 4). 3. Despite rigorous drug testing, the use of banned performance-enhancing substances has become more widespread than ever. 4. The disqualification of athletes from the most recent Olympic Games because of illegal drug use shows that the problem is ongoing.\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, states, “If you are especially gifted, you may win once, but from my experience you can’t continue to win without drugs. 7. The field is just too filled with drug users” (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. “A lot of experts, at least in private, feel that way,” he claims (qtd. in Herper, par. 6).\n\nDrugs and the Olympic Games 2\n\n5. It seems apparent that if athletes want to win, they must consider using drugs. 6. Dr. Michael Karsten, a Dutch physician who said he had prescribed anabolic steroids to hundreds of world-class athletes, stated that if [athletes] were especially gifted, [they] might win once, but from his experience [they] couldn’t continue to win without drugs. 7. He asserted that the field was just too filled with drug users (qtd. in Bamberger and Yaeger 62). 8. In fact, some people claim that record-breaking performances of Olympic athletes may be directly due to drugs. 9. Charles Yesalis, a Pennsylvania State University professor who has studied the use of drugs in sports, believes that “a large percentage” of athletes who have set new records have done so with the help of performance-enhancing drugs. 10. He claims that a lot of experts, at least in private, feel that way (qtd. in Herper, par. 6).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-practice-3",
+          "instructions": "把4项直接引语改成间接引语；保留报告者身份，调整必要的人称、时态与时间表达。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-practice-3-1",
+              "sourceNumber": "1",
+              "prompt": "改为间接引语：\nTelevision channel KSA General Manager Jim Burns said, “Not everyone can attend college in the traditional way; therefore, taking courses via television will offer many more students the chance to earn a college degree.”",
+              "answer": "Television channel KSA General Manager Jim Burns said that not everyone could attend college in the traditional way. Therefore, taking courses via television would offer many more students the chance to earn a college degree.",
+              "explanation": "can→could；will→would。也可保留一个句子中的分号+therefore结构，核心是内容与关系不变。",
+              "sourceLabel": "Supporting Details 书页 48—49；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原意及所有信息保留，不保留整段直接引号。",
+                "报告动词后句式自然，人称正确。",
+                "时态和时间指向一致；合理语境变体可接受。"
+              ]
+            },
+            {
+              "id": "support-practice-3-2",
+              "sourceNumber": "2",
+              "prompt": "改为间接引语：\nPre-med student Alma Rodriguez said, “I miss being on campus, but I have to work and take care of my family.”",
+              "answer": "Pre-med student Alma Rodriguez said that she missed being on campus, but (that) she had to work and take care of her family.",
+              "explanation": "I/my→she/her；miss→missed；have to→had to。第二个that可省。",
+              "sourceLabel": "Supporting Details 书页 48—49；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原意及所有信息保留，不保留整段直接引号。",
+                "报告动词后句式自然，人称正确。",
+                "时态和时间指向一致；合理语境变体可接受。"
+              ]
+            },
+            {
+              "id": "support-practice-3-3",
+              "sourceNumber": "3",
+              "prompt": "改为间接引语：\nOther students said, “Last year, we spent several hours a day commuting to and from school. Now we don’t have to do that.”",
+              "answer": "Other students said that last year they had spent several hours a day commuting to and from school. Now they didn’t have to do that.",
+              "explanation": "we→they；spent→had spent；don’t→didn’t。答案册保留last year/now；若转述时间已改变，the previous year/then也合理，应让时间指向保持一致。",
+              "sourceLabel": "Supporting Details 书页 48—49；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原意及所有信息保留，不保留整段直接引号。",
+                "报告动词后句式自然，人称正确。",
+                "时态和时间指向一致；合理语境变体可接受。"
+              ]
+            },
+            {
+              "id": "support-practice-3-4",
+              "sourceNumber": "4",
+              "prompt": "改为间接引语：\nComputer engineering student Amir Mehdizadeh stated, “I can choose when to study and how to study without pressure.” He also said, “I will take two more telecourses in the fall.”",
+              "answer": "Computer engineering student Amir Mehdizadeh stated that he could choose when to study and how to study without pressure. He also said that he would take two more telecourses in the fall.",
+              "explanation": "I→he；can→could；will→would。两个报告句都要转述，不能遗漏第二句。",
+              "sourceLabel": "Supporting Details 书页 48—49；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "原意及所有信息保留，不保留整段直接引号。",
+                "报告动词后句式自然，人称正确。",
+                "时态和时间指向一致；合理语境变体可接受。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-practice-4",
+          "instructions": "写一个短段落：原样抄写指定主题句，用给定的两个main points及引语支撑，可用直接或间接引语；补充支撑和过渡，并在每处借用后添加文内引注。教材上半页Computer Crime是演示，不另计一道题。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-practice-4-writing",
+              "sourceNumber": "Steps 1—3",
+              "prompt": "用给定主题句、两个main points和两处引语写短段落。",
+              "answer": "开放写作，答案册仅标Individual paragraphs。可先写指定主题句，再依次展开能力与处理方式两个方面；用Pinker 64作相应文内引注。若句中已明确作者Pinker，括号只标64亦可。",
+              "explanation": "先提出自己的分点，再接引语并说明它如何支持分点，避免整段只有别人的话。引语来自1997年，任务是引用技巧练习；不要把材料中的计算机能力比较当作当前技术评估。",
+              "sourceLabel": "Supporting Details 书页 49—50；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Topic for Your Paragraph\nTopic sentence: Computers cannot be compared to human brains.\n\nMain point A: The human brain is more powerful than any computer.\nQuotation: “It has been estimated that the information-processing capacity of even the most powerful supercomputer is equal to the nervous system of a snail—a tiny fraction of the power available to the supercomputer inside the human skull.”\n\nMain point B: The kinds of processing in a human brain and a computer are different, too.\nQuotation: “Computers find it easy to remember a 25-digit number but find it hard to summarize the gist of [children’s story] ‘Little Red Riding Hood,’ and humans find it hard to remember the number but easy to summarize the story.”\n\nSource: Both quotations are on page 64 of “Can a Computer Be Conscious?” by Steven Pinker. The article appeared on pages 63–65 of U.S. News & World Report on August 18, 1997.\n词注：gist = the main point。",
+              "rubric": [
+                "原样使用指定主题句。",
+                "覆盖A、B两点，恰当使用给定引语。",
+                "直接引用保留原话及引号；间接引用准确转述。",
+                "每处借用有文内引注，添加衔接和自己的解释。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-model-statistics",
+          "instructions": "阅读World Population Growth模型及图的文字说明，回答3个Writing Technique Questions。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-model-statistics-1",
+              "sourceNumber": "1",
+              "prompt": "Underline the topic sentence of the paragraph. 请用文字写出主题句。",
+              "answer": "According to statistics from the Population Reference Bureau, the world’s population is increasing at a geometric rate.",
+              "explanation": "中心判断是world’s population is increasing at a geometric rate；前面的来源短语属于完整主题句的一部分。",
+              "sourceLabel": "Supporting Details 书页 51；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "World Population Growth\n\nAccording to statistics from the Population Reference Bureau, the world’s population is increasing at a geometric rate. World population first reached 1 billion back in 1804. It took 123 years for it to reach 2 billion in 1927. By 1960, a period of just 32 years, it had added another billion. Just 15 years later, we were at 4 billion, 12 years later at 5 billion, and 11 years after that at 6 billion. The United Nations has projected an increase to 9 billion by the year 2050. Most of the increase will be in the world’s less developed countries (“World” 1).\n\n原图文字信息：World Population Growth, 1750–2150；Population (in billions)；2000年标注6.1 billion；分别显示More developed countries与Less developed countries，后者占未来增长的主要部分。Source: United Nations, World Population Prospects, The 1998 Revision, and estimates by the Population Reference Bureau. 原图为历史数据与当时预测，不能作为现时人口统计。",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-statistics-2",
+              "sourceNumber": "2",
+              "prompt": "What is the source of the statistics used to support this idea?",
+              "answer": "The Population Reference Bureau.",
+              "explanation": "题目问段落所引统计来源，段首直接交代；图下注另外说明联合国和Population Reference Bureau估计。",
+              "sourceLabel": "Supporting Details 书页 51；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "World Population Growth\n\nAccording to statistics from the Population Reference Bureau, the world’s population is increasing at a geometric rate. World population first reached 1 billion back in 1804. It took 123 years for it to reach 2 billion in 1927. By 1960, a period of just 32 years, it had added another billion. Just 15 years later, we were at 4 billion, 12 years later at 5 billion, and 11 years after that at 6 billion. The United Nations has projected an increase to 9 billion by the year 2050. Most of the increase will be in the world’s less developed countries (“World” 1).\n\n原图文字信息：World Population Growth, 1750–2150；Population (in billions)；2000年标注6.1 billion；分别显示More developed countries与Less developed countries，后者占未来增长的主要部分。Source: United Nations, World Population Prospects, The 1998 Revision, and estimates by the Population Reference Bureau. 原图为历史数据与当时预测，不能作为现时人口统计。",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-model-statistics-3",
+              "sourceNumber": "3",
+              "prompt": "What reporting expression is used to identify this source?",
+              "answer": "According to statistics from ...",
+              "explanation": "According to后接来源，不写According to ... says这类两个引述框架混搭。",
+              "sourceLabel": "Supporting Details 书页 51；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "World Population Growth\n\nAccording to statistics from the Population Reference Bureau, the world’s population is increasing at a geometric rate. World population first reached 1 billion back in 1804. It took 123 years for it to reach 2 billion in 1927. By 1960, a period of just 32 years, it had added another billion. Just 15 years later, we were at 4 billion, 12 years later at 5 billion, and 11 years after that at 6 billion. The United Nations has projected an increase to 9 billion by the year 2050. Most of the increase will be in the world’s less developed countries (“World” 1).\n\n原图文字信息：World Population Growth, 1750–2150；Population (in billions)；2000年标注6.1 billion；分别显示More developed countries与Less developed countries，后者占未来增长的主要部分。Source: United Nations, World Population Prospects, The 1998 Revision, and estimates by the Population Reference Bureau. 原图为历史数据与当时预测，不能作为现时人口统计。",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-practice-5",
+          "instructions": "根据两图的文字化数据，逐空完成原段落13个空。保留2004资料的历史观察值和当时预测值，currently仅指原文当时；不将2025预测写成已核实结果。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-practice-5-1",
+              "sourceNumber": "1",
+              "prompt": "填写原段落第(1)空。",
+              "answer": "statistics from the Energy Information Administration",
+              "explanation": "According to后需要来源名词短语；EIA是图脚来源。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-practice-5-2",
+              "sourceNumber": "2",
+              "prompt": "填写原段落第(2)空。",
+              "answer": "rising",
+              "explanation": "柱形图总体上升；increasing等同义表达也合适。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-practice-5-3",
+              "sourceNumber": "3",
+              "prompt": "填写原段落第(3)空。",
+              "answer": "404",
+              "explanation": "原文2004写作语境位于2001的404与2010预测471之间；不是本年数值。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10)."
+            },
+            {
+              "id": "support-practice-5-4",
+              "sourceNumber": "4",
+              "prompt": "填写原段落第(4)空。",
+              "answer": "471",
+              "explanation": "与上一空构成404—471 quadrillion Btu的区间。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10)."
+            },
+            {
+              "id": "support-practice-5-5",
+              "sourceNumber": "5",
+              "prompt": "填写原段落第(5)空。",
+              "answer": "623 quadrillion",
+              "explanation": "原答案册填623，但正文空后只有Btu，漏掉quadrillion会造成单位错误。依图轴应完整读作623 quadrillion Btu；填写623也按原册数值接受，须理解单位。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "alternatives": [
+                "623",
+                "623 quadrillion Btu"
+              ]
+            },
+            {
+              "id": "support-practice-5-6",
+              "sourceNumber": "6",
+              "prompt": "填写原段落第(6)空。",
+              "answer": "32",
+              "explanation": "(623−471)÷471×100≈32.3%，原册取32%，不是用1970或2001作分母。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "alternatives": [
+                "32%",
+                "32 percent"
+              ]
+            },
+            {
+              "id": "support-practice-5-7",
+              "sourceNumber": "7",
+              "prompt": "填写原段落第(7)空。",
+              "answer": "2010",
+              "explanation": "2010的471与2025的623对应约32%的增幅，基期要与上一空一致。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10)."
+            },
+            {
+              "id": "support-practice-5-8",
+              "sourceNumber": "8",
+              "prompt": "填写原段落第(8)空。",
+              "answer": "industrialized",
+              "explanation": "区域图最上方曲线为Industrialized。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-practice-5-9",
+              "sourceNumber": "9",
+              "prompt": "填写原段落第(9)空。",
+              "answer": "the EE/FSU countries",
+              "explanation": "比较的是Developing与EE/FSU两组早期接近的能源用量。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-practice-5-10",
+              "sourceNumber": "10",
+              "prompt": "填写原段落第(10)空。",
+              "answer": "1990",
+              "explanation": "按答案册取1990。原图是连续曲线，分离已在1980年代出现；此处是概括趋势的约略分界，不应声称精确变点。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-practice-5-11",
+              "sourceNumber": "11",
+              "prompt": "填写原段落第(11)空。",
+              "answer": "increase",
+              "explanation": "答案册用increase；重点是发展中地区与EE/FSU分离后增长明显，不能解读成1990以前完全没有增长。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "support-practice-5-12",
+              "sourceNumber": "12",
+              "prompt": "填写原段落第(12)空。",
+              "answer": "2025",
+              "explanation": "段末对比图中预测终点。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10)."
+            },
+            {
+              "id": "support-practice-5-13",
+              "sourceNumber": "13",
+              "prompt": "填写原段落第(13)空。",
+              "answer": "industrialized nations",
+              "explanation": "their use指Developing的用量；that of后接Industrialized这一比较群体。",
+              "sourceLabel": "Supporting Details 书页 52；配套答案 PDF 第 2—3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Figure 1. World Marketed Energy Consumption, 1970–2025\n单位：Quadrillion Btu\nHistory：1970 207；1975 243；1980 285；1985 311；1990 348；1995 368；2001 404。\nProjections（当时预测）：2010 471；2015 517；2020 568；2025 623。\n\nFigure 2. World Marketed Energy Consumption by Region, 1970–2025\n单位：Quadrillion Btu；横轴1970、1980、1990、2001、2010、2025；2001后为Projections。三条曲线分别为Industrialized、Developing、EE/FSU。Industrialized全程位于最上方并总体增长。Developing与EE/FSU早期接近，1990前后Developing明显向上、EE/FSU下降后缓慢回升。到2025，两条最高曲线已接近，EE/FSU仍远低于两者。区域图没有标出逐点精确数字，这里只转录可读趋势，不捏造数据。\nSource: “International Energy Outlook 2004: Highlights.” Energy Information Administration. 21 Oct. 2004. Both graphs appeared on page 10.\n\nWorld Energy Consumption\nAccording to (1) ______, world energy consumption has been steadily (2) ______. Currently, the nations of the world use between (3) ______ and (4) ______ quadrillion Btu (British thermal units) annually. By the year 2025, consumption is projected to increase to (5) ______ Btu, an increase of (6) ______ percent from the year (7) ______. The largest consumers are the (8) ______ countries, and the nations who consume the least energy belong to the EE/FSU (Eastern Europe/Former Soviet Union) group. Developing nations consumed approximately the same amount of energy as (9) ______ until (10) ______, when the energy use of developing nations began to (11) ______. By (12) ______, it is projected that their use will nearly equal that of (13) ______ (“International” 10).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "support-practice-6",
+          "instructions": "从两张图中任选一张写一个段落：先写主旨，再写5—10个使用统计的支撑陈述；交代统计来源，并在段末给文内引注。下面完整转录图表标签与标注数字。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "support-practice-6-writing",
+              "sourceNumber": "Steps 1—4",
+              "prompt": "任选Graph 1或Graph 2，写一个解释该图意义的段落。",
+              "answer": "开放写作，答案册仅标Individual paragraphs。Graph 1可围绕学历组与收入中位数的比较；Graph 2可围绕成本构成差异。引用图1可用(Baum and Payea 10)，图2可用(Day B1)，并在正文明确来源。",
+              "explanation": "不要逐个机械抄数字；先确定一个读者能理解的主旨，再用5—10个统计支撑陈述展开。图1仅显示关联，不能据此断言学历直接造成收入差异。图2比较时注意0.175和0.035不是0.17/0.03，也不是17.5/3.5美元。",
+              "sourceLabel": "Supporting Details 书页 53—54；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Graph 1. Median Earnings and Tax Payments by Level of Education, 2003\n单位：美元。以下为每条横柱末端标注的收入中位数（税后收入+税额）：\nProfessional degree: $95,700\nDoctorate degree: $79,400\nMaster’s degree: $60,500\nBachelor’s degree: $49,900\nAssociate degree: $37,000\nSome college, no degree: $35,700\nHigh school diploma: $30,800\nLess than HS diploma: $21,600\n图例：黑色部分为After-tax income，灰色部分为Taxes。两部分没有逐项标注精确数值，不能把总额误当税后收入，也不能臆测精确税额。\nNotes: Includes full-time year-round workers age 25 and older. Tax payments are based on 2002 tax rates and do not incorporate the 2003 federal income reductions.\nSource: U.S. Census Bureau 2004, PINC-03; Internal Revenue Service, 2003, Table 3; McIntyre et al., 2003; calculations by the authors.\n出处：“Education, Earnings, and Tax Payments.” Graph. Sandy Baum and Kathleen Payea. Education Pays: The Benefits of Higher Education for Individuals and Society. College Board Online. 21 Oct. 2004. Graph on page 10.\n\nGraph 2. Cost of a Double Cappuccino at Specialty Coffee Shops\nShop owners’ profit: $0.25\nInitial investment: $0.18\nMilk: $0.40\nCost of the cup: $0.07\nCoffee millers, exporters, importers, and roasters: $0.175\nLabor costs at the coffee shop: $1.35\nCoffee growers: $0.035\nShop rent, marketing and general administration: $1.29\nSource: Sherri Day. “Move Over Starbucks, Juan Valdez Is Coming.” New York Times, 29 Nov. 2003: B1.\n两图均为教材历史材料，不代表当前收入、税制或咖啡成本。",
+              "rubric": [
+                "选一图，主题句说明清楚的总体意义。",
+                "有5—10个使用图上统计的支撑陈述。",
+                "数值、单位、群体和年代准确。",
+                "用报告语交代来源，段末有文内引注。",
+                "不过度推断因果，不虚构图上未给的税额。"
+              ]
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "title": "观点需要具体依据",
+          "explanation": "fact 可查证，opinion 是判断；事实也需核对出处与语境。论点→证据→解释，避免只有引文没有自己的分析。教材旧数据是语言练习材料，不当作今天的统计。",
+          "example": "原创示例：A quiet room supports concentration because it reduces interruptions.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先区分“评价/建议”与“可以核实的陈述”。",
+            "再看句子是否已经提供可核对的具体案例、数字或引语。",
+            "对O和F-NP提出所需证据，而不是用另一个空泛评价来支持。"
+          ],
+          "breakdown": [
+            {
+              "text": "Opinion",
+              "note": "如not severe enough包含价值判断，需要讲清标准和证据。"
+            },
+            {
+              "text": "Fact that needs proof",
+              "note": "可核实不代表本句已经证明；most、rapidly等概括往往需要统计。"
+            },
+            {
+              "text": "Specific supporting detail",
+              "note": "具体人物经历、带时间和来源的数量或直接引语，可用来支撑概括。"
+            }
+          ],
+          "pitfall": "For example只是信号，不保证后面就是充分的具体证据；有数字也要核对年份、对象与来源。",
+          "sourceLabel": "Supporting Details 书页39—41",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：“Most students prefer online classes”尚未附调查，最合适的下一步是什么？",
+            "options": [
+              {
+                "value": "1",
+                "label": "反复说online classes are good"
+              },
+              {
+                "value": "2",
+                "label": "给出有来源的偏好调查，说明样本和时间"
+              },
+              {
+                "value": "3",
+                "label": "加上very most"
+              }
+            ],
+            "answer": "2",
+            "explanation": "most是比例概括，需要相关调查。该检查是原创，不冒充教材原题。"
+          }
+        },
+        {
+          "title": "直接引语",
+          "explanation": "保留原词，用引号并标来源。报告语在前通常接逗号；引号内句首大写。中间插入报告语时，原句第二部分不因此强制大写。",
+          "example": "原创示例：The tutor said, \"Review your notes carefully.\"",
+          "before": "The tutor said \"review your notes carefully\".",
+          "after": "The tutor said, \"Review your notes carefully.\"",
+          "steps": [
+            "先标出说话人/报告语与逐字原话的边界。",
+            "给原话加成对引号，按整句或中断句放逗号和大小写。",
+            "删词用省略号，加词用方括号；引用中的引用用单引号。",
+            "最后检查文内引注及句号位置。"
+          ],
+          "breakdown": [
+            {
+              "text": "完整引语",
+              "note": "The tutor said, “Read the whole sentence.”报告语后有逗号，Read大写。"
+            },
+            {
+              "text": "中断引语",
+              "note": "“Read,” the tutor said, “the whole sentence.”后半句继续原句，不机械大写。"
+            },
+            {
+              "text": "文内引注",
+              "note": "“...” (Lee 8). 句号放在括号后；短片语融入句中时不必强加逗号。"
+            }
+          ],
+          "pitfall": "直接引用必须准确；只换同义词却仍当逐字引语会失真。教材采用其版本的美式引用规则，具体考试依课程要求。",
+          "sourceLabel": "Supporting Details 书页42—46",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：同一句引语被报告语插开，后半句应怎样开始？",
+            "options": [
+              {
+                "value": "1",
+                "label": "总是大写"
+              },
+              {
+                "value": "2",
+                "label": "总是另起一句"
+              },
+              {
+                "value": "3",
+                "label": "根据原句结构继续，必要时小写"
+              }
+            ],
+            "answer": "3",
+            "explanation": "大小写由是否是新句决定，不能仅凭出现了第二个引号判断。"
+          }
+        },
+        {
+          "title": "间接引语",
+          "explanation": "不加引号，按语境调整代词、时间词和时态。过去式报告动词常触发时态后移；仍成立的事实可保留现在时，不能机械后移。陈述语序保留。",
+          "example": "原创示例：The tutor said that the task was useful.",
+          "before": "The tutor said that \"the task was useful.\"",
+          "after": "The tutor said that the task was useful.",
+          "steps": [
+            "去掉整段直接引号，以报告动词和必要的that引出。",
+            "按转述视角调整I/you/my等指代。",
+            "先看报告动词时态，再判断是否后移；同时保持时间指向。",
+            "比较原句，核对信息与语气没有被改强或改弱。"
+          ],
+          "breakdown": [
+            {
+              "text": "过去时报告",
+              "note": "said + can通常变为said that ... could；will通常变would。"
+            },
+            {
+              "text": "例外",
+              "note": "现在时报告动词、according to或一般真理，不机械后移。"
+            },
+            {
+              "text": "时间词",
+              "note": "now/last year是否变then/the previous year取决于转述时间；指向一致比机械换词重要。"
+            }
+          ],
+          "pitfall": "普通间接引语的人称改变不必一律加方括号；模型方括号用于显示对照中的替换。",
+          "sourceLabel": "Supporting Details 书页47—49",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：He says, “I can finish it today.”怎样转述最合适？",
+            "options": [
+              {
+                "value": "1",
+                "label": "He says that he can finish it today."
+              },
+              {
+                "value": "2",
+                "label": "He says that he could finish it yesterday."
+              },
+              {
+                "value": "3",
+                "label": "He says that “he can finish it today.”"
+              }
+            ],
+            "answer": "1",
+            "explanation": "says是现在时，无须因转述就机械后移；整句不保留直接引号。"
+          }
+        },
+        {
+          "title": "报告动词与解释",
+          "explanation": "according to、report、state、argue、suggest 反映来源立场；不要把 suggest 升格为 prove。引文后解释它如何支持主旨。",
+          "example": "原创示例：The author argues that regular review is valuable. This view supports a daily practice plan.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "确认报告的是谁的哪种立场。",
+            "选能准确表达立场的report、state、claim、suggest等动词。",
+            "用according to +来源，或主语+报告动词，避免双重框架。",
+            "引用后解释材料与本段主张的关系。"
+          ],
+          "breakdown": [
+            {
+              "text": "According to",
+              "note": "后接来源名称；可以放句首或句尾，通常不插入引语中间。"
+            },
+            {
+              "text": "Reporting verb",
+              "note": "可位于引语之前、中间或之后；语气必须符合原文。"
+            },
+            {
+              "text": "分析",
+              "note": "证据后说明它支持哪个分点，不让引语自己承担全部推理。"
+            }
+          ],
+          "pitfall": "suggest只表示提出或暗示，不能改成prove并声称已经证明；一段全是引语也不等于完成自己的论证。",
+          "sourceLabel": "Supporting Details 书页43—44、49—50",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：哪种引入语避免了双重报告结构？",
+            "options": [
+              {
+                "value": "1",
+                "label": "According to Lee says that ..."
+              },
+              {
+                "value": "2",
+                "label": "According to Lee, ..."
+              },
+              {
+                "value": "3",
+                "label": "According to argues Lee that ..."
+              }
+            ],
+            "answer": "2",
+            "explanation": "According to本身已是引入来源的框架，不再叠加says。"
+          }
+        },
+        {
+          "title": "统计信息与图表",
+          "explanation": "先交代来源和主趋势，再选择关键对比。检查单位、年份、分母、百分比与百分点；区分观察值与预测值。不得虚构数据填补论据。",
+          "example": "原创练习数据：A rate rising from 20% to 30% increases by 10 percentage points, or 50% relative to the initial rate.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先读标题、年份、单位、对象和来源。",
+            "区分历史观察值与当时预测值。",
+            "选择支持主旨的趋势或对比，核对增幅使用的基期。",
+            "把数值放进完整句，保留单位和引注。"
+          ],
+          "breakdown": [
+            {
+              "text": "百分比增幅",
+              "note": "(新值−旧值)÷旧值×100；Practice 5用471到623得到约32%。"
+            },
+            {
+              "text": "单位",
+              "note": "623 quadrillion Btu不能省成623 Btu；美元中的0.035也不能读成3.5美元。"
+            },
+            {
+              "text": "图的限度",
+              "note": "未标精确数值的曲线只能报告近似趋势；不能凭图造出逐点精确统计。"
+            }
+          ],
+          "pitfall": "学历与收入的组间关联不能直接证明因果；图上2025若标Projections，今天读它仍是旧预测。",
+          "sourceLabel": "Supporting Details 书页51—54",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：某2004图把2025标作Projections，引用时应怎样表述？",
+            "options": [
+              {
+                "value": "1",
+                "label": "2025实际值已被该图证实"
+              },
+              {
+                "value": "2",
+                "label": "2004资料当时预测2025将达到该值"
+              },
+              {
+                "value": "3",
+                "label": "删去年份和预测标签"
+              }
+            ],
+            "answer": "2",
+            "explanation": "保留预测身份与来源年代，避免把预测当观察结果。"
+          }
+        },
+        {
+          "title": "来源可追溯",
+          "explanation": "直接引语、转述、摘要、非公共知识的数据均需要来源。文内引用与文末条目对应；教材含较旧引用格式，考试按教师指定版本。",
+          "example": "原创示例：According to the provided chart, participation increased between the two years.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "借用原话、转述或数据时，记下实际读到的来源。",
+            "在借用结束处放短引注。",
+            "确保文末条目能与短引注互相对应。",
+            "区分原说话人与报道作者，转引要清楚。"
+          ],
+          "breakdown": [
+            {
+              "text": "两层来源",
+              "note": "Yesalis说的话可由Herper文章报道；你实际引用的文章作者不等于原说话人。"
+            },
+            {
+              "text": "文内与文末",
+              "note": "文内短引注帮助定位，文末完整条目让读者找到材料。"
+            },
+            {
+              "text": "无作者",
+              "note": "本书示例以缩短标题代作者；按教师指定格式保持一致。"
+            }
+          ],
+          "pitfall": "改了措辞仍可能使用别人的思想或数据，不能因此删除来源；未提供的Appendix E不应声称已完整学习。",
+          "sourceLabel": "Supporting Details 书页41—42、54",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：将别人的统计改写成自己的句子之后，是否仍须注明来源？",
+            "options": [
+              {
+                "value": "1",
+                "label": "不须，词都不同了"
+              },
+              {
+                "value": "2",
+                "label": "仍须，因为数据来源未变"
+              },
+              {
+                "value": "3",
+                "label": "只要不超过十个字就不须"
+              }
+            ],
+            "answer": "2",
+            "explanation": "引用义务取决于借用了信息，不只看是否逐字复制。"
+          }
+        }
+      ],
+      "audit": [
+        {
+          "type": "visual",
+          "detail": "逐页视觉核对教材13-001—13-016（书页39—54）和答案12-001—12-003（答案书页8—10）。原页与原PDF未修改。"
+        },
+        {
+          "type": "coverage",
+          "detail": "6个Practice及3个Writing Technique Questions模型共9组。Practice 1原已填1—3恢复作答；Step 2对全部11个O/F-NP陈述另记证据构思。Review是知识总结，无空缺题，不伪造新增原题。Practice 4的Computer Crime完整示例不算待答题。"
+        },
+        {
+          "type": "key-difference",
+          "detail": "Indirect model第5问答案册给No，但教材书页47第9句比43页新增that；保留原文并作自评说明。第2问答案册额外列第10句feel，原题主要问第6句，不强加额外必答。"
+        },
+        {
+          "type": "key-difference",
+          "detail": "Practice 2第3项答案册第一处引号前逗号缺印/不清，依教材直接引语标点规则补逗号。Practice 5第5空答案册漏quadrillion，填写623数值仍接受但解释必须为quadrillion Btu。"
+        },
+        {
+          "type": "chart",
+          "detail": "Practice 5 Figure 1精确标签全部文字化；Figure 2仅有连续曲线，无逐点精确值，转录趋势不编造数字。答案册1990作为大致分界，解释其近似性。Practice 6两图全部标注数字及必要来源转录；收入图各税额/税后额未标精确数字，不臆测。"
+        },
+        {
+          "type": "missing-reference",
+          "detail": "书页41—42的Appendix E、书页46的Appendix B 288—289、书页48的Chapter 12为额外参考，所供材料未含；它们不阻断本章9组已给正文练习，未伪造附录内容。"
+        },
+        {
+          "type": "grading",
+          "detail": "Practice 1第11项O或F-NP均接受。明确数值填空自动核对，词组填空、引语改写、证据构思和开放写作使用自评，避免合理同义表达被误判。"
+        },
+        {
+          "type": "historical",
+          "detail": "身份盗窃统计、兴奋剂模型、计算机能力、人口/能源预测、2003收入与咖啡成本均保留教材年代；不得当作2026事实或技术评估。"
+        },
+        {
+          "type": "counts",
+          "missions": {
+            "support-practice-1": 28,
+            "support-model-direct": 5,
+            "support-practice-2": 6,
+            "support-model-indirect": 5,
+            "support-practice-3": 4,
+            "support-practice-4": 1,
+            "support-model-statistics": 3,
+            "support-practice-5": 13,
+            "support-practice-6": 1
+          },
+          "totalItems": 66,
+          "automaticItems": 23
+        }
+      ]
+    }
+  ]
+}

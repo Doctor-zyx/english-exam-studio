@@ -1,0 +1,1579 @@
+{
+  "missions": [
+    {
+      "id": "ch11-p1",
+      "instructions": "A：标出平行项并圈出连接词（文字作答时分别列出）。B：指出不平行部分并重写整句。C：七种连接词各用一次，写七个原创平行句。已把教材 A1、B1 的示范答案移到反馈区，保留原题供独立练习。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch11-p1-a-1",
+          "sourceNumber": "A1",
+          "prompt": "原题 A1：An ideal environment for studying includes good lighting, a spacious desk, and a comfortable chair.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：good lighting / a spacious desk / a comfortable chair；连接词：and。",
+          "autoGrade": false,
+          "explanation": "includes 后面三个名词短语都回答“包括什么”，and 连接最后两项。第1题原有示范标记已移到答案。",
+          "sourceLabel": "教材第181页（PDF 20/32）原题及示范；配套答案册第35页从A2开始。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-2",
+          "sourceNumber": "A2",
+          "prompt": "原题 A2：You know you are truly fluent in another language when you can calculate in it and when you begin to dream in it.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：when you can calculate in it / when you begin to dream in it；连接词：and。",
+          "autoGrade": false,
+          "explanation": "两项都以 when 开头，后接主语和谓语，共同说明何时可以认为自己很流利。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-3",
+          "sourceNumber": "A3",
+          "prompt": "原题 A3：People often spend as much time worrying about the future as planning for it.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：worrying about the future / planning for it；连接词：as（as much ... as 比较结构）。",
+          "autoGrade": false,
+          "explanation": "比较的是两种花时间做的事，所以 worrying 与 planning 都用 -ing 形式。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-4",
+          "sourceNumber": "A4",
+          "prompt": "原题 A4：You can learn a second language in the classroom, at home, or in a country where the language is spoken.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：in the classroom / at home / in a country where the language is spoken；连接词：or。",
+          "autoGrade": false,
+          "explanation": "三个地点都用介词短语；第三项内部有 where 从句，但整项仍表示地点。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-5",
+          "sourceNumber": "A5",
+          "prompt": "原题 A5：My new personal computer is both fast and reliable.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：fast / reliable；连接词：both ... and。",
+          "autoGrade": false,
+          "explanation": "is 后面两个形容词分别描述电脑的两项特点。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-6",
+          "sourceNumber": "A6",
+          "prompt": "原题 A6：My old typewriter is neither fast nor reliable.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：fast / reliable；连接词：neither ... nor。",
+          "autoGrade": false,
+          "explanation": "neither 和 nor 后都接形容词，表达两项都不具备。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-7",
+          "sourceNumber": "A7",
+          "prompt": "原题 A7：Ann is growing older but unfortunately not wiser.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：older / not wiser；连接词：but。",
+          "autoGrade": false,
+          "explanation": "older 和 wiser 都是形容词比较级；not 表示否定，unfortunately 是插入的评价，不改变平行骨架。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-8",
+          "sourceNumber": "A8",
+          "prompt": "原题 A8：Young people buy computers not only to do schoolwork but also to play games.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：to do schoolwork / to play games；连接词：not only ... but also。",
+          "autoGrade": false,
+          "explanation": "两个目的都用 to + 动词原形。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-9",
+          "sourceNumber": "A9",
+          "prompt": "原题 A9：If industrial nations continue to burn fossil fuels and if developing nations continue to burn their rain forests, the level of CO₂ in the atmosphere will continue to increase.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：If industrial nations continue to burn fossil fuels / if developing nations continue to burn their rain forests；连接词：and。",
+          "autoGrade": false,
+          "explanation": "两个 if 条件从句并列，后面的 the level ... will continue 是共同的主句。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-10",
+          "sourceNumber": "A10",
+          "prompt": "原题 A10：Before the judge announced the punishment, he asked the murderer if he wanted to speak either to the victim's family or to the jury.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：to the victim's family / to the jury；连接词：either ... or。",
+          "autoGrade": false,
+          "explanation": "either/or 分别放在两个 to 介词短语之前，两个短语都是 speak 的对象。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-a-11",
+          "sourceNumber": "A11",
+          "prompt": "原题 A11：The criminal neither admitted guilt nor asked for forgiveness before he was sent to prison.",
+          "instruction": "写出所有平行项，并写出连接这些平行项的词；用 / 分隔各项，相当于原题的划线和圈词。",
+          "answer": "平行项：admitted guilt / asked for forgiveness；连接词：neither ... nor。",
+          "autoGrade": false,
+          "explanation": "两个过去式动词短语共享主语 The criminal。答案册句尾为 executed，教材为 sent to prison；本题保留教材原文，不影响平行结构判断。",
+          "sourceLabel": "教材第181页（PDF 20/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "平行项范围正确，不能只列连接词。",
+            "连接词完整；成对连词须写出两部分。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-1",
+          "sourceNumber": "B1",
+          "prompt": "原题 B1：The disadvantages of using a credit card are overspending and you pay high interest rates.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：you pay high interest rates。\nThe disadvantages of using a credit card are overspending and paying high interest rates.",
+          "autoGrade": false,
+          "explanation": "overspending 是动名词，and 后也改成 paying 动名词短语，两项一起说明 disadvantages。",
+          "sourceLabel": "教材第182页（PDF 21/32）原题及示范；配套答案册第35页从B2开始。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-2",
+          "sourceNumber": "B2",
+          "prompt": "原题 B2：Credit cards are accepted by department stores, airlines, and they can be used in some gas stations.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：they can be used in some gas stations。\nCredit cards are accepted by department stores, airlines, and some gas stations.",
+          "autoGrade": false,
+          "explanation": "by 后列举接受信用卡的场所，应是三个名词短语，不要把第三项突然写成独立句。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-3",
+          "sourceNumber": "B3",
+          "prompt": "原题 B3：You do not need to risk carrying cash or to risk to miss a sale.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：to risk to miss a sale（尤其 to miss）。\nYou do not need to risk carrying cash or missing a sale.",
+          "autoGrade": false,
+          "explanation": "risk 后接 -ing：risk carrying / missing。or 两侧共享 risk，删去重复成分后仍要保留正确的动词形式。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-4",
+          "sourceNumber": "B4",
+          "prompt": "原题 B4：With credit cards, you can either pay your bill with one check, or you can stretch out your payments.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：or 后的 you can。\nWith credit cards, you can either pay your bill with one check or stretch out your payments.",
+          "autoGrade": false,
+          "explanation": "either 后是 pay 动词短语，or 后也接 stretch 动词短语，主语与 can 由两项共享。这里不再是两个独立分句，不需要原来的逗号。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-5",
+          "sourceNumber": "B5",
+          "prompt": "原题 B5：You can charge both at restaurants and when you stay at hotels.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：when you stay at hotels。\nYou can charge both at restaurants and at hotels.",
+          "autoGrade": false,
+          "explanation": "both 后是地点介词短语 at restaurants，and 后改成同样的 at hotels。也可把 at 放到 both 前。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ],
+          "alternatives": [
+            "You can charge at both restaurants and hotels."
+          ]
+        },
+        {
+          "id": "ch11-p1-b-6",
+          "sourceNumber": "B6",
+          "prompt": "原题 B6：Many people carry not only credit cards but they also carry cash.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：but they also carry cash。\nMany people carry not only credit cards but also cash.",
+          "autoGrade": false,
+          "explanation": "not only 后是名词 credit cards，but also 后应接名词 cash；不要重复主语和谓语。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-7",
+          "sourceNumber": "B7",
+          "prompt": "原题 B7：Many people want neither to pay off their balance monthly nor do they like paying interest.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：do they like paying interest。\nMany people want neither to pay off their balance monthly nor to pay interest.",
+          "autoGrade": false,
+          "explanation": "neither 后是 to pay off，nor 后也用 to pay；不要把第二项换成带另一谓语的句子。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-b-8",
+          "sourceNumber": "B8",
+          "prompt": "原题 B8：Not making any payment or to send in only the minimum payment every month is poor money management.",
+          "instruction": "先指出不平行的部分，再重写整句，使各并列项结构相同；第二项不必重复共同的词。",
+          "answer": "不平行部分：to send in only the minimum payment every month。\nNot making any payment or sending in only the minimum payment every month is poor money management.",
+          "autoGrade": false,
+          "explanation": "句子主语由两个选择并列构成，前项用 making，后项也用 sending。答案册把 minimum payment 改成复数 payments，也不影响平行结构。",
+          "sourceLabel": "教材第182页（PDF 21/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "指出不平行的部分。",
+            "提交完整改写句，连接词两侧结构对应。",
+            "保留原意，检查主语、谓语与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-1",
+          "sourceNumber": "C1",
+          "prompt": "原题 C1：and — two weekend activities you enjoy",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：I enjoy reading novels and playing badminton on weekends.",
+          "autoGrade": false,
+          "explanation": "reading 与 playing 都是 enjoy 后的动名词短语。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-2",
+          "sourceNumber": "C2",
+          "prompt": "原题 C2：or — two foods you would not eat/give to a baby",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：I would not give a baby nuts or hard candy.",
+          "autoGrade": false,
+          "explanation": "nuts 与 hard candy 都是食品名词，or 提出两种选择。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-3",
+          "sourceNumber": "C3",
+          "prompt": "原题 C3：but — one school subject that you excel at and one that you struggle with",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：I excel at English but struggle with mathematics.",
+          "autoGrade": false,
+          "explanation": "excel 与 struggle 都是现在时动词短语，共享 I。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-4",
+          "sourceNumber": "C4",
+          "prompt": "原题 C4：both ... and — two advantages of being bilingual",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：Being bilingual helps me both communicate with more people and understand different cultures.",
+          "autoGrade": false,
+          "explanation": "both/and 后分别接 communicate 和 understand 动词短语。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-5",
+          "sourceNumber": "C5",
+          "prompt": "原题 C5：either ... or — two places you might spend a month's vacation or a honeymoon",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：I might spend a month either in Kyoto or in Rome.",
+          "autoGrade": false,
+          "explanation": "either/or 后都用 in + 地点。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-6",
+          "sourceNumber": "C6",
+          "prompt": "原题 C6：neither ... nor — two places you would never spend a month's vacation or a honeymoon",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：I would spend a month neither in a crowded airport nor in an isolated warehouse.",
+          "autoGrade": false,
+          "explanation": "两个地点介词短语分别放在 neither 和 nor 后。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        },
+        {
+          "id": "ch11-p1-c-7",
+          "sourceNumber": "C7",
+          "prompt": "原题 C7：not only ... but also — two reasons to get a college degree",
+          "instruction": "用给定连接词写一个原创的平行结构句子。可以用原题建议的主题，也可以自选主题。",
+          "answer": "自编参考示例（原答案册为 Individual responses）：I want to get a college degree not only to gain knowledge but also to improve my career prospects.",
+          "autoGrade": false,
+          "explanation": "两个理由都用 to + 动词短语说明目的。",
+          "sourceLabel": "教材第183页（PDF 22/32）；答案册第35页（PDF 6/11）。",
+          "rubric": [
+            "使用本题指定连接词，成对连词两部分齐全。",
+            "连接的两项结构对应，且表达有意义的关系。",
+            "句子有完整主谓结构，拼写和标点正确；无需与示例内容相同。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch11-p2",
+      "instructions": "A：判断全部15句是 Frag. 还是 Comp.，并把每个残句改成完整句。B：阅读 Women Drivers 全文四段，标出所有残句并修正；各段独立作答，必须完成定位与改写。原文的性别概括及统计只作历史教材语法素材，不代表工作台认可其内容或确认数据。词注：sexism，原教材释为 men’s belief in male superiority。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch11-p2-a-1",
+          "sourceNumber": "A1",
+          "prompt": "原题 A1：The desire of all humankind to live in peace and freedom, for example.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nThe desire of all humankind is to live in peace and freedom, for example.",
+          "autoGrade": false,
+          "explanation": "The desire 后面的 of ... 和 to live ... 都不是整句的限定谓语；加 is 才说明“愿望是什么”。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-2",
+          "sourceNumber": "A2",
+          "prompt": "原题 A2：Second, a fact that men are physically stronger than women.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nSecond, it is a fact that men are physically stronger than women.",
+          "autoGrade": false,
+          "explanation": "a fact 只是名词，that 从句说明 fact 的内容；补上 it is 才形成完整主句。本题只练结构，句子中的概括不作为事实结论。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-3",
+          "sourceNumber": "A3",
+          "prompt": "原题 A3：The best movie I saw last year.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nThe best movie that I saw last year was Crouching Tiger, Hidden Dragon.",
+          "autoGrade": false,
+          "explanation": "I saw last year 是修饰 movie 的从句；整个名词短语还缺自己的谓语，补上 was ...。电影名可以自选。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-4",
+          "sourceNumber": "A4",
+          "prompt": "原题 A4：Titanic was the most financially successful movie ever made, worldwide.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Comp.（完整句，无需改写。）",
+          "autoGrade": false,
+          "explanation": "Titanic 是主语，was 是限定谓语，后面的内容说明它是什么；ever made 修饰 movie。这里只判断句法，不更新电影票房资料。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-5",
+          "sourceNumber": "A5",
+          "prompt": "原题 A5：For example, many students have part-time jobs.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Comp.（完整句，无需改写。）",
+          "autoGrade": false,
+          "explanation": "many students 是主语，have 是谓语。For example 是提示语，不会把完整主句变成从句。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-6",
+          "sourceNumber": "A6",
+          "prompt": "原题 A6：Although people want to believe that all men are created equal.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nAlthough people want to believe that all men are created equal, it is not true.",
+          "autoGrade": false,
+          "explanation": "Although 引出让步从句，读者还在等“虽然如此，结果怎样”。补一个主句即可；答案册所给观点只是语法示例，也可写其他合乎逻辑的主句。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-7",
+          "sourceNumber": "A7",
+          "prompt": "原题 A7：Finding a suitable marriage partner is a challenging task.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Comp.（完整句，无需改写。）",
+          "autoGrade": false,
+          "explanation": "Finding ... 是动名词短语作主语，但整句已有限定谓语 is；不能一见 -ing 就判残句。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-8",
+          "sourceNumber": "A8",
+          "prompt": "原题 A8：Many of my friends who did not have the opportunity to go to college.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nMany of my friends who did not have the opportunity to go to college are unhappy.",
+          "autoGrade": false,
+          "explanation": "who did not have ... 只修饰 friends；主语 friends 还需要自己的谓语，例如 are unhappy。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-9",
+          "sourceNumber": "A9",
+          "prompt": "原题 A9：Working during the morning and attending classes during the afternoon.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nWorking during the morning and attending classes during the afternoon doesn't leave much time for fun.",
+          "autoGrade": false,
+          "explanation": "Working 和 attending 组成主语部分，还没有陈述它带来的结果；补上 does not leave ...。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-10",
+          "sourceNumber": "A10",
+          "prompt": "原题 A10：Because I do not feel that grades in college have any value.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nBecause I do not feel that grades in college have any value, I do not worry if I get a bad grade.",
+          "autoGrade": false,
+          "explanation": "Because 把句子变成原因从句，需要接“所以我怎样”的主句；英语不必再加 so。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-11",
+          "sourceNumber": "A11",
+          "prompt": "原题 A11：A tsunami that occurred in the Indian Ocean in December 2004, killing more than 200,000 people.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nA tsunami that occurred in the Indian Ocean in December 2004 killed more than 200,000 people.",
+          "autoGrade": false,
+          "explanation": "that occurred ... 修饰 tsunami，killing 是非限定形式。把 killing 改成 killed，给主语 tsunami 一个限定谓语。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-12",
+          "sourceNumber": "A12",
+          "prompt": "原题 A12：The total energy of the tsunami waves was about five megatons of TNT.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Comp.（完整句，无需改写。）",
+          "autoGrade": false,
+          "explanation": "The total energy 是主语，was 是谓语；of the tsunami waves 只补充说明能量的来源。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-13",
+          "sourceNumber": "A13",
+          "prompt": "原题 A13：More than twice the total explosive energy used during all of World War II, including two atomic bombs, according to one expert.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nThis was more than twice the total explosive energy used during all of World War II, including two atomic bombs, according to one expert.",
+          "autoGrade": false,
+          "explanation": "整句只有一个数量名词短语，没有主语加限定谓语。补 This was，把它变成对前文能量的陈述。",
+          "sourceLabel": "教材第184页（PDF 23/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-14",
+          "sourceNumber": "A14",
+          "prompt": "原题 A14：Evidence that the wave reached a height of 80 feet (24 meters) when coming ashore along the coastline and rose to 100 feet (30 meters) in some areas when traveling inland.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Frag.\nThere is evidence that the wave reached a height of 80 feet (24 meters) when coming ashore along the coastline and rose to 100 feet (30 meters) in some areas when traveling inland.",
+          "autoGrade": false,
+          "explanation": "that 后的 reached、rose 属于说明 evidence 内容的从句；名词 Evidence 本身尚无主句谓语。加 There is 即可。答案册将 wave 写成 waves、meters 缩写为 m，结构相同。",
+          "sourceLabel": "教材第185页（PDF 24/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-a-15",
+          "sourceNumber": "A15",
+          "prompt": "原题 A15：Despite a lag of up to several hours between the earthquake and tsunami, nearly all of the victims were taken completely by surprise.",
+          "instruction": "先写 Frag.（残句）或 Comp.（完整句）；若是残句，再写一个完整的改写句；若已完整，写“无需改写”。",
+          "answer": "Comp.（完整句，无需改写。）",
+          "autoGrade": false,
+          "explanation": "Despite 后是名词短语；逗号后的 nearly all of the victims were taken ... 是完整主句。",
+          "sourceLabel": "教材第185页（PDF 24/32）；答案册第35–36页（PDF 6–7/11）。",
+          "rubric": [
+            "判断完整句或残句，不能把从句里的谓语当成主句谓语。",
+            "若是残句，必须提交完整改写，只有标签不算完成。",
+            "补写内容可以不同，但须与原句相关且语法完整。"
+          ]
+        },
+        {
+          "id": "ch11-p2-b-1",
+          "sourceNumber": "B·第1段",
+          "prompt": "原题 B·第1段：Women Drivers — Paragraph 1",
+          "instruction": "用 [ ] 标出本段所有残句并注明 Frag.，然后写出修正后的完整段落。可保留未出错的句子。",
+          "answer": "残句：[Believing that they are far better drivers than women.] Frag.\n参考改写：Sexism extends even into the area of automobile driving, it seems. Believing that they are far better drivers than women, men consider women drivers incompetent, inattentive, and even dangerous behind the wheel.",
+          "autoGrade": false,
+          "explanation": "Believing 是分词，不能单独担任完整句的谓语。把它接在 men consider 前，说明 men 的想法；前后所指人物要一致。",
+          "sourceLabel": "教材第185页（PDF 24/32）；答案册第36页（PDF 7/11）。",
+          "passage": "Sexism extends even into the area of automobile driving, it seems. Believing that they are far better drivers than women. Men consider women drivers incompetent, inattentive, and even dangerous behind the wheel.",
+          "rubric": [
+            "找出 Believing 开头的残句。",
+            "将分词短语接到主语 men 的主句，或补写明确主语及限定谓语。",
+            "保留本段全部信息，不只抄一处修正。"
+          ]
+        },
+        {
+          "id": "ch11-p2-b-2",
+          "sourceNumber": "B·第2段",
+          "prompt": "原题 B·第2段：Women Drivers — Paragraph 2",
+          "instruction": "用 [ ] 标出本段所有残句并注明 Frag.，然后写出修正后的完整段落。可保留未出错的句子。",
+          "answer": "残句：[For example, insurance rates.] Frag.; [Also, the greater percentage of accidents involving deaths caused by men.] Frag.; [Although women are criticized for being too cautious.] Frag.\n参考改写：However, statistics prove that women are, in fact, safer drivers than men. For example, insurance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 and 25 than by any other group. Also, the greater percentage of accidents involving deaths are caused by men. Although women are criticized for being too cautious, they are really just being safe drivers.",
+          "autoGrade": false,
+          "explanation": "For example 后只有名词，需接后面的完整句；caused 前缺被动语态助动词；Although 从句需接后面的主句。答案册使用 are caused；采用 is caused 或改成 a greater proportion of fatal accidents are caused、结构和含义合理，也可接受。文章中的统计未经本工作台重新验证。",
+          "sourceLabel": "教材第185页（PDF 24/32）；答案册第36页（PDF 7/11）。",
+          "passage": "However, statistics prove that women are, in fact, safer drivers than men. For example, insurance rates. Insurance rates for women are 20 percent lower than they are for men. Another proof is that more accidents are caused by male drivers between the ages of 18 and 25 than by any other group. Also, the greater percentage of accidents involving deaths caused by men. Although women are criticized for being too cautious. They are really just being safe drivers.",
+          "rubric": [
+            "标出三处残句，而不是把全部长句都划掉。",
+            "合并 insurance rates 的重复片段，补上被动谓语，连接 although 从句与主句。",
+            "保留本段全部信息，不只抄一处修正。"
+          ]
+        },
+        {
+          "id": "ch11-p2-b-3",
+          "sourceNumber": "B·第3段",
+          "prompt": "原题 B·第3段：Women Drivers — Paragraph 3",
+          "instruction": "用 [ ] 标出本段所有残句并注明 Frag.，然后写出修正后的完整段落。可保留未出错的句子。",
+          "answer": "残句：[On the one hand, women drivers who regard the automobile as a convenience.] Frag.; [Like a washing machine.] Frag.; [Using it as a weapon when they feel particularly aggressive.] Frag.; [Or using it as a status symbol.] Frag.\n参考改写：The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers regard the automobile as a convenience like a washing machine. On the other hand, men regard the automobile as an extension of their egos, using it as a weapon when they feel particularly aggressive or using it as a status symbol.",
+          "autoGrade": false,
+          "explanation": "who 把 regard 锁在修饰 drivers 的从句里，删除 who 后才有 women drivers regard 的主句。Like 短语接 convenience；两个 using 短语接在 men regard 的主句后，且彼此平行。",
+          "sourceLabel": "教材第185页（PDF 24/32）；答案册第36页（PDF 7/11）。",
+          "passage": "The reasons for women drivers' safer driving habits can perhaps be found in the differing attitudes of the sexes toward automobiles. On the one hand, women drivers who regard the automobile as a convenience. Like a washing machine. On the other hand, men regard the automobile as an extension of their egos. Using it as a weapon when they feel particularly aggressive. Or using it as a status symbol.",
+          "rubric": [
+            "找出四处残句。",
+            "修好 women drivers 的主句，并把 Like 和两处 using 片段接到相关主句。",
+            "保留本段全部信息，不只抄一处修正。"
+          ]
+        },
+        {
+          "id": "ch11-p2-b-4",
+          "sourceNumber": "B·第4段",
+          "prompt": "原题 B·第4段：Women Drivers — Paragraph 4",
+          "instruction": "用 [ ] 标出本段所有残句并注明 Frag.，然后写出修正后的完整段落。可保留未出错的句子。",
+          "answer": "残句：[Because of their attitude.] Frag.; [If they adopt the attitude that an automobile is merely a convenience.] Frag.\n参考改写：All in all, women are safer drivers because of their attitude. Men can learn to become safe drivers if they adopt the attitude that an automobile is merely a convenience.",
+          "autoGrade": false,
+          "explanation": "because of 后是名词短语，不是完整句；if 从句只给条件，需要“Men can learn ...”作为主句。把各片段接到前一句即可。",
+          "sourceLabel": "教材第185页（PDF 24/32）；答案册第36页（PDF 7/11）。",
+          "passage": "All in all, women are safer drivers. Because of their attitude. Men can learn to become safe drivers. If they adopt the attitude that an automobile is merely a convenience.",
+          "rubric": [
+            "找出 because of 和 if 开头的两处残句。",
+            "分别与前面的相关完整句连接，保留原来的因果和条件关系。",
+            "保留本段全部信息，不只抄一处修正。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch11-p3",
+      "instructions": "把过于零碎的句子合并。Step 1：判断各句是否同等重要；同等重要可并列。Step 2：如有主次，找出主信息并把它写进主句。Step 3：判断其他信息与主信息的时间、原因、对比或说明关系，选连接词。六题都须填写 Equal/Not equal、Main idea、Relationship(s) 和实际合并句。原第1题示范已恢复成可作答题。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch11-p3-1",
+          "sourceNumber": "1",
+          "prompt": "原题 1：(a) Gasoline became expensive. (b) Automobile manufacturers began to produce smaller cars. (c) Smaller cars use less gasoline.",
+          "instruction": "依次填写：① Equal / Not equal? ② Main idea?（指出 a、b 或 c）③ Relationship(s)? ④ Combined sentence（必须实际合并句子）。",
+          "answer": "Equal / Not equal? Not equal.\nMain idea: (b).\nRelationships: (a) time (when) or reason (because); (c) reason (because) or descriptive information (which).\nCombined sentence: When gasoline became more expensive, automobile manufacturers began to produce smaller cars because they use less gasoline.",
+          "autoGrade": false,
+          "explanation": "重点是厂家开始制造小型车；油价上涨说明背景或原因，小型车省油说明这样做的理由。先确定主句再安放两条辅助信息。教材示范合并句增加 more，原题 (a) 保留 expensive。",
+          "sourceLabel": "教材第187页（PDF 26/32）；参考答案为该页原示范，配套答案册第37页从第2题开始。",
+          "alternatives": [
+            "Because gasoline became more expensive, automobile manufacturers began to produce smaller cars, which use less gasoline."
+          ],
+          "rubric": [
+            "四项均作答，不能只写 Equal / Not equal。",
+            "主句与重点一致，连接词表达正确的信息关系。",
+            "合并后保留全部原意；各独立分句之间使用合法连接与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p3-2",
+          "sourceNumber": "2",
+          "prompt": "原题 2：(a) Electric cars are powered solely by batteries. (b) The new hybrid vehicles switch between electricity and gasoline.",
+          "instruction": "依次填写：① Equal / Not equal? ② Main idea?（指出 a、b 或 c）③ Relationship(s)? ④ Combined sentence（必须实际合并句子）。",
+          "answer": "Equal / Not equal? Equal.\nMain idea: (a) and (b) are equally important.\nRelationship: opposites.\nCombined sentence: Electric cars are powered solely by batteries, but the new hybrid vehicles switch between electricity and gasoline.",
+          "autoGrade": false,
+          "explanation": "两句对比两种汽车的动力来源，没有哪一句只是另一句的原因。用逗号加 but，把两个完整独立句并列起来。",
+          "sourceLabel": "教材第187页（PDF 26/32）；答案册第37页（PDF 8/11）。",
+          "alternatives": [],
+          "rubric": [
+            "四项均作答，不能只写 Equal / Not equal。",
+            "主句与重点一致，连接词表达正确的信息关系。",
+            "合并后保留全部原意；各独立分句之间使用合法连接与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p3-3",
+          "sourceNumber": "3",
+          "prompt": "原题 3：(a) Government and private agencies have spent billions of dollars advertising the dangers of smoking. (b) The number of smokers is still increasing.",
+          "instruction": "依次填写：① Equal / Not equal? ② Main idea?（指出 a、b 或 c）③ Relationship(s)? ④ Combined sentence（必须实际合并句子）。",
+          "answer": "Equal / Not equal? Not equal（按答案册示范）。\nMain idea: (b).\nRelationship: contrast / surprising continuation.\nCombined sentence: Although the government and private agencies have spent billions of dollars advertising the dangers of smoking, the number of smokers is still increasing.",
+          "autoGrade": false,
+          "explanation": "花钱宣传本应减少吸烟，结果人数仍增加，因此是“虽然……仍然……”的让步关系。答案册也接受用 yet 或 nevertheless 形成并列句，所以合理说明重点与关系即可，不把一种句型当唯一答案。",
+          "sourceLabel": "教材第187页（PDF 26/32）；答案册第37页（PDF 8/11）。",
+          "alternatives": [
+            "The government and private agencies have spent billions of dollars advertising the dangers of smoking; nevertheless, the number of smokers is still increasing.",
+            "The government and private agencies have spent billions of dollars advertising the dangers of smoking, yet the number of smokers is still increasing."
+          ],
+          "rubric": [
+            "四项均作答，不能只写 Equal / Not equal。",
+            "主句与重点一致，连接词表达正确的信息关系。",
+            "合并后保留全部原意；各独立分句之间使用合法连接与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p3-4",
+          "sourceNumber": "4",
+          "prompt": "原题 4：(a) Some students go to a vocational school to learn a trade. (b) Some students go to college to earn a degree.",
+          "instruction": "依次填写：① Equal / Not equal? ② Main idea?（指出 a、b 或 c）③ Relationship(s)? ④ Combined sentence（必须实际合并句子）。",
+          "answer": "Equal / Not equal? Equal.\nMain idea: (a) and (b) are equally important.\nRelationship: equality / similar ideas.\nCombined sentence: Some students go to a vocational school to learn a trade, and some students go to college to earn a degree.",
+          "autoGrade": false,
+          "explanation": "两种升学选择并列展示，用 and 连接两个同等重要的分句。to learn 和 to earn 分别说明各自目的。",
+          "sourceLabel": "教材第187页（PDF 26/32）；答案册第37页（PDF 8/11）。",
+          "alternatives": [],
+          "rubric": [
+            "四项均作答，不能只写 Equal / Not equal。",
+            "主句与重点一致，连接词表达正确的信息关系。",
+            "合并后保留全部原意；各独立分句之间使用合法连接与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p3-5",
+          "sourceNumber": "5",
+          "prompt": "原题 5：(a) The grading system at our college should be abolished. (b) The students do not like getting grades. (c) The instructors do not enjoy giving grades.",
+          "instruction": "依次填写：① Equal / Not equal? ② Main idea?（指出 a、b 或 c）③ Relationship(s)? ④ Combined sentence（必须实际合并句子）。",
+          "answer": "Equal / Not equal? Not equal.\nMain idea: (a).\nRelationship: (b) and (c) give reasons for the main idea.\nCombined sentence: The grading system at our college should be abolished because the students do not like getting grades and the instructors do not enjoy giving them.",
+          "autoGrade": false,
+          "explanation": "“应该取消评分制”是观点；学生不喜欢得到分数、老师不喜欢给分，是两个并列理由。用 because 引出理由，再用 and 并列两个理由。",
+          "sourceLabel": "教材第188页（PDF 27/32）；答案册第37页（PDF 8/11）。",
+          "alternatives": [],
+          "rubric": [
+            "四项均作答，不能只写 Equal / Not equal。",
+            "主句与重点一致，连接词表达正确的信息关系。",
+            "合并后保留全部原意；各独立分句之间使用合法连接与标点。"
+          ]
+        },
+        {
+          "id": "ch11-p3-6",
+          "sourceNumber": "6",
+          "prompt": "原题 6：(a) Education in a free society teaches children how to think. (b) Education in a dictatorship teaches children what to think.",
+          "instruction": "依次填写：① Equal / Not equal? ② Main idea?（指出 a、b 或 c）③ Relationship(s)? ④ Combined sentence（必须实际合并句子）。",
+          "answer": "Equal / Not equal? Equal.\nMain idea: (a) and (b) are equally important.\nRelationship: contrast.\nCombined sentence: Education in a free society teaches children how to think, whereas education in a dictatorship teaches children what to think.",
+          "autoGrade": false,
+          "explanation": "重点是并排对比 how 与 what。whereas 可以表示对照；答案册也给出分号加 in contrast 的写法。信息同等重要不意味着只能选 and。",
+          "sourceLabel": "教材第188页（PDF 27/32）；答案册第37页（PDF 8/11）。",
+          "alternatives": [
+            "Education in a free society teaches children how to think; in contrast, education in a dictatorship teaches children what to think."
+          ],
+          "rubric": [
+            "四项均作答，不能只写 Equal / Not equal。",
+            "主句与重点一致，连接词表达正确的信息关系。",
+            "合并后保留全部原意；各独立分句之间使用合法连接与标点。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch11-p4",
+      "instructions": "A：按每道小题指定的方法纠正连接错误（1有a/b，2有a/b/c/d，3–5各一种）。B：先对全部11句分类，再完成有错句的实际改写；原书第1题示范已恢复。C：在两段原文中定位四处 RO/CS 并重写两段。分类只是原题的一部分，不能代替改写。词注：abstracts = summaries；criteria = standards by which a judgment is made。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch11-p4-a-1a",
+          "sourceNumber": "A1a",
+          "prompt": "原题 A1a：A newly arrived international student faces several challenges, for example, he or she has to cope with a new culture.",
+          "instruction": "按原题指定方法改写完整句：Add a period（用句号分句）。",
+          "answer": "A newly arrived international student faces several challenges. For example, he or she has to cope with a new culture.",
+          "autoGrade": false,
+          "explanation": "两个独立句不能仅用逗号相连。句号放在 challenges 后；新句 For 要大写，For example 后仍保留逗号。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第37页（PDF 8/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-1b",
+          "sourceNumber": "A1b",
+          "prompt": "原题 A1b：A newly arrived international student faces several challenges, for example, he or she has to cope with a new culture.",
+          "instruction": "按原题指定方法改写完整句：Add a semicolon（加分号）。",
+          "answer": "A newly arrived international student faces several challenges; for example, he or she has to cope with a new culture.",
+          "autoGrade": false,
+          "explanation": "分号放在两个独立句之间；for example 只是提示语，不是并列连词，仍需分号建立句间连接。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第37页（PDF 8/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-2a",
+          "sourceNumber": "A2a",
+          "prompt": "原题 A2a：New York City is very cosmopolitan, people from many cultures and ethnic groups live there.",
+          "instruction": "按原题指定方法改写完整句：Add a period（用句号分句）。",
+          "answer": "New York City is very cosmopolitan. People from many cultures and ethnic groups live there.",
+          "autoGrade": false,
+          "explanation": "is 和 live 分别构成两个独立句的谓语。用句号分开，People 大写。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第37页（PDF 8/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-2b",
+          "sourceNumber": "A2b",
+          "prompt": "原题 A2b：New York City is very cosmopolitan, people from many cultures and ethnic groups live there.",
+          "instruction": "按原题指定方法改写完整句：Add a semicolon（加分号）。",
+          "answer": "New York City is very cosmopolitan; people from many cultures and ethnic groups live there.",
+          "autoGrade": false,
+          "explanation": "后句解释前句，两句内容紧密。分号可直接连接它们，不必再加 and。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-2c",
+          "sourceNumber": "A2c",
+          "prompt": "原题 A2c：New York City is very cosmopolitan, people from many cultures and ethnic groups live there.",
+          "instruction": "按原题指定方法改写完整句：Add a subordinator（加从属连词）。",
+          "answer": "New York City is very cosmopolitan because people from many cultures and ethnic groups live there.",
+          "autoGrade": false,
+          "explanation": "后句说明 cosmopolitan 的原因，用 because 把后句降为原因从句；此处后置 because 前通常不加逗号。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-2d",
+          "sourceNumber": "A2d",
+          "prompt": "原题 A2d：New York City is very cosmopolitan, people from many cultures and ethnic groups live there.",
+          "instruction": "按原题指定方法改写完整句：Add a coordinator（加并列连词）。",
+          "answer": "New York City is very cosmopolitan, for people from many cultures and ethnic groups live there.",
+          "autoGrade": false,
+          "explanation": "for 表示说明原因，在这里是并列连词；两个独立句之间保留逗号，再加 for。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-3",
+          "sourceNumber": "A3",
+          "prompt": "原题 A3：Learning a new language is like learning to swim it takes a lot of practice.",
+          "instruction": "按原题指定方法改写完整句：Add a coordinator（加并列连词）。",
+          "answer": "Learning a new language is like learning to swim, for it takes a lot of practice.",
+          "autoGrade": false,
+          "explanation": "第一句在 swim 结束，第二句从 it 开始。逗号加 for 连接两句，并表示后句解释前句。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-4",
+          "sourceNumber": "A4",
+          "prompt": "原题 A4：Ask for assistance at the reference desk in the library, a librarian is always on duty.",
+          "instruction": "按原题指定方法改写完整句：Add a semicolon（加分号）。",
+          "answer": "Ask for assistance at the reference desk in the library; a librarian is always on duty.",
+          "autoGrade": false,
+          "explanation": "Ask 是祈使句，隐含主语 you，仍是完整独立句；后面的 a librarian is ... 需要用分号连接。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-a-5",
+          "sourceNumber": "A5",
+          "prompt": "原题 A5：Skiing is a dangerous sport you can easily break your leg or your neck.",
+          "instruction": "按原题指定方法改写完整句：Add a subordinator（加从属连词）。",
+          "answer": "Because skiing is a dangerous sport, you can easily break your leg or your neck.",
+          "autoGrade": false,
+          "explanation": "把 skiing is ... 写成 because 原因从句，前置从句后用逗号，you can ... 保留为主句。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确实采用指定的句号、分号、并列或从属连接方法。",
+            "两边句子结构完整，保留原意。",
+            "检查大写与逗号位置。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-1",
+          "sourceNumber": "B1",
+          "prompt": "原题 B1：Two letters arrived on Monday a third one came on Wednesday.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "RO",
+          "autoGrade": true,
+          "explanation": "Two letters arrived 和 a third one came 是两套主谓结构，中间没有标点和连接词，因此是 run-on。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-2",
+          "sourceNumber": "B2",
+          "prompt": "原题 B2：An encyclopedia is a valuable source of information it contains summaries of every area of knowledge.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "RO",
+          "autoGrade": true,
+          "explanation": "information 后一个独立句已经结束，it contains 又起了一个独立句，两句直接粘在一起。because 可把第二句改成原因从句。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-3",
+          "sourceNumber": "B3",
+          "prompt": "原题 B3：Because of the rapid expansion of human knowledge, it is difficult to keep encyclopedias current.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "correct",
+          "autoGrade": true,
+          "explanation": "Because of 后是名词短语；后面 it is ... 是一个完整主句，逗号分开前置原因短语与主句，没有两独立句误连。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-4",
+          "sourceNumber": "B4",
+          "prompt": "原题 B4：A printed encyclopedia becomes out of date almost as soon as it is published also it is quite expensive to purchase.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "RO",
+          "autoGrade": true,
+          "explanation": "published 后应结束第一个独立句。also 不是并列连词，不能独自连接两个主句；可在它前面加分号，后面加逗号。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-5",
+          "sourceNumber": "B5",
+          "prompt": "原题 B5：Online encyclopedias are available to everyone with access to the Internet.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "correct",
+          "autoGrade": true,
+          "explanation": "只有 Online encyclopedias are available 这一套主句骨架；with access ... 是修饰 everyone 的短语。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-6",
+          "sourceNumber": "B6",
+          "prompt": "原题 B6：Articles in encyclopedias are written by experts in each subject, who are often university professors.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "correct",
+          "autoGrade": true,
+          "explanation": "who 引导定语从句，修饰 experts，不是另一个误接的独立句；前面的逗号合法。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-7",
+          "sourceNumber": "B7",
+          "prompt": "原题 B7：An editor of an encyclopedia does not write articles he only collects and edits articles written by subject experts.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "RO",
+          "autoGrade": true,
+          "explanation": "前一主句在 articles 后结束，he only collects ... 另起主句，中间缺连接；分号把两条相关陈述连接起来。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-8",
+          "sourceNumber": "B8",
+          "prompt": "原题 B8：To find a book on a certain subject, you used to look in a card catalog, to find a magazine article on a subject, you used to look in a periodical index.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "CS",
+          "autoGrade": true,
+          "explanation": "关键错误在 catalog 后：它两侧各有一个 you used to look 主句，只用逗号不够。句内 To find 引导的目的短语之后的逗号不必删除。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-9",
+          "sourceNumber": "B9",
+          "prompt": "原题 B9：Now, most libraries have thrown away their card catalogs, they have computerized catalogs that are much more efficient to use and update.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "CS",
+          "autoGrade": true,
+          "explanation": "card catalogs 后逗号连接了 most libraries have ... 与 they have ... 两个独立句；加 for 表示后者解释前者。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-10",
+          "sourceNumber": "B10",
+          "prompt": "原题 B10：Many periodical indexes, which list only titles of magazine articles and indicate where to find them, have been replaced by computer indexes, some of which display abstracts and even entire articles instantly.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "correct",
+          "autoGrade": true,
+          "explanation": "主句是 Many periodical indexes have been replaced ...；which 与 some of which 都引导附属说明，不是两个独立句用逗号粘连。长句并不自动等于 run-on。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-11",
+          "sourceNumber": "B11",
+          "prompt": "原题 B11：If you cannot find any information on a subject, you can always ask a librarian to help you, they are paid to assist students.",
+          "instruction": "判断：RO = run-on（独立句直接粘连）；CS = comma splice（仅用逗号连接独立句）；Correct = 原句正确。原书正确句留空，本工作台用 Correct 明确记录。",
+          "answer": "CS",
+          "autoGrade": true,
+          "explanation": "If 从句与 you can ... 主句的连接正常；错误在 help you 后，they are ... 是另一个独立句，须用句号等合法方法分开。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "options": [
+            {
+              "value": "RO",
+              "label": "RO · Run-on"
+            },
+            {
+              "value": "CS",
+              "label": "CS · Comma splice"
+            },
+            {
+              "value": "correct",
+              "label": "Correct · 原句正确"
+            }
+          ]
+        },
+        {
+          "id": "ch11-p4-b-1-rewrite",
+          "sourceNumber": "B1·改写",
+          "prompt": "原题 B1·改写：Two letters arrived on Monday a third one came on Wednesday.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "Two letters arrived on Monday; a third one came on Wednesday.",
+          "autoGrade": false,
+          "explanation": "Two letters arrived 和 a third one came 是两套主谓结构，中间没有标点和连接词，因此是 run-on。",
+          "sourceLabel": "教材第189页（PDF 28/32）原题与示范；答案册第38页确认分类。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-2-rewrite",
+          "sourceNumber": "B2·改写",
+          "prompt": "原题 B2·改写：An encyclopedia is a valuable source of information it contains summaries of every area of knowledge.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "An encyclopedia is a valuable source of information because it contains summaries of every area of knowledge.",
+          "autoGrade": false,
+          "explanation": "information 后一个独立句已经结束，it contains 又起了一个独立句，两句直接粘在一起。because 可把第二句改成原因从句。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-3-rewrite",
+          "sourceNumber": "B3·改写",
+          "prompt": "原题 B3·改写：Because of the rapid expansion of human knowledge, it is difficult to keep encyclopedias current.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "Correct（原句正确，无需改写）。",
+          "autoGrade": false,
+          "explanation": "Because of 后是名词短语；后面 it is ... 是一个完整主句，逗号分开前置原因短语与主句，没有两独立句误连。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确认原句是否需要改写。",
+            "若原句正确，写 Correct 即可；不要为了改写而添加错误。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-4-rewrite",
+          "sourceNumber": "B4·改写",
+          "prompt": "原题 B4·改写：A printed encyclopedia becomes out of date almost as soon as it is published also it is quite expensive to purchase.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "A printed encyclopedia becomes out of date almost as soon as it is published; also, it is quite expensive to purchase.",
+          "autoGrade": false,
+          "explanation": "published 后应结束第一个独立句。also 不是并列连词，不能独自连接两个主句；可在它前面加分号，后面加逗号。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-5-rewrite",
+          "sourceNumber": "B5·改写",
+          "prompt": "原题 B5·改写：Online encyclopedias are available to everyone with access to the Internet.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "Correct（原句正确，无需改写）。",
+          "autoGrade": false,
+          "explanation": "只有 Online encyclopedias are available 这一套主句骨架；with access ... 是修饰 everyone 的短语。",
+          "sourceLabel": "教材第189页（PDF 28/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确认原句是否需要改写。",
+            "若原句正确，写 Correct 即可；不要为了改写而添加错误。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-6-rewrite",
+          "sourceNumber": "B6·改写",
+          "prompt": "原题 B6·改写：Articles in encyclopedias are written by experts in each subject, who are often university professors.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "Correct（原句正确，无需改写）。",
+          "autoGrade": false,
+          "explanation": "who 引导定语从句，修饰 experts，不是另一个误接的独立句；前面的逗号合法。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确认原句是否需要改写。",
+            "若原句正确，写 Correct 即可；不要为了改写而添加错误。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-7-rewrite",
+          "sourceNumber": "B7·改写",
+          "prompt": "原题 B7·改写：An editor of an encyclopedia does not write articles he only collects and edits articles written by subject experts.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "An editor of an encyclopedia does not write articles; he only collects and edits articles written by subject experts.",
+          "autoGrade": false,
+          "explanation": "前一主句在 articles 后结束，he only collects ... 另起主句，中间缺连接；分号把两条相关陈述连接起来。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-8-rewrite",
+          "sourceNumber": "B8·改写",
+          "prompt": "原题 B8·改写：To find a book on a certain subject, you used to look in a card catalog, to find a magazine article on a subject, you used to look in a periodical index.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "To find a book on a certain subject, you used to look in a card catalog; moreover, to find a magazine article on a subject, you used to look in a periodical index.",
+          "autoGrade": false,
+          "explanation": "关键错误在 catalog 后：它两侧各有一个 you used to look 主句，只用逗号不够。句内 To find 引导的目的短语之后的逗号不必删除。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-9-rewrite",
+          "sourceNumber": "B9·改写",
+          "prompt": "原题 B9·改写：Now, most libraries have thrown away their card catalogs, they have computerized catalogs that are much more efficient to use and update.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "Now, most libraries have thrown away their card catalogs, for they have computerized catalogs that are much more efficient to use and update.",
+          "autoGrade": false,
+          "explanation": "card catalogs 后逗号连接了 most libraries have ... 与 they have ... 两个独立句；加 for 表示后者解释前者。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-10-rewrite",
+          "sourceNumber": "B10·改写",
+          "prompt": "原题 B10·改写：Many periodical indexes, which list only titles of magazine articles and indicate where to find them, have been replaced by computer indexes, some of which display abstracts and even entire articles instantly.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "Correct（原句正确，无需改写）。",
+          "autoGrade": false,
+          "explanation": "主句是 Many periodical indexes have been replaced ...；which 与 some of which 都引导附属说明，不是两个独立句用逗号粘连。长句并不自动等于 run-on。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "确认原句是否需要改写。",
+            "若原句正确，写 Correct 即可；不要为了改写而添加错误。"
+          ]
+        },
+        {
+          "id": "ch11-p4-b-11-rewrite",
+          "sourceNumber": "B11·改写",
+          "prompt": "原题 B11·改写：If you cannot find any information on a subject, you can always ask a librarian to help you, they are paid to assist students.",
+          "instruction": "完成原题 B 的第二步：若有连接错误，写出纠正后的完整句；若原句正确，写 Correct。每句都显示相同的复核输入，题面不提示哪些句子有错。",
+          "answer": "If you cannot find any information on a subject, you can always ask a librarian to help you. They are paid to assist students.",
+          "autoGrade": false,
+          "explanation": "If 从句与 you can ... 主句的连接正常；错误在 help you 后，they are ... 是另一个独立句，须用句号等合法方法分开。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38页（PDF 9/11）。",
+          "rubric": [
+            "写出实际修改后的完整句，不只分类。",
+            "独立句之间不再直接粘连，也不只靠一个逗号。",
+            "保留两部分信息，连接关系合理。"
+          ]
+        },
+        {
+          "id": "ch11-p4-c-1",
+          "sourceNumber": "C·第1段",
+          "prompt": "原题 C·第1段：定位并修改整段中的 RO / CS。",
+          "instruction": "找出有错的句号编号，标 RO 或 CS，然后重写完整段落。两段原题合计四处错误。",
+          "answer": "定位：第2句 RO；第3句 CS。\n参考改写：Teachers at Stone Mountain State College give higher grades than teachers at 12 of the 19 other colleges in the state college system, according to a recent report from the State Institutional Research Committee. This report showed that more than one-third of the undergraduate grades awarded in the spring semester 2005 were A's; only 1.1 percent were F's. The percentage of A's awarded to graduate students was even higher, for almost two-thirds were A's.",
+          "autoGrade": false,
+          "explanation": "第2句 only 前缺分界；第3句 almost 前只有逗号。示例分别用分号和逗号加 for；第1句虽然长，却只有正常的主句结构。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38–39页（PDF 9–10/11）。",
+          "passage": "(1) Teachers at Stone Mountain State College give higher grades than teachers at 12 of the 19 other colleges in the state college system, according to a recent report from the State Institutional Research Committee. (2) This report showed that more than one-third of the undergraduate grades awarded in the spring semester 2005 were A's only 1.1 percent were F's. (3) The percentage of A's awarded to graduate students was even higher, almost two-thirds were A's.",
+          "rubric": [
+            "正确标出本段错误句编号及错误类型。",
+            "写出完整修订段落，保留原有完整句。",
+            "不因句子长就删内容；每个独立句的连接均合法。"
+          ]
+        },
+        {
+          "id": "ch11-p4-c-2",
+          "sourceNumber": "C·第2段",
+          "prompt": "原题 C·第2段：定位并修改整段中的 RO / CS。",
+          "instruction": "找出有错的句号编号，标 RO 或 CS，然后重写完整段落。两段原题合计四处错误。",
+          "answer": "定位：第5句 CS；第6句 RO。\n参考改写：While students may be happy to receive high grades, evidence suggests that this trend is having negative consequences. Investigation of the admissions criteria of some graduate and professional schools indicates that the admissions offices of these schools are discounting high grades on the transcripts of SMSC students, which means that an A from SMSC is not equal to an A from other universities. Grade inflation may, therefore, hurt a student from Stone Mountain State College who intends to apply to a graduate or professional school because he or she may not be accepted despite a high grade point average.",
+          "autoGrade": false,
+          "explanation": "第5句 students 后的 this means 另起独立句，可改 which means 作为前文的补充说明；第6句 school 后可加 because 引出原因。第4句 While 从句已接主句，保留即可。",
+          "sourceLabel": "教材第190页（PDF 29/32）；答案册第38–39页（PDF 9–10/11）。",
+          "passage": "(4) While students may be happy to receive high grades, evidence suggests that this trend is having negative consequences. (5) Investigation of the admissions criteria of some graduate and professional schools indicates that the admissions offices of these schools are discounting high grades on the transcripts of SMSC students, this means that an A from SMSC is not equal to an A from other universities. (6) Grade inflation may, therefore, hurt a student from Stone Mountain State College who intends to apply to a graduate or professional school he or she may not be accepted despite a high grade point average.",
+          "rubric": [
+            "正确标出本段错误句编号及错误类型。",
+            "写出完整修订段落，保留原有完整句。",
+            "不因句子长就删内容；每个独立句的连接均合法。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch11-p5",
+      "instructions": "Improve these stringy sentences. 五题全部改写：把过长串联按意思分组，可拆句，也可把次要内容改成从句；不能只删去 and/so 而留下粘连句。答案册明确 Answers will vary，使用参考改写与核对要点自评。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch11-p5-1",
+          "sourceNumber": "1",
+          "prompt": "原题 1：He enrolled in an intermediate calculus class, but he found it too easy, so he dropped it, and he signed up for the advanced class.",
+          "instruction": "改善这句 stringy sentence：先判断信息关系，再拆分或重新组合各分句；必要时改为主从结构。写出完整修订句，不只删除连接词。",
+          "answer": "After he enrolled in an intermediate calculus class, he found it too easy, so he dropped it and signed up for the advanced class.",
+          "autoGrade": false,
+          "explanation": "把报名设为时间背景 After ...；“太容易”导致退课和换高级班。dropped 与 signed up 共享 he，不必一遍遍重复 and he。",
+          "sourceLabel": "教材第191页（PDF 30/32）；答案册第39页（PDF 10/11）。",
+          "rubric": [
+            "保留原句的各条主要信息。",
+            "减少机械串联，明确时间、原因、结果或转折关系。",
+            "每个新句有完整骨架，连接词及标点合法；可有不同合理改法。"
+          ]
+        },
+        {
+          "id": "ch11-p5-2",
+          "sourceNumber": "2",
+          "prompt": "原题 2：First-born children in a family often have more responsibility than their younger siblings, and they feel pressure to set a good example; so they often become superachievers.",
+          "instruction": "改善这句 stringy sentence：先判断信息关系，再拆分或重新组合各分句；必要时改为主从结构。写出完整修订句，不只删除连接词。",
+          "answer": "Because first-born children in a family often have more responsibility than their younger siblings and feel pressure to set a good example, they often become superachievers.",
+          "autoGrade": false,
+          "explanation": "前两项是原因，最后一项是结果。用 Because 把两个原因收在同一从句里，再把结果写进主句；have 与 feel 共享 children。",
+          "sourceLabel": "教材第191页（PDF 30/32）；答案册第39页（PDF 10/11）。",
+          "rubric": [
+            "保留原句的各条主要信息。",
+            "减少机械串联，明确时间、原因、结果或转折关系。",
+            "每个新句有完整骨架，连接词及标点合法；可有不同合理改法。"
+          ]
+        },
+        {
+          "id": "ch11-p5-3",
+          "sourceNumber": "3",
+          "prompt": "原题 3：Last-born children, on the other hand, often have little responsibility, and they may be pampered as the “baby” of the family, but they are the smallest, and they have to get people to like them, so they often develop superior social skills.",
+          "instruction": "改善这句 stringy sentence：先判断信息关系，再拆分或重新组合各分句；必要时改为主从结构。写出完整修订句，不只删除连接词。",
+          "answer": "Last-born children, on the other hand, often have little responsibility, and they may be pampered as the “baby” of the family; however, because they are the smallest, they have to get people to like them. As a result, they often develop superior social skills.",
+          "autoGrade": false,
+          "explanation": "先保留“责任少、受宠”一组，再用 however 转入另一面；用 because 把“最小”写成原因，最后另起一句写社交能力这一结果。原文观点只作语法素材。",
+          "sourceLabel": "教材第191页（PDF 30/32）；答案册第39页（PDF 10/11）。",
+          "rubric": [
+            "保留原句的各条主要信息。",
+            "减少机械串联，明确时间、原因、结果或转折关系。",
+            "每个新句有完整骨架，连接词及标点合法；可有不同合理改法。"
+          ]
+        },
+        {
+          "id": "ch11-p5-4",
+          "sourceNumber": "4",
+          "prompt": "原题 4：The students in my engineering class could not do the homework, so we got together and worked for several hours, and we finally solved all the problems.",
+          "instruction": "改善这句 stringy sentence：先判断信息关系，再拆分或重新组合各分句；必要时改为主从结构。写出完整修订句，不只删除连接词。",
+          "answer": "The students in my engineering class could not do the homework, so we got together and worked for several hours until we finally solved all of the problems.",
+          "autoGrade": false,
+          "explanation": "先用 so 表示不会做所以一起研究，再用 until 表示持续努力到解决问题，避免连续用 and 堆动作。",
+          "sourceLabel": "教材第191页（PDF 30/32）；答案册第39页（PDF 10/11）。",
+          "rubric": [
+            "保留原句的各条主要信息。",
+            "减少机械串联，明确时间、原因、结果或转折关系。",
+            "每个新句有完整骨架，连接词及标点合法；可有不同合理改法。"
+          ]
+        },
+        {
+          "id": "ch11-p5-5",
+          "sourceNumber": "5",
+          "prompt": "原题 5：The lack of rainfall has caused a severe water shortage, so people have to conserve water every day, and they also have to think of new ways to reuse water, but the situation is improving.",
+          "instruction": "改善这句 stringy sentence：先判断信息关系，再拆分或重新组合各分句；必要时改为主从结构。写出完整修订句，不只删除连接词。",
+          "answer": "As the lack of rainfall has caused a severe water shortage, people have to conserve water every day and think of new ways to reuse it. However, the situation is improving.",
+          "autoGrade": false,
+          "explanation": "缺水是背景原因，用 As 引导；conserve 与 think 共享 have to，写成两项措施；最后“情况改善”另起句并用 However 转折。",
+          "sourceLabel": "教材第191页（PDF 30/32）；答案册第39页（PDF 10/11）。",
+          "rubric": [
+            "保留原句的各条主要信息。",
+            "减少机械串联，明确时间、原因、结果或转折关系。",
+            "每个新句有完整骨架，连接词及标点合法；可有不同合理改法。"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch11-editing",
+      "instructions": "Editing Practice：阅读 The United States: Melting Pot or Salad Bowl? 两段全文，识别有问题的句子并改正，再重写完整段落。原句号1–16保留，不能只做错误分类。文中的历史描述和2050年预测按教材原文保留，未作为现行人口事实验证。原词注：census = population count；be descended from = be the children, grandchildren, etc., of；ancestry = a person’s origins；microcosm = small community representing a large one。",
+      "textComplete": true,
+      "itemsPartial": false,
+      "items": [
+        {
+          "id": "ch11-editing-paragraph-1",
+          "sourceNumber": "Editing·第1段",
+          "prompt": "原题 Editing·第1段：The United States: Melting Pot or Salad Bowl?",
+          "instruction": "找出本段有问题的句子，写出原句号与错误类型；然后重写完整段落，纠正平行结构及其他句子问题。注意：并非每句都有错。",
+          "answer": "定位：第1句 stringy；第2、7句 comma splice；第5、6句 choppy，可合并。\n参考改写：The United States counts its population every ten years, and each census reveals that the racial and ethnic mix is changing dramatically. Therefore, by the year 2050, the “average” person in the United States will not be descended from Europeans; instead, the majority of U.S. residents will trace their ancestry to Africa, Asia, the Hispanic world, the Pacific Islands, or the Middle East. Once the United States was a microcosm of European nationalities; however, today the United States is a microcosm of the world. The United States is no longer considered a “melting pot” society by many of its residents. Instead, many people prefer the term “salad bowl.” They use this term to describe U.S. society, which will soon be predominantly nonwhite. “Melting pot” implies that the different ethnic groups blend together into one homogeneous mixture; on the other hand, “salad bowl” implies that nationalities, like the ingredients in a mixed green salad, retain their cultural identities.",
+          "autoGrade": false,
+          "explanation": "第1句连续 and/so/but 太长，先把人口变化与预测分组；第2、7句是两个独立句只靠逗号连接；第6句补充 society 的特点，可用 which 接到第5句。第3、4句无需强行改错。",
+          "sourceLabel": "教材第193页（PDF 32/32）；答案册第39–40页（PDF 10–11/11）。",
+          "passage": "(1) The United States counts its population every 10 years, and each census reveals that the racial and ethnic mix is changing dramatically, so by the year 2050, the “average” person in the United States will not be descended from Europeans, but the majority of U.S. residents will trace their ancestry to Africa, Asia, the Hispanic world, the Pacific Islands, or the Middle East. (2) Once the United States was a microcosm of European nationalities, today the United States is a microcosm of the world. (3) The United States is no longer considered a “melting pot” society by many of its residents. (4) Instead, many people prefer the term “salad bowl.” (5) They use this term to describe U.S. society. (6) U.S. society will soon be predominantly nonwhite. (7) “Melting pot” implies that the different ethnic groups blend together into one homogeneous mixture, “salad bowl” implies that nationalities, like the ingredients in a mixed green salad, retain their cultural identities.",
+          "rubric": [
+            "标出第1、2、5–6、7句的问题及类型。",
+            "实际重写整段，既修连接错误，也改善碎句和长串句。",
+            "保留第1–7句全部主要信息，不只列错误清单。"
+          ]
+        },
+        {
+          "id": "ch11-editing-paragraph-2",
+          "sourceNumber": "Editing·第2段",
+          "prompt": "原题 Editing·第2段：The United States: Melting Pot or Salad Bowl?",
+          "instruction": "找出本段有问题的句子，写出原句号与错误类型；然后重写完整段落，纠正平行结构及其他句子问题。注意：并非每句都有错。",
+          "answer": "定位：第8、14句平行结构错误；第10、11句 fragments；第15、16句 choppy，可合并。\n参考改写：Earlier generations of immigrants believed that they had to learn English quickly not only to survive but also to succeed. Now, many immigrant groups do not feel the same need because there are many places in the United States where you can work, shop, get medical care, marry, divorce, and die without knowing English such as Chinatown in San Francisco and New York and Vietnamese and Mexican neighborhoods in Los Angeles. In addition, many immigrant groups want their children to know their own culture. Many Hispanics, for instance, want their children to learn both English and Spanish in school, so they are fighting for the right to bilingual education in communities where they are in the majority.",
+          "autoGrade": false,
+          "explanation": "not only 后是 to survive，but also 后也应是 to succeed；第14句 both/and 后应同为 English 和 Spanish 两个名词。Because 从句接第9句，For example 名词片段接到相关主句；第16句用 where 补充 communities。答案册整段只是一个可行示例，也可用更短的合法句子。",
+          "sourceLabel": "教材第193页（PDF 32/32）；答案册第39–40页（PDF 10–11/11）。",
+          "passage": "(8) Earlier generations of immigrants believed that they had to learn English quickly not only to survive but also for success. (9) Now, many immigrant groups do not feel the same need. (10) Because there are many places in the United States where you can work, shop, get medical care, marry, divorce, and die without knowing English. (11) For example, Chinatown in San Francisco and New York. (12) Also, Los Angeles has many Vietnamese immigrants and immigrants from Mexico. (13) In addition, many immigrant groups want their children to know their own culture. (14) Many Hispanics, for instance, want their children to learn both English and study the Spanish language in school. (15) They are fighting for the right to bilingual education in many communities. (16) In many communities they are in the majority.",
+          "rubric": [
+            "修复第8、14句的两处平行结构。",
+            "连接第10、11句残句，并处理第15、16句的重复碎句。",
+            "写出包含第8–16句全部主要信息的完整段落。"
+          ]
+        }
+      ]
+    }
+  ],
+  "audit": [
+    {
+      "scope": "视觉核对",
+      "detail": "教材PDF第20–32页（书页181–193）与答案PDF第6–11页（册页35–40）全部逐页看图，结合逐页OCR核对；第31页是复习，不新造原题。"
+    },
+    {
+      "scope": "覆盖",
+      "detail": "六组完整覆盖：P1 A1–11/B1–8/C七种连接词；P2 A1–15/B四段全文；P3 1–6，每题四个填写要求；P4 A1a/b、2a/b/c/d、3–5，B1–11分类与复核改写，C两段六句；P5 1–5；Editing两段原句1–16。"
+    },
+    {
+      "scope": "示范恢复",
+      "detail": "教材已作答示范P1 A1/B1、P3第1题、P4 B1恢复为未显示答案的题面；示范答案只在反馈字段。"
+    },
+    {
+      "scope": "数量口径",
+      "detail": "共91个界面作答项，不等同于91道原书独立编号题。P4 B的11个分类和11个复核输入对应同一套B1–11，全部显示相同复核步骤，避免仅出现错误句改写输入而泄露分类答案。"
+    },
+    {
+      "scope": "ID兼容",
+      "detail": "保留原ch11-p1…ch11-p5及ch11-editing六个mission ID，保留原ch11-p4-b-2…11全部10个同义分类item ID。"
+    },
+    {
+      "scope": "答案差异",
+      "detail": "P1 A11教材结尾sent to prison，答案册executed；以教材题干为准。P1 B6答案摘录they carry与原句they also carry略异，按原句完整指出错误。P1 B8答案册minimum payments复数与教材the minimum payment单数均不改变平行要求。"
+    },
+    {
+      "scope": "答案差异",
+      "detail": "P2 A14答案册wave写waves、meters写m，题干按教材保留；参考改写只补There is，不借答案异文改写原题。P2 B第2段答案册the greater percentage ... are caused按原样保留在参考区；说明可接受合理的主谓一致改写。"
+    },
+    {
+      "scope": "答案差异",
+      "detail": "P3第1题原(a)为became expensive，教材已作答合并示范写became more expensive；题干保留原文。P4 B7/9/11答案有subject experts→other experts、card catalogs→catalogs、help you→help等非关键异文，参考改写保留教材措辞。"
+    },
+    {
+      "scope": "答案摘录误差",
+      "detail": "P4 C答案册第38页在摘录第5句时漏an A from，变成SMSC is not equal to an A；教材第190页及答案完整修订段第39页均有an A from SMSC。题干与参考段采用完整版本。"
+    },
+    {
+      "scope": "判分",
+      "detail": "只有P4 B的11个RO/CS/Correct分类自动判分。其余80项为定位、改写、造句或段落编辑，autoGrade:false且无options，参考答案不作为唯一字符串答案。每项有通俗中文说明和自评标准。"
+    },
+    {
+      "scope": "原创与事实边界",
+      "detail": "P1 C原答案为Individual responses，七条示例明确标自编参考。原文统计、性别概括和人口预测为历史教材语法素材，没有重新验证，不当作工作台事实结论。"
+    },
+    {
+      "scope": "教学增强",
+      "detail": "sentence-lessons.json保留现有7条规则的索引顺序和title/explanation/example/before/after原字段，新增具体步骤、逐段例句拆解、易错点、带答案解释的原创理解检查及页码。"
+    },
+    {
+      "scope": "限制",
+      "detail": "本次仅交付待整合内容JSON及外部核对记录。未修改主数据、UI或资源；没有声称新题已通过网页端到端验收。"
+    }
+  ]
+}

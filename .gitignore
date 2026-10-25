@@ -22,6 +22,7 @@ service-account*.json
 
 # Local state, dependencies, logs and generated test artifacts.
 node_modules/
+__pycache__/
 .cache/
 .DS_Store
 Thumbs.db

@@ -1,0 +1,1106 @@
+{
+  "courses": [
+    {
+      "id": "paraphrase",
+      "missions": [
+        {
+          "id": "paraphrase-model-paraphrase",
+          "instructions": "逐句比较原文与改写，回答全部 Writing Technique Questions 1、2a–d。保留模型两份完整文本；这里比较文本不是要求抄写模型作为自己的答案。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-model-paraphrase-1",
+              "sourceNumber": "1",
+              "prompt": "原题 1：How many sentences are there in the original passage? In the paraphrase?",
+              "instruction": "阅读完整模型，回答所有子问，可用中文解释并保留所指英文词。",
+              "answer": "原文5句；改写6句。",
+              "autoGrade": false,
+              "explanation": "按句号数完整陈述。改写可以拆句，并非必须保持原句数量。",
+              "sourceLabel": "教材第128页；配套答案册第25–26页（PDF 1–2）。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSource: Kispert, Robert J. “Universal language.” World Book Online Reference Center. 2004. World Book, Inc. 13 Nov. 2004. 原教材来源标注。",
+              "rubric": [
+                "分别回答原文5句、改写6句，不能只写一个数字。",
+                "以完整句的终止标点计数，不把分号当成另起一句。"
+              ]
+            },
+            {
+              "id": "paraphrase-model-paraphrase-2a",
+              "sourceNumber": "2a",
+              "prompt": "原题 2a：What is the first word of the first sentence in the original passage? Where does this word appear in first sentence of the paraphrase?",
+              "instruction": "阅读完整模型，回答所有子问，可用中文解释并保留所指英文词。",
+              "answer": "Language；它在改写第一句末尾。",
+              "autoGrade": false,
+              "explanation": "原句从 Language 出发，改写从 Humans 出发，把 language 移到介词 through 后。",
+              "sourceLabel": "教材第128页；配套答案册第25–26页（PDF 1–2）。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSource: Kispert, Robert J. “Universal language.” World Book Online Reference Center. 2004. World Book, Inc. 13 Nov. 2004. 原教材来源标注。",
+              "rubric": [
+                "写出原句首词Language。",
+                "指出它移到改写第一句末尾，不是仅写“顺序变了”。"
+              ]
+            },
+            {
+              "id": "paraphrase-model-paraphrase-2b",
+              "sourceNumber": "2b",
+              "prompt": "原题 2b：What is the first word of the second sentence in the original passage? What word replaces it in the second sentence of the paraphrase?",
+              "instruction": "阅读完整模型，回答所有子问，可用中文解释并保留所指英文词。",
+              "answer": "But；改写用 however。",
+              "autoGrade": false,
+              "explanation": "转折关系仍然保留，但连接词及其位置改变。",
+              "sourceLabel": "教材第128页；配套答案册第25–26页（PDF 1–2）。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSource: Kispert, Robert J. “Universal language.” World Book Online Reference Center. 2004. World Book, Inc. 13 Nov. 2004. 原教材来源标注。",
+              "rubric": [
+                "写出原词But与替换词however。",
+                "确认两者仍表达转折关系。"
+              ]
+            },
+            {
+              "id": "paraphrase-model-paraphrase-2c",
+              "sourceNumber": "2c",
+              "prompt": "原题 2c：What words replace have dreamed of in the third sentence? What word replaces arguments in favor of in the fourth sentence?",
+              "instruction": "阅读完整模型，回答所有子问，可用中文解释并保留所指英文词。",
+              "answer": "have wished for 替换 have dreamed of；reasons 替换 arguments in favor of。",
+              "autoGrade": false,
+              "explanation": "换词服务于原义；不能把“希望”改成“已经实现”。本题两处都要回答。",
+              "sourceLabel": "教材第128页；配套答案册第25–26页（PDF 1–2）。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSource: Kispert, Robert J. “Universal language.” World Book Online Reference Center. 2004. World Book, Inc. 13 Nov. 2004. 原教材来源标注。",
+              "rubric": [
+                "第一处写have wished for。",
+                "第二处写reasons；两处替换都要回答。"
+              ]
+            },
+            {
+              "id": "paraphrase-model-paraphrase-2d",
+              "sourceNumber": "2d",
+              "prompt": "原题 2d：Which sentence in the original becomes two sentences in the paraphrase?",
+              "instruction": "阅读完整模型，回答所有子问，可用中文解释并保留所指英文词。",
+              "answer": "原文最后一句（第5句）变成改写第5、6句。",
+              "autoGrade": false,
+              "explanation": "原句同时说文化经济联系与国家间善意；改写将这两个相关结果分别成句。",
+              "sourceLabel": "教材第128页；配套答案册第25–26页（PDF 1–2）。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSource: Kispert, Robert J. “Universal language.” World Book Online Reference Center. 2004. World Book, Inc. 13 Nov. 2004. 原教材来源标注。",
+              "rubric": [
+                "指出原文最后一句/第5句。",
+                "说明它变成文化经济联系和国家间善意两个陈述。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-model-plagiarism",
+          "instructions": "阅读两种不可接受的改写，判断各属于教材介绍的哪种抄袭问题。教材印出的解释已移到反馈区。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-model-plagiarism-1",
+              "sourceNumber": "1",
+              "prompt": "原题 1：Unacceptable Paraphrase 1",
+              "instruction": "对照原文，判断教材着重指出的问题。",
+              "answer": "No cit.",
+              "autoGrade": true,
+              "explanation": "这份改写没有标明来源；即使换了词，借用思想仍需引用。",
+              "sourceLabel": "教材第128–129页，答案为第129页模型下方解释。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nUnacceptable Paraphrase 1\nHumans communicate through language. However, because there are so many languages in the world, language acts as an obstacle instead of as an aid to understanding. People have long wished for a universal international language that speakers all over the world could understand. A universal language would certainly build cultural and economic bonds. It would also create better feelings among countries.",
+              "options": [
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 未提供来源引用"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 结构和措辞过于接近原文"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-model-plagiarism-2",
+              "sourceNumber": "2",
+              "prompt": "原题 2：Unacceptable Paraphrase 2",
+              "instruction": "对照原文，判断教材着重指出的问题。",
+              "answer": "Too sim.",
+              "autoGrade": true,
+              "explanation": "虽有(Kispert)，但开头几句仍照原有句序和结构，仅替换少数词。原文main在改写中换成principal；教材解释将替换方向写反，题库按两份文本说明。",
+              "sourceLabel": "教材第128–129页，答案为第129页模型下方解释。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nUnacceptable Paraphrase 2\nLanguage is the principal means of communication between peoples. However, because there are numerous languages, language itself has frequently been a barrier rather than an aid to understanding among the world population. For many years, people have envisioned a common universal language that everyone in the world could communicate in. The reasons for having a universal language are clearly understandable. If the same tongue were spoken by all countries, they would undoubtedly become closer culturally and economically. It would probably also create good will among nations (Kispert).",
+              "options": [
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 未提供来源引用"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 结构和措辞过于接近原文"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-practice-1",
+          "instructions": "三段原文分别有A–D四份改写。按原题Step 1读原文，Step 2标Best，Step 3把其他候选标为Too sim.、No cit.或Inc./Inacc.。原第1组已填示范全部恢复，不在题面显示标签。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-practice-1-1-a",
+              "sourceNumber": "1A",
+              "prompt": "原题 1A：An article in Space Science magazine reports that lengthy space station duty may lead to physical and mental problems for astronauts (Clinton 16).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Best",
+              "autoGrade": true,
+              "explanation": "保留长期驻留、身体与精神两方面，结构压缩且有作者页码。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 1\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nLiving aboard a space station in orbit around Earth for months at a time poses problems for astronauts’ bodies as well as for their minds.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-1-b",
+              "sourceNumber": "1B",
+              "prompt": "原题 1B：An article in Space Science magazine reports that astronauts who live aboard space stations for long periods of time may experience physical as well as mental problems.",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "No cit.",
+              "autoGrade": true,
+              "explanation": "缺少作者与页码的文内引用；说出杂志名不能替代本题要求的具体引文。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 1\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nLiving aboard a space station in orbit around Earth for months at a time poses problems for astronauts’ bodies as well as for their minds.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-1-c",
+              "sourceNumber": "1C",
+              "prompt": "原题 1C：An article in Space Science reports that living in a space station orbiting Earth for a long time can cause difficulties for astronauts’ bodies and minds (Clinton 16).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Too sim.",
+              "autoGrade": true,
+              "explanation": "沿用living ... orbiting Earth ... bodies and minds的原句骨架，主要只是换同义词。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 1\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nLiving aboard a space station in orbit around Earth for months at a time poses problems for astronauts’ bodies as well as for their minds.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-1-d",
+              "sourceNumber": "1D",
+              "prompt": "原题 1D：An article in Space Science reports that astronauts will become physically sick and have mental problems if they visit a space station (Clinton 16).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Inc./Inacc.",
+              "autoGrade": true,
+              "explanation": "把“长期驻留可能造成问题”改成“只要造访就必然生病”，时间范围与确定程度均改变。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 1\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nLiving aboard a space station in orbit around Earth for months at a time poses problems for astronauts’ bodies as well as for their minds.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-2-a",
+              "sourceNumber": "2A",
+              "prompt": "原题 2A：NASA physician Patrick Clinton states that one problem is astronauts’ physical health. With no doctor on board, common illnesses like appendicitis and ulcers could be fatal to astronauts because it would take too long to get them back to Earth.",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "No cit.",
+              "autoGrade": true,
+              "explanation": "按原题引用规范，已在引导语给作者，但仍缺来源页码。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 2\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nOne major problem is maintaining astronauts’ physical health. Medical treatment may be days or even weeks away, as there may not be a doctor on board. Illnesses such as appendicitis or ulcers, routinely treated on Earth, could be fatal in space because of the delay in getting to a doctor.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-2-b",
+              "sourceNumber": "2B",
+              "prompt": "原题 2B：NASA physician Patrick Clinton states that keeping the astronauts physically healthy is one problem. If the crew does not include a doctor, the delay in getting treatment for an ordinary illness, such as appendicitis or ulcers, could mean death (16).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Best",
+              "autoGrade": true,
+              "explanation": "保留无医生、延误治疗及潜在致命后果；句式有变化，作者在引导语、页码在括号中。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 2\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nOne major problem is maintaining astronauts’ physical health. Medical treatment may be days or even weeks away, as there may not be a doctor on board. Illnesses such as appendicitis or ulcers, routinely treated on Earth, could be fatal in space because of the delay in getting to a doctor.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-2-c",
+              "sourceNumber": "2C",
+              "prompt": "原题 2C：NASA physician Patrick Clinton states that the physical health of astronauts is a huge problem. Spaceships do not usually have medical doctors among the crew, so astronauts who get appendicitis on a long space journey will die (16).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Inc./Inacc.",
+              "autoGrade": true,
+              "explanation": "原文只说可能没有医生、可能致命；此处变成通常没有医生及will die的必然结果。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 2\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nOne major problem is maintaining astronauts’ physical health. Medical treatment may be days or even weeks away, as there may not be a doctor on board. Illnesses such as appendicitis or ulcers, routinely treated on Earth, could be fatal in space because of the delay in getting to a doctor.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-2-d",
+              "sourceNumber": "2D",
+              "prompt": "原题 2D：NASA physician Patrick Clinton states that one big problem is keeping astronauts in good physical health. Medical treatment might take days or weeks to get because there may not be a doctor on the spaceship. Ordinary illnesses such as appendicitis and ulcers could be deadly because it would take too long to get to a doctor (16).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Too sim.",
+              "autoGrade": true,
+              "explanation": "三句仍按原句顺序推进，句子骨架与大部分措辞过近。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 2\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 16.\n\nOne major problem is maintaining astronauts’ physical health. Medical treatment may be days or even weeks away, as there may not be a doctor on board. Illnesses such as appendicitis or ulcers, routinely treated on Earth, could be fatal in space because of the delay in getting to a doctor.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-3-a",
+              "sourceNumber": "3A",
+              "prompt": "原题 3A：Another problem is the possibility of bone loss, according to NASA physician Patrick Clinton. In weightless space, the body makes less calcium. Astronauts have to exercise a minimum of three hours a day to avoid losing bone (17).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Too sim.",
+              "autoGrade": true,
+              "explanation": "基本逐句换词，仍保留“另一问题—失重—必须锻炼”的相同句式骨架。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 3\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 17.\n\nAnother health problem is the potential for bone deterioration. In a weightless environment, the body produces less calcium. Astronauts must exercise at least three hours a day to prevent bone loss.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-3-b",
+              "sourceNumber": "3B",
+              "prompt": "原题 3B：According to NASA physician Patrick Clinton, weight can be a problem. Astronauts must take extra calcium and exercise at least three hours a day to keep from gaining weight and to prevent bone damage (17).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Inc./Inacc.",
+              "autoGrade": true,
+              "explanation": "新增补钙及防止增重，原文没有这些要求；原文主题是骨流失。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 3\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 17.\n\nAnother health problem is the potential for bone deterioration. In a weightless environment, the body produces less calcium. Astronauts must exercise at least three hours a day to prevent bone loss.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-3-c",
+              "sourceNumber": "3C",
+              "prompt": "原题 3C：According to NASA physician Patrick Clinton, astronauts could suffer bone loss. Being weightless causes the body to lose calcium, which is important for strength, so exercising at least three hours daily is necessary to keep their bones strong.",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "No cit.",
+              "autoGrade": true,
+              "explanation": "按教材分类，缺来源页码。注意这组参考改写关于calcium的表述是教材材料，不作为生理学结论。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 3\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 17.\n\nAnother health problem is the potential for bone deterioration. In a weightless environment, the body produces less calcium. Astronauts must exercise at least three hours a day to prevent bone loss.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            },
+            {
+              "id": "paraphrase-practice-1-3-d",
+              "sourceNumber": "3D",
+              "prompt": "原题 3D：According to NASA physician Patrick Clinton, astronauts also face possible bone loss. Because weightlessness causes the body to lose calcium, exercising at least three hours daily is necessary to keep their bones strong (17).",
+              "instruction": "对本候选改写标记 Best、Too sim.、No cit. 或 Inc./Inacc.；同组四个候选都要判断。",
+              "answer": "Best",
+              "autoGrade": true,
+              "explanation": "按答案册D为Best：合并因果、保留至少三小时与引用。原文produces less calcium与此处lose calcium并非严格相同，反馈中保留这一教材表述差异，不把它推广成科学结论。",
+              "sourceLabel": "教材第130–132页；第1组答案来自教材131页示范，第2、3组答案来自答案册25页。",
+              "passage": "Original Passage 3\nSource: Patrick Clinton, “Manned Mars Flight: Impossible Dream?”, Space Science, October 15, 2003, 三页文章；Clinton为NASA physician。 Page 17.\n\nAnother health problem is the potential for bone deterioration. In a weightless environment, the body produces less calcium. Astronauts must exercise at least three hours a day to prevent bone loss.",
+              "options": [
+                {
+                  "value": "Best",
+                  "label": "Best · 最佳"
+                },
+                {
+                  "value": "Too sim.",
+                  "label": "Too sim. · 过于相似"
+                },
+                {
+                  "value": "No cit.",
+                  "label": "No cit. · 缺引用"
+                },
+                {
+                  "value": "Inc./Inacc.",
+                  "label": "Inc./Inacc. · 不完整或不准确"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-practice-2",
+          "instructions": "四段全部完成原题Notes与Your Paraphrase。按原题六步：读懂→记关键词→独立改写→比对含义→加文内引用→如教师要求列works-cited。第133页原PDF完整文字已找回，题面不使用旧OCR缺字。Appendix E未在提供文件中，但本练习所需原段与来源信息齐全。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-practice-2-1",
+              "sourceNumber": "1",
+              "prompt": "原题 1：Original Passage 1",
+              "instruction": "先写 Notes（关键词笔记），再写 Your Paraphrase。读懂原文，改变词汇与句式，逐点核查原意，末尾补文内引用；如教师要求，再据所给出版信息列works-cited条目。",
+              "answer": "参考笔记（自编）：mental health; confined/dark/hostile space; anxiety; loneliness; boredom\n完整参考改写（自编）：Keeping astronauts psychologically healthy is another major concern. Long confinement in a dark, threatening environment creates anxiety, while isolation and a lack of stimulation also raise concerns about loneliness and boredom (Clinton 18).",
+              "autoGrade": false,
+              "explanation": "原答案册样例只写孤独和无聊，漏明说anxiety；这里据原文给完整自编参考，保留三种心理问题。",
+              "sourceLabel": "教材第132页；答案册第25–26页。",
+              "passage": "Source: Page 18 of a three-page article in the October 15, 2003, issue of Space Science magazine. The title of the article is “Manned Mars Flight: Impossible Dream?” The author is Patrick Clinton, a NASA physician.\n\nA second major problem is maintaining astronauts’ mental health. Being confined for long periods of time in dark and hostile space undoubtedly produces anxiety. Loneliness and boredom are other psychological concerns.",
+              "rubric": [
+                "笔记用关键词，不照抄整句。",
+                "主要信息和必要细节齐全，范围、可能性、因果与数字不走样。",
+                "既改词也改句式；保留必要术语；文内引用能对应给定来源。"
+              ]
+            },
+            {
+              "id": "paraphrase-practice-2-2",
+              "sourceNumber": "2",
+              "prompt": "原题 2：Original Passage 2",
+              "instruction": "先写 Notes（关键词笔记），再写 Your Paraphrase。读懂原文，改变词汇与句式，逐点核查原意，末尾补文内引用；如教师要求，再据所给出版信息列works-cited条目。",
+              "answer": "参考笔记（自编）：release tension; interpersonal conflict; friends/isolated weeks; small/busy/no privacy; danger adds stress\n完整参考改写（自编）：Astronauts need ways to release tension when disagreements arise. Even close friends may become irritated after weeks together in isolation, especially in crowded, busy stations with little personal space. The dangers of space travel create additional pressure (Clinton 18).",
+              "autoGrade": false,
+              "explanation": "保留人际冲突、好友也会互相烦扰、狭小忙碌缺隐私、危险增压四层信息。自编参考在答案册简短样例基础上保留全部必要细节。该页旧PNG左裁字，已从原PDF完整嵌入图核实全部文字。",
+              "sourceLabel": "教材第133页；答案册第25–26页。",
+              "passage": "Source: Page 18 of a three-page article in the October 15, 2003, issue of Space Science magazine. The title of the article is “Manned Mars Flight: Impossible Dream?” The author is Patrick Clinton, a NASA physician.\n\nFinally, how can astronauts “let off steam” when interpersonal conflicts develop? Even best friends can irritate each other when forced to spend weeks together in isolation. Space stations are small, cramped, busy workplaces, and there is little privacy. Also, space exploration is dangerous, which adds to the stress aboard a spaceship.",
+              "rubric": [
+                "笔记用关键词，不照抄整句。",
+                "主要信息和必要细节齐全，范围、可能性、因果与数字不走样。",
+                "既改词也改句式；保留必要术语；文内引用能对应给定来源。"
+              ]
+            },
+            {
+              "id": "paraphrase-practice-2-3",
+              "sourceNumber": "3",
+              "prompt": "原题 3：Original Passage 3",
+              "instruction": "先写 Notes（关键词笔记），再写 Your Paraphrase。读懂原文，改变词汇与句式，逐点核查原意，末尾补文内引用；如教师要求，再据所给出版信息列works-cited条目。",
+              "answer": "参考笔记（自编）：Mars costly/uncertain Earth benefit; diseases; water/air/soil; hunger; homelessness/poverty/unemployment\n完整参考改写（自编）：Rather than devote billions to a risky Mars mission that is unlikely to improve life on Earth, we should address problems at home. That money could support treatments for cancer, AIDS, and other diseases, reduce pollution, feed hungry people, and combat homelessness, poverty, and unemployment (Brunish).",
+              "autoGrade": false,
+              "explanation": "把连续反问改成陈述，但不把very high chance改成绝对“没有任何收益”；保留地球问题的所有类别。自编参考，原答案册也接受多种写法。",
+              "sourceLabel": "教材第134页；答案册第25–26页。",
+              "passage": "Source: A Letter to the Editor written by Cory Brunish, which appeared on page 9 of the February 16, 2004, issue of Time magazine.\n\nWhy should we spend vast amounts to reach Mars when there is a very high chance of its not providing anything that would improve our lot here on Earth? Why not allocate those billions for “home improvement”? Think of the progress that could be made in curing cancer, AIDS, and other diseases; in cleaning our water, air, and soil; and in feeding hungry nations. Why confront the hazards of outer space when we should be fighting homelessness, poverty, and unemployment on Earth?",
+              "rubric": [
+                "笔记用关键词，不照抄整句。",
+                "主要信息和必要细节齐全，范围、可能性、因果与数字不走样。",
+                "既改词也改句式；保留必要术语；文内引用能对应给定来源。"
+              ]
+            },
+            {
+              "id": "paraphrase-practice-2-4",
+              "sourceNumber": "4",
+              "prompt": "原题 4：Original Passage 4",
+              "instruction": "先写 Notes（关键词笔记），再写 Your Paraphrase。读懂原文，改变词汇与句式，逐点核查原意，末尾补文内引用；如教师要求，再据所给出版信息列works-cited条目。",
+              "answer": "参考笔记（自编）：speed; seven months/confined discomfort; greater danger radiation; no Earth magnetic protection; more exposure than orbit/moon\n完整参考改写（自编）：Reaching Mars quickly matters for more than avoiding the misery of seven months in a cramped spacecraft. The more serious threat is potentially fatal radiation: beyond Earth’s magnetic field, astronauts receive far less protection from cosmic energy than they do in Earth orbit or during a journey to the moon (Kluger 48).",
+              "autoGrade": false,
+              "explanation": "“七个月”和与近地轨道、月球航程的比较都要保留；不要只留下“太空危险”一句。自编参考保留原文比较，原答案册短样例略去了后一比较。",
+              "sourceLabel": "教材第134页；答案册第25–26页。",
+              "passage": "Source: Page 48 of a nine-page magazine article written by Jeffrey Kluger. The article appeared on pages 42–50 in the January 26, 2004, issue of Time magazine. The title is “Mission to Mars: First the Rover Lands, and Now Bush Wants to Send People. We Can Do It Even Faster Than Planned, but Here Is What It Will Take.”\n\nSpeed is everything on the way to Mars and not only because a seven-month trip in a confined space can be torturous. The bigger problem is that it can be lethal because of radiation exposure in deep space, where the absence of Earth’s magnetic field leaves astronauts far more exposed to deadly cosmic energy than they are in orbit or on the way to the moon.",
+              "rubric": [
+                "笔记用关键词，不照抄整句。",
+                "主要信息和必要细节齐全，范围、可能性、因果与数字不走样。",
+                "既改词也改句式；保留必要术语；文内引用能对应给定来源。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-practice-3",
+          "instructions": "包括第135页模型写作题的独立重做，以及第136页Practice 3载人火星任务段落。两个写作题均保留全部必要来源；模型范文只在反馈区。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-practice-3-model",
+              "sourceNumber": "模型写作题",
+              "prompt": "原题 模型写作题：Television programming in the United States is often criticized for promoting the wrong values. Do you agree or disagree with this criticism?",
+              "instruction": "把教材已完成示范恢复为独立练习：围绕原写作题写一个段落，使用所给来源的改写作支撑，说明来源与你的立场的联系，并加文内引用。",
+              "answer": "教材示范段落（不是唯一答案）：Although it is sometimes true that television programming in the United States promotes the wrong values, I do not entirely agree. Many educational television channels promote good values. For example, the Discovery Channel, the History Channel, National Geographic, and other similar channels educate the public about science, history, nature, and the environment. Also, even prime-time television programming often provides a public service by spreading public service messages. In fact, environmental messages have been deliberately put into prime-time television shows for the past decade. Environmental Media Association, an organization of professionals in the entertainment business, encourages television actors, writers, directors, and producers to promote environmentalism in three ways: by using environmental issues in scripts, by using environmental products as props, and by making environmentally conscious choices in studios (Leroux, par. 2). Seeing the star of a prime-time television show recycling plastic bottles or using an environmentally friendly product is more persuasive than almost any other type of public service message. In short, television programs promote positive values in both direct and indirect ways.",
+              "autoGrade": false,
+              "explanation": "示范先承认部分批评，再说明教育节目与黄金时段环保信息的正面作用。引用后还有解释：节目明星的环保行为为什么能影响观众。不要把引用堆成整段。",
+              "sourceLabel": "教材第135页模型原题、来源与已完成示范。",
+              "passage": "Source: Paragraph 2 of Kivi Leroux, “Subliminal Messages: Primetime TV Programs Educate Viewers on the Environment.” E Magazine, “Currents”, July–August 1999.\n\nFor 10 years, the Environmental Media Association (EMA) has been working to weave the environment into prime-time television programming. Created by and for professionals in the entertainment industry, EMA works with the stars in front of the cameras as well as the creative staff behind them to include environmental themes in scripts, show environmental products on sets, and make environmentally sound decisions in the studios.",
+              "rubric": [
+                "明确同意、反对或部分同意，且段内一致。",
+                "真正改写EMA来源，引用(Leroux, par. 2)。",
+                "自己解释证据为何支持主张，并有收束句。"
+              ]
+            },
+            {
+              "id": "paraphrase-practice-3-writing",
+              "sourceNumber": "Practice 3",
+              "prompt": "原题 Practice 3：Some people feel that we should not send a manned spacecraft to Mars. Write a paragraph in which you agree with this statement.",
+              "instruction": "Step 1写清楚支持“不应载人去火星”的主题句。Step 2用Practice 2中自己的改写支撑，并补自己的解释与衔接语。Step 3在每段借用内容末尾加文内引用。",
+              "answer": "开放写作，无唯一标准段落。可依次组织：明确反对载人火星任务→心理压力/人际冲突→辐射风险→把资金用于地球问题→结句。使用哪条证据就标对应(Clinton 18)、(Brunish)、(Kluger 48)，并解释它支持立场的方式。",
+              "autoGrade": false,
+              "explanation": "本题指定同意该声明，不能把任务改成无立场摘要。来源段落再次提供，使用的是自己对这些原文的改写，不是直接复制参考答案。",
+              "sourceLabel": "教材第136页；答案册第25–26页。",
+              "passage": "Practice 2 原始支撑材料\n\nPassage 1\nSource: Page 18 of a three-page article in the October 15, 2003, issue of Space Science magazine. The title of the article is “Manned Mars Flight: Impossible Dream?” The author is Patrick Clinton, a NASA physician.\nA second major problem is maintaining astronauts’ mental health. Being confined for long periods of time in dark and hostile space undoubtedly produces anxiety. Loneliness and boredom are other psychological concerns.\n\nPassage 2\nSource: Page 18 of a three-page article in the October 15, 2003, issue of Space Science magazine. The title of the article is “Manned Mars Flight: Impossible Dream?” The author is Patrick Clinton, a NASA physician.\nFinally, how can astronauts “let off steam” when interpersonal conflicts develop? Even best friends can irritate each other when forced to spend weeks together in isolation. Space stations are small, cramped, busy workplaces, and there is little privacy. Also, space exploration is dangerous, which adds to the stress aboard a spaceship.\n\nPassage 3\nSource: A Letter to the Editor written by Cory Brunish, which appeared on page 9 of the February 16, 2004, issue of Time magazine.\nWhy should we spend vast amounts to reach Mars when there is a very high chance of its not providing anything that would improve our lot here on Earth? Why not allocate those billions for “home improvement”? Think of the progress that could be made in curing cancer, AIDS, and other diseases; in cleaning our water, air, and soil; and in feeding hungry nations. Why confront the hazards of outer space when we should be fighting homelessness, poverty, and unemployment on Earth?\n\nPassage 4\nSource: Page 48 of a nine-page magazine article written by Jeffrey Kluger. The article appeared on pages 42–50 in the January 26, 2004, issue of Time magazine. The title is “Mission to Mars: First the Rover Lands, and Now Bush Wants to Send People. We Can Do It Even Faster Than Planned, but Here Is What It Will Take.”\nSpeed is everything on the way to Mars and not only because a seven-month trip in a confined space can be torturous. The bigger problem is that it can be lethal because of radiation exposure in deep space, where the absence of Earth’s magnetic field leaves astronauts far more exposed to deadly cosmic energy than they are in orbit or on the way to the moon.",
+              "rubric": [
+                "主题句明确表达原题要求的立场。",
+                "至少用相关来源改写支撑，每处有引文。",
+                "有自己的说明与衔接，段落逻辑连贯；不杜撰外部数据。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-model-summary",
+          "instructions": "对照原文、改写、摘要三份完整模型，回答全部Writing Technique Questions。教材印刷字数85/63/28仅为书面标签，本题要求数句子，不用标签代替阅读。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-model-summary-1",
+              "sourceNumber": "1",
+              "prompt": "原题 1：How many sentences are there in the original passage? In the paraphrase? In the summary?",
+              "instruction": "分别填写三份文本的句子数。",
+              "answer": "原文5句；改写6句；摘要2句。",
+              "autoGrade": false,
+              "explanation": "摘要删减细节，只保留语言差异形成障碍、通用语言可能促进联系这两个核心层次。",
+              "sourceLabel": "教材第137页；答案册第25–26页。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSummary\nPeople communicate through language; however, having different languages creates communication barriers. A universal language could bring countries together culturally and economically as well as increase good feelings among them (Kispert).",
+              "rubric": [
+                "按原文、改写、摘要的顺序写5、6、2。",
+                "三个文本都计数，不把分号分隔的部分算成两个句子。"
+              ]
+            },
+            {
+              "id": "paraphrase-model-summary-2",
+              "sourceNumber": "2",
+              "prompt": "原题 2：Compare the paraphrase and the summary. What two details were left out of the summary?",
+              "instruction": "比较改写和摘要，指出省去的两条具体信息。",
+              "answer": "省去：Some people have wished for a universal international language that speakers all over the world could understand. 以及 Their reasons are straightforward and clear.",
+              "autoGrade": false,
+              "explanation": "“人们一直希望有通用语言”和“理由简单明了”不是摘要为表达核心意思所必须保留的信息。文化经济联系与善意仍要留。",
+              "sourceLabel": "教材第137页；答案册第25–26页。",
+              "passage": "Original Passage\nLanguage is the main means of communication between peoples. But so many different languages have developed that language has often been a barrier rather than an aid to understanding among peoples. For many years, people have dreamed of setting up an international universal language which all people could speak and understand. The arguments in favor of a universal language are simple and obvious. If all peoples spoke the same tongue, cultural and economic ties might be much closer, and good will might increase between countries (Kispert).\n\nParaphrase\nHumans communicate through language. Because there are so many different languages, however, people around the world have a difficult time understanding one another. Some people have wished for a universal international language that speakers all over the world could understand. Their reasons are straightforward and clear. A universal language would build cultural and economic bonds. It would also create better feelings among countries (Kispert).\n\nSummary\nPeople communicate through language; however, having different languages creates communication barriers. A universal language could bring countries together culturally and economically as well as increase good feelings among them (Kispert).",
+              "rubric": [
+                "指出“人们希望有全世界理解的通用语言”这一细节。",
+                "指出“他们的理由简单明了”这一评价；两条都要有。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-practice-4",
+          "instructions": "读完整原文与Summary A/B，回答两问及所有子问。不能只选一个字母而不解释，第二题还需指出新增句。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-practice-4-1",
+              "sourceNumber": "1",
+              "prompt": "原题 1：Which of the two is the better summary? Why?",
+              "instruction": "写A或B并解释为什么更适合作摘要。",
+              "answer": "Summary B更好：只保留原文主要观点；Summary A几乎与原文一样长，还加入了来源没有的信息。",
+              "autoGrade": false,
+              "explanation": "B保留“语言技术障碍、正在改善、商业动机、保护濒危语言”四层主干。A重复很多细节；此外把every two weeks误写成every day，也是信息准确性问题。",
+              "sourceLabel": "教材第137页；答案册第26页（PDF 2/2）。",
+              "passage": "Source: Marc Lacey, “Using a New Language in Africa to Save Dying Ones.” New York Times, November 12, 2004, page A3.\n\nOriginal Passage\nSwahili speakers wishing to use a “compyuta”—as computer is rendered in Swahili—have been out of luck when it comes to communicating in their tongue. Computers, no matter how bulky their hard drives or sophisticated their software packages, have not yet mastered Swahili or hundreds of other indigenous African languages. But that may soon change. Across the continent, linguists are working with experts in information technology to make computers more accessible to Africans who happen not to know English, French, or the other major languages that have been programmed into the world’s desktops. There are economic reasons for the outreach. Microsoft, which is working to incorporate Swahili into Microsoft Windows, Microsoft Office, and other popular programs, sees a market for its software among the roughly 100 million Swahili speakers in East Africa. The same goes for Google, which last month launched www.google.co.ke, offering a Kenyan version in Swahili of the popular search engine. But the campaign to Africanize cyberspace is not all about the bottom line. There are hundreds of languages in Africa—some spoken only by a few dozen elders—and they are dying out at an alarming rate. The continent's linguists see the computers as one important way of saving them. UNESCO estimates that 90 percent of the world's 6,000 languages are not represented on the Internet and that one language disappears somewhere around the world every two weeks.\n\nSummary A\nPeople who speak Swahili who want to communicate using a “compyuta,” which is the Swahili word for computer, are unable to do so in their own language. It makes no difference that computers have huge hard drives and sophisticated software. They cannot operate in Swahili or other African languages, of which there are hundreds. Soon, however, they may be able to. Linguists in Africa are working with information technology specialists to make computers operable to Africans who do not know any of the languages currently used on the Internet. Economics is bringing about this change. Microsoft sees a market for its software among Swahili speakers in East Africa. Google now has a search engine for speakers of Swahili in Kenya. Other software companies will probably soon develop products for African consumers. In addition to economics, there is another reason for making the computer accessible to Africans. Hundreds of African languages are dying out, and linguists view the computer as a way to save them. According to UNESCO estimates, 90 percent of the world's 6,000 languages are not on the Internet, and one language becomes extinct every day somewhere in the world. The hope is that computers can help save them (Lacey).\n\nSummary B\nMany Africans who do not speak any of the major languages on the Internet have been unable to use computers in their native languages. Computers cannot yet accommodate languages such as Swahili. However, that situation may soon change. Linguists and computer experts are working to develop computers that work in Swahili and other African languages. Economics is one reason for doing so. Computer companies such as Microsoft and Google see a potentially huge market for its products in Africa. Another important reason is to save languages that are in danger of becoming extinct (Lacey).",
+              "rubric": [
+                "选择B。",
+                "说明应概括主旨和主要支撑，而不是尽量保留全部细节。"
+              ]
+            },
+            {
+              "id": "paraphrase-practice-4-2",
+              "sourceNumber": "2",
+              "prompt": "原题 2：Which summary contains an idea that was not in the original? Which sentence expresses this added idea?",
+              "instruction": "指出哪份摘要加了原文没有的观点，并抄出对应整句。",
+              "answer": "Summary A；“Other software companies will probably soon develop products for African consumers.”",
+              "autoGrade": false,
+              "explanation": "原文只谈Microsoft与Google的行动，没有预测其他公司接下来会怎样。合理猜想也不能擅自写进摘要。另有频率误写：原文every two weeks，A写every day。",
+              "sourceLabel": "教材第138页；答案册第26页（PDF 2/2）。",
+              "passage": "Source: Marc Lacey, “Using a New Language in Africa to Save Dying Ones.” New York Times, November 12, 2004, page A3.\n\nOriginal Passage\nSwahili speakers wishing to use a “compyuta”—as computer is rendered in Swahili—have been out of luck when it comes to communicating in their tongue. Computers, no matter how bulky their hard drives or sophisticated their software packages, have not yet mastered Swahili or hundreds of other indigenous African languages. But that may soon change. Across the continent, linguists are working with experts in information technology to make computers more accessible to Africans who happen not to know English, French, or the other major languages that have been programmed into the world’s desktops. There are economic reasons for the outreach. Microsoft, which is working to incorporate Swahili into Microsoft Windows, Microsoft Office, and other popular programs, sees a market for its software among the roughly 100 million Swahili speakers in East Africa. The same goes for Google, which last month launched www.google.co.ke, offering a Kenyan version in Swahili of the popular search engine. But the campaign to Africanize cyberspace is not all about the bottom line. There are hundreds of languages in Africa—some spoken only by a few dozen elders—and they are dying out at an alarming rate. The continent's linguists see the computers as one important way of saving them. UNESCO estimates that 90 percent of the world's 6,000 languages are not represented on the Internet and that one language disappears somewhere around the world every two weeks.\n\nSummary A\nPeople who speak Swahili who want to communicate using a “compyuta,” which is the Swahili word for computer, are unable to do so in their own language. It makes no difference that computers have huge hard drives and sophisticated software. They cannot operate in Swahili or other African languages, of which there are hundreds. Soon, however, they may be able to. Linguists in Africa are working with information technology specialists to make computers operable to Africans who do not know any of the languages currently used on the Internet. Economics is bringing about this change. Microsoft sees a market for its software among Swahili speakers in East Africa. Google now has a search engine for speakers of Swahili in Kenya. Other software companies will probably soon develop products for African consumers. In addition to economics, there is another reason for making the computer accessible to Africans. Hundreds of African languages are dying out, and linguists view the computer as a way to save them. According to UNESCO estimates, 90 percent of the world's 6,000 languages are not on the Internet, and one language becomes extinct every day somewhere in the world. The hope is that computers can help save them (Lacey).\n\nSummary B\nMany Africans who do not speak any of the major languages on the Internet have been unable to use computers in their native languages. Computers cannot yet accommodate languages such as Swahili. However, that situation may soon change. Linguists and computer experts are working to develop computers that work in Swahili and other African languages. Economics is one reason for doing so. Computer companies such as Microsoft and Google see a potentially huge market for its products in Africa. Another important reason is to save languages that are in danger of becoming extinct (Lacey).",
+              "rubric": [
+                "指出Summary A。",
+                "准确定位新增公司预测句，不把原文已有内容误判为新增。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-practice-5",
+          "instructions": "两段全部写Notes和单段Summary。原文、来源及段号全部给出；摘要可以不同，但不能改变原作者的时间、范围和语气。原页OCR将Schmid文章25段误识别为23段，已按图校正。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-practice-5-1",
+              "sourceNumber": "1",
+              "prompt": "原题 1：Original Passage 1",
+              "instruction": "写Notes关键词笔记，再用自己的词汇和句式写一个段落的摘要，只保留主旨和主要支撑，末尾加文内引用。",
+              "answer": "自编参考笔记：multilingual future; English important but not alone; non-English sites/resistance; English strong as second language; Mandarin possible demand in Asia\n自编参考摘要：In the analysis reported by Schmid in 2004, English was expected to remain important without becoming the world’s only leading language. A more multilingual future, resistance to English dominance, and growth in non-English websites pointed toward a less exclusive role. English remained strong as a second language, while demand for Mandarin was expected to grow in parts of Asia (Schmid).",
+              "autoGrade": false,
+              "explanation": "原答案册提供可变样例，本参考进一步保留原文年代、可能性与范围：不把2004年的“未来十年”或2001年的“2050预测”当成今天事实，也不把亚洲部分雇主的需求夸大成全球必然趋势。",
+              "sourceLabel": "教材第139页；答案册第26页（PDF 2/2）。",
+              "passage": "Source: Various paragraphs of a news article written by Randolph E. Schmid. It was published online by the Associated Press on February 26, 2004. The title of the article is “Share of people who are native English speakers declining.” The article is 25 paragraphs long. The Web site address is <http://pqasb.pqarchiver.com/ap/571281251.html?did=571281251&FMT=ABS&FMTS=FT&date=Feb+26%2C+2004&author=RANDOLPH+E.+SCHMID&desc=Share+of+people+who+are+native+English+speakers+declining.\n\nThe world faces a future of people speaking more than one language, with English no longer seen as likely to become dominant, a British language expert says in a new analysis. “English is likely to remain one of the world’s most important languages for the foreseeable future, but its future is more problematic—and complex—than most people appreciate,” said language researcher David Graddol (Schmid, pars. 1-2). He sees English as likely to become the “first among equals” rather than having the global field to itself (par. 3). . . . The share of the world’s population that speaks English as a native language is falling, Graddol reports in a paper in Friday’s issue of the journal Science (par. 5). “There is a distinct consciousness in many countries, both developed and developing, about this dominance of English. There is some evidence of resistance to it, a desire to change it” said [Scott] Montgomery [the author of another article published in the same issue of Science]. For example, he said, in the early years of the Internet it was dominated by sites in English, but in recent years there has been a proliferation of non-English sites, especially Spanish, German, French, Japanese, and others (pars. 19-20). Nonetheless, English is strong as a second language, and teaching it has become a growth industry, said Montgomery, a Seattle-based geologist and energy consultant (par. 21). Graddol noted, though, that employers in parts of Asia are already looking beyond English. “In the next decade the new ‘must learn’ language is likely to be Mandarin” (par. 22).",
+              "rubric": [
+                "有关键词笔记和一段完整摘要。",
+                "保留两大主旨及必要限定，删去多数例证与重复。",
+                "用自己的语言，附(Schmid)或(\"World Empire\")等能追溯的引用。"
+              ]
+            },
+            {
+              "id": "paraphrase-practice-5-2",
+              "sourceNumber": "2",
+              "prompt": "原题 2：Original Passage 2",
+              "instruction": "写Notes关键词笔记，再用自己的词汇和句式写一个段落的摘要，只保留主旨和主要支撑，末尾加文内引用。",
+              "answer": "自编参考笔记：global spread; first/second/learning speakers; business/politics/Internet; predicted 2050 reach; difficult spelling/grammar/varieties/meaning\n自编参考摘要：The 2001 article describes English as a global language used widely in business, politics, diplomacy, technology, and popular culture, with further growth predicted by 2050. Its international success does not make it easy to master: irregular forms, inconsistent spelling and pronunciation, regional varieties, and subtle changes in meaning can challenge even native speakers (“World Empire”).",
+              "autoGrade": false,
+              "explanation": "围绕“全球普及但不易精通”收束；不必把每个城市、每个set短语都列出。原文是2001年的文章，2050属于当时预测。无作者时引用简短题名，不能捏造作者。",
+              "sourceLabel": "教材第140页；答案册第26页（PDF 2/2）。",
+              "passage": "Source: Paragraphs 1 and 2 from a December 20, 2001, online article entitled “A world empire by other means.” The author’s name is not given. It was published on Economist.com, the Web site of a British magazine. The Web site address is <http://www.economist.com/displaystory.cfm?story_id=S%26%2BXL%2FRA%5F%24%0A>\n\nIt [English] is everywhere. Some 380 million people speak it as their first language and perhaps two-thirds as many again as their second. A billion are learning it, about a third of the world’s population are in some sense exposed to it, and by 2050, it is predicted, half the world will be more or less proficient in it. It is the language of globalization—of international business, politics, and diplomacy. It is the language of computers and the Internet. You'll see it on posters in Côte d'Ivoire, you'll hear it in pop songs in Tokyo, you'll read it in official documents in Phnom Penh. Deutsche Welle broadcasts in it. Björk, an Icelander, sings in it. French business schools teach in it. It is the medium of expression in cabinet meetings in Bolivia. Truly, the tongue spoken back in the 1300s only by the “low people” of England, as Robert of Gloucester put it at the time, has come a long way. It is now the global language. How come? Not because English is easy. True, genders are simple, since English relies on “it” as the pronoun for all inanimate nouns, reserving masculine for bona fide males and feminine for females (and countries and ships). But the verbs tend to be irregular, the grammar bizarre, and the match between spelling and pronunciation a nightmare. English is now so widely spoken in so many places that umpteen versions have evolved, some so peculiar that even “native” speakers may have trouble understanding each other. But if only one version existed, that would present difficulties enough. Even everyday English is a language of subtlety, nuance, and complexity. John Simmons, a language consultant for Interbrand, likes to cite the word “set,” an apparently simple word that takes on different meanings in a sporting, cooking, social, or mathematical context—and that is before any little words are combined with it. Then, as a verb, it becomes “set aside,” “set up,” “set down,” “set in,” “set on,” “set about,” “set against,” and so on, terms that “leave even native speakers bewildered about [its] core meaning.”",
+              "rubric": [
+                "有关键词笔记和一段完整摘要。",
+                "保留两大主旨及必要限定，删去多数例证与重复。",
+                "用自己的语言，附(Schmid)或(\"World Empire\")等能追溯的引用。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paraphrase-practice-6",
+          "instructions": "围绕英语“容易入门、难以精通”写段落。原题Step 1明确主题句；Step 2用Practice 5的摘要或部分摘要支撑，可加个人知识与经历；Step 3每处借用信息都有文内引用。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paraphrase-practice-6-writing",
+              "sourceNumber": "Practice 6",
+              "prompt": "原题 Practice 6：Some people say that English is easy to learn, but difficult to master. Write a paragraph in which you agree with this statement.",
+              "instruction": "写一个赞同原题观点的完整段落，用Practice 5来源的摘要或部分摘要支撑；可加入自己的真实例子，并说明证据与主张的联系。",
+              "answer": "开放写作，无唯一答案。参考结构：清楚表达“英语可以较快入门，但精通需要持续练习”→选取来源关于不规则动词、拼写发音、多种英语或一词多义的摘要→用一个自身真实学习例子说明→归结为何基础交流与熟练掌握有差别。借用教材第二来源时引用(“World Empire”)，不要把作者预测冒充新调查。",
+              "autoGrade": false,
+              "explanation": "题目要写自己的论证段落，不是单独复述来源。比如“set在不同语境含义不同”可以支撑“难精通”，但必须解释这为什么超出基础交流。",
+              "sourceLabel": "教材第141页；答案册第26页（PDF 2/2）。",
+              "passage": "Practice 5 原始材料\n\nOriginal Passage 1\nSource: Various paragraphs of a news article written by Randolph E. Schmid. It was published online by the Associated Press on February 26, 2004. The title of the article is “Share of people who are native English speakers declining.” The article is 25 paragraphs long. The Web site address is <http://pqasb.pqarchiver.com/ap/571281251.html?did=571281251&FMT=ABS&FMTS=FT&date=Feb+26%2C+2004&author=RANDOLPH+E.+SCHMID&desc=Share+of+people+who+are+native+English+speakers+declining.\n\nThe world faces a future of people speaking more than one language, with English no longer seen as likely to become dominant, a British language expert says in a new analysis. “English is likely to remain one of the world’s most important languages for the foreseeable future, but its future is more problematic—and complex—than most people appreciate,” said language researcher David Graddol (Schmid, pars. 1-2). He sees English as likely to become the “first among equals” rather than having the global field to itself (par. 3). . . . The share of the world’s population that speaks English as a native language is falling, Graddol reports in a paper in Friday’s issue of the journal Science (par. 5). “There is a distinct consciousness in many countries, both developed and developing, about this dominance of English. There is some evidence of resistance to it, a desire to change it” said [Scott] Montgomery [the author of another article published in the same issue of Science]. For example, he said, in the early years of the Internet it was dominated by sites in English, but in recent years there has been a proliferation of non-English sites, especially Spanish, German, French, Japanese, and others (pars. 19-20). Nonetheless, English is strong as a second language, and teaching it has become a growth industry, said Montgomery, a Seattle-based geologist and energy consultant (par. 21). Graddol noted, though, that employers in parts of Asia are already looking beyond English. “In the next decade the new ‘must learn’ language is likely to be Mandarin” (par. 22).\n\nOriginal Passage 2\nSource: Paragraphs 1 and 2 from a December 20, 2001, online article entitled “A world empire by other means.” The author’s name is not given. It was published on Economist.com, the Web site of a British magazine. The Web site address is <http://www.economist.com/displaystory.cfm?story_id=S%26%2BXL%2FRA%5F%24%0A>\n\nIt [English] is everywhere. Some 380 million people speak it as their first language and perhaps two-thirds as many again as their second. A billion are learning it, about a third of the world’s population are in some sense exposed to it, and by 2050, it is predicted, half the world will be more or less proficient in it. It is the language of globalization—of international business, politics, and diplomacy. It is the language of computers and the Internet. You'll see it on posters in Côte d'Ivoire, you'll hear it in pop songs in Tokyo, you'll read it in official documents in Phnom Penh. Deutsche Welle broadcasts in it. Björk, an Icelander, sings in it. French business schools teach in it. It is the medium of expression in cabinet meetings in Bolivia. Truly, the tongue spoken back in the 1300s only by the “low people” of England, as Robert of Gloucester put it at the time, has come a long way. It is now the global language. How come? Not because English is easy. True, genders are simple, since English relies on “it” as the pronoun for all inanimate nouns, reserving masculine for bona fide males and feminine for females (and countries and ships). But the verbs tend to be irregular, the grammar bizarre, and the match between spelling and pronunciation a nightmare. English is now so widely spoken in so many places that umpteen versions have evolved, some so peculiar that even “native” speakers may have trouble understanding each other. But if only one version existed, that would present difficulties enough. Even everyday English is a language of subtlety, nuance, and complexity. John Simmons, a language consultant for Interbrand, likes to cite the word “set,” an apparently simple word that takes on different meanings in a sporting, cooking, social, or mathematical context—and that is before any little words are combined with it. Then, as a verb, it becomes “set aside,” “set up,” “set down,” “set in,” “set on,” “set about,” “set against,” and so on, terms that “leave even native speakers bewildered about [its] core meaning.”",
+              "rubric": [
+                "主题句明确同意指定立场。",
+                "至少用一处相关摘要支撑并标来源。",
+                "有自己的解释，若用个人例子应真实且与主题有关。",
+                "全文连贯，不能只拼接两个来源摘要。"
+              ]
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "title": "Paraphrase与summary",
+          "explanation": "paraphrase以自己词汇和句式保留原段的主要信息与必要细节，长度通常相近；summary显著缩短，只保留主旨和主要支撑。两者均不能添加个人观点或改变原义。",
+          "example": "原创示例：Original: Regular practice can improve recall. Paraphrase: Learners may remember more effectively through consistent practice.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先读任务动词：paraphrase要换表达并保留几乎全部信息；summarize要先决定哪些细节可以删。",
+            "用一句中文说原文在讲什么，再列主要点和限制。Regular practice can improve recall. 的关键是“经常练习”“可能改善回忆”，不是“必定满分”。",
+            "改写时换信息起点或结构；摘要时保留共同主旨，把反复举的例子压缩。",
+            "核查some/all、can/will、时间、数字、否定和因果；内容变得更短或更漂亮都不能成为改义理由。",
+            "实际借用外部资料时保留来源；本规则的例句明确为原创，不冒充教材引用。"
+          ],
+          "breakdown": [
+            {
+              "text": "Regular practice",
+              "note": "原句起点：经常练习。"
+            },
+            {
+              "text": "can improve recall.",
+              "note": "语气为可能带来改善，不是必然记住一切。"
+            },
+            {
+              "text": "Learners may remember more effectively",
+              "note": "改写转为以学习者为主语，并保留may的可能性。"
+            },
+            {
+              "text": "through consistent practice.",
+              "note": "把练习移到方式短语里，仍保留因果含义。"
+            }
+          ],
+          "pitfall": "不要把“改写”当成删句任务，也不要把“摘要”写成逐句换词。先确定任务要保留多大范围。",
+          "check": {
+            "prompt": "【原创理解检查】原句：Some students may benefit from group study. 哪句忠实改写？",
+            "options": [
+              {
+                "value": "A",
+                "label": "All students will improve if they study together."
+              },
+              {
+                "value": "B",
+                "label": "Studying with others can help some learners."
+              },
+              {
+                "value": "C",
+                "label": "Group study is always better than studying alone."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B保留some与may/can。A扩大到所有人并变成必然；C新增比较和always。",
+            "wrongExplanation": "B保留some与may/can。A扩大到所有人并变成必然；C新增比较和always。"
+          },
+          "sourceLabel": "教材第127–130、136–138页；分步讲解与检查题为原创辅助。"
+        },
+        {
+          "title": "两类常见问题",
+          "explanation": "没有引用思想来源；虽有引用却只换少数词、保留原句结构。考试判断标签包括Too sim.、No cit.、Inc./Inacc.。",
+          "example": "原创示例：may不能改成will，some不能改成all。",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先查来源：能否看到作者、页码/段号或可定位的题名？不能只说“网上有人说”。",
+            "再查独立表达：按句子比较主语、谓语和排列顺序。只替换main→principal等几个词，不代表已经用自己的结构重写。",
+            "再查准确性：是否少了限定、加了原文没有的结论？缺引用、过近和失真可能同时存在，考试按题目指定分类。",
+            "Practice题给作者引导语时，仍检查页码是否齐全；这是本教材No cit.分类的依据。"
+          ],
+          "breakdown": [
+            {
+              "text": "may",
+              "note": "只是可能；改成will会提高确定性。"
+            },
+            {
+              "text": "不能改成will",
+              "note": "这不是同义替换，而是在替作者作更强保证。"
+            },
+            {
+              "text": "some",
+              "note": "限定为一部分对象。"
+            },
+            {
+              "text": "不能改成all",
+              "note": "范围扩大，不忠实于原意。"
+            }
+          ],
+          "pitfall": "有引用也可能措辞过近；句子变了很多也可能遗漏引用。这是两项独立检查，不是二选一通行证。",
+          "check": {
+            "prompt": "【原创理解检查】引用已写全，但整段逐句照原结构，只换几个近义词。主要问题是什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Too sim.：表达过于接近原文"
+              },
+              {
+                "value": "B",
+                "label": "只要有引用就没有问题"
+              },
+              {
+                "value": "C",
+                "label": "必然是No cit.：完全没有引用"
+              }
+            ],
+            "answer": "A",
+            "explanation": "引用解决出处问题，不能自动解决照抄结构的问题；本题已说明引用完整，所以不能判成缺引用。",
+            "wrongExplanation": "引用解决出处问题，不能自动解决照抄结构的问题；本题已说明引用完整，所以不能判成缺引用。"
+          },
+          "sourceLabel": "教材第128–132页；分步讲解与检查题为原创辅助。"
+        },
+        {
+          "title": "五步改写",
+          "explanation": "反复读懂→记关键词而非整句→合上原文写→逐项对照范围、因果、否定、数字与语气→加文内引用。术语可保留，不强求每个词都找近义词。",
+          "example": "原创示例：理解原因/结果关系后，再用result from代替because结构。",
+          "before": "",
+          "after": "",
+          "steps": [
+            "第1步反复读到能脱稿解释；只查不懂的词，专业词不必硬换。",
+            "第2步记关键词和逻辑箭头，不把整句搬进笔记。",
+            "第3步关上原文，依笔记写出完整表达；这样更容易摆脱原句顺序。",
+            "第4步打开原文逐点核查：主体、范围、时间、数量、因果、语气是否一致。",
+            "第5步补文内引用；作者在引导语出现时，括号按课程要求保留页码或段号。"
+          ],
+          "breakdown": [
+            {
+              "text": "原因/结果关系",
+              "note": "先确定谁引起谁，不只是找近义词。"
+            },
+            {
+              "text": "because",
+              "note": "常把原因接在结果陈述后。"
+            },
+            {
+              "text": "result from",
+              "note": "主语是结果，from后接原因；不能把因果方向倒过来。"
+            }
+          ],
+          "pitfall": "边盯着原文边替换词，很容易保留整句骨架；只读一遍就写又容易漏信息。用“理解—关键词—合上—核对”分开两种风险。",
+          "check": {
+            "prompt": "【原创理解检查】完成关键词笔记后，下一步最符合教材方法的是？",
+            "options": [
+              {
+                "value": "A",
+                "label": "看着原句逐词找近义词"
+              },
+              {
+                "value": "B",
+                "label": "关上原文，根据笔记独立写，再回去核对"
+              },
+              {
+                "value": "C",
+                "label": "删掉所有数字和限定词"
+              }
+            ],
+            "answer": "B",
+            "explanation": "先独立写降低贴近原句的风险，再对照核查防止失真；数字与限定是否保留由任务和原义决定。",
+            "wrongExplanation": "先独立写降低贴近原句的风险，再对照核查防止失真；数字与限定是否保留由任务和原义决定。"
+          },
+          "sourceLabel": "教材第130、132页；分步讲解与检查题为原创辅助。"
+        },
+        {
+          "title": "同义替换加句法重构",
+          "explanation": "主动/被动转换；名词化/动词化；拆句/合句；从句与短语转换；改变信息起点。变化服务于准确，不为改写而扭曲重点。",
+          "example": "原创示例：The researchers analyzed the data. → The data were analyzed by the researchers.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先保留“谁做什么、对象是什么”的事实框架。",
+            "可主动改被动：The researchers analyzed the data. → The data were analyzed by the researchers. 主体对象没有互换。",
+            "可拆分或合并句子，但原有因果、对比或条件仍须显式保留。",
+            "可把名词表达转为动词表达，或改变信息起点；每改一处，都重新问读者能否得到相同意思。",
+            "单独做一次被动转换并不保证改写充分；整段仍需独立组织，并保留来源。"
+          ],
+          "breakdown": [
+            {
+              "text": "The researchers analyzed the data.",
+              "note": "主动句：研究者是施事，数据是被分析对象。"
+            },
+            {
+              "text": "The data",
+              "note": "被动句把对象放到主语位置，改变信息起点。"
+            },
+            {
+              "text": "were analyzed",
+              "note": "保持过去时，be + 过去分词构成被动。"
+            },
+            {
+              "text": "by the researchers.",
+              "note": "原来的行动者仍保留，没有改成“数据分析研究者”。"
+            }
+          ],
+          "pitfall": "不能为了避免重复把技术概念换成近似但不同的概念。例如“产生更少钙”与“流失钙”不能不加辨别地当成同一句科学解释。",
+          "check": {
+            "prompt": "【原创理解检查】The researchers tested the samples. 哪个变化保留了谁做什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "The samples tested the researchers."
+              },
+              {
+                "value": "B",
+                "label": "The samples were tested by the researchers."
+              },
+              {
+                "value": "C",
+                "label": "The researchers will test different samples."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B保留原行动者、对象与过去时；A颠倒角色，C改了时间及对象。",
+            "wrongExplanation": "B保留原行动者、对象与过去时；A颠倒角色，C改了时间及对象。"
+          },
+          "sourceLabel": "教材第129–134页；分步讲解与检查题为原创辅助。"
+        },
+        {
+          "title": "摘要取舍",
+          "explanation": "保留研究/文章核心问题、主要发现或主张及必要限制；删去例子、重复、次要数字与修辞。依据题干要求决定是否保留作者名、字数与来源。",
+          "example": "原创示例：A passage that gives three examples of review benefits can be summarized by the shared benefit.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先写一条主旨：作者最终想让读者知道什么？",
+            "给各句分工：核心主张、主要理由、例子、重复、细节。摘要保留前两类，后几类通常压缩。",
+            "不要把原文没有的合理猜测写进去；“其他公司很快跟进”也需要来源明确说过。",
+            "保留会改变结论的限制：可能、部分地区、当时预测、时间范围等。",
+            "写完比较长度与覆盖范围：明显短于原文，但不是短到漏掉另一半主旨。"
+          ],
+          "breakdown": [
+            {
+              "text": "three examples",
+              "note": "三种例子可能只是说明同一个好处，不必逐一复述。"
+            },
+            {
+              "text": "review benefits",
+              "note": "先找例子共同支持的中心意思。"
+            },
+            {
+              "text": "the shared benefit",
+              "note": "摘要用一句概括共同主旨，但不能新增没有证据的好处。"
+            }
+          ],
+          "pitfall": "短不等于好。摘要若把“每两周”写成“每天”、把“可能”写成“必然”，即使很简洁也失真。",
+          "check": {
+            "prompt": "【原创理解检查】原文只说两家公司已推出服务。哪句话不应擅自加进摘要？",
+            "options": [
+              {
+                "value": "A",
+                "label": "The passage discusses two companies’ services."
+              },
+              {
+                "value": "B",
+                "label": "Both companies have introduced services."
+              },
+              {
+                "value": "C",
+                "label": "All other companies will soon follow them."
+              }
+            ],
+            "answer": "C",
+            "explanation": "C新增对所有其他公司的未来预测；原文没有给出这个判断。",
+            "wrongExplanation": "C新增对所有其他公司的未来预测；原文没有给出这个判断。"
+          },
+          "sourceLabel": "教材第137–140页；分步讲解与检查题为原创辅助。"
+        },
+        {
+          "title": "作为论据使用",
+          "explanation": "先写自己的主题句，再用来源的改写/摘要支撑，随后解释联系。不是把别人的摘要拼在一起替代自己的论证。",
+          "example": "原创示例：Frequent review deserves a place in study plans. The supplied passage explains how repeated exposure supports recall. This supports short daily sessions.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先写自己的主题句，明确你想论证什么，而不是先贴一段来源。",
+            "挑与这一主张直接相关的改写或摘要，删去不服务于段落重点的材料。",
+            "紧接借用内容给文内引用，使读者分得清来源信息和你的推论。",
+            "引用后用自己的句子解释“这说明什么、为什么支持我的观点”。",
+            "用结句把证据带回主题；如果拿掉引用，仍应看得出你自己的论证骨架。"
+          ],
+          "breakdown": [
+            {
+              "text": "Frequent review deserves a place in study plans.",
+              "note": "自己的主题句：提出安排复习的主张。"
+            },
+            {
+              "text": "The supplied passage explains how repeated exposure supports recall.",
+              "note": "来源提供的证据；实际作答应注明所给来源。"
+            },
+            {
+              "text": "This supports short daily sessions.",
+              "note": "回到自己的应用解释，说明证据如何支持学习安排。"
+            }
+          ],
+          "pitfall": "引用不能代替解释；也不能把自己的例子说成来源作者做过的研究。个人经历标清楚，统计数据必须有真实来源。",
+          "check": {
+            "prompt": "【原创理解检查】主题句后放入一个相关摘要并标了来源，接下来最应做什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "解释这条证据为什么支持主题句"
+              },
+              {
+                "value": "B",
+                "label": "换到一个完全无关的新主题"
+              },
+              {
+                "value": "C",
+                "label": "把来源作者的观点当自己的新发现"
+              }
+            ],
+            "answer": "A",
+            "explanation": "证据与主张之间需要你解释联系；只有引用而没有分析，读者未必知道它在段落中的作用。",
+            "wrongExplanation": "证据与主张之间需要你解释联系；只有引用而没有分析，读者未必知道它在段落中的作用。"
+          },
+          "sourceLabel": "教材第135–136、141页；分步讲解与检查题为原创辅助。"
+        }
+      ],
+      "audit": [
+        {
+          "scope": "覆盖",
+          "detail": "9个既有mission全部保留；32个作答项：模型改写5、抄袭模型2、P1三组A–D共12、P2四段笔记与改写4、P3模型独立重做+火星段落2、摘要模型2、P4两问2、P5两段笔记与摘要2、P6段落1。P1示范四个标签移到反馈；所有开放题保留必要完整原段与引用信息。"
+        },
+        {
+          "scope": "视觉核对",
+          "detail": "教材PDF2–15页与答案PDF1–2页全部逐页看图；教材第133页旧PNG/OCR左裁，另从原PDF页7内嵌图xref34提取完整2481×3333图视觉复核，词首完整可见，不靠猜测补字。"
+        },
+        {
+          "scope": "资产修复",
+          "detail": "按root授权，仅修复dist/textbook/paraphrase/page-007.webp；来源为原book.pdf第7页内嵌图，1300×1746、等比例WEBP。SHA256=70e16b21b78d4653d44b80cfbb2d28d5d04277f7bfce6858e9bab35519c4a833。原PDF及旧OCR未改。"
+        },
+        {
+          "scope": "原书差异",
+          "detail": "第129页说明把main/principal替换方向写反；反馈按原文main→候选principal说明。P1第3组答案D为Best，但原文produces less calcium与候选lose calcium不是严格相同，保留题面/原答案并明确注记，不当作科学结论。"
+        },
+        {
+          "scope": "答案完整性",
+          "detail": "P2答案册样例1漏anxiety、样例2压缩若干细节、样例4漏与近地/月球航程比较。改写题的完整自编参考据原文保留这些内容并明确标自编，不冒充逐字答案册。"
+        },
+        {
+          "scope": "摘要差异",
+          "detail": "P4 Summary A除新增其他公司预测外，还把原文every two weeks写成every day；原答案未列后者，反馈补充指出。P5第1来源原图写25 paragraphs，OCR为23，已校正为25。"
+        },
+        {
+          "scope": "时间与来源",
+          "detail": "原段2001–2004年统计、技术状况、未来预测作为当时教材内容保留，没有用它们宣称当前事实；P5自编参考保留日期和范围，避免原样例Soon或leading second language等扩大确定性的表述。"
+        },
+        {
+          "scope": "缺附件边界",
+          "detail": "本章正文练习均有必要原段与来源，全部可以作答。第129页另指向Appendix E 303–311作引用规则阅读，未随资料提供；未伪造该附录。P2的works-cited为教师要求时才做的条件步骤，题面保留该条件，本交付不声称覆盖附录格式教程。"
+        },
+        {
+          "scope": "规则",
+          "detail": "6条原规则保留原顺序与title/explanation/example/before/after，均补步骤、拆解、易错点、原创检查及源页。"
+        },
+        {
+          "scope": "验收",
+          "detail": "本文件为待整合内容；未改变主JSON或UI。自动分类14项，其余18项保留开放输入与具体解释；尚不代表浏览器交互已验收。"
+        }
+      ]
+    }
+  ]
+}

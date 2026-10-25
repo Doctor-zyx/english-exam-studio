@@ -5,139 +5,40 @@ const path=require('node:path');
 const vm=require('node:vm');
 const {JSDOM}=require('jsdom');
 const script=fs.readFileSync(path.join(__dirname,'../dist/chapter.js'),'utf8');
-
-const makeLesson=()=>({id:'sentences',title:'句子结构',subtitle:'先理解，再运用。',rules:[
-  {title:'完整句',explanation:'句子表达完整意思。',example:'The child laughed.'},
-  {title:'并列结构',explanation:'并列部分结构一致。',before:'I like reading and to swim.',after:'I like reading and swimming.'}
+const lesson=()=>({id:'sentence',title:'Sentence skills',subtitle:'逐点理解',rules:[
+ {title:'独立分句',explanation:'先找主语和谓语。',steps:['找主语','确认意思完整'],example:'She smiled.',breakdown:[{text:'She',note:'主语'},{text:'smiled',note:'谓语'}],pitfall:'不是越长越完整。',check:{prompt:'哪一句完整？',options:[{value:'a',label:'She left.'},{value:'b',label:'Because she left.'}],answer:'a',explanation:'because 引导从句。'}},
+ {title:'平行结构',explanation:'两侧结构对应。'}]});
+const course=()=>({id:'sentence',sourcePdf:'book.pdf',answerPdf:'key.pdf',coverageNote:'原书第163页。',missions:[
+ {id:'m1',title:'Practice 1',textComplete:true,itemsPartial:false,sourcePages:[{src:'page.webp',label:'原书第1页'}],answerPages:[{src:'answer.webp',label:'答案第1页'}],items:[
+  {id:'q1',prompt:'原题1',options:[{value:'a',label:'完整'},{value:'b',label:'不完整'}],answer:'a',explanation:'这是完整的主谓结构。'},
+  {id:'q2',prompt:'原题2',options:[{value:'a',label:'独立'},{value:'b',label:'从属'}],answer:'b',explanation:'Because 使分句从属。'}]},
+ {id:'m2',title:'Practice 2',textComplete:true,items:[{id:'rewrite',prompt:'改写原题',passage:'Original paragraph.\nSecond sentence.',answer:'A possible rewrite.',autoGrade:false,explanation:'保留意思，连接正确。',rubric:['原意完整','连接正确']}]}
 ]});
-const makeCourse=()=>({id:'sentence-book',sourceTitle:'Sentence book',sourcePdf:'source.pdf',answerTitle:'Teacher key',answerPdf:'answer.pdf',coverageNote:'扫描页可能包含原有批注。',missions:[
-  {id:'objective',title:'识别句子',sourcePages:[{src:'one.webp',page:1,label:'原书第 1 页'},{src:'two.webp',page:2,label:'原书第 2 页'}],answerPages:[{src:'key.webp',page:1,label:'答案第 1 页'}],items:[
-    {id:'q1',prompt:'Choose the complete sentence.',options:[{value:'a',label:'She smiled.'},{value:'b',label:'Because she smiled.'}],answer:'a',explanation:'The first sentence is complete.'},
-    {id:'q2',prompt:'Choose the fragment.',options:[{value:'a',label:'They left.'},{value:'b',label:'After they left.'}],answer:'b'}
-  ]},
-  {id:'open',title:'改写句子',sourcePages:[{src:'open.webp',page:3,label:'原书第 3 页'}],answerPages:[{src:'open-key.webp',page:2,label:'答案第 2 页'}],answerNote:'合理的不同表达也可成立。'}
-]});
-function setup(overrides={}){
-  const dom=new JSDOM('<main id="host"></main>',{url:'http://localhost/course/',runScripts:'outside-only',pretendToBeVisual:true});
-  const w=dom.window,host=w.document.getElementById('host');
-  w.confirm=()=>true;
-  w.HTMLElement.prototype.scrollIntoView=function(){this.dataset.scrolled='true'};
-  w.HTMLDialogElement.prototype.showModal=function(){this.open=true};
-  w.HTMLDialogElement.prototype.close=function(){this.open=false};
-  vm.runInContext(script,dom.getInternalVMContext());
-  const state=overrides.state||{tasks:{},drafts:{},results:{},read:{}};
-  let awards=0,saves=0,activities=0;
-  const opts={lesson:makeLesson(),course:makeCourse(),state,save(activity){saves++;if(activity)activities++},reward(){awards++},...overrides};
-  let api=w.StudyChapters.render(host,opts);
-  const q=s=>host.querySelector(s);
-  const click=(action,more='')=>{const el=q(`[data-ch-action="${action}"]${more}`);assert.ok(el,action+more);el.click();return el};
-  const input=(selector,value)=>{const el=q(selector);assert.ok(el,selector);el.value=value;el.dispatchEvent(new w.Event('input',{bubbles:true}));return el};
-  const option=value=>{const el=q(`[data-ch-input="option"][value="${value}"]`);assert.ok(el);el.checked=true;el.dispatchEvent(new w.Event('change',{bubbles:true}));return el};
-  return {dom,w,host,q,click,input,option,state,opts,get awards(){return awards},get saves(){return saves},get activities(){return activities},rerender(){api=w.StudyChapters.render(host,opts)},close(){api.destroy();w.close()}};
-}
+function setup(overrides={}){const dom=new JSDOM('<main id="host"></main>',{url:'http://localhost/course/',runScripts:'outside-only',pretendToBeVisual:true}),w=dom.window,host=w.document.querySelector('main');w.confirm=()=>true;w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=function(){};vm.runInContext(script,dom.getInternalVMContext());const state=overrides.state||{tasks:{},drafts:{},results:{},read:{}};let rewards=0,saves=0;const opts={lesson:lesson(),course:course(),state,save(){saves++},reward(){rewards++},...overrides};let api=w.StudyChapters.render(host,opts);const q=s=>host.querySelector(s),click=(a,extra='')=>{const el=q(`[data-ch-action="${a}"]${extra}`);assert.ok(el,a);el.click()},input=(sel,value)=>{const el=q(sel);assert.ok(el,sel);el.value=value;el.dispatchEvent(new w.Event('input',{bubbles:true}))},choose=(value,kind='option')=>{const el=q(`[data-ch-input="${kind}"][value="${value}"]`);assert.ok(el,value);el.checked=true;el.dispatchEvent(new w.Event('change',{bubbles:true}))};return {w,host,state,opts,q,click,input,choose,get rewards(){return rewards},get saves(){return saves},get api(){return api},remount(){api=w.StudyChapters.render(host,opts)},close(){api.destroy();w.close()}}}
+function two(a){a.choose('a');a.click('check-item');a.click('next-item');a.choose('b');a.click('check-item')}
 
-test('new learning steps do not inherit old completion; step rewards are issued once',()=>{
-  const state={tasks:{},drafts:{},results:{},read:{sentences:true}},a=setup({state});
-  try{
-    assert.equal(state.read.sentences,false);assert.ok(a.q('.ch-launch'));assert.equal(a.q('img[src]'),null);
-    assert.match(a.q('.ch-source-note').textContent,/原有批注/);
-    a.click('learn-tab');assert.match(a.q('.ch-learn-card h2').textContent,/完整句/);
-    a.click('learn-next');assert.equal(a.awards,1);assert.equal(state.read.sentences,false);
-    a.rerender();assert.ok(a.q('.ch-launch'));a.click('learn-tab');assert.match(a.q('.ch-learn-card h2').textContent,/并列结构/);
-    a.click('learn-next');assert.equal(a.awards,2);assert.equal(state.read.sentences,true);assert.ok(a.q('.ch-practice-layout'));
-    a.click('learn-tab');a.click('learn-next');assert.equal(a.awards,2);
-    assert.ok(Object.values(state.drafts).every(v=>typeof v==='string'));
-    assert.deepEqual(Object.keys(state).sort(),['drafts','read','results','tasks']);
-  }finally{a.close()}
-});
+test('overview exposes two entrances, with no expanded lesson or question list',()=>{const a=setup();try{assert.ok(a.q('.ch-launch'));assert.equal(a.host.querySelectorAll('.ch-entry').length,2);assert.equal(a.q('.ch-learning-map'),null);assert.equal(a.q('.ch-book-map'),null);assert.equal(a.q('img'),null);assert.equal(a.q('.ch-item-card'),null)}finally{a.close()}});
+test('learning shows only current concept, and read records never imply understanding-check success',()=>{const a=setup();try{a.click('learn-tab');assert.equal(a.q('.ch-learn-card h1').textContent,'独立分句');assert.equal(a.host.querySelectorAll('.ch-learn-card').length,1);assert.equal(a.q('.ch-item-card'),null);assert.equal(a.q('.ch-directory').open,false);assert.equal(a.q('.ch-understanding'),null);a.click('learn-next');assert.ok(a.q('.ch-rule-example'));assert.equal(a.q('.ch-method'),null);a.click('learn-next');assert.equal(a.q('[data-ch-action="learn-next"]').disabled,true);a.choose('b','learn-check');a.click('check-learning');assert.equal(a.state.results['learn-check:sentence:0'].score,0);a.click('retry-check');a.choose('a','learn-check');a.click('check-learning');assert.equal(a.state.results['learn-check:sentence:0'].score,1);assert.equal(a.state.results['learn-check:sentence:0'].firstCorrect,false);a.click('learn-next');assert.equal(a.q('.ch-learn-card h1').textContent,'平行结构');assert.equal(a.state.read.sentence,false);a.click('learn-next');assert.equal(a.state.read.sentence,true);assert.equal(a.q('.ch-learn-card'),null);assert.ok(a.q('.ch-completion'));assert.equal(a.q('.ch-item-card'),null);assert.equal(a.rewards,2);a.click('learn-step','[data-index="0"]');a.click('learn-next');assert.equal(a.rewards,2);assert.ok(Object.values(a.state.drafts).every(v=>typeof v==='string'))}finally{a.close()}});
+test('correct explanation is optional, wrong explanation immediate, answers locked until submit',()=>{const a=setup();try{a.click('practice-tab');assert.equal(a.q('img'),null);assert.equal(a.q('.ch-reference-answer'),null);assert.equal(a.q('a[href="key.pdf"]'),null);assert.equal(a.q('[data-ch-action="check-item"]').disabled,true);a.choose('a');a.click('check-item');assert.match(a.q('.ch-item-feedback').textContent,/回答正确/);assert.equal(a.q('.ch-correct-explanation').open,false);assert.equal(a.q('fieldset').disabled,true);a.click('next-item');assert.equal(a.q('.ch-reference-answer'),null);a.choose('a');a.click('check-item');assert.equal(a.q('.ch-correct-explanation'),null);assert.match(a.q('.ch-item-feedback').textContent,/Because/);assert.equal(a.state.results['book:sentence:m1'].reviewNeed,true);assert.equal(a.q('#ch-mission-result'),null);a.click('next-item');assert.ok(a.q('#ch-mission-result'));assert.equal(a.q('.ch-item-card'),null);assert.equal(a.state.results['book:sentence:m1'].score,1)}finally{a.close()}});
+test('retry preserves first result, other drafts, and rewards only once',()=>{const a=setup();try{a.click('practice-tab');a.choose('b');a.click('check-item');a.click('next-item');a.choose('b');a.click('check-item');a.click('next-item');a.state.drafts.other='untouched';a.click('retry');assert.equal(a.q('.ch-reference-answer'),null);two(a);a.click('next-item');const r=a.state.results['book:sentence:m1'];assert.equal(r.score,2);assert.equal(r.firstAttempts.q1.correct,false);assert.equal(r.attempt,2);assert.equal(a.rewards,1);assert.equal(a.state.drafts.other,'untouched');assert.match(a.q('.ch-summary-stats').textContent,/首次作答/)}finally{a.close()}});
+test('open-ended answers stay ungraded until explicit self assessment',()=>{const a=setup();try{a.api.showMission(1);assert.match(a.q('.ch-passage').textContent,/Original paragraph/);assert.equal(a.q('.ch-reference-answer'),null);a.input('#ch-item-response','A different but reasonable rewrite.');a.click('check-item');const r=a.state.results['book:sentence:m2'];assert.equal(r.checked.rewrite.correct,null);assert.equal(r.status,'in-progress');assert.equal(a.q('[data-ch-action="next-item"]'),null);assert.match(a.q('.ch-self-disclaimer').textContent,/没有自动判定/);a.click('self-item','[data-choice="review"]');assert.equal(r.selfAssessed,true);assert.equal(r.reviewNeed,true);assert.equal(r.status,'complete');a.click('next-item');assert.match(a.q('.ch-summary-stats').textContent,/自评符合要求/);assert.equal(a.rewards,1)}finally{a.close()}});
+test('newly added items cannot inherit old group completion and old reward is retained',()=>{const state={tasks:{'book:sentence:m1':true,'learn:sentence:0':true},drafts:{'book:sentence:m1:old':'old draft'},read:{sentence:true},results:{'book:sentence:m1':{score:1,total:1,status:'complete',submitted:true,checked:{q1:{submitted:true,reviewed:true,correct:true,kind:'auto'}}}}};const a=setup({state});try{assert.equal(state.results['book:sentence:m1'].status,'in-progress');assert.equal(state.results['book:sentence:m1'].total,2);assert.equal(state.results['book:sentence:m1'].legacySummary.total,1);assert.equal(state.drafts['book:sentence:m1:old'],'old draft');assert.match(a.q('.ch-overview-meta').textContent,/练习 0 \/ 2/);a.click('practice-tab');assert.equal(a.q('.ch-question-prompt').textContent,'原题2');a.choose('b');a.click('check-item');assert.equal(a.rewards,0);assert.equal(state.tasks['book:sentence:m1'],true)}finally{a.close()}});
+test('unfinished answer and current item resume after remount',()=>{const a=setup();try{a.click('practice-tab');a.choose('a');a.click('check-item');a.click('next-item');a.choose('b');a.remount();a.click('practice-tab');assert.equal(a.q('.ch-question-prompt').textContent,'原题2');assert.equal(a.q('[value="b"]').checked,true);assert.equal(a.q('.ch-reference-answer'),null);assert.ok(a.saves>0)}finally{a.close()}});
+test('partial legacy mission requires remaining response and self review on separate screen',()=>{const c=course();c.missions[0].textComplete=false;c.missions[0].itemsPartial=true;const a=setup({course:c});try{a.click('practice-tab');assert.equal(a.q('.ch-open-response'),null);two(a);assert.equal(a.state.tasks['book:sentence:m1'],undefined);a.click('next-item');assert.ok(a.q('.ch-open-response'));assert.equal(a.q('.ch-item-card'),null);assert.equal(a.q('[data-ch-action="submit-open"]').disabled,true);assert.equal(a.q('a[href="key.pdf"]'),null);a.input('#ch-open-answer','3. Remaining answer.');a.click('submit-open');assert.ok(a.q('a[href="key.pdf"]'));a.click('self-mission','[data-choice="review"]');assert.equal(a.state.results['book:sentence:m1'].score,2);assert.equal(a.state.results['book:sentence:m1'].total,3);assert.equal(a.state.results['book:sentence:m1'].reviewNeed,true);assert.equal(a.rewards,1)}finally{a.close()}});
+test('legacy source is collapsed and self-review survives reopening',()=>{const c=course();c.missions[1]={id:'legacy',title:'Legacy task',sourcePages:[],answerPages:[]};const a=setup({course:c});try{a.api.showMission(1);assert.equal(a.q('.ch-legacy-source').open,false);a.input('#ch-open-answer','1. My answer');a.click('submit-open');a.click('self-mission','[data-choice="mastered"]');a.remount();a.api.showMission(1);assert.equal(a.q('#ch-open-answer').value,'1. My answer');assert.equal(a.q('#ch-open-answer').readOnly,true);assert.equal(a.state.results['book:sentence:legacy'].selfAssessed,true)}finally{a.close()}});
+test('editing completed item relocks reference and completion without losing first answer',()=>{const a=setup();try{a.click('practice-tab');two(a);a.click('edit-item');const r=a.state.results['book:sentence:m1'];assert.equal(r.status,'in-progress');assert.equal(a.q('.ch-reference-answer'),null);assert.equal(r.firstAttempts.q2.correct,true);a.choose('a');a.click('check-item');assert.equal(r.reviewNeed,true);assert.equal(r.firstAttempts.q2.correct,true);assert.equal(a.rewards,1)}finally{a.close()}});
+test('explicit autoGrade false prevents exact matching from judging open text',()=>{const c=course();c.missions[1].items[0].answerMode='exact';const a=setup({course:c});try{a.api.showMission(1);a.input('#ch-item-response','A possible rewrite.');a.click('check-item');assert.equal(a.state.results['book:sentence:m2'].checked.rewrite.correct,null)}finally{a.close()}});
+test('multiple choices and accepted variants are judged without stripping punctuation',()=>{const c=course();c.missions[0].items=[{id:'multi',prompt:'Choose both',options:[{value:'a',label:'A'},{value:'b',label:'B'}],answer:['a','b'],explanation:'Both.'},{id:'punct',prompt:'Add a semicolon',answer:'I read; she writes.',alternatives:['I read; she writes'],autoGrade:true,explanation:'Separate clauses.'}];const a=setup({course:c});try{a.click('practice-tab');a.choose('a');a.choose('b');a.click('check-item');assert.equal(a.state.results['book:sentence:m1'].checked.multi.correct,true);a.click('next-item');a.input('#ch-item-response','I read, she writes.');a.click('check-item');assert.equal(a.state.results['book:sentence:m1'].checked.punct.correct,false)}finally{a.close()}});
+test('untrusted source text is escaped and only safe URLs are linked',()=>{const c=course(),l=lesson();l.title='<img onerror=alert(1)>';c.sourcePdf='javascript:alert(1)';c.coverageNote='<script>alert(1)</script>';const a=setup({lesson:l,course:c});try{assert.equal(a.q('img'),null);assert.equal(a.q('script'),null);assert.equal(a.q('a[href^="javascript:"]'),null);assert.match(a.q('.ch-source-details').textContent,/<script>/)}finally{a.close()}});
+test('supplementary knowledge has no original practice and keeps a separate finish page',()=>{const a=setup({course:null});try{assert.equal(a.q('[data-ch-action="practice-tab"]'),null);a.click('learn-tab');a.click('learn-next');a.click('learn-next');a.choose('a','learn-check');a.click('check-learning');a.click('learn-next');a.click('learn-next');assert.ok(a.q('.ch-completion'));assert.equal(a.q('[data-ch-action="practice-tab"]'),null)}finally{a.close()}});
 
-test('objective mission grades each item, locks PDF until submission and does not repeat XP',()=>{
-  const a=setup();try{
-    a.click('practice-tab');assert.equal(a.q('a[href="answer.pdf"]'),null);assert.equal(a.q('.ch-reference-answer'),null);
-    assert.equal(a.q('[data-ch-action="check-item"]').disabled,true);
-    a.option('a');a.click('check-item');assert.match(a.q('.ch-item-feedback').textContent,/回答正确/);assert.equal(a.q('a[href="answer.pdf"]'),null);
-    a.click('next-item');a.option('a');a.click('check-item');
-    const r=a.state.results['book:sentence-book:objective'];assert.equal(r.score,1);assert.equal(r.total,2);assert.equal(r.selfAssessed,false);assert.equal(r.reviewNeed,true);assert.equal(r.status,'complete');
-    assert.equal(a.state.tasks['book:sentence-book:objective'],true);assert.equal(a.awards,1);assert.ok(a.q('a[href="answer.pdf"]'));
-    a.click('retry');assert.equal(a.q('a[href="answer.pdf"]'),null);assert.equal(a.state.tasks['book:sentence-book:objective'],true);
-    a.option('a');a.click('check-item');a.click('next-item');a.option('b');a.click('check-item');assert.equal(a.awards,1);assert.equal(a.state.results['book:sentence-book:objective'].attempt,2);
-  }finally{a.close()}
-});
+test('missing source never becomes an invented task or completed progress',()=>{const c=course();c.missions[0].missingTasks=[{title:'Worksheet',reason:'Appendix not supplied.'}];c.missions[0].items.push({id:'missing',prompt:'Read the omitted passage',blocked:true,missingReason:'The referenced passage is absent.'});const a=setup({course:c});try{a.click('practice-tab');two(a);a.click('next-item');assert.match(a.q('.ch-item-card').textContent,/passage is absent/);assert.equal(a.q('[data-ch-action="check-item"]'),null);a.click('next-item');assert.match(a.q('#ch-mission-result h1').textContent,/可作答/);assert.equal(a.state.tasks['book:sentence:m1'],undefined);assert.equal(a.state.results['book:sentence:m1'].status,'source-incomplete');assert.equal(a.rewards,0);assert.match(a.q('.ch-missing-material').textContent,/Appendix/)}finally{a.close()}});
+test('current teaching substep resumes and never renders every explanation block together',()=>{const a=setup();try{a.click('learn-tab');a.click('learn-next');assert.ok(a.q('.ch-rule-example'));a.remount();a.click('learn-tab');assert.ok(a.q('.ch-rule-example'));assert.equal(a.q('.ch-method'),null);assert.equal(a.q('.ch-understanding'),null);a.click('previous-step');assert.ok(a.q('.ch-method'));assert.equal(a.q('.ch-rule-example'),null)}finally{a.close()}});
+test('starting a retry cannot silently remove an unresolved mistake',()=>{const a=setup();try{a.click('practice-tab');a.choose('b');a.click('check-item');a.click('edit-item');assert.equal(a.state.results['book:sentence:m1'].reviewNeed,true);a.choose('b');a.click('check-item');a.click('next-item');a.choose('b');a.click('check-item');a.click('next-item');a.click('retry');assert.equal(a.state.results['book:sentence:m1'].reviewNeed,true);a.choose('a');a.click('check-item');assert.equal(a.state.results['book:sentence:m1'].reviewNeed,false);assert.equal(a.state.results['book:sentence:m1'].firstAttempts.q1.correct,false)}finally{a.close()}});
+test('legacy reviewed answers cannot later masquerade as a new first attempt',()=>{const state={tasks:{'book:sentence:m1':true},read:{},drafts:{},results:{'book:sentence:m1':{score:1,total:2,status:'in-progress',checked:{q1:{kind:'auto',submitted:true,reviewed:true,correct:false}}}}};const a=setup({state});try{assert.equal(state.results['book:sentence:m1'].firstAttempts.q1.kind,'legacy');a.api.showMission(0);a.click('edit-item');a.choose('a');a.click('check-item');assert.equal(state.results['book:sentence:m1'].firstAttempts.q1.kind,'legacy');assert.equal(state.results['book:sentence:m1'].firstAttempts.q1.correct,null)}finally{a.close()}});
 
-test('open response requires writing and explicit self assessment',()=>{
-  const a=setup();try{
-    a.click('mission','[data-index="1"]');assert.match(a.q('.ch-answer-note').textContent,/不同表达/);
-    a.click('submit-open');assert.equal(a.state.results['book:sentence-book:open'],undefined);
-    a.input('#ch-open-answer','1. My rewritten sentence.');a.click('submit-open');
-    assert.ok(a.q('a[href="answer.pdf"]'));assert.equal(a.state.tasks['book:sentence-book:open'],undefined);assert.match(a.q('.ch-open-response').textContent,/没有自动批改/);
-    a.click('self-mission','[data-choice="review"]');
-    const r=a.state.results['book:sentence-book:open'];assert.equal(r.selfAssessed,true);assert.equal(r.reviewNeed,true);assert.equal(r.score,0);assert.equal(r.total,1);assert.equal(a.awards,1);
-    a.click('review-toggle');assert.equal(r.reviewNeed,false);assert.equal(a.awards,1);
-  }finally{a.close()}
-});
-
-test('partial items cannot finish the group without remaining response and self review',()=>{
-  const course=makeCourse();course.missions[0].itemsPartial=true;
-  const a=setup({course});try{
-    a.click('practice-tab');assert.ok(a.q('.ch-open-response'));assert.match(a.q('.ch-source-note').textContent,/只覆盖/);
-    a.input('#ch-open-answer','Remaining original items: 3. ...');assert.equal(a.q('[data-ch-action="submit-open"]').disabled,true);
-    a.option('a');a.click('check-item');a.click('next-item');a.option('b');a.click('check-item');
-    let r=a.state.results['book:sentence-book:objective'];assert.equal(r.itemsSubmitted,true);assert.equal(r.submitted,false);assert.equal(r.status,'in-progress');assert.equal(a.awards,0);assert.equal(a.q('a[href="answer.pdf"]'),null);
-    assert.match(a.q('[data-ch-action="next-item"]').textContent,/整组/);a.click('next-item');assert.equal(a.q('.ch-open-response').dataset.scrolled,'true');
-    a.click('submit-open');assert.ok(a.q('a[href="answer.pdf"]'));assert.equal(a.awards,0);
-    a.click('self-mission','[data-choice="mastered"]');r=a.state.results['book:sentence-book:objective'];assert.equal(r.score,3);assert.equal(r.total,3);assert.equal(r.automaticScore,2);assert.equal(r.selfScore,1);assert.equal(r.selfAssessed,true);assert.equal(r.status,'complete');assert.equal(a.awards,1);
-  }finally{a.close()}
-});
-
-test('page preview loads only current source image; zoom pages can navigate',()=>{
-  const a=setup();try{
-    a.click('practice-tab');assert.equal(a.host.querySelectorAll('.ch-page-viewer img').length,1);assert.equal(a.q('.ch-page-image img').getAttribute('src'),'one.webp');assert.equal(a.q('.ch-page-image img').getAttribute('loading'),'lazy');
-    a.click('page-next','[data-kind="source"]');assert.equal(a.q('.ch-page-image img').getAttribute('src'),'two.webp');assert.equal(a.host.querySelectorAll('.ch-page-viewer img').length,1);
-    a.click('zoom','[data-kind="source"]');assert.equal(a.q('#ch-zoom').open,true);assert.equal(a.q('#ch-zoom-image').getAttribute('src'),'two.webp');
-    a.click('zoom-prev');assert.equal(a.q('#ch-zoom-image').getAttribute('src'),'one.webp');a.click('zoom-close');assert.equal(a.q('#ch-zoom').open,false);
-  }finally{a.close()}
-});
-
-test('supplementary topics have no original practice and source text is escaped',()=>{
-  const lesson=makeLesson();lesson.title='<script>alert(1)</script>';const a=setup({course:null,lesson});try{
-    assert.equal(a.q('[data-ch-action="practice-tab"]'),null);assert.match(a.q('.ch-launch').textContent,/没有已核对的原书/);assert.equal(a.q('script'),null);
-    a.click('learn-tab');a.click('learn-next');a.click('learn-next');assert.equal(a.state.read.sentences,true);assert.ok(a.q('.ch-launch'));assert.equal(a.awards,2);
-  }finally{a.close()}
-});
-
-test('selected answers and current source page resume after remounting',()=>{
-  const a=setup();try{
-    a.click('practice-tab');a.option('b');a.click('page-next','[data-kind="source"]');a.rerender();a.click('practice-tab');
-    assert.equal(a.q('[data-ch-input="option"][value="b"]').checked,true);assert.equal(a.q('.ch-page-image img').getAttribute('src'),'two.webp');
-    assert.ok(a.saves>0);assert.equal(a.activities,0);
-  }finally{a.close()}
-});
-
-test('course-level partial mode still needs nonempty full response, preserves mistakes and never repeats rewards',()=>{
-  const course=makeCourse();course.itemsPartial=true;
-  const a=setup({course});try{
-    const key='book:sentence-book:objective';
-    a.click('practice-tab');a.option('a');a.click('check-item');a.click('next-item');a.option('a');a.click('check-item');
-    assert.equal(a.q('[data-ch-action="submit-open"]').disabled,true);assert.equal(a.q('[data-ch-action="self-mission"]'),null);assert.equal(a.state.tasks[key],undefined);
-    a.input('#ch-open-answer','   ');assert.equal(a.q('[data-ch-action="submit-open"]').disabled,true);
-    a.input('#ch-open-answer','3. Remaining original answer.');a.click('submit-open');a.rerender();a.click('practice-tab');
-    assert.equal(a.state.results[key].status,'submitted');assert.equal(a.q('#ch-open-answer').readOnly,true);assert.equal(a.state.tasks[key],undefined);
-    a.click('self-mission','[data-choice="mastered"]');
-    assert.equal(a.state.results[key].automaticScore,1);assert.equal(a.state.results[key].selfScore,1);assert.equal(a.state.results[key].reviewNeed,true);assert.equal(a.awards,1);
-    a.click('retry');assert.equal(a.q('#ch-open-answer').value,'');assert.equal(a.q('a[href="answer.pdf"]'),null);assert.equal(a.state.tasks[key],true);
-    a.option('a');a.click('check-item');a.click('next-item');a.option('b');a.click('check-item');a.input('#ch-open-answer','3. Another attempt.');a.click('submit-open');a.click('self-mission','[data-choice="mastered"]');
-    assert.equal(a.state.results[key].reviewNeed,false);assert.equal(a.state.results[key].score,3);assert.equal(a.awards,1);
-  }finally{a.close()}
-});
-
-test('editing a completed partial item relocks full answers and requires fresh group assessment',()=>{
-  const course=makeCourse();course.missions[0].itemsPartial=true;
-  const a=setup({course});try{
-    const key='book:sentence-book:objective';
-    a.click('practice-tab');a.option('a');a.click('check-item');a.click('next-item');a.option('b');a.click('check-item');a.input('#ch-open-answer','3. Full group answer.');a.click('submit-open');a.click('self-mission','[data-choice="mastered"]');
-    assert.equal(a.awards,1);a.click('edit-item');assert.equal(a.state.results[key].status,'in-progress');assert.equal(a.q('a[href="answer.pdf"]'),null);
-    a.option('b');a.click('check-item');assert.equal(a.state.results[key].status,'in-progress');assert.equal(a.q('a[href="answer.pdf"]'),null);
-    a.click('submit-open');assert.equal(a.state.results[key].status,'submitted');assert.equal(a.state.results[key].groupAssessed,false);
-    a.click('self-mission','[data-choice="review"]');assert.equal(a.state.results[key].reviewNeed,true);assert.equal(a.state.results[key].score,2);assert.equal(a.awards,1);
-  }finally{a.close()}
-});
+test('full group requirements and missing attachments are visible before answering',()=>{const c=course();c.missions[0].instructions='Write 5–10 supporting statements and cite your source.';c.missions[0].missingTasks=[{title:'Worksheet',reason:'The appendix was not supplied.'}];const a=setup({course:c});try{a.click('practice-tab');assert.match(a.q('.ch-group-instruction').textContent,/5–10/);assert.match(a.q('.ch-missing-material').textContent,/appendix was not supplied/);assert.equal(a.q('.ch-reference-answer'),null)}finally{a.close()}});
+test('review entrances find unresolved questions even after retry clears current responses',()=>{const a=setup();try{a.click('practice-tab');a.choose('a');a.click('check-item');a.click('next-item');a.choose('a');a.click('check-item');a.click('next-item');a.click('retry');a.choose('a');a.click('check-item');a.click('overview');a.click('review');assert.equal(a.q('.ch-question-prompt').textContent,'原题2');a.api.showOverview();a.api.showMission(0);assert.equal(a.q('.ch-question-prompt').textContent,'原题2')}finally{a.close()}});
+test('missing sources are excluded from scored denominators and cannot earn completion',()=>{const c=course();c.missions[0].items.push({id:'missing',prompt:'Omitted passage',blocked:true,missingReason:'No appendix.'});const a=setup({course:c});try{a.click('practice-tab');two(a);a.click('next-item');a.click('next-item');const r=a.state.results['book:sentence:m1'];assert.equal(r.total,2);assert.equal(r.selfTotal,0);assert.equal(r.automaticTotal,2);assert.equal(r.score,2);assert.equal(r.status,'source-incomplete');assert.equal(a.rewards,0)}finally{a.close()}});
+test('manual review focus survives answer changes and does not dismiss an unresolved wrong answer',()=>{const a=setup();try{a.click('practice-tab');two(a);a.click('next-item');a.click('review-toggle');assert.equal(a.state.results['book:sentence:m1'].manualReview,true);a.api.showMission(0);a.click('edit-item');a.choose('b');a.click('check-item');a.click('next-item');a.click('next-item');a.click('review-toggle');const r=a.state.results['book:sentence:m1'];assert.equal(r.manualReview,false);assert.equal(r.reviewNeed,true);a.click('retry');assert.equal(r.manualReview,false);assert.equal(a.state.results['book:sentence:m1'].reviewNeed,true)}finally{a.close()}});
+test('legacy manual review bookmarks survive migration and subsequent answer edits',()=>{const state={tasks:{},read:{},drafts:{},results:{'book:sentence:m1':{score:1,total:2,reviewNeed:true,checked:{q1:{kind:'auto',submitted:true,reviewed:true,correct:true}}}}};const a=setup({state});try{const r=state.results['book:sentence:m1'];assert.equal(r.manualReview,true);a.api.showMission(0);a.click('edit-item');assert.equal(r.reviewNeed,true)}finally{a.close()}});

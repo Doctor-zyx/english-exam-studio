@@ -1,0 +1,3410 @@
+{
+  "schemaVersion": 1,
+  "notice": "原教材题组索引。关卡数是题组数，不是小题数；完整原题见原页，主要采用原答案自评。教材例句与历史统计仅供英语训练。",
+  "courses": [
+    {
+      "id": "paragraph",
+      "sourceTitle": "paragraph structure.pdf",
+      "sourcePdf": "textbook/paragraph/book.pdf",
+      "answerTitle": "paragraph strurcture  answer key.pdf",
+      "answerPdf": "textbook/paragraph/key.pdf",
+      "missions": [
+        {
+          "id": "paragraph-model-gold",
+          "title": "模型理解 · Gold",
+          "bookPages": "2, 3",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-001.webp",
+              "page": 1,
+              "label": "教材 PDF第1页 / 书页2",
+              "bookPage": 2
+            },
+            {
+              "src": "textbook/paragraph/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页3",
+              "bookPage": 3
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页1"
+            }
+          ],
+          "instructions": "阅读 Gold，完成书页3的4个 Writing Technique Questions；包括主题、两大要点、首尾句及支撑细节。",
+          "answerNote": "按答案册 Gold 小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-practice-1",
+          "title": "Practice 1 · Recognizing Topic Sentences",
+          "bookPages": "6, 7, 8",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页6",
+              "bookPage": 6
+            },
+            {
+              "src": "textbook/paragraph/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页7",
+              "bookPage": 7
+            },
+            {
+              "src": "textbook/paragraph/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页8",
+              "bookPage": 8
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页1"
+            }
+          ],
+          "instructions": "完成 A 的5组主题句判断及其余选项诊断，再完成 B 的4段主题句选择；保留原页中已做出的示例。",
+          "answerNote": "答案册给出 A 第2–5组及 B 第1–4段答案。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-practice-2",
+          "title": "Practice 2 · Parts of a Topic Sentence",
+          "bookPages": "9",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页9",
+              "bookPage": 9
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页1"
+            },
+            {
+              "src": "textbook/paragraph/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页2"
+            }
+          ],
+          "instructions": "按原页要求圈出13句中的 topic，划出 controlling idea。",
+          "answerNote": "原扫描件已带圈线批注；第1项为书内示例，其余圈线也保留。对照答案册原图判断，不把这些页视为无答案试卷。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-practice-3",
+          "title": "Practice 3 · Writing Topic Sentences",
+          "bookPages": "10, 11",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-009.webp",
+              "page": 9,
+              "label": "教材 PDF第9页 / 书页10",
+              "bookPage": 10
+            },
+            {
+              "src": "textbook/paragraph/page-010.webp",
+              "page": 10,
+              "label": "教材 PDF第10页 / 书页11",
+              "bookPage": 11
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页2"
+            }
+          ],
+          "instructions": "完成 A 三段补写主题句、B 每个给定主题写2–3个主题句、C 小组自选3个主题并写主题句。",
+          "answerNote": "A 有参考写法；B、C 为 individual responses，没有唯一标准答案。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-practice-4",
+          "title": "Practice 4 · Supporting Sentences",
+          "bookPages": "11, 12",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-010.webp",
+              "page": 10,
+              "label": "教材 PDF第10页 / 书页11",
+              "bookPage": 11
+            },
+            {
+              "src": "textbook/paragraph/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页12",
+              "bookPage": 12
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页2"
+            }
+          ],
+          "instructions": "按 Step 1–3 比较 Red-Light Running 的 A、B 两段；圈划主题句，指出 example、statistic、quotation 的句号编号。",
+          "answerNote": "按 Practice 4 小节逐项核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-model-language",
+          "title": "模型理解 · Language and Perception",
+          "bookPages": "13",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页13",
+              "bookPage": 13
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页2"
+            }
+          ],
+          "instructions": "完成书页13模型后的问题：主旨、两个例子及引出例子的表达。",
+          "answerNote": "按 Language and Perception 小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-model-conclusions",
+          "title": "模型理解 · Concluding Sentences",
+          "bookPages": "14, 15",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页14",
+              "bookPage": 14
+            },
+            {
+              "src": "textbook/paragraph/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页15",
+              "bookPage": 15
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页2"
+            }
+          ],
+          "instructions": "读 Greeting Cards 与 A Hawaiian Legend，完成书页15的3个 Writing Technique Questions。",
+          "answerNote": "答案册按两段分别解释总结、改述和结束信号。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-practice-5",
+          "title": "Practice 5 · Writing Concluding Sentences",
+          "bookPages": "15, 16",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页15",
+              "bookPage": 15
+            },
+            {
+              "src": "textbook/paragraph/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页16",
+              "bookPage": 16
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paragraph/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页3"
+            }
+          ],
+          "instructions": "对两段执行 Step 1–3：划主题句，补写结尾，使用结束信号。",
+          "answerNote": "答案为 sample answers；可总结或改述，合理写法不止一种。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paragraph-practice-6",
+          "title": "Practice 6 · Writing a Paragraph",
+          "bookPages": "11, 16, 17",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页16",
+              "bookPage": 16
+            },
+            {
+              "src": "textbook/paragraph/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页17",
+              "bookPage": 17
+            },
+            {
+              "src": "textbook/paragraph/page-010.webp",
+              "page": 10,
+              "label": "教材 PDF第10页 / 书页11",
+              "bookPage": 11
+            }
+          ],
+          "answerPages": [],
+          "instructions": "从 Practice 3B 或3C选题，按原页 Step 1–5 写8–10句段落，含具体例子与结尾；保留初稿、修改稿。",
+          "answerNote": "开放写作；本答案册没有该任务的标准答案。教材提及的附录及自评/互评表不在所供PDF中。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "paragraph-practice-7",
+          "title": "Practice 7 · Writing under Pressure",
+          "bookPages": "9, 17",
+          "sourcePages": [
+            {
+              "src": "textbook/paragraph/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页17",
+              "bookPage": 17
+            },
+            {
+              "src": "textbook/paragraph/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页9",
+              "bookPage": 9
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按书页17原题选一题限时写段落；使用具体例子。原页允许采用 Practice 2 的主题句，因此同时附上书页9。",
+          "answerNote": "开放限时写作；时间由教师设定，原材料未给固定分钟数，也未给标准作文。",
+          "assessment": "open-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/paragraph/page-003.webp",
+          "page": 3,
+          "label": "教材 PDF第3页 / 书页4",
+          "bookPage": 4
+        },
+        {
+          "src": "textbook/paragraph/page-004.webp",
+          "page": 4,
+          "label": "教材 PDF第4页 / 书页5",
+          "bookPage": 5
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。",
+      "coverage": {
+        "sourcePageCount": 16,
+        "answerSourcePageCount": 3,
+        "missionGroupCount": 10,
+        "indexedTaskPages": [
+          1,
+          2,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "referenceOnlyPages": [
+          3,
+          4
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 0
+      }
+    },
+    {
+      "id": "coherence",
+      "sourceTitle": "unity and coherence.pdf",
+      "sourcePdf": "textbook/coherence/book.pdf",
+      "answerTitle": "unity and coherence answer key.pdf",
+      "answerPdf": "textbook/coherence/key.pdf",
+      "missions": [
+        {
+          "id": "coherence-practice-1",
+          "title": "Practice 1 · Unity",
+          "bookPages": "19, 20, 21",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页19",
+              "bookPage": 19
+            },
+            {
+              "src": "textbook/coherence/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页20",
+              "bookPage": 20
+            },
+            {
+              "src": "textbook/coherence/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页21",
+              "bookPage": 21
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页4"
+            }
+          ],
+          "instructions": "完成 A 三段统一性判断、B 划主题句并删题外句、C 分段并删题外句。",
+          "answerNote": "答案册分别列 A/B/C；按原段落逐项核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-model-gold",
+          "title": "模型圈划 · Gold and Pronoun Reference",
+          "bookPages": "22",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页22",
+              "bookPage": 22
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/page-005.webp",
+              "page": 5,
+              "label": "教材PDF第5页 / 书页22 · 同页模型解释",
+              "bookPage": 22
+            }
+          ],
+          "instructions": "按书页22模型前的原要求，圈出gold和所有指向gold的代词；然后对照同页解释，检查哪些it并不指gold。",
+          "answerNote": "答案直接印在教材同页：gold 7处、it 2处、its 3处；第5句it指coin，不应圈出。本关是带解释的模型任务，不是无答案测验。",
+          "assessment": "explained-model"
+        },
+        {
+          "id": "coherence-practice-2",
+          "title": "Practice 2 · Repetition of Key Nouns",
+          "bookPages": "23",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页23",
+              "bookPage": 23
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页4"
+            }
+          ],
+          "instructions": "完成 A 用 English 替换必要的 it；B 在 Dolphins 段中用合适的单数或复数名词替换必要代词，使段落更连贯。",
+          "answerNote": "答案册注明 responses will vary；替换位置有合理差异。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-3",
+          "title": "Practice 3 · Key Noun Substitutes",
+          "bookPages": "24",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页24",
+              "bookPage": 24
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页4"
+            }
+          ],
+          "instructions": "圈划 Mardi Gras 段的关键词、代词与同义替代，按原题要求检查10处圈选。",
+          "answerNote": "按 Practice 3 小节对应句号核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-4",
+          "title": "Practice 4 · Consistent Pronouns",
+          "bookPages": "25",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页25",
+              "bookPage": 25
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页5"
+            }
+          ],
+          "instructions": "改正 Olympic Athletes 段中不一致的人称代词。",
+          "answerNote": "参考答案包含手写更正，须看原图而非OCR文字。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-5",
+          "title": "Practice 5 · Transition Signals",
+          "bookPages": "25, 26",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页25",
+              "bookPage": 25
+            },
+            {
+              "src": "textbook/coherence/page-009.webp",
+              "page": 9,
+              "label": "教材 PDF第9页 / 书页26",
+              "bookPage": 26
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页5"
+            }
+          ],
+          "instructions": "比较两段，判断哪段更连贯，并圈出所能识别的过渡信号。",
+          "answerNote": "答案册给出段落选择及信号列表。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-6",
+          "title": "Practice 6 · Recognizing Transition Signals",
+          "bookPages": "29, 30",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页29",
+              "bookPage": 29
+            },
+            {
+              "src": "textbook/coherence/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页30",
+              "bookPage": 30
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页5"
+            }
+          ],
+          "instructions": "在 Genetic Engineering 两段圈出过渡信号，并补必要标点。",
+          "answerNote": "答案册通过圈线/标点标注答案，使用原图核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-7",
+          "title": "Practice 7 · Choosing Transition Signals",
+          "bookPages": "30, 31, 32",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页30",
+              "bookPage": 30
+            },
+            {
+              "src": "textbook/coherence/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页31",
+              "bookPage": 31
+            },
+            {
+              "src": "textbook/coherence/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页32",
+              "bookPage": 32
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页6"
+            }
+          ],
+          "instructions": "完成 A 选择及标点、B 从词表填8空、C 按提示改进 Move Over, DVD. Here Comes BD! 的衔接。",
+          "answerNote": "A 有确定选择；B/C 给出sample answers，允许符合语义和语法的其他写法。",
+          "assessment": "original-answer-self-review",
+          "items": [
+            {
+              "id": "coherence-practice-7-a2",
+              "prompt": "2. The same article said that the causes of inflation were easy to find ______ the cure for inflation was not so easy to prescribe.",
+              "options": [
+                {
+                  "value": "however",
+                  "label": "however"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                }
+              ],
+              "answer": "however",
+              "explanation": "选择来自原题括号；原题还要求补标点与调整大小写，这部分须在原页自评，点选只判词语选择。",
+              "sourceLabel": "Unity and Coherence 书页30，Practice 7 A2；答案PDF第3页/书页6"
+            },
+            {
+              "id": "coherence-practice-7-a3",
+              "prompt": "3. Era also suggested that rising wages were one of the primary causes of inflation ______ the government should take action to control wages.",
+              "options": [
+                {
+                  "value": "however",
+                  "label": "however"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                }
+              ],
+              "answer": "therefore",
+              "explanation": "选择来自原题括号；原题还要求补标点与调整大小写，这部分须在原页自评，点选只判词语选择。",
+              "sourceLabel": "Unity and Coherence 书页30，Practice 7 A3；答案PDF第3页/书页6"
+            },
+            {
+              "id": "coherence-practice-7-a4",
+              "prompt": "4. In physics, the weight of an object is the gravitational force with which Earth attracts it; ______, if a man weighs 150 pounds, this means that Earth pulls him down with a force of 150 pounds.",
+              "options": [
+                {
+                  "value": "moreover",
+                  "label": "moreover"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                },
+                {
+                  "value": "for example",
+                  "label": "for example"
+                }
+              ],
+              "answer": "for example",
+              "explanation": "选择来自原题括号；原题还要求补标点与调整大小写，这部分须在原页自评，点选只判词语选择。",
+              "sourceLabel": "Unity and Coherence 书页30，Practice 7 A4；答案PDF第3页/书页6"
+            },
+            {
+              "id": "coherence-practice-7-a5",
+              "prompt": "5. The farther away from Earth a person is, the less the gravitational force of Earth. ______ a man weighs less when he is 50,000 miles from Earth than when he is only 5,000 miles away.",
+              "options": [
+                {
+                  "value": "in conclusion",
+                  "label": "in conclusion"
+                },
+                {
+                  "value": "therefore",
+                  "label": "therefore"
+                },
+                {
+                  "value": "however",
+                  "label": "however"
+                }
+              ],
+              "answer": "therefore",
+              "explanation": "选择来自原题括号；原题还要求补标点与调整大小写，这部分须在原页自评，点选只判词语选择。",
+              "sourceLabel": "Unity and Coherence 书页30，Practice 7 A5；答案PDF第3页/书页6"
+            }
+          ],
+          "itemsPartial": true,
+          "itemsCoverageNote": "仅转录 A2–A5 的连接词选择；其余 A 项、标点与大小写、B/C 全部仍需按原页完成并自评。"
+        },
+        {
+          "id": "coherence-practice-8",
+          "title": "Practice 8 · Using Transition Signals",
+          "bookPages": "32",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页32",
+              "bookPage": 32
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页6"
+            }
+          ],
+          "instructions": "从两个原题主题句中选一个，写完整段落，适当使用提示中的过渡表达。",
+          "answerNote": "Responses will vary，无唯一标准段落。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-9",
+          "title": "Practice 9 · Too Many Transition Signals",
+          "bookPages": "33",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页33",
+              "bookPage": 33
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页6"
+            }
+          ],
+          "instructions": "按 Step 1–2 删除 How to Grow an Avocado Tree 中不必要的过渡词，必要时改句、标点和大小写，并讨论修改。",
+          "answerNote": "Responses will vary；对照连贯性判断，不以唯一删词表评分。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-10",
+          "title": "Practice 10 · Kinds of Logical Order",
+          "bookPages": "34, 35, 36",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-017.webp",
+              "page": 17,
+              "label": "教材 PDF第17页 / 书页34",
+              "bookPage": 34
+            },
+            {
+              "src": "textbook/coherence/page-018.webp",
+              "page": 18,
+              "label": "教材 PDF第18页 / 书页35",
+              "bookPage": 35
+            },
+            {
+              "src": "textbook/coherence/page-019.webp",
+              "page": 19,
+              "label": "教材 PDF第19页 / 书页36",
+              "bookPage": 36
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页6"
+            }
+          ],
+          "instructions": "判断4段采用的 logical order，说明理由，并圈出全部过渡信号。",
+          "answerNote": "答案册逐段给出顺序类别与信号。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-11",
+          "title": "Practice 11 · Review of Coherence",
+          "bookPages": "37；另参段落结构书页8",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页37",
+              "bookPage": 37
+            },
+            {
+              "src": "textbook/paragraph/page-007.webp",
+              "page": 7,
+              "label": "段落结构教材 PDF第7页 / 书页8",
+              "bookPage": 8
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/coherence/key-004.webp",
+              "page": 4,
+              "label": "答案PDF第4页 / 书页7"
+            }
+          ],
+          "instructions": "按书页37说明，将 Chapter 1 Practice 1B 的第2、3、4段支撑句排序并标 SS1、SS2 等；本关附上实际被引用的书页8。",
+          "answerNote": "答案册第4页给出每段排序；第2段部分相邻顺序允许互换。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "coherence-practice-12",
+          "title": "Practice 12 · Unity and Coherence",
+          "bookPages": "37, 38",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页37",
+              "bookPage": 37
+            },
+            {
+              "src": "textbook/coherence/page-021.webp",
+              "page": 21,
+              "label": "教材 PDF第21页 / 书页38",
+              "bookPage": 38
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按 Step 1–5 从原题主题中选一个，写10–15句段落并修改，检查 unity 与 coherence。",
+          "answerNote": "开放写作，无标准段落；附录A及书页319–320自评/互评表不在所供PDF中。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "coherence-practice-13",
+          "title": "Practice 13 · Writing under Pressure",
+          "bookPages": "38",
+          "sourcePages": [
+            {
+              "src": "textbook/coherence/page-021.webp",
+              "page": 21,
+              "label": "教材 PDF第21页 / 书页38",
+              "bookPage": 38
+            }
+          ],
+          "answerPages": [],
+          "instructions": "从书页38四个题目中选一题限时写段落，按原页安排构思、写作与检查。",
+          "answerNote": "开放写作；限时由教师设定，原页没有固定总时长。",
+          "assessment": "open-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/coherence/page-001.webp",
+          "page": 1,
+          "label": "教材 PDF第1页 / 书页18",
+          "bookPage": 18
+        },
+        {
+          "src": "textbook/coherence/page-010.webp",
+          "page": 10,
+          "label": "教材 PDF第10页 / 书页27",
+          "bookPage": 27
+        },
+        {
+          "src": "textbook/coherence/page-011.webp",
+          "page": 11,
+          "label": "教材 PDF第11页 / 书页28",
+          "bookPage": 28
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。",
+      "coverage": {
+        "sourcePageCount": 21,
+        "answerSourcePageCount": 4,
+        "missionGroupCount": 14,
+        "indexedTaskPages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "referenceOnlyPages": [
+          1,
+          10,
+          11
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 4
+      }
+    },
+    {
+      "id": "support",
+      "sourceTitle": "supporting details.pdf",
+      "sourcePdf": "textbook/support/book.pdf",
+      "answerTitle": "supporting details answer key.pdf",
+      "answerPdf": "textbook/support/key.pdf",
+      "missions": [
+        {
+          "id": "support-practice-1",
+          "title": "Practice 1 · Specific Supporting Details",
+          "bookPages": "40, 41",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页40",
+              "bookPage": 40
+            },
+            {
+              "src": "textbook/support/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页41",
+              "bookPage": 41
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页8"
+            }
+          ],
+          "instructions": "完成17项 O / F-NP / SSD 分类，再讨论 O 与 F-NP 各句可用什么具体细节支撑。",
+          "answerNote": "前三项为示例；第11项答案册允许 O 或 F-NP。不要把主观论证题自动判成唯一答案。",
+          "assessment": "original-answer-self-review",
+          "items": [
+            {
+              "id": "support-practice-1-4",
+              "prompt": "4. Identity theft is more serious than any other type of theft.",
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail"
+                }
+              ],
+              "answer": "O",
+              "explanation": "按原答案册Practice 1分类；还须完成原页Step 2的支撑讨论。",
+              "sourceLabel": "Supporting Details 书页40，Practice 1，第4项；答案PDF第1页/书页8"
+            },
+            {
+              "id": "support-practice-1-5",
+              "prompt": "5. Identity theft is increasing at a rapid pace.",
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail"
+                }
+              ],
+              "answer": "F-NP",
+              "explanation": "按原答案册Practice 1分类；还须完成原页Step 2的支撑讨论。",
+              "sourceLabel": "Supporting Details 书页40，Practice 1，第5项；答案PDF第1页/书页8"
+            },
+            {
+              "id": "support-practice-1-6",
+              "prompt": "6. In 2000, 31,000 cases of identity theft were reported to the Federal Trade Commission (FTC); in 2003, the number was 210,000.",
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail"
+                }
+              ],
+              "answer": "SSD",
+              "explanation": "按原答案册Practice 1分类；还须完成原页Step 2的支撑讨论。",
+              "sourceLabel": "Supporting Details 书页40，Practice 1，第6项；答案PDF第1页/书页8"
+            },
+            {
+              "id": "support-practice-1-7",
+              "prompt": "7. Most people do not report identity theft to the police.",
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail"
+                }
+              ],
+              "answer": "F-NP",
+              "explanation": "按原答案册Practice 1分类；还须完成原页Step 2的支撑讨论。",
+              "sourceLabel": "Supporting Details 书页40，Practice 1，第7项；答案PDF第1页/书页8"
+            },
+            {
+              "id": "support-practice-1-8",
+              "prompt": "8. In 2003, 60 percent of identity theft victims did not notify the police, according to the FTC.",
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail"
+                }
+              ],
+              "answer": "SSD",
+              "explanation": "按原答案册Practice 1分类；还须完成原页Step 2的支撑讨论。",
+              "sourceLabel": "Supporting Details 书页40，Practice 1，第8项；答案PDF第1页/书页8"
+            },
+            {
+              "id": "support-practice-1-9",
+              "prompt": "9. Identity theft happens to ordinary people, not just to the wealthy.",
+              "options": [
+                {
+                  "value": "O",
+                  "label": "O — opinion"
+                },
+                {
+                  "value": "F-NP",
+                  "label": "F-NP — fact that needs proof"
+                },
+                {
+                  "value": "SSD",
+                  "label": "SSD — specific supporting detail"
+                }
+              ],
+              "answer": "F-NP",
+              "explanation": "按原答案册Practice 1分类；还须完成原页Step 2的支撑讨论。",
+              "sourceLabel": "Supporting Details 书页40，Practice 1，第9项；答案PDF第1页/书页8"
+            }
+          ],
+          "itemsPartial": true,
+          "itemsCoverageNote": "仅转录第4–9项分类；其余分类以及 Step 2 支撑细节讨论仍需按原页完成并自评。"
+        },
+        {
+          "id": "support-model-direct",
+          "title": "模型理解 · Drugs and the Olympic Games 1",
+          "bookPages": "43",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页43",
+              "bookPage": 43
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页8"
+            }
+          ],
+          "instructions": "完成直接引语模型的全部 Writing Technique Questions，找主旨、引语、引入语和来源标注。",
+          "answerNote": "按书页43对应模型小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-practice-2",
+          "title": "Practice 2 · Punctuating Direct Quotations",
+          "bookPages": "45, 46",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页45",
+              "bookPage": 45
+            },
+            {
+              "src": "textbook/support/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页46",
+              "bookPage": 46
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页8"
+            },
+            {
+              "src": "textbook/support/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页9"
+            }
+          ],
+          "instructions": "依原页规则为6项直接引语补标点，并在必要时改大小写。",
+          "answerNote": "逐项对照答案原图，留意引号、逗号和句号位置。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-model-indirect",
+          "title": "模型理解 · Drugs and the Olympic Games 2",
+          "bookPages": "47",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-009.webp",
+              "page": 9,
+              "label": "教材 PDF第9页 / 书页47",
+              "bookPage": 47
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页9"
+            }
+          ],
+          "instructions": "完成书页47模型问题，比较 said/stated 的时态、引语改写、方括号及引号使用。",
+          "answerNote": "按对应 Writing Technique Questions 小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-practice-3",
+          "title": "Practice 3 · Direct to Indirect Quotations",
+          "bookPages": "48, 49",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-010.webp",
+              "page": 10,
+              "label": "教材 PDF第10页 / 书页48",
+              "bookPage": 48
+            },
+            {
+              "src": "textbook/support/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页49",
+              "bookPage": 49
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页9"
+            }
+          ],
+          "instructions": "将原页4项直接引语改为间接引语，注意指代、时态和引述动词。",
+          "answerNote": "答案册为可行改写示例。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-practice-4",
+          "title": "Practice 4 · Quotations as Support",
+          "bookPages": "49, 50",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页49",
+              "bookPage": 49
+            },
+            {
+              "src": "textbook/support/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页50",
+              "bookPage": 50
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页9"
+            }
+          ],
+          "instructions": "按 Step 1–3 原题主题及给定材料写短段落，使用直接/间接引语并给出文内引注。",
+          "answerNote": "Individual paragraphs，没有唯一标准作文。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-model-statistics",
+          "title": "模型理解 · World Population Growth",
+          "bookPages": "51",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页51",
+              "bookPage": 51
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页9"
+            }
+          ],
+          "instructions": "完成书页51三项模型问题：主题句、统计来源、来源引入表达。",
+          "answerNote": "按 World Population Growth 小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-practice-5",
+          "title": "Practice 5 · Using Statistics",
+          "bookPages": "52",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页52",
+              "bookPage": 52
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页9"
+            },
+            {
+              "src": "textbook/support/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页10"
+            }
+          ],
+          "instructions": "阅读两张能源消费图，用图中数据完成13处空格。",
+          "answerNote": "答案1–4在答案册第2页，5–13续于第3页；以原图数字为准。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "support-practice-6",
+          "title": "Practice 6 · Statistics as Support",
+          "bookPages": "53, 54",
+          "sourcePages": [
+            {
+              "src": "textbook/support/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页53",
+              "bookPage": 53
+            },
+            {
+              "src": "textbook/support/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页54",
+              "bookPage": 54
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/support/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页10"
+            }
+          ],
+          "instructions": "从书页53–54两张图中选一张，按 Step 1–4 写主题句、5–10句支撑及来源引注。",
+          "answerNote": "Individual paragraphs，没有唯一标准作文。",
+          "assessment": "original-answer-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/support/page-001.webp",
+          "page": 1,
+          "label": "教材 PDF第1页 / 书页39",
+          "bookPage": 39
+        },
+        {
+          "src": "textbook/support/page-004.webp",
+          "page": 4,
+          "label": "教材 PDF第4页 / 书页42",
+          "bookPage": 42
+        },
+        {
+          "src": "textbook/support/page-006.webp",
+          "page": 6,
+          "label": "教材 PDF第6页 / 书页44",
+          "bookPage": 44
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。",
+      "coverage": {
+        "sourcePageCount": 16,
+        "answerSourcePageCount": 3,
+        "missionGroupCount": 9,
+        "indexedTaskPages": [
+          2,
+          3,
+          5,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "referenceOnlyPages": [
+          1,
+          4,
+          6
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 6
+      }
+    },
+    {
+      "id": "essay",
+      "sourceTitle": "from paragrpah to essay.pdf",
+      "sourcePdf": "textbook/essay/book.pdf",
+      "answerTitle": "from paragrpah to essay answer key.pdf",
+      "answerPdf": "textbook/essay/key.pdf",
+      "missions": [
+        {
+          "id": "essay-model-native",
+          "title": "模型理解 · Native American Influence",
+          "bookPages": "58, 59",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页58",
+              "bookPage": 58
+            },
+            {
+              "src": "textbook/essay/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页59",
+              "bookPage": 59
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页11"
+            }
+          ],
+          "instructions": "读完整模型，完成书页59三项 Writing Technique Questions，识别结构、主体主题句和关键词。",
+          "answerNote": "按 Native American Influence 对应答案核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-model-introductions",
+          "title": "模型理解 · Four Introductions",
+          "bookPages": "60, 61",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页60",
+              "bookPage": 60
+            },
+            {
+              "src": "textbook/essay/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页61",
+              "bookPage": 61
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页11"
+            }
+          ],
+          "instructions": "阅读四种导入范例，划各 thesis statement，并说明最能引起你兴趣的一种。",
+          "answerNote": "主题句有对应答案；兴趣判断 responses will vary。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-1",
+          "title": "Practice 1 · Introductory Paragraphs",
+          "bookPages": "62, 63",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页62",
+              "bookPage": 62
+            },
+            {
+              "src": "textbook/essay/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页63",
+              "bookPage": 63
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页11"
+            },
+            {
+              "src": "textbook/essay/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页12"
+            }
+          ],
+          "instructions": "按原页步骤给三组句子排序，确定每段的导入类型。",
+          "answerNote": "第1段答案在答案册第1页；第2段跨第1–2页；第3段在第2页且部分顺序可变。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-2",
+          "title": "Practice 2 · Thesis Statements",
+          "bookPages": "64",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-009.webp",
+              "page": 9,
+              "label": "教材 PDF第9页 / 书页64",
+              "bookPage": 64
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页12"
+            }
+          ],
+          "instructions": "完成 A 两个论点句的组织顺序判断；完成 B 圈划子话题并判断主体段数量。",
+          "answerNote": "按答案册 Practice 2 A/B 核对。",
+          "assessment": "original-answer-self-review",
+          "items": [
+            {
+              "id": "essay-practice-2-a1",
+              "prompt": "A1. Beginning in World War II and continuing through the period of economic boom, the status of women in Xanadu has changed remarkably.",
+              "options": [
+                {
+                  "value": "chronological",
+                  "label": "Chronological order"
+                },
+                {
+                  "value": "comparison",
+                  "label": "Comparison and contrast"
+                }
+              ],
+              "answer": "chronological",
+              "explanation": "两种类别均来自原题说明；按答案册Practice 2 A核对。",
+              "sourceLabel": "From Paragraph to Essay 书页64，Practice 2 A1；答案PDF第2页/书页12"
+            },
+            {
+              "id": "essay-practice-2-a2",
+              "prompt": "A2. Although the status of women in Xanadu has improved remarkably in recent years, it is still very low when compared to the status of women in the countries of the industrial world.",
+              "options": [
+                {
+                  "value": "chronological",
+                  "label": "Chronological order"
+                },
+                {
+                  "value": "comparison",
+                  "label": "Comparison and contrast"
+                }
+              ],
+              "answer": "comparison",
+              "explanation": "两种类别均来自原题说明；按答案册Practice 2 A核对。",
+              "sourceLabel": "From Paragraph to Essay 书页64，Practice 2 A2；答案PDF第2页/书页12"
+            }
+          ],
+          "itemsPartial": true,
+          "itemsCoverageNote": "仅转录 A 的两项组织模式判断；B 的划线与主体段数量仍需按原页完成并自评。"
+        },
+        {
+          "id": "essay-practice-3",
+          "title": "Practice 3 · Logical Division Thesis Statements",
+          "bookPages": "66, 67",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/essay/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页67",
+              "bookPage": 67
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页12"
+            },
+            {
+              "src": "textbook/essay/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页13"
+            }
+          ],
+          "instructions": "完成 A 选择可用逻辑分类展开的论点句、B 圈划主题与子话题和连接词、C 补充合适子话题。",
+          "answerNote": "A/B 有答案；C 为参考思路，有多种合理写法。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-4",
+          "title": "Practice 4 · Writing Thesis Statements",
+          "bookPages": "68",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页68",
+              "bookPage": 68
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页13"
+            }
+          ],
+          "instructions": "为原题5个主题分别写 logical division thesis statement。",
+          "answerNote": "Sample answers，不把范文当作唯一正确句。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-5",
+          "title": "Practice 5 · Transitions between Paragraphs",
+          "bookPages": "58, 59, 69, 70, 71",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页58",
+              "bookPage": 58
+            },
+            {
+              "src": "textbook/essay/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页59",
+              "bookPage": 59
+            },
+            {
+              "src": "textbook/essay/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页69",
+              "bookPage": 69
+            },
+            {
+              "src": "textbook/essay/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页70",
+              "bookPage": 70
+            },
+            {
+              "src": "textbook/essay/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页71",
+              "bookPage": 71
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页13"
+            }
+          ],
+          "instructions": "完成 A 模型段落衔接定位、B Icebergs 文章过渡补写、C Medicine and Ethics 过渡补写。",
+          "answerNote": "A对应模型信号；B/C为参考写法。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-6",
+          "title": "Practice 6 · Concluding Paragraphs",
+          "bookPages": "73, 74",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-018.webp",
+              "page": 18,
+              "label": "教材 PDF第18页 / 书页73",
+              "bookPage": 73
+            },
+            {
+              "src": "textbook/essay/page-019.webp",
+              "page": 19,
+              "label": "教材 PDF第19页 / 书页74",
+              "bookPage": 74
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-004.webp",
+              "page": 4,
+              "label": "答案PDF第4页 / 书页14"
+            }
+          ],
+          "instructions": "读 Culture Shock 与两个结尾，回答两项比较问题。",
+          "answerNote": "答案册分别判断总结/改述与建议/预测。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-7",
+          "title": "Practice 7 · Writing Concluding Paragraphs",
+          "bookPages": "74, 75",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-019.webp",
+              "page": 19,
+              "label": "教材 PDF第19页 / 书页74",
+              "bookPage": 74
+            },
+            {
+              "src": "textbook/essay/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页75",
+              "bookPage": 75
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-004.webp",
+              "page": 4,
+              "label": "答案PDF第4页 / 书页14"
+            }
+          ],
+          "instructions": "为 Controlling Stress 和 Studying in Great Britain 两篇骨架文章各写一个结尾段。",
+          "answerNote": "两篇均有sample answer，允许其他符合要求的结尾。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-8",
+          "title": "Practice 8 · Essay Outlining",
+          "bookPages": "58, 59, 76, 77",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页58",
+              "bookPage": 58
+            },
+            {
+              "src": "textbook/essay/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页59",
+              "bookPage": 59
+            },
+            {
+              "src": "textbook/essay/page-021.webp",
+              "page": 21,
+              "label": "教材 PDF第21页 / 书页76",
+              "bookPage": 76
+            },
+            {
+              "src": "textbook/essay/page-022.webp",
+              "page": 22,
+              "label": "教材 PDF第22页 / 书页77",
+              "bookPage": 77
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-004.webp",
+              "page": 4,
+              "label": "答案PDF第4页 / 书页14"
+            },
+            {
+              "src": "textbook/essay/key-005.webp",
+              "page": 5,
+              "label": "答案PDF第5页 / 书页15"
+            }
+          ],
+          "instructions": "完成 A Native American 模型的层级提纲；B 从 Practice 3B/3C/4 选论点句，自行构思正式提纲。",
+          "answerNote": "A参考提纲跨答案册第4–5页；B为开放任务。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-practice-9",
+          "title": "Practice 9 · Writing an Essay",
+          "bookPages": "77, 78",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-022.webp",
+              "page": 22,
+              "label": "教材 PDF第22页 / 书页77",
+              "bookPage": 77
+            },
+            {
+              "src": "textbook/essay/page-023.webp",
+              "page": 23,
+              "label": "教材 PDF第23页 / 书页78",
+              "bookPage": 78
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按 Practice 8B 的提纲和书页78 Step 1–5 写完整作文、修订并保存各稿。",
+          "answerNote": "开放作文；原页引用8B的页码写76，实际8B在书页77。附录A、321–322自评/互评表未提供。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "essay-practice-10",
+          "title": "Practice 10 · Writing under Pressure",
+          "bookPages": "78",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-023.webp",
+              "page": 23,
+              "label": "教材 PDF第23页 / 书页78",
+              "bookPage": 78
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按原页题目限时写单个段落，并用具体例子支撑；原题明确要求single paragraph。",
+          "answerNote": "无标准作文；总时长由教师设定。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "essay-reading-movies",
+          "title": "阅读理解 · At the Movies",
+          "bookPages": "79, 80",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-024.webp",
+              "page": 24,
+              "label": "教材 PDF第24页 / 书页79",
+              "bookPage": 79
+            },
+            {
+              "src": "textbook/essay/page-025.webp",
+              "page": 25,
+              "label": "教材 PDF第25页 / 书页80",
+              "bookPage": 80
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/essay/key-005.webp",
+              "page": 5,
+              "label": "答案PDF第5页 / 书页15"
+            }
+          ],
+          "instructions": "读报刊文章，完成 About the Organization、About the Support、About the Content 共6题。",
+          "answerNote": "按答案册 Reading Questions 对照；第1–2题是原有选择题。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "essay-discussion-writing",
+          "title": "讨论与写作 · You Are Where You Sit",
+          "bookPages": "79, 80",
+          "sourcePages": [
+            {
+              "src": "textbook/essay/page-024.webp",
+              "page": 24,
+              "label": "教材 PDF第24页 / 书页79",
+              "bookPage": 79
+            },
+            {
+              "src": "textbook/essay/page-025.webp",
+              "page": 25,
+              "label": "教材 PDF第25页 / 书页80",
+              "bookPage": 80
+            }
+          ],
+          "answerPages": [],
+          "instructions": "完成书页80 Suggestions for Discussion or Writing：讨论座位与性格，再为三个给定题目之一构思文章例子。",
+          "answerNote": "开放讨论/写作，没有提供标准答案。",
+          "assessment": "open-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/essay/page-001.webp",
+          "page": 1,
+          "label": "教材 PDF第1页 / 书页56",
+          "bookPage": 56
+        },
+        {
+          "src": "textbook/essay/page-002.webp",
+          "page": 2,
+          "label": "教材 PDF第2页 / 书页57",
+          "bookPage": 57
+        },
+        {
+          "src": "textbook/essay/page-010.webp",
+          "page": 10,
+          "label": "教材 PDF第10页 / 书页65",
+          "bookPage": 65
+        },
+        {
+          "src": "textbook/essay/page-017.webp",
+          "page": 17,
+          "label": "教材 PDF第17页 / 书页72",
+          "bookPage": 72
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。",
+      "coverage": {
+        "sourcePageCount": 25,
+        "answerSourcePageCount": 5,
+        "missionGroupCount": 14,
+        "indexedTaskPages": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "referenceOnlyPages": [
+          1,
+          2,
+          10,
+          17
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 2
+      }
+    },
+    {
+      "id": "cause",
+      "sourceTitle": "cause and effect essays.pdf",
+      "sourcePdf": "textbook/cause/book.pdf",
+      "answerTitle": "cause and effect essays answer keys.pdf",
+      "answerPdf": "textbook/cause/key.pdf",
+      "missions": [
+        {
+          "id": "cause-model-1",
+          "title": "模型1理解 · The Irish Potato Famine",
+          "bookPages": "65, 66, 67, 68",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页65",
+              "bookPage": 65
+            },
+            {
+              "src": "textbook/cause/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/cause/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页67",
+              "bookPage": 67
+            },
+            {
+              "src": "textbook/cause/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页68",
+              "bookPage": 68
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页73 · 右栏 Chapter 4 模型1",
+              "region": [
+                302,
+                188,
+                554,
+                715
+              ]
+            },
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "读 Writing Model 1，完成书页68全部6个 Questions about the Model。",
+          "answerNote": "本章答案从原答案PDF第1页右栏 Chapter 4 开始，并续至第2页左栏。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-model-2",
+          "title": "模型2理解 · Urban Living Conditions",
+          "bookPages": "68, 69, 70",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页68",
+              "bookPage": 68
+            },
+            {
+              "src": "textbook/cause/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页69",
+              "bookPage": 69
+            },
+            {
+              "src": "textbook/cause/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页70",
+              "bookPage": 70
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "读 Writing Model 2，完成书页70全部5个模型问题。",
+          "answerNote": "按 Writing Model 2 小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-1",
+          "title": "Practice 1 · Noticing Phrasal Verbs",
+          "bookPages": "65, 66, 67, 68, 69, 70, 71",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页65",
+              "bookPage": 65
+            },
+            {
+              "src": "textbook/cause/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/cause/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页67",
+              "bookPage": 67
+            },
+            {
+              "src": "textbook/cause/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页68",
+              "bookPage": 68
+            },
+            {
+              "src": "textbook/cause/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页69",
+              "bookPage": 69
+            },
+            {
+              "src": "textbook/cause/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页70",
+              "bookPage": 70
+            },
+            {
+              "src": "textbook/cause/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页71",
+              "bookPage": 71
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "根据两个模型语境判断原页12个短语动词可分或不可分，标 S/I。",
+          "answerNote": "按 Practice 1 的1–12项核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-2",
+          "title": "Practice 2 · Analyzing Paragraph Support",
+          "bookPages": "65, 66, 67, 74",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页65",
+              "bookPage": 65
+            },
+            {
+              "src": "textbook/cause/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/cause/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页67",
+              "bookPage": 67
+            },
+            {
+              "src": "textbook/cause/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页74",
+              "bookPage": 74
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "从模型1选3个主体段，识别支持类型，并用2–4词描述支持内容。",
+          "answerNote": "答案册列第2–9段可参考分析；选段不同，回答可不同。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-3",
+          "title": "Practice 3 · Developing Paragraph Support",
+          "bookPages": "74",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页74",
+              "bookPage": 74
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "划出需要解释或发展的词语，并为原题论点列支撑主题例子。",
+          "answerNote": "第1项为示例，第2–3项有possible examples。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-4",
+          "title": "Practice 4 · Identifying Causes or Effects",
+          "bookPages": "75",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页75",
+              "bookPage": 75
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "圈原因、划结果，完成6个因果句。",
+          "answerNote": "圈线关系在答案原图中保留；第1项为书内示例。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-5",
+          "title": "Practice 5 · Adding Transitions",
+          "bookPages": "76",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页76",
+              "bookPage": 76
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            }
+          ],
+          "instructions": "重写移民主题段落，在必要处加入过渡表达。",
+          "answerNote": "Answers will vary；无唯一过渡词组合。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-6",
+          "title": "Practice 6 · Identifying Parallel Structures",
+          "bookPages": "77",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页77",
+              "bookPage": 77
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页74"
+            },
+            {
+              "src": "textbook/cause/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页75 · 左栏：Practice 6续、7、8、Try It Out",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "在6个句子或段落中划出平行结构。",
+          "answerNote": "第2–4项在答案册第2页，第5–6项续第3页左栏。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-7",
+          "title": "Practice 7 · Writing Parallel Structures",
+          "bookPages": "65, 66, 67, 68, 69, 78",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页78",
+              "bookPage": 78
+            },
+            {
+              "src": "textbook/cause/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页65",
+              "bookPage": 65
+            },
+            {
+              "src": "textbook/cause/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/cause/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页67",
+              "bookPage": 67
+            },
+            {
+              "src": "textbook/cause/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页68",
+              "bookPage": 68
+            },
+            {
+              "src": "textbook/cause/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页69",
+              "bookPage": 69
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页75 · 左栏：Practice 6续、7、8、Try It Out",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "按原页6项补全与斜体结构形式一致的词语，必要时参照模型。",
+          "answerNote": "Answers will vary；完整原题要求以原页为准。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-8",
+          "title": "Practice 8 · Correcting Errors in Parallelism",
+          "bookPages": "78, 79",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页78",
+              "bookPage": 78
+            },
+            {
+              "src": "textbook/cause/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页79",
+              "bookPage": 79
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页75 · 左栏：Practice 6续、7、8、Try It Out",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "改正 German immigrants 两段平行结构错误，在对应位置记录修改。",
+          "answerNote": "逐处对照答案册第3页左栏的手写更正。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-research",
+          "title": "Try It Out · Immigration Research",
+          "bookPages": "79, 80",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页79",
+              "bookPage": 79
+            },
+            {
+              "src": "textbook/cause/page-017.webp",
+              "page": 17,
+              "label": "教材 PDF第17页 / 书页80",
+              "bookPage": 80
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-003.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页75 · 左栏：Practice 6续、7、8、Try It Out",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "按书页80步骤检索移民趋势并写总结，保存使用的资料信息。",
+          "answerNote": "Answers will vary；这是资料检索任务，教材中的历史数据不能当作当前事实。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-9",
+          "title": "Practice 9 · Quotation Punctuation",
+          "bookPages": "80, 81, 82",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-017.webp",
+              "page": 17,
+              "label": "教材 PDF第17页 / 书页80",
+              "bookPage": 80
+            },
+            {
+              "src": "textbook/cause/page-018.webp",
+              "page": 18,
+              "label": "教材 PDF第18页 / 书页81",
+              "bookPage": 81
+            },
+            {
+              "src": "textbook/cause/page-019.webp",
+              "page": 19,
+              "label": "教材 PDF第19页 / 书页82",
+              "bookPage": 82
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-003-right.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页75 · 右栏：Practice 9、10",
+              "region": [
+                302,
+                24,
+                554,
+                458
+              ]
+            }
+          ],
+          "instructions": "按原题为6段引语补大小写和标点。",
+          "answerNote": "第1项为示例；第2–6项对照答案册第3页右栏上半部。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-practice-10",
+          "title": "Practice 10 · Using Phrasal Verbs",
+          "bookPages": "82, 83",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-019.webp",
+              "page": 19,
+              "label": "教材 PDF第19页 / 书页82",
+              "bookPage": 82
+            },
+            {
+              "src": "textbook/cause/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页83",
+              "bookPage": 83
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/cause/key-003-right.webp",
+              "page": 3,
+              "label": "答案PDF第3页 / 书页75 · 右栏：Practice 9、10",
+              "region": [
+                302,
+                24,
+                554,
+                458
+              ]
+            }
+          ],
+          "instructions": "依据括号短语动词另写句子，并把宾语放在合适位置；完成1–6项。",
+          "answerNote": "Answers will vary；原题跨书页82–83，虽答案标题只标82。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "cause-writing-assignment",
+          "title": "Writing Assignment · Historical Event",
+          "bookPages": "83, 84, 85",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页83",
+              "bookPage": 83
+            },
+            {
+              "src": "textbook/cause/page-021.webp",
+              "page": 21,
+              "label": "教材 PDF第21页 / 书页84",
+              "bookPage": 84
+            },
+            {
+              "src": "textbook/cause/page-022.webp",
+              "page": 22,
+              "label": "教材 PDF第22页 / 书页85",
+              "bookPage": 85
+            }
+          ],
+          "answerPages": [],
+          "instructions": "选择与自己、家庭或他人相关的历史事件，按原题写至少5段因果作文，至少参考一个来源并使用引语；完成写作流程与本章自评。",
+          "answerNote": "开放作文；本答案册无标准作文。教材提到的书页231–232评改表未提供。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "cause-timed-writing",
+          "title": "Timed Writing · Model Summary",
+          "bookPages": "65, 66, 67, 68, 69, 85",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-022.webp",
+              "page": 22,
+              "label": "教材 PDF第22页 / 书页85",
+              "bookPage": 85
+            },
+            {
+              "src": "textbook/cause/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页65",
+              "bookPage": 65
+            },
+            {
+              "src": "textbook/cause/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/cause/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页67",
+              "bookPage": 67
+            },
+            {
+              "src": "textbook/cause/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页68",
+              "bookPage": 68
+            },
+            {
+              "src": "textbook/cause/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页69",
+              "bookPage": 69
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按原题30分钟程序总结其中一个模型，写一个段落并至少加入一条引语，不加入自己的意见。",
+          "answerNote": "开放摘要；按原页主旨、改述、引语和修改要求自评。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "cause-alternatives",
+          "title": "Expansion · Examining Alternatives",
+          "bookPages": "65, 66, 67, 85",
+          "sourcePages": [
+            {
+              "src": "textbook/cause/page-022.webp",
+              "page": 22,
+              "label": "教材 PDF第22页 / 书页85",
+              "bookPage": 85
+            },
+            {
+              "src": "textbook/cause/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页65",
+              "bookPage": 65
+            },
+            {
+              "src": "textbook/cause/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页66",
+              "bookPage": 66
+            },
+            {
+              "src": "textbook/cause/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页67",
+              "bookPage": 67
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按原题写1–2段，提出英国政府本可采取的至少一项不同措施，并解释可能的不同结果。",
+          "answerNote": "开放历史分析；没有提供标准段落。",
+          "assessment": "open-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/cause/page-001.webp",
+          "page": 1,
+          "label": "教材 PDF第1页 / 书页64",
+          "bookPage": 64
+        },
+        {
+          "src": "textbook/cause/page-009.webp",
+          "page": 9,
+          "label": "教材 PDF第9页 / 书页72",
+          "bookPage": 72
+        },
+        {
+          "src": "textbook/cause/page-010.webp",
+          "page": 10,
+          "label": "教材 PDF第10页 / 书页73",
+          "bookPage": 73
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。 原答案PDF包含相邻章节；关卡答案图已按本章栏区裁切，完整答案PDF保持原件，下载后须按章节标题区分。",
+      "coverage": {
+        "sourcePageCount": 22,
+        "answerSourcePageCount": 3,
+        "missionGroupCount": 16,
+        "indexedTaskPages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "referenceOnlyPages": [
+          1,
+          9,
+          10
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 0
+      }
+    },
+    {
+      "id": "argument",
+      "sourceTitle": "argumentative essays.pdf",
+      "sourcePdf": "textbook/argument/book.pdf",
+      "answerTitle": "argumentative essays answer key.pdf",
+      "answerPdf": "textbook/argument/key.pdf",
+      "missions": [
+        {
+          "id": "argument-model-1",
+          "title": "模型1理解 · Animal Experimentation",
+          "bookPages": "147, 148, 149",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页147",
+              "bookPage": 147
+            },
+            {
+              "src": "textbook/argument/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页148",
+              "bookPage": 148
+            },
+            {
+              "src": "textbook/argument/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页149",
+              "bookPage": 149
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页78 · 右栏 Chapter 8 模型1",
+              "region": [
+                302,
+                437,
+                554,
+                710
+              ]
+            }
+          ],
+          "instructions": "读 Writing Model 1，完成书页149的6个模型问题。",
+          "answerNote": "仅关联答案PDF第1页右下 Chapter 8 的模型1小节，已裁去前章答案。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-model-2",
+          "title": "模型2理解 · A College Degree",
+          "bookPages": "150",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页150",
+              "bookPage": 150
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 左栏：模型2、Practice 1–5",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "读 Writing Model 2，完成书页150的4个模型问题。",
+          "answerNote": "对应答案位于第2页左栏顶部。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-1",
+          "title": "Practice 1 · Defining Terms from Context",
+          "bookPages": "147, 148, 149, 151",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页147",
+              "bookPage": 147
+            },
+            {
+              "src": "textbook/argument/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页148",
+              "bookPage": 148
+            },
+            {
+              "src": "textbook/argument/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页149",
+              "bookPage": 149
+            },
+            {
+              "src": "textbook/argument/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页151",
+              "bookPage": 151
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 左栏：模型2、Practice 1–5",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "回到模型1，在语境中将10个词与a–j同义解释配对。",
+          "answerNote": "第1项为示例；第2–10项有确定字母答案。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-2",
+          "title": "Practice 2 · Sentences with Modals",
+          "bookPages": "152",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页152",
+              "bookPage": 152
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 左栏：模型2、Practice 1–5",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "按括号中的modal verbs，为原页每个情境另写句子。",
+          "answerNote": "Answers will vary；参考原页语义及modal规则自评。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-3",
+          "title": "Practice 3 · Phrasal Modals",
+          "bookPages": "152, 153",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页152",
+              "bookPage": 152
+            },
+            {
+              "src": "textbook/argument/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页153",
+              "bookPage": 153
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 左栏：模型2、Practice 1–5",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "从Practice 2自己写出的句子中选5句，改用phrasal modals。",
+          "answerNote": "Answers will vary。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-4",
+          "title": "Practice 4 · The Subjunctive",
+          "bookPages": "154",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-009.webp",
+              "page": 9,
+              "label": "教材 PDF第9页 / 书页154",
+              "bookPage": 154
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 左栏：模型2、Practice 1–5",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "在各原句后写虚拟式陈述，每题使用上表不同的动词。",
+          "answerNote": "Answers will vary；按原句语境检查结构。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-5",
+          "title": "Practice 5 · Argument Verbs",
+          "bookPages": "158, 159",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页158",
+              "bookPage": 158
+            },
+            {
+              "src": "textbook/argument/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页159",
+              "bookPage": 159
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 左栏：模型2、Practice 1–5",
+              "region": [
+                65,
+                24,
+                299,
+                715
+              ]
+            }
+          ],
+          "instructions": "完成 A 用表格中的动词补全8个论述句；B 与同伴比较不同动词选择，讨论由此产生的意义变化。",
+          "answerNote": "A提供多种possible answers；B为比较与讨论，Answers will vary。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-6",
+          "title": "Practice 6 · Arguments and Responses",
+          "bookPages": "147, 148, 149, 160",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页147",
+              "bookPage": 147
+            },
+            {
+              "src": "textbook/argument/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页148",
+              "bookPage": 148
+            },
+            {
+              "src": "textbook/argument/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页149",
+              "bookPage": 149
+            },
+            {
+              "src": "textbook/argument/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页160",
+              "bookPage": 160
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002-right.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 右栏：Practice 6、Try It Out、Practice 7",
+              "region": [
+                302,
+                24,
+                554,
+                426
+              ]
+            }
+          ],
+          "instructions": "针对模型1第6–8段，分别找出并概括argument与counterargument。",
+          "answerNote": "第6段argument在原题中作示例；答案册列其余参考概括。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-survey",
+          "title": "Try It Out · Audience Survey",
+          "bookPages": "161, 162",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-016.webp",
+              "page": 16,
+              "label": "教材 PDF第16页 / 书页161",
+              "bookPage": 161
+            },
+            {
+              "src": "textbook/argument/page-017.webp",
+              "page": 17,
+              "label": "教材 PDF第17页 / 书页162",
+              "bookPage": 162
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002-right.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 右栏：Practice 6、Try It Out、Practice 7",
+              "region": [
+                302,
+                24,
+                554,
+                426
+              ]
+            }
+          ],
+          "instructions": "照原页表格调查各议题立场，统计结果，判断受众是friendly、neutral还是antagonistic。",
+          "answerNote": "Answers will vary；需要真实调查或课堂配合，工作台不提供虚构结果。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-counterargument",
+          "title": "Try It Out · Respond to a Counterargument",
+          "bookPages": "160, 162, 163",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页160",
+              "bookPage": 160
+            },
+            {
+              "src": "textbook/argument/page-017.webp",
+              "page": 17,
+              "label": "教材 PDF第17页 / 书页162",
+              "bookPage": 162
+            },
+            {
+              "src": "textbook/argument/page-018.webp",
+              "page": 18,
+              "label": "教材 PDF第18页 / 书页163",
+              "bookPage": 163
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002-right.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 右栏：Practice 6、Try It Out、Practice 7",
+              "region": [
+                302,
+                24,
+                554,
+                426
+              ]
+            }
+          ],
+          "instructions": "按书页163写一个支持一方的完整主体段，同时回应counterargument，可使用原页提示。",
+          "answerNote": "原题称Practice 6是framed an argument；实际Practice 6是识别与概括。保留这一交叉引用差异，不另造原题。答案册注明Answers will vary。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-research",
+          "title": "Try It Out · Research Both Sides",
+          "bookPages": "163, 164",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-018.webp",
+              "page": 18,
+              "label": "教材 PDF第18页 / 书页163",
+              "bookPage": 163
+            },
+            {
+              "src": "textbook/argument/page-019.webp",
+              "page": 19,
+              "label": "教材 PDF第19页 / 书页164",
+              "bookPage": 164
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002-right.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 右栏：Practice 6、Try It Out、Practice 7",
+              "region": [
+                302,
+                24,
+                554,
+                426
+              ]
+            }
+          ],
+          "instructions": "按书页164检索至少3篇支持和3篇反对动物研究的文章，记录题名与URL。",
+          "answerNote": "Answers will vary；需要实际检索，不提供伪造来源。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-practice-7",
+          "title": "Practice 7 · Correct Grammatical Forms",
+          "bookPages": "165",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页165",
+              "bookPage": 165
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/argument/key-002-right.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页79 · 右栏：Practice 6、Try It Out、Practice 7",
+              "region": [
+                302,
+                24,
+                554,
+                426
+              ]
+            }
+          ],
+          "instructions": "用所给词的恰当词性形式完成6句。",
+          "answerNote": "第1项为示例；第2–6项按答案册对应小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "argument-writing-assignment",
+          "title": "Writing Assignment · Argumentative Essay",
+          "bookPages": "165, 166, 167",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-020.webp",
+              "page": 20,
+              "label": "教材 PDF第20页 / 书页165",
+              "bookPage": 165
+            },
+            {
+              "src": "textbook/argument/page-021.webp",
+              "page": 21,
+              "label": "教材 PDF第21页 / 书页166",
+              "bookPage": 166
+            },
+            {
+              "src": "textbook/argument/page-022.webp",
+              "page": 22,
+              "label": "教材 PDF第22页 / 书页167",
+              "bookPage": 167
+            }
+          ],
+          "answerPages": [],
+          "instructions": "从原题建议或自己关心的争议话题选题，按Step 1–7写议论文，支持主张并回应反方，完成本章自评。",
+          "answerNote": "开放作文；书页239–240评改表及相关附录不在所供PDF内。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "argument-timed-writing",
+          "title": "Timed Writing · School Grading",
+          "bookPages": "168",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-023.webp",
+              "page": 23,
+              "label": "教材 PDF第23页 / 书页168",
+              "bookPage": 168
+            }
+          ],
+          "answerPages": [],
+          "instructions": "按原题50分钟安排，对学校评分制度是否需要改变及其影响写短议论文。",
+          "answerNote": "开放写作，无提供标准作文；按立场、支撑、反方回应与语言自评。",
+          "assessment": "open-self-review"
+        },
+        {
+          "id": "argument-opposite-position",
+          "title": "Expansion · Taking the Opposite Position",
+          "bookPages": "168",
+          "sourcePages": [
+            {
+              "src": "textbook/argument/page-023.webp",
+              "page": 23,
+              "label": "教材 PDF第23页 / 书页168",
+              "bookPage": 168
+            }
+          ],
+          "answerPages": [],
+          "instructions": "回到自己的Writing Assignment主题，进一步研究后改为论证相反立场，交换原先主张与反论点角色。",
+          "answerNote": "开放重写任务，没有提供标准答案。",
+          "assessment": "open-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/argument/page-001.webp",
+          "page": 1,
+          "label": "教材 PDF第1页 / 书页146",
+          "bookPage": 146
+        },
+        {
+          "src": "textbook/argument/page-010.webp",
+          "page": 10,
+          "label": "教材 PDF第10页 / 书页155",
+          "bookPage": 155
+        },
+        {
+          "src": "textbook/argument/page-011.webp",
+          "page": 11,
+          "label": "教材 PDF第11页 / 书页156",
+          "bookPage": 156
+        },
+        {
+          "src": "textbook/argument/page-012.webp",
+          "page": 12,
+          "label": "教材 PDF第12页 / 书页157",
+          "bookPage": 157
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。 原答案PDF包含相邻章节；关卡答案图已按本章栏区裁切，完整答案PDF保持原件，下载后须按章节标题区分。",
+      "coverage": {
+        "sourcePageCount": 23,
+        "answerSourcePageCount": 2,
+        "missionGroupCount": 15,
+        "indexedTaskPages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "referenceOnlyPages": [
+          1,
+          10,
+          11,
+          12
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 0
+      }
+    },
+    {
+      "id": "paraphrase",
+      "sourceTitle": "paraphrase and summary.pdf",
+      "sourcePdf": "textbook/paraphrase/book.pdf",
+      "answerTitle": "paraphrase and summary answer key.pdf",
+      "answerPdf": "textbook/paraphrase/key.pdf",
+      "missions": [
+        {
+          "id": "paraphrase-model-paraphrase",
+          "title": "模型理解 · Original and Paraphrase",
+          "bookPages": "128",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页128",
+              "bookPage": 128
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页25"
+            }
+          ],
+          "instructions": "比较原文与改述，完成书页128的句数及逐句对照问题。",
+          "answerNote": "按模型Paraphrase小节核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-model-plagiarism",
+          "title": "模型判断 · Unacceptable Paraphrases",
+          "bookPages": "128, 129",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-002.webp",
+              "page": 2,
+              "label": "教材 PDF第2页 / 书页128",
+              "bookPage": 128
+            },
+            {
+              "src": "textbook/paraphrase/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页129",
+              "bookPage": 129
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/page-003.webp",
+              "page": 3,
+              "label": "教材 PDF第3页 / 书页129",
+              "bookPage": 129
+            }
+          ],
+          "instructions": "按书页129开头要求，判断两个不合格改述各属于哪种抄袭，再阅读页内解释。",
+          "answerNote": "答案直接印在教材同页下方：未注明来源、与原文过于相似。这是带解释的模型任务，不是无答案测验。",
+          "assessment": "explained-model"
+        },
+        {
+          "id": "paraphrase-practice-1",
+          "title": "Practice 1 · Choosing the Best Paraphrase",
+          "bookPages": "130, 131, 132",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-004.webp",
+              "page": 4,
+              "label": "教材 PDF第4页 / 书页130",
+              "bookPage": 130
+            },
+            {
+              "src": "textbook/paraphrase/page-005.webp",
+              "page": 5,
+              "label": "教材 PDF第5页 / 书页131",
+              "bookPage": 131
+            },
+            {
+              "src": "textbook/paraphrase/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页132",
+              "bookPage": 132
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页25"
+            }
+          ],
+          "instructions": "读3个Original Passages，为每组选Best，并把其他选项标Too sim.、No cit.或Inc./Inacc.；第1组为书内示例。",
+          "answerNote": "答案册给第2组与第3组全部选项分类。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-practice-2",
+          "title": "Practice 2 · Writing Paraphrases",
+          "bookPages": "132, 133, 134",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页132",
+              "bookPage": 132
+            },
+            {
+              "src": "textbook/paraphrase/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页133",
+              "bookPage": 133
+            },
+            {
+              "src": "textbook/paraphrase/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页134",
+              "bookPage": 134
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页25"
+            }
+          ],
+          "instructions": "按Step 1–6为4段原文做笔记并改述，保持原意，改变词汇和结构，补文内引注。",
+          "answerNote": "答案册提供4个sample answers；不存在唯一改写。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-practice-3",
+          "title": "Practice 3 · Paraphrases as Support",
+          "bookPages": "132, 133, 134, 135, 136",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-009.webp",
+              "page": 9,
+              "label": "教材 PDF第9页 / 书页135",
+              "bookPage": 135
+            },
+            {
+              "src": "textbook/paraphrase/page-010.webp",
+              "page": 10,
+              "label": "教材 PDF第10页 / 书页136",
+              "bookPage": 136
+            },
+            {
+              "src": "textbook/paraphrase/page-006.webp",
+              "page": 6,
+              "label": "教材 PDF第6页 / 书页132",
+              "bookPage": 132
+            },
+            {
+              "src": "textbook/paraphrase/page-007.webp",
+              "page": 7,
+              "label": "教材 PDF第7页 / 书页133",
+              "bookPage": 133
+            },
+            {
+              "src": "textbook/paraphrase/page-008.webp",
+              "page": 8,
+              "label": "教材 PDF第8页 / 书页134",
+              "bookPage": 134
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-001.webp",
+              "page": 1,
+              "label": "答案PDF第1页 / 书页25"
+            }
+          ],
+          "instructions": "按书页136原题写一个反对载人火星飞行的段落，采用Practice 2的改述作支撑并加引注。",
+          "answerNote": "Responses will vary；原页明确给定赞同方向，本关保留该方向而非另造题目。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-model-summary",
+          "title": "模型理解 · Paraphrase and Summary",
+          "bookPages": "136, 137",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-010.webp",
+              "page": 10,
+              "label": "教材 PDF第10页 / 书页136",
+              "bookPage": 136
+            },
+            {
+              "src": "textbook/paraphrase/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页137",
+              "bookPage": 137
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页26"
+            }
+          ],
+          "instructions": "比较原文、改述和摘要，回答句数及摘要省略的两项细节。",
+          "answerNote": "按对应Writing Technique Questions核对。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-practice-4",
+          "title": "Practice 4 · Choosing the Best Summary",
+          "bookPages": "137, 138",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-011.webp",
+              "page": 11,
+              "label": "教材 PDF第11页 / 书页137",
+              "bookPage": 137
+            },
+            {
+              "src": "textbook/paraphrase/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页138",
+              "bookPage": 138
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页26"
+            }
+          ],
+          "instructions": "阅读African languages原文及Summary A/B，回答哪一篇更好及哪篇加入原文没有的意思。",
+          "answerNote": "答案册给出B更好和A中新增句。A还把原文every two weeks写成every day，此事实差异可在原页直接比对，答案册未另列。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-practice-5",
+          "title": "Practice 5 · Writing Summaries",
+          "bookPages": "138, 139, 140",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-012.webp",
+              "page": 12,
+              "label": "教材 PDF第12页 / 书页138",
+              "bookPage": 138
+            },
+            {
+              "src": "textbook/paraphrase/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页139",
+              "bookPage": 139
+            },
+            {
+              "src": "textbook/paraphrase/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页140",
+              "bookPage": 140
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页26"
+            }
+          ],
+          "instructions": "分别为2篇原文写一段摘要，按原页步骤做笔记、保留主旨并加文内引注。",
+          "answerNote": "提供两篇sample answers；不能只按范文措辞判分。",
+          "assessment": "original-answer-self-review"
+        },
+        {
+          "id": "paraphrase-practice-6",
+          "title": "Practice 6 · Summaries as Support",
+          "bookPages": "139, 140, 141",
+          "sourcePages": [
+            {
+              "src": "textbook/paraphrase/page-015.webp",
+              "page": 15,
+              "label": "教材 PDF第15页 / 书页141",
+              "bookPage": 141
+            },
+            {
+              "src": "textbook/paraphrase/page-013.webp",
+              "page": 13,
+              "label": "教材 PDF第13页 / 书页139",
+              "bookPage": 139
+            },
+            {
+              "src": "textbook/paraphrase/page-014.webp",
+              "page": 14,
+              "label": "教材 PDF第14页 / 书页140",
+              "bookPage": 140
+            }
+          ],
+          "answerPages": [
+            {
+              "src": "textbook/paraphrase/key-002.webp",
+              "page": 2,
+              "label": "答案PDF第2页 / 书页26"
+            }
+          ],
+          "instructions": "按原题写段落，赞同English is easy to learn, but difficult to master，并使用Practice 5摘要或其一部分作支持。",
+          "answerNote": "Responses will vary；允许加入自己的例子，但仍需按原题标出借用信息来源。",
+          "assessment": "original-answer-self-review"
+        }
+      ],
+      "referencePages": [
+        {
+          "src": "textbook/paraphrase/page-001.webp",
+          "page": 1,
+          "label": "教材 PDF第1页 / 书页127",
+          "bookPage": 127
+        }
+      ],
+      "coverageNote": "已按逐页OCR核对本PDF中Practice、模型理解及写作/讨论任务区域；原题通过完整原页呈现，未把所有小题手工转录或逐小题计数。纯讲解页列为参考页。原扫描件的示例答案、原有圈线与批注保持不变，不能视为无答案试卷。",
+      "coverage": {
+        "sourcePageCount": 15,
+        "answerSourcePageCount": 2,
+        "missionGroupCount": 9,
+        "indexedTaskPages": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "referenceOnlyPages": [
+          1
+        ],
+        "knownOmittedTaskRegions": [],
+        "scope": "仅限本次提供的章节PDF，不含其引用但未提供的附录、其他章节或教师讲义。",
+        "transcription": "原页自评为主；只把少量已核实客观项另录为可点选题。",
+        "objectiveItemCount": 0
+      }
+    }
+  ]
+}

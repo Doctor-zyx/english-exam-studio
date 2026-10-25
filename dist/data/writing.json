@@ -10,52 +10,387 @@
       "rules": [
         {
           "title": "独立从句与从属从句",
-          "explanation": "独立从句有主语、限定动词并能独立表达完整意思。从属连词 because/although/when 等会使句子不能独立；要接主句。短语中有 -ing 不等于有谓语。",
+          "explanation": "一个完整句子，要说清楚“谁或什么，怎么样了”。如果前面加上 because（因为）、although（虽然）等词，往往只说了原因或背景，还要接一句主要意思。判断时，先找主语和真正表示动作或状态的谓语，再检查意思是否完整。",
           "example": "原创示例：Because the experiment failed, we revised the method.",
           "before": "Because the experiment failed.",
-          "after": "Because the experiment failed, we revised the method."
+          "after": "Because the experiment failed, we revised the method.",
+          "steps": [
+            "先问“谁/什么怎么样了”：找主语和能表示时态的谓语。例如 the experiment 是主语，failed 是过去时谓语。",
+            "再看开头是否有 because、although、when、if 等。The experiment failed. 可以独立；加 Because 后只交代原因，还没说结果。",
+            "给原因片段接上一个完整主句：Because the experiment failed, we revised the method. 先说原因时，中间通常用逗号。",
+            "辨认 -ing/to 短语：Working all day. 只有“整天工作”这个活动，不是完整陈述；Working all day makes me tired. 才有主句谓语 makes。",
+            "最后单独读主句。即使暂时拿掉 because 部分，We revised the method. 仍能成立。"
+          ],
+          "breakdown": [
+            {
+              "text": "Because",
+              "note": "因为：它把后面的主谓结构引成原因从句，不能只写这一原因就句号结束。"
+            },
+            {
+              "text": "the experiment failed",
+              "note": "the experiment（实验）是主语，failed（失败了）是限定谓语。合起来说明原因。"
+            },
+            {
+              "text": ",",
+              "note": "原因从句放在前面，用逗号和后面的主句分开。"
+            },
+            {
+              "text": "we revised the method.",
+              "note": "we 是主语，revised 是谓语，the method 是被修改的对象。这部分独立表达“我们修改了方法”。"
+            }
+          ],
+          "pitfall": "不要只数句子里出现了几个动词。Teachers who give too much homework. 虽有 give，但它在 who 从句里；Teachers 仍缺自己的主句谓语。补 are unpopular 才完整。",
+          "check": {
+            "prompt": "【原创理解检查】哪一句可以独立作为完整句子？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Because the library was closed."
+              },
+              {
+                "value": "B",
+                "label": "The library closed at six."
+              },
+              {
+                "value": "C",
+                "label": "Studying in the quiet library."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B 的主语是 The library，限定谓语是 closed，已经说完一件事。",
+            "wrongExplanation": "A 只给原因，仍缺主句；C 的 Studying 是非限定形式，整段只有活动短语，没有完整主句。"
+          },
+          "sourceLabel": "教材第162–163页（PDF 1–2）分句；第183–185页（PDF 22–24）残句。分步讲解与检查题为原创辅助。"
         },
         {
           "title": "四种句型",
-          "explanation": "simple：一个独立从句，可有并列主语/谓语；compound：至少两个独立从句；complex：一个独立从句加至少一个从属从句；compound-complex：至少两个独立从句加至少一个从属从句。按从句结构判断，不按长短判断。",
+          "explanation": "句型取决于一句话里面有几组完整意思，以及有没有从属部分。只有一组完整意思是简单句；两组地位相等的完整意思连在一起是并列句；主要意思带上原因、时间等从属部分是复合句。两组主句再加从句，就是并列复合句。",
           "example": "原创示例：Although the task was difficult, we persisted, and we finished it.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先用括号分出每一套“主语 + 限定谓语”，不要把形容词、介词短语或并列动词误算成新分句。",
+            "逐套判断能否独立：前面带 although/when/because 的，标作从属；其余能独立陈述的，标作独立。",
+            "只有1个独立、0个从属：simple。We read and discuss. 只有一个主语共享两个谓语，仍是简单句。",
+            "至少2个独立、0个从属：compound。We read, and they discuss. 有两套能独立的主谓。",
+            "1个独立、至少1个从属：complex。至少2个独立、至少1个从属：compound-complex。把数目写出来再选类别。",
+            "长短不是标准。很长的名词短语不会自动增加分句；短短的 When I arrived, she left. 也已经是复杂句。"
+          ],
+          "breakdown": [
+            {
+              "text": "Although the task was difficult,",
+              "note": "the task + was 构成一套主谓，但 Although 使它成为从属让步从句：虽然任务很难。"
+            },
+            {
+              "text": "we persisted",
+              "note": "第一独立分句：我们坚持了。独立拿出来仍是完整句。"
+            },
+            {
+              "text": ", and",
+              "note": "逗号加 and，把两个独立分句并列起来。"
+            },
+            {
+              "text": "we finished it.",
+              "note": "第二独立分句：我们完成了它。全句共2个独立分句+1个从属分句，所以是 compound-complex。"
+            }
+          ],
+          "pitfall": "and 不是“并列句探测器”。My sister and I study and work. 有两个并列主语和两个并列谓语，但仍只有一套独立分句结构。",
+          "check": {
+            "prompt": "【原创理解检查】When the rain stopped, we opened the windows, and the room cooled down. 属于哪种句型？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Simple · 简单句"
+              },
+              {
+                "value": "B",
+                "label": "Compound · 并列句"
+              },
+              {
+                "value": "C",
+                "label": "Complex · 复杂句"
+              },
+              {
+                "value": "D",
+                "label": "Compound-complex · 并列复杂句"
+              }
+            ],
+            "answer": "D",
+            "explanation": "When the rain stopped 是1个从属分句；we opened the windows 与 the room cooled down 是2个独立分句。",
+            "wrongExplanation": "不要只看 and 或 When 一个词。先数完整结构：独立2个，从属1个，必须同时满足这两项。"
+          },
+          "sourceLabel": "教材第164–165页（PDF 3–4）、第172–174页（PDF 11–13）：四种句型。分步讲解与检查题为原创辅助。"
         },
         {
           "title": "并列句三种合法连接",
-          "explanation": "独立句 + 逗号 + FANBOYS（for/and/nor/but/or/yet/so）；独立句 + 分号 + however/therefore 等 + 逗号；或语意密切的两句用分号。however 本身不能替代连词。nor 连接否定并列分句时常需倒装。",
+          "explanation": "两句都能独立成立时，中间需要一个合适的连接方式。教材给出三种方法：逗号加并列连词；分号加连接副词；直接用分号。先想清楚两句的关系，再决定用哪一种。",
           "example": "原创示例：The sample was small; therefore, the result requires caution.",
           "before": "The sample was small, however, the effect was clear.",
-          "after": "The sample was small; however, the effect was clear."
+          "after": "The sample was small; however, the effect was clear.",
+          "steps": [
+            "先确认两侧都能独立成句，例如 The sample was small. 和 The result requires caution.",
+            "再判断关系：补充用 and，转折用 but/yet，选择用 or，结果用 so，解释原因可用 for；nor 连接另一项否定。",
+            "第一种连接：独立句, + 并列连词 + 独立句。例如 The sample was small, so we repeated the test.",
+            "第二种连接：独立句; + therefore/however 等连接副词, + 独立句。副词说明逻辑，但句法连接依靠分号。",
+            "第三种连接：内容紧密时直接用分号，例如 The sample was small; the result was uncertain. 如果不保留一个句子，也可用句号拆开。",
+            "检查 nor：I did not call, nor did I send a message. 否定并列分句中 did 放到 I 前；不要只把 and 换成 nor 而忽略结构。"
+          ],
+          "breakdown": [
+            {
+              "text": "The sample was small",
+              "note": "独立分句1：样本量小。主语 The sample，谓语 was。"
+            },
+            {
+              "text": ";",
+              "note": "分号真正连接两套独立主谓结构，避免只靠一个逗号硬接。"
+            },
+            {
+              "text": "therefore,",
+              "note": "表示“因此”，交代因果；它后面的逗号把这个连接副词与主句分开。"
+            },
+            {
+              "text": "the result requires caution.",
+              "note": "独立分句2：对结果需要谨慎。主语 the result，谓语 requires。"
+            }
+          ],
+          "pitfall": "The sample was small, however, the effect was clear. 有两个独立句，却只用逗号加 however，不合法。把第一个逗号换成分号，或写成 The sample was small, but the effect was clear.。",
+          "check": {
+            "prompt": "【原创理解检查】哪一种写法正确连接了两个独立分句？",
+            "options": [
+              {
+                "value": "A",
+                "label": "The train was late, however, we arrived on time."
+              },
+              {
+                "value": "B",
+                "label": "The train was late; however, we arrived on time."
+              },
+              {
+                "value": "C",
+                "label": "The train was late we arrived on time."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B 用分号连接独立分句，however 表示转折，后接逗号。",
+            "wrongExplanation": "A 是 comma splice：however 不能替逗号承担连接功能。C 没有连接和标点，是 run-on。"
+          },
+          "sourceLabel": "教材第165–171页（PDF 4–10）并列句；第188–190页（PDF 27–29）误连修正。分步讲解与检查题为原创辅助。"
         },
         {
           "title": "主从句与信息重点",
-          "explanation": "把主要信息放主句，把原因/条件/让步放从句。前置状语从句后通常用逗号。名词从句和定语从句需要与所属成分相连。避免 because...so 和 although...but 双重连接。",
+          "explanation": "把最想说的内容放在主句，把原因、时间、条件或让步放在从句。先说“因为、虽然、当……时”，后面就要接上主要意思。名词从句可以担任主语或宾语，定语从句则补充说明一个名词。",
           "example": "原创示例：Although tuition is high, many students attend college.",
           "before": "Although tuition is high, but many students attend college.",
-          "after": "Although tuition is high, many students attend college."
+          "after": "Although tuition is high, many students attend college.",
+          "steps": [
+            "先用中文说出最想强调的结果或观点，把它留在主句：例如“很多人仍然上大学”。",
+            "给辅助信息命名：原因 because，条件 if，时间 when/after，虽然如此 although。例句“学费很高”与“仍然上大学”是让步关系。",
+            "把从句接到主句上：Although tuition is high, many students attend college. 从句在前，后面用逗号。",
+            "主句在前也可以：Many students attend college although tuition is high. 通常不用把中间强行隔成两个句子。",
+            "英语一个关系选一套句法连接：Although ... , 主句；或 独立句, but 独立句。不要写 Although ... , but ...。because 与 so 同理。",
+            "再区分两种常见嵌入：The book that I borrowed is useful. 中 that ... 修饰 book；I know that the book is useful. 中 that ... 充当 know 的内容。都要接回所属句子，不能单独句号结束。"
+          ],
+          "breakdown": [
+            {
+              "text": "Although",
+              "note": "虽然：提示前半句是让步背景，不是最终陈述。"
+            },
+            {
+              "text": "tuition is high",
+              "note": "学费很高；tuition 是主语，is 是谓语。"
+            },
+            {
+              "text": ",",
+              "note": "前置让步从句结束，接着给出主句。"
+            },
+            {
+              "text": "many students attend college.",
+              "note": "很多学生仍上大学，是作者强调的主信息；不要再在它前面加 but。"
+            }
+          ],
+          "pitfall": "“中文读起来顺”不等于英语结构正确。“虽然……但是……”在英语里不能机械地同时放 Although 和 but。先选择从属关系或并列关系，再写对应标点。",
+          "check": {
+            "prompt": "【原创理解检查】保留“虽然设备旧，但还能用”的关系，哪句语法正确？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Although the machine is old, but it still works."
+              },
+              {
+                "value": "B",
+                "label": "Although the machine is old."
+              },
+              {
+                "value": "C",
+                "label": "Although the machine is old, it still works."
+              }
+            ],
+            "answer": "C",
+            "explanation": "C 的 although 从句完整接上主句 it still works，表达让步关系。",
+            "wrongExplanation": "A 重复用了 although 和 but；B 只有从属从句，还没告诉读者“虽然旧，结果怎样”。"
+          },
+          "sourceLabel": "教材第172–174页（PDF 11–13）复杂句；第186–188页（PDF 25–27）合并句子与信息主次。分步讲解与检查题为原创辅助。"
         },
         {
           "title": "平行结构",
-          "explanation": "and/or 及 both...and、either...or、neither...nor、not only...but also 两侧结构要对应：名词对名词、动名词对动名词、从句对从句。比较结构也需要平行。",
+          "explanation": "用 and、or 等把几项内容并列时，它们的形式要对应。例如“阅读、写作、思考”可以都是动名词，不能前两项用动名词，最后一项突然换成不定式。做题时，先找连接词，再比较它两边的结构。",
           "example": "原创示例：The course develops reading, writing, and critical thinking.",
           "before": "The course develops reading, writing, and to think critically.",
-          "after": "The course develops reading, writing, and critical thinking."
+          "after": "The course develops reading, writing, and critical thinking.",
+          "steps": [
+            "找到 and/or/but 或成对连接词，在它们两侧画出真正连接的项目。不要只比较最近的一个词。",
+            "看第一项是什么形式：名词、形容词、介词短语、to + 动词、-ing 短语，还是完整从句。",
+            "把其他项改成同一层级。例如 reading, writing, and to think critically 混用了 -ing 与 to；可把最后一项改成 critical thinking。",
+            "成对连词要放在对应位置：both at school and at home；not only to read but also to write。不要第一项是短语，第二项却突然另起主语。",
+            "比较结构也要对称：spend as much time reading as writing。比较的是两个活动，不要把第二项写成 to write。",
+            "最后检查共同部分是否能共享。I like swimming and running. 不必重复 I like；省略后两项仍保持同样形式即可。"
+          ],
+          "breakdown": [
+            {
+              "text": "The course develops",
+              "note": "共同的主语和谓语：这门课培养什么？后面是三个并列对象。"
+            },
+            {
+              "text": "reading,",
+              "note": "第一项：阅读，用名词性 -ing 形式。"
+            },
+            {
+              "text": "writing,",
+              "note": "第二项：写作，形式和层级与 reading 对应。"
+            },
+            {
+              "text": "and critical thinking.",
+              "note": "第三项：批判性思维，同样是名词短语；and 连接最后两项。"
+            }
+          ],
+          "pitfall": "平行不是要求每项字数相同，也不是要求每项只有一个词。in the classroom / at home / in a country where the language is spoken 长短不同，但都是地点介词短语，可以平行。",
+          "check": {
+            "prompt": "【原创理解检查】哪句话的两项结构平行？",
+            "options": [
+              {
+                "value": "A",
+                "label": "The course teaches us to plan and revising."
+              },
+              {
+                "value": "B",
+                "label": "The course teaches us to plan and to revise."
+              },
+              {
+                "value": "C",
+                "label": "The course teaches us planning and we revise."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B 的两个项目都是 to + 动词原形，且共同接在 teaches us 后。",
+            "wrongExplanation": "A 把 to plan 与 revising 混用；C 把 planning 短语与 we revise 完整句并列，结构层级不一致。"
+          },
+          "sourceLabel": "教材第179–183页（PDF 18–22）平行结构；第191–192页（PDF 30–31）复习。分步讲解与检查题为原创辅助。"
         },
         {
           "title": "Fragment、run-on 与 comma splice",
-          "explanation": "fragment 缺完整句骨架；run-on 把独立句直接粘连；comma splice 仅用逗号连接独立句。可补主句、加句号/分号、加并列连词或改为主从结构。",
+          "explanation": "教材重点区分三类问题：一句话缺少完整骨架，叫 fragment；两句完整句直接粘在一起，叫 run-on；两句完整句中间只有逗号，叫 comma splice。先判断缺了什么，再选择补全、断句或连接。",
           "example": "原创示例：The data were incomplete, so we collected more.",
           "before": "The data were incomplete we collected more.",
-          "after": "The data were incomplete, so we collected more."
+          "after": "The data were incomplete, so we collected more.",
+          "steps": [
+            "第一遍找骨架：是否至少有一个完整独立主句？没有则先检查 fragment，而不是先乱加逗号。",
+            "只有 because/although 从句：接主句；只有名词或 -ing 短语：补限定谓语；名词后有 who/that 从句：检查名词本身是否还有主句谓语。",
+            "第二遍找边界：如果有两套独立主谓，找到第一套结束、第二套开始的位置。The data were incomplete | we collected more.",
+            "边界没有标点也没有连接词：run-on；只有逗号而没有合法连接词：comma splice。两种错误都不能靠句子长度判断。",
+            "选一种修法：句号拆开；分号连接；逗号加 and/but/so 等；或用 because/although 等把一部分改成从句。",
+            "修后再读关系：数据不全是原因，补采数据是结果，所以 The data were incomplete, so we collected more. 既连接合法，也解释清楚。"
+          ],
+          "breakdown": [
+            {
+              "text": "The data were incomplete",
+              "note": "第一个独立分句：数据不完整。主语 The data，谓语 were。"
+            },
+            {
+              "text": ", so",
+              "note": "逗号加并列连词 so，表示下面是结果；逗号或 so 不是随意替换的装饰。"
+            },
+            {
+              "text": "we collected more.",
+              "note": "第二个独立分句：我们又收集了一些。主语 we，谓语 collected。"
+            }
+          ],
+          "pitfall": "祈使句 Ask a librarian for help. 虽未写 you，仍是完整句；which/who/if 开头的结构即使里面有谓语，也不一定是独立主句。先判断边界两边的身份，再决定是不是误连。",
+          "check": {
+            "prompt": "【原创理解检查】The report was late, the team waited. 最准确的诊断是什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Fragment：缺少完整主句"
+              },
+              {
+                "value": "B",
+                "label": "Run-on：两独立句间完全没有标点"
+              },
+              {
+                "value": "C",
+                "label": "Comma splice：仅用逗号连接两独立句"
+              },
+              {
+                "value": "D",
+                "label": "正确句，无需修改"
+              }
+            ],
+            "answer": "C",
+            "explanation": "The report was late 和 the team waited 都能独立成句，中间只有一个逗号。可改成 The report was late, so the team waited.。",
+            "wrongExplanation": "这里不是缺主谓，也不是完全没有标点；问题恰好在“两个独立句只靠逗号连接”。"
+          },
+          "sourceLabel": "教材第183–185页（PDF 22–24）残句；第188–190页（PDF 27–29）run-on/comma splice。分步讲解与检查题为原创辅助。"
         },
         {
           "title": "Choppy 与 stringy",
-          "explanation": "choppy 是连续短句过碎，用逻辑连接合并；stringy 是 and/so 串联过长，先分组再拆句。不是句子越长越学术，关键是信息关系明确。",
+          "explanation": "连续短句如果没有说明关系，读起来会很零碎，这叫 choppy。反过来，把很多信息用 and、so 一直串下去，会形成 stringy。修改时先把相关信息分组，再决定哪些句子应该合并，哪些应该分开。",
           "example": "原创示例：We reviewed the evidence before choosing a method.",
           "before": "We reviewed the evidence, and we chose a method, and we ran a test, and we wrote a report.",
-          "after": "After reviewing the evidence, we chose a method. We then ran a test and wrote a report."
+          "after": "After reviewing the evidence, we chose a method. We then ran a test and wrote a report.",
+          "steps": [
+            "先看症状：连续短句反复重复主语、表达一个紧密意思，可能 choppy；一口气 and/so/but 串了许多层，可能 stringy。短或长本身不是错误。",
+            "给每条信息写一个关系标签：先后、原因、结果、对比、对名词的补充说明。没有关系就不要硬合成长句。",
+            "修 choppy：主次明确时把次要信息改成从句或短语，例如 We reviewed the evidence. Then we chose a method. 可用 before/after 合并。",
+            "修 stringy：先按主题或阶段分组。We reviewed ... and chose ... and ran ... and wrote ... 可分成“选方法”与“执行并报告”两组。",
+            "有相同主语的动作可以共享主语；有明确从属关系的内容用 when/because/although；重要的新阶段可另起一句。",
+            "最后朗读检查：每句重点是否清楚？原有信息是否还在？是否因删掉 and 而把两独立句直接粘在一起？"
+          ],
+          "breakdown": [
+            {
+              "text": "We reviewed the evidence",
+              "note": "主句核心：我们审查了证据。We 是主语，reviewed 是谓语。"
+            },
+            {
+              "text": "before",
+              "note": "标明先后关系：审查证据发生在选择方法之前。"
+            },
+            {
+              "text": "choosing a method.",
+              "note": "这里是 -ing 短语，共享主句中的动作执行者 We。因为主语相同，可以这样压缩；不另算一个完整独立分句。"
+            }
+          ],
+          "pitfall": "不要把“多合并”当成目标。用于强调的短句可以保留；拆长句也不能丢掉原因或结果。句法合法之外，还要让读者看得出信息之间是什么关系。",
+          "check": {
+            "prompt": "【原创理解检查】哪种改写既保留先后关系，又减少碎句？原句：We checked the data. Then we chose a model.",
+            "options": [
+              {
+                "value": "A",
+                "label": "After checking the data, we chose a model."
+              },
+              {
+                "value": "B",
+                "label": "We checked the data we chose a model."
+              },
+              {
+                "value": "C",
+                "label": "Although we checked the data, we chose a model."
+              }
+            ],
+            "answer": "A",
+            "explanation": "After 明确表示先检查再选择；两个动作共享执行者 we，开头短语与主句连接完整。",
+            "wrongExplanation": "B 删掉句号却没有加合法连接，造成 run-on；C 把先后关系改成了“虽然如此”的让步关系，改变原意。"
+          },
+          "sourceLabel": "教材第185–188页（PDF 24–27）choppy；第190–192页（PDF 29–31）stringy。分步讲解与检查题为原创辅助。"
         }
       ],
       "exercises": [
@@ -192,35 +527,227 @@
           "explanation": "topic sentence 提出主题与控制思想；supporting sentences 解释和证明；concluding sentence 回收主旨。独立段落通常需要结句，长文中的每个主体段不一定都要单独结句。",
           "example": "原创示例：Regular review improves vocabulary retention. Short daily sessions help learners revisit difficult words.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先问“这一段只想说明哪一件事？”",
+            "用主题句给方向；支撑句提供理由和证据。",
+            "需要独立收尾时，用结句回收主旨。"
+          ],
+          "breakdown": [
+            {
+              "text": "Topic sentence",
+              "note": "像一张路线图：告诉读者对象和本段要说的角度。"
+            },
+            {
+              "text": "Supporting sentences",
+              "note": "像证据：说明为什么或怎样，不能只是重复主题句。"
+            },
+            {
+              "text": "Concluding sentence",
+              "note": "像收口：总结已讲的内容，而不是突然另开一个话题。"
+            }
+          ],
+          "pitfall": "不是每段必须机械凑三类句；长文中的主体段不一定都要结句。",
+          "sourceLabel": "Paragraph Structure 书页2—4、16",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：一个独立段落要说明金的美观和用途，正文应怎样安排？",
+            "options": [
+              {
+                "value": "1",
+                "label": "只反复说gold is valuable"
+              },
+              {
+                "value": "2",
+                "label": "分别给美观、用途提供具体支撑，再回收这两点"
+              },
+              {
+                "value": "3",
+                "label": "只写黄金的价格历史"
+              }
+            ],
+            "answer": "2",
+            "explanation": "主题预告两点，支撑要兑现这两点。"
+          }
         },
         {
           "title": "Topic + controlling idea",
           "explanation": "主题回答“写什么”；控制思想回答“从哪个具体角度写”。主题句必须完整，范围适中；不能只是标题、极泛的事实或孤立细节。",
           "example": "原创示例：Studying with a partner offers two practical benefits.",
           "before": "Education is important.",
-          "after": "Peer study improves learning by encouraging explanation and regular review."
+          "after": "Peer study improves learning by encouraging explanation and regular review.",
+          "steps": [
+            "先圈“写什么”，再划“具体从哪方面写”。",
+            "检查是否有完整主谓。",
+            "删掉过宽背景和太细的单例，让范围适合一个段落。"
+          ],
+          "breakdown": [
+            {
+              "text": "Topic",
+              "note": "对象，例如Driving on freeways。"
+            },
+            {
+              "text": "Controlling idea",
+              "note": "限制方向，例如requires skill and alertness，后面就要解释skill和alertness。"
+            }
+          ],
+          "pitfall": "topic不必是语法主语，也不必在句首；不要照抄原扫描页手写圈线。",
+          "sourceLabel": "Paragraph Structure 书页4—10",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：哪一句既完整又有适中控制思想？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Education."
+              },
+              {
+                "value": "2",
+                "label": "Education is important."
+              },
+              {
+                "value": "3",
+                "label": "Daily review helps students remember new vocabulary."
+              }
+            ],
+            "answer": "3",
+            "explanation": "第三句限定到每日复习与记忆词汇的关系，可以用一个段落展开。"
+          }
         },
         {
           "title": "支撑必须具体",
           "explanation": "用解释、例子、事实、数据发展控制思想。每句都要回答“为什么/如何/例如”；不要把主旨换词反复说。练习中的数字若自拟，必须标明，不冒充调查。",
           "example": "原创示例：For example, learners can explain difficult grammar rules to each other.",
           "before": "Study groups are good. They are very helpful.",
-          "after": "Study groups help members identify errors by comparing their answers."
+          "after": "Study groups help members identify errors by comparing their answers.",
+          "steps": [
+            "找到主题句的判断。",
+            "逐句追问“凭什么？有什么例子或可核实细节？”",
+            "加入具体支撑后，检查它确实服务该判断。"
+          ],
+          "breakdown": [
+            {
+              "text": "Example",
+              "note": "一个具体情境或案例，让抽象判断看得见。"
+            },
+            {
+              "text": "Statistic",
+              "note": "数量或比例，说明规模；数据应有来源。"
+            },
+            {
+              "text": "Quotation",
+              "note": "准确引用他人原话并交代出处。"
+            }
+          ],
+          "pitfall": "不能靠very、many、good反复加强语气来代替证据；也不能把教材旧数字当现时事实。",
+          "sourceLabel": "Paragraph Structure 书页11—13",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：主题句是“通知过多影响工作”，哪种支撑最具体？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Notifications are really bad."
+              },
+              {
+                "value": "2",
+                "label": "Notifications are bad and troublesome."
+              },
+              {
+                "value": "3",
+                "label": "During a two-hour task, the worker stopped twelve times to check alerts."
+              }
+            ],
+            "answer": "3",
+            "explanation": "第三句说明了情境、时长和次数；它在本检查中是原创示例，不冒充调查结果。"
+          }
         },
         {
           "title": "识别主题句与段落顺序",
           "explanation": "主题句常在开头，也可能居中或结尾。选句题要看整段覆盖范围：过宽无法统摄，过窄只覆盖一个例子。",
           "example": "原创示例：A list of two study benefits needs a topic sentence that covers both.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先读全部支撑，找共同对象。",
+            "寻找能覆盖所有主要支撑的概括句。",
+            "排除只讲一个例子的句子，也排除大到整段无法证明的句子。"
+          ],
+          "breakdown": [
+            {
+              "text": "位置",
+              "note": "主题句通常在开头，但位置不能代替内容判断。"
+            },
+            {
+              "text": "覆盖范围",
+              "note": "主题句要罩住正文各主要部分，正文又要能兑现它。"
+            }
+          ],
+          "pitfall": "看到first或for example就选为主题句会误判；这些通常引出支撑或某一分点。",
+          "sourceLabel": "Paragraph Structure 书页5—8",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：一段分别解释三个软件功能，主题句应选哪种？",
+            "options": [
+              {
+                "value": "1",
+                "label": "只介绍第一个功能"
+              },
+              {
+                "value": "2",
+                "label": "概括软件具备的三类功能"
+              },
+              {
+                "value": "3",
+                "label": "讨论所有计算机技术历史"
+              }
+            ],
+            "answer": "2",
+            "explanation": "第二种覆盖全部支撑，另外两种分别过窄、过宽。"
+          }
         },
         {
           "title": "结句收束、不加新论点",
           "explanation": "结句可换说主题句或总结主要支撑。不能突然引入尚未讨论的新好处。In conclusion 等不是每段必需，也不宜机械重复。",
           "example": "原创示例：These benefits make peer study a useful part of exam preparation.",
           "before": "In conclusion, peer study also improves physical health.",
-          "after": "Together, shared explanations and regular practice make peer study effective."
+          "after": "Together, shared explanations and regular practice make peer study effective.",
+          "steps": [
+            "看主题句和正文已经说了什么。",
+            "选择概括要点，或换一种说法重申主旨。",
+            "检查结尾有没有突然出现未讨论的内容。"
+          ],
+          "breakdown": [
+            {
+              "text": "Summary",
+              "note": "把正文几个要点收成一句。"
+            },
+            {
+              "text": "Paraphrase",
+              "note": "保留主题句意思，换词和结构表达。"
+            },
+            {
+              "text": "End signal",
+              "note": "In short后通常用逗号；These examples show that后接从句。"
+            }
+          ],
+          "pitfall": "At last表示终于，不是普通结段信号；不要在结尾突然加“而且更贵”等未讨论观点。",
+          "sourceLabel": "Paragraph Structure 书页13—16",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：正文只讨论手机沟通方便，哪句结尾有问题？",
+            "options": [
+              {
+                "value": "1",
+                "label": "These uses make it easier to stay in touch."
+              },
+              {
+                "value": "2",
+                "label": "In short, phones help people communicate."
+              },
+              {
+                "value": "3",
+                "label": "In conclusion, phones also damage eyesight."
+              }
+            ],
+            "answer": "3",
+            "explanation": "第三句突然引入健康影响，正文没有展开或支撑。"
+          }
         }
       ],
       "exercises": [
@@ -356,42 +883,278 @@
           "explanation": "删去与控制思想无关的句子；一段如果出现两个大主题，拆段。相关词出现不等于逻辑相关。",
           "example": "原创示例：讨论听力复习方法时，“耳机价格上涨”通常需要删去。",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先用一句话概括控制思想。",
+            "逐句问“它直接解释或证明这个思想吗？”",
+            "只是提到同一个词但讨论角度不同，也要删除或另起段。"
+          ],
+          "breakdown": [
+            {
+              "text": "一个中心",
+              "note": "颜色导致身体反应，与颜色的宗教意义都是colors，却不是同一控制思想。"
+            },
+            {
+              "text": "离题细节",
+              "note": "冒险旅游段加入普通教育游，不会因为同属tourism就自动合题。"
+            }
+          ],
+          "pitfall": "相同关键词不等于相同中心；不要把有关联误当有支撑作用。",
+          "sourceLabel": "Unity and Coherence书页18—21",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：一段讨论骑车节省通勤费用，哪句最可能离题？",
+            "options": [
+              {
+                "value": "1",
+                "label": "无需支付停车费。"
+              },
+              {
+                "value": "2",
+                "label": "骑车可以减少燃油支出。"
+              },
+              {
+                "value": "3",
+                "label": "我最喜欢蓝色自行车。"
+              }
+            ],
+            "answer": "3",
+            "explanation": "颜色偏好不能证明节省费用。"
+          }
         },
         {
           "title": "四条连贯路径",
           "explanation": "重复关键词；使用一致且指代清楚的代词；选择准确连接信号；按逻辑顺序组织。连贯不等于堆连接词。",
           "example": "原创示例：Daily review is useful. This habit keeps difficult phrases active in memory.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先确定信息怎样排列。",
+            "关键对象用名词定期重现，代词能清楚回指。",
+            "在确有需要时用信号说明关系。"
+          ],
+          "breakdown": [
+            {
+              "text": "关键词",
+              "note": "像线索，把读者持续带回同一对象。"
+            },
+            {
+              "text": "代词",
+              "note": "少重复但不含混，人称和数量必须稳定。"
+            },
+            {
+              "text": "顺序与信号",
+              "note": "先后、分类、对照构成骨架，连接表达把骨架说清楚。"
+            }
+          ],
+          "pitfall": "不能靠每句开头写Furthermore来修复跳跃的信息。",
+          "sourceLabel": "Unity and Coherence书页21—22、34—37",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：两句各自语法正确，合起来却跳到无关事情，最缺什么？",
+            "options": [
+              {
+                "value": "1",
+                "label": "更长的词"
+              },
+              {
+                "value": "2",
+                "label": "信息之间清楚的联系"
+              },
+              {
+                "value": "3",
+                "label": "每句更多逗号"
+              }
+            ],
+            "answer": "2",
+            "explanation": "连贯要求读者能跟上信息推进。"
+          }
         },
         {
           "title": "关键词与代词",
           "explanation": "适量重复关键名词有助清晰；不要为避免重复随意换成含义不同的词。人称、单复数保持一致；it/they/this 必须能找到明确先行词。",
           "example": "原创示例：Students should review their notes before they begin the task.",
           "before": "Students should review your notes before he begins.",
-          "after": "Students should review their notes before they begin."
+          "after": "Students should review their notes before they begin.",
+          "steps": [
+            "找出每个it/they/this究竟指谁。",
+            "出现两个可能对象时，换回关键名词。",
+            "检查you、he/she、they是否与原主体一致。"
+          ],
+          "breakdown": [
+            {
+              "text": "Students",
+              "note": "是复数第三人称对象。"
+            },
+            {
+              "text": "their notes",
+              "note": "他们的笔记，所有格跟主体一致。"
+            },
+            {
+              "text": "they begin",
+              "note": "仍指同一批学生，不能突然改为he或you。"
+            }
+          ],
+          "pitfall": "为了避免重复而全部使用it，可能让读者分不清English和French。",
+          "sourceLabel": "Unity and Coherence书页22—25",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：Students should bring ___ notes before ___ begin. 哪组一致？",
+            "options": [
+              {
+                "value": "1",
+                "label": "your / he"
+              },
+              {
+                "value": "2",
+                "label": "their / they"
+              },
+              {
+                "value": "3",
+                "label": "his / you"
+              }
+            ],
+            "answer": "2",
+            "explanation": "复数Students需要their与they。"
+          }
         },
         {
           "title": "连接词先语义，后语法",
           "explanation": "递进 furthermore；转折 however；因果 therefore/as a result；举例 for example；比较 similarly/in contrast。because + 从句，because of + 名词短语；although + 从句，despite + 名词/动名词。",
           "example": "原创示例：Despite the high cost, the course remained popular.",
           "before": "Despite the course was expensive, it remained popular.",
-          "after": "Although the course was expensive, it remained popular."
+          "after": "Although the course was expensive, it remained popular.",
+          "steps": [
+            "先用中文说两句关系：追加、对照、举例还是结果。",
+            "再看信号后接名词还是完整主谓。",
+            "最后才决定选哪个英语表达。"
+          ],
+          "breakdown": [
+            {
+              "text": "because",
+              "note": "后接有主谓的原因从句。"
+            },
+            {
+              "text": "because of",
+              "note": "后接名词或名词短语。"
+            },
+            {
+              "text": "therefore",
+              "note": "表达结果，但本身不能充当并列连词粘连两个句子。"
+            }
+          ],
+          "pitfall": "意思相近不代表语法结构相同；despite不能直接接the course was expensive。",
+          "sourceLabel": "Unity and Coherence书页25—29",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：___ the heavy rain, the match continued. 选哪项符合结构？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Although"
+              },
+              {
+                "value": "2",
+                "label": "Despite"
+              },
+              {
+                "value": "3",
+                "label": "Because"
+              }
+            ],
+            "answer": "2",
+            "explanation": "heavy rain是名词短语，Despite可直接接它。"
+          }
         },
         {
           "title": "标点与位置",
           "explanation": "连接副词放两独立句之间时用分号/句号；并列连词用逗号连接；前置从属从句后通常加逗号。连接词不能代替句子结构。",
           "example": "原创示例：The task was difficult; nevertheless, they completed it.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "找两侧是否都是独立句。",
+            "however/therefore等连接两句时用分号或句号。",
+            "句号后信号首字母大写；句首信号通常用逗号隔开。"
+          ],
+          "breakdown": [
+            {
+              "text": "The task was difficult;",
+              "note": "前一独立句用分号结束连接处。"
+            },
+            {
+              "text": "nevertheless,",
+              "note": "表达转折，后面逗号隔开。"
+            },
+            {
+              "text": "they completed it.",
+              "note": "后一独立句有自己的主谓。"
+            }
+          ],
+          "pitfall": "A, however, B如果A和B均是独立句，仍是逗号粘连；however不是and。",
+          "sourceLabel": "Unity and Coherence书页26—30",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：哪种标点正确连接两个完整句？",
+            "options": [
+              {
+                "value": "1",
+                "label": "It rained, however, we continued."
+              },
+              {
+                "value": "2",
+                "label": "It rained; however, we continued."
+              },
+              {
+                "value": "3",
+                "label": "It rained however we continued."
+              }
+            ],
+            "answer": "2",
+            "explanation": "分号分隔两独立句；however后加逗号。"
+          }
         },
         {
           "title": "逻辑顺序与节制",
           "explanation": "按时间、分类分点、比较对照组织；先明确结构再加连接信号。过多 First/Next/Then 不会自动改善逻辑，显然的步骤可省略。",
           "example": "原创示例：Read the passage, identify its main points, and then write a summary.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "过程按步骤，历史按时间，种类按分类，对比按相同维度。",
+            "给每句安排位置，再添加必要衔接。",
+            "朗读一遍，把显得机械多余的Then/Next删掉。"
+          ],
+          "breakdown": [
+            {
+              "text": "Chronological",
+              "note": "时间或操作步骤的先后。"
+            },
+            {
+              "text": "Logical division",
+              "note": "一个主题分成几类或几个方面。"
+            },
+            {
+              "text": "Comparison/contrast",
+              "note": "围绕共同维度比较对象，而不是来回随机跳。"
+            }
+          ],
+          "pitfall": "分类中的first kind是第一种，不一定表示时间上最早。",
+          "sourceLabel": "Unity and Coherence书页32—37",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：介绍三种历法，每种分别说明特点，主要用哪种结构？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Chronological order"
+              },
+              {
+                "value": "2",
+                "label": "Logical division of ideas"
+              },
+              {
+                "value": "3",
+                "label": "随意举例"
+              }
+            ],
+            "answer": "2",
+            "explanation": "按种类拆分主题，属于分类分点。"
+          }
         }
       ],
       "exercises": [
@@ -527,42 +1290,287 @@
           "explanation": "fact 可查证，opinion 是判断；事实也需核对出处与语境。论点→证据→解释，避免只有引文没有自己的分析。教材旧数据是语言练习材料，不当作今天的统计。",
           "example": "原创示例：A quiet room supports concentration because it reduces interruptions.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先区分“评价/建议”与“可以核实的陈述”。",
+            "再看句子是否已经提供可核对的具体案例、数字或引语。",
+            "对O和F-NP提出所需证据，而不是用另一个空泛评价来支持。"
+          ],
+          "breakdown": [
+            {
+              "text": "Opinion",
+              "note": "如not severe enough包含价值判断，需要讲清标准和证据。"
+            },
+            {
+              "text": "Fact that needs proof",
+              "note": "可核实不代表本句已经证明；most、rapidly等概括往往需要统计。"
+            },
+            {
+              "text": "Specific supporting detail",
+              "note": "具体人物经历、带时间和来源的数量或直接引语，可用来支撑概括。"
+            }
+          ],
+          "pitfall": "For example只是信号，不保证后面就是充分的具体证据；有数字也要核对年份、对象与来源。",
+          "sourceLabel": "Supporting Details 书页39—41",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：“Most students prefer online classes”尚未附调查，最合适的下一步是什么？",
+            "options": [
+              {
+                "value": "1",
+                "label": "反复说online classes are good"
+              },
+              {
+                "value": "2",
+                "label": "给出有来源的偏好调查，说明样本和时间"
+              },
+              {
+                "value": "3",
+                "label": "加上very most"
+              }
+            ],
+            "answer": "2",
+            "explanation": "most是比例概括，需要相关调查。该检查是原创，不冒充教材原题。"
+          }
         },
         {
           "title": "直接引语",
           "explanation": "保留原词，用引号并标来源。报告语在前通常接逗号；引号内句首大写。中间插入报告语时，原句第二部分不因此强制大写。",
           "example": "原创示例：The tutor said, \"Review your notes carefully.\"",
           "before": "The tutor said \"review your notes carefully\".",
-          "after": "The tutor said, \"Review your notes carefully.\""
+          "after": "The tutor said, \"Review your notes carefully.\"",
+          "steps": [
+            "先标出说话人/报告语与逐字原话的边界。",
+            "给原话加成对引号，按整句或中断句放逗号和大小写。",
+            "删词用省略号，加词用方括号；引用中的引用用单引号。",
+            "最后检查文内引注及句号位置。"
+          ],
+          "breakdown": [
+            {
+              "text": "完整引语",
+              "note": "The tutor said, “Read the whole sentence.”报告语后有逗号，Read大写。"
+            },
+            {
+              "text": "中断引语",
+              "note": "“Read,” the tutor said, “the whole sentence.”后半句继续原句，不机械大写。"
+            },
+            {
+              "text": "文内引注",
+              "note": "“...” (Lee 8). 句号放在括号后；短片语融入句中时不必强加逗号。"
+            }
+          ],
+          "pitfall": "直接引用必须准确；只换同义词却仍当逐字引语会失真。教材采用其版本的美式引用规则，具体考试依课程要求。",
+          "sourceLabel": "Supporting Details 书页42—46",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：同一句引语被报告语插开，后半句应怎样开始？",
+            "options": [
+              {
+                "value": "1",
+                "label": "总是大写"
+              },
+              {
+                "value": "2",
+                "label": "总是另起一句"
+              },
+              {
+                "value": "3",
+                "label": "根据原句结构继续，必要时小写"
+              }
+            ],
+            "answer": "3",
+            "explanation": "大小写由是否是新句决定，不能仅凭出现了第二个引号判断。"
+          }
         },
         {
           "title": "间接引语",
           "explanation": "不加引号，按语境调整代词、时间词和时态。过去式报告动词常触发时态后移；仍成立的事实可保留现在时，不能机械后移。陈述语序保留。",
           "example": "原创示例：The tutor said that the task was useful.",
           "before": "The tutor said that \"the task was useful.\"",
-          "after": "The tutor said that the task was useful."
+          "after": "The tutor said that the task was useful.",
+          "steps": [
+            "去掉整段直接引号，以报告动词和必要的that引出。",
+            "按转述视角调整I/you/my等指代。",
+            "先看报告动词时态，再判断是否后移；同时保持时间指向。",
+            "比较原句，核对信息与语气没有被改强或改弱。"
+          ],
+          "breakdown": [
+            {
+              "text": "过去时报告",
+              "note": "said + can通常变为said that ... could；will通常变would。"
+            },
+            {
+              "text": "例外",
+              "note": "现在时报告动词、according to或一般真理，不机械后移。"
+            },
+            {
+              "text": "时间词",
+              "note": "now/last year是否变then/the previous year取决于转述时间；指向一致比机械换词重要。"
+            }
+          ],
+          "pitfall": "普通间接引语的人称改变不必一律加方括号；模型方括号用于显示对照中的替换。",
+          "sourceLabel": "Supporting Details 书页47—49",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：He says, “I can finish it today.”怎样转述最合适？",
+            "options": [
+              {
+                "value": "1",
+                "label": "He says that he can finish it today."
+              },
+              {
+                "value": "2",
+                "label": "He says that he could finish it yesterday."
+              },
+              {
+                "value": "3",
+                "label": "He says that “he can finish it today.”"
+              }
+            ],
+            "answer": "1",
+            "explanation": "says是现在时，无须因转述就机械后移；整句不保留直接引号。"
+          }
         },
         {
           "title": "报告动词与解释",
           "explanation": "according to、report、state、argue、suggest 反映来源立场；不要把 suggest 升格为 prove。引文后解释它如何支持主旨。",
           "example": "原创示例：The author argues that regular review is valuable. This view supports a daily practice plan.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "确认报告的是谁的哪种立场。",
+            "选能准确表达立场的report、state、claim、suggest等动词。",
+            "用according to +来源，或主语+报告动词，避免双重框架。",
+            "引用后解释材料与本段主张的关系。"
+          ],
+          "breakdown": [
+            {
+              "text": "According to",
+              "note": "后接来源名称；可以放句首或句尾，通常不插入引语中间。"
+            },
+            {
+              "text": "Reporting verb",
+              "note": "可位于引语之前、中间或之后；语气必须符合原文。"
+            },
+            {
+              "text": "分析",
+              "note": "证据后说明它支持哪个分点，不让引语自己承担全部推理。"
+            }
+          ],
+          "pitfall": "suggest只表示提出或暗示，不能改成prove并声称已经证明；一段全是引语也不等于完成自己的论证。",
+          "sourceLabel": "Supporting Details 书页43—44、49—50",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：哪种引入语避免了双重报告结构？",
+            "options": [
+              {
+                "value": "1",
+                "label": "According to Lee says that ..."
+              },
+              {
+                "value": "2",
+                "label": "According to Lee, ..."
+              },
+              {
+                "value": "3",
+                "label": "According to argues Lee that ..."
+              }
+            ],
+            "answer": "2",
+            "explanation": "According to本身已是引入来源的框架，不再叠加says。"
+          }
         },
         {
           "title": "统计信息与图表",
           "explanation": "先交代来源和主趋势，再选择关键对比。检查单位、年份、分母、百分比与百分点；区分观察值与预测值。不得虚构数据填补论据。",
           "example": "原创练习数据：A rate rising from 20% to 30% increases by 10 percentage points, or 50% relative to the initial rate.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先读标题、年份、单位、对象和来源。",
+            "区分历史观察值与当时预测值。",
+            "选择支持主旨的趋势或对比，核对增幅使用的基期。",
+            "把数值放进完整句，保留单位和引注。"
+          ],
+          "breakdown": [
+            {
+              "text": "百分比增幅",
+              "note": "(新值−旧值)÷旧值×100；Practice 5用471到623得到约32%。"
+            },
+            {
+              "text": "单位",
+              "note": "623 quadrillion Btu不能省成623 Btu；美元中的0.035也不能读成3.5美元。"
+            },
+            {
+              "text": "图的限度",
+              "note": "未标精确数值的曲线只能报告近似趋势；不能凭图造出逐点精确统计。"
+            }
+          ],
+          "pitfall": "学历与收入的组间关联不能直接证明因果；图上2025若标Projections，今天读它仍是旧预测。",
+          "sourceLabel": "Supporting Details 书页51—54",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：某2004图把2025标作Projections，引用时应怎样表述？",
+            "options": [
+              {
+                "value": "1",
+                "label": "2025实际值已被该图证实"
+              },
+              {
+                "value": "2",
+                "label": "2004资料当时预测2025将达到该值"
+              },
+              {
+                "value": "3",
+                "label": "删去年份和预测标签"
+              }
+            ],
+            "answer": "2",
+            "explanation": "保留预测身份与来源年代，避免把预测当观察结果。"
+          }
         },
         {
           "title": "来源可追溯",
           "explanation": "直接引语、转述、摘要、非公共知识的数据均需要来源。文内引用与文末条目对应；教材含较旧引用格式，考试按教师指定版本。",
           "example": "原创示例：According to the provided chart, participation increased between the two years.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "借用原话、转述或数据时，记下实际读到的来源。",
+            "在借用结束处放短引注。",
+            "确保文末条目能与短引注互相对应。",
+            "区分原说话人与报道作者，转引要清楚。"
+          ],
+          "breakdown": [
+            {
+              "text": "两层来源",
+              "note": "Yesalis说的话可由Herper文章报道；你实际引用的文章作者不等于原说话人。"
+            },
+            {
+              "text": "文内与文末",
+              "note": "文内短引注帮助定位，文末完整条目让读者找到材料。"
+            },
+            {
+              "text": "无作者",
+              "note": "本书示例以缩短标题代作者；按教师指定格式保持一致。"
+            }
+          ],
+          "pitfall": "改了措辞仍可能使用别人的思想或数据，不能因此删除来源；未提供的Appendix E不应声称已完整学习。",
+          "sourceLabel": "Supporting Details 书页41—42、54",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：将别人的统计改写成自己的句子之后，是否仍须注明来源？",
+            "options": [
+              {
+                "value": "1",
+                "label": "不须，词都不同了"
+              },
+              {
+                "value": "2",
+                "label": "仍须，因为数据来源未变"
+              },
+              {
+                "value": "3",
+                "label": "只要不超过十个字就不须"
+              }
+            ],
+            "answer": "2",
+            "explanation": "引用义务取决于借用了信息，不只看是否逐字复制。"
+          }
         }
       ],
       "exercises": [
@@ -697,42 +1705,286 @@
           "explanation": "引言提出背景和thesis；主体每段一项分论点；结论重述中心、概括主要理由并收束。150–200词训练可用四段，但字数与段数是训练安排，不是已确认考试要求。",
           "example": "原创示例：Introduction → benefit 1 → benefit 2 → conclusion.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先用一句话说清全文要解释或证明什么。",
+            "把主旨拆成几个需要分别展开的点，每个点安排一个主体段。",
+            "引言把读者带到主旨，结论带读者回看已经说明的内容。"
+          ],
+          "breakdown": [
+            {
+              "text": "Introduction",
+              "note": "告诉读者写什么、为什么值得读，最后提出中心论点。"
+            },
+            {
+              "text": "Body A → Body B",
+              "note": "分别展开两个分点，每段都要有支持解释，不能只放一句口号。"
+            },
+            {
+              "text": "Conclusion",
+              "note": "回顾全文，而不是另起一个新话题。"
+            }
+          ],
+          "pitfall": "“三部分”不是“只能三段”。主体段数量由需要展开的分点决定。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：论点列出三个需要充分解释的优点，最合理的主体安排是哪种？",
+            "options": [
+              {
+                "value": "a",
+                "label": "把三个优点塞进一段，因为文章只能有三段"
+              },
+              {
+                "value": "b",
+                "label": "每个优点各用一个主体段，再另设引言和结论"
+              },
+              {
+                "value": "c",
+                "label": "每个优点只写一个词，留到结论解释"
+              }
+            ],
+            "answer": "b",
+            "explanation": "三个部分描述功能；主体可以有多个段落。A误把部分当段数，C没有在主体展开支持。"
+          },
+          "sourceLabel": "原理：From Paragraph to Essay书页56—57（PDF1—2）；分解示例与检测为原创辅学。"
         },
         {
           "title": "引言从一般到具体",
           "explanation": "funnel introduction 先背景、再具体问题、最后thesis；也可用相关事例吸引注意。不能开头堆泛泛套话。",
           "example": "原创示例：Many students use digital resources. For exam preparation, short audio clips offer flexible and focused practice.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先给与主题有关的背景，不要把范围拉到“自古以来”。",
+            "下一句缩小到你真正要讨论的问题。",
+            "最后一句告诉读者本文的具体判断或讨论范围。"
+          ],
+          "breakdown": [
+            {
+              "text": "Many students use digital resources.",
+              "note": "原创示例：建立相关背景，但还没有告诉读者文章具体讲什么。"
+            },
+            {
+              "text": "For exam preparation,",
+              "note": "把范围缩到备考，开始对焦。"
+            },
+            {
+              "text": "short audio clips offer flexible and focused practice.",
+              "note": "提出具体判断，正文可以分别解释灵活性与针对性。"
+            }
+          ],
+          "pitfall": "吸引注意的故事或事实只是开头手段，不能代替最终论点；题材与论点应有关联。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：一段从“网上学习”讲到“短音频备考”，最后应接哪句？",
+            "options": [
+              {
+                "value": "a",
+                "label": "The Internet is very big."
+              },
+              {
+                "value": "b",
+                "label": "People have studied for thousands of years."
+              },
+              {
+                "value": "c",
+                "label": "Short audio lessons help commuters review regularly and target difficult sounds."
+              }
+            ],
+            "answer": "c",
+            "explanation": "C落到具体对象与两个可展开的好处。A/B又把话题放大，丢掉了逐步聚焦。"
+          },
+          "sourceLabel": "原理：书页59—61（PDF4—6）引言说明及四种模型；示例与检测为原创辅学。"
         },
         {
           "title": "Thesis 可发展、范围可控",
           "explanation": "避免只是事实、空泛评价或“This essay will discuss...”式纯宣布；明确中心判断和可选分点。列举分点须平行，且与主体段顺序一致。",
           "example": "原创示例：Daily review improves preparation by strengthening recall and revealing weaknesses.",
           "before": "This essay is about learning.",
-          "after": "Daily review improves preparation by strengthening recall and revealing weaknesses."
+          "after": "Daily review improves preparation by strengthening recall and revealing weaknesses.",
+          "steps": [
+            "明确讨论对象，先问“我对它要说哪一点”。",
+            "再问“正文能拿什么分点证明或解释它”。",
+            "若列分点，用相同语法形式，并按正文出现顺序列出。"
+          ],
+          "breakdown": [
+            {
+              "text": "Daily review",
+              "note": "原创示例：讨论对象具体，不是笼统的learning。"
+            },
+            {
+              "text": "improves preparation",
+              "note": "提出需要展开支持的判断。"
+            },
+            {
+              "text": "by strengthening recall and revealing weaknesses",
+              "note": "两个平行的动名词短语，直接预告两项分点。"
+            }
+          ],
+          "pitfall": "“This essay is about...”只宣布话题；“Learning is important”太泛，读者仍不知道你准备证明什么。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：哪一句最适合作为可展开的论点句？",
+            "options": [
+              {
+                "value": "a",
+                "label": "This essay is about study groups."
+              },
+              {
+                "value": "b",
+                "label": "Small study groups improve preparation through peer explanations and regular accountability."
+              },
+              {
+                "value": "c",
+                "label": "Study groups exist."
+              }
+            ],
+            "answer": "b",
+            "explanation": "B给出具体判断和两个分点。A只是宣布，C只是明显事实，均缺少可发展的中心。"
+          },
+          "sourceLabel": "原理：书页63—68（PDF8—13）Thesis Statements及Pitfalls；示例与检测为原创辅学。"
         },
         {
           "title": "Logical division 与提纲",
           "explanation": "将主题拆成互不重复、共同支撑thesis的分点。提纲各层级对齐：I/II/III 为大部分；A/B 为主体段；1/2 为支撑细节。",
           "example": "原创示例：Body A: stronger recall → repeated exposure；Body B: clearer priorities → identify errors.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "把所有材料先写出来，再按共同意思分组。",
+            "每组形成一个分点，并确认它确实支持全文论点。",
+            "用A/B表示不同主体段，1/2表示段内支持点，a/b表示具体例子。"
+          ],
+          "breakdown": [
+            {
+              "text": "II. Body → A. Stronger recall",
+              "note": "原创示例：这是主体的一段，不是一个零散例子。"
+            },
+            {
+              "text": "1. Repeated exposure",
+              "note": "解释为什么有助记忆的支持点。"
+            },
+            {
+              "text": "a. Review the same words across three short sessions",
+              "note": "具体到读者能想象的例子，属于更下一层。"
+            },
+            {
+              "text": "B. Clearer priorities",
+              "note": "与A并列的新分点，不要把它缩成A的一个例子。"
+            }
+          ],
+          "pitfall": "同一层级要回答同一种问题。不能把“优点”“一个人物”“第二个优点”并排当三个主体主题。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：A是“节省时间”，其下的1最适合写什么？",
+            "options": [
+              {
+                "value": "a",
+                "label": "减少重复整理笔记所花的时间，并给具体例子"
+              },
+              {
+                "value": "b",
+                "label": "B. 提高记忆"
+              },
+              {
+                "value": "c",
+                "label": "Conclusion"
+              }
+            ],
+            "answer": "a",
+            "explanation": "A需要属于“节省时间”的支持点。B与A应是同级分点；Conclusion是全文大部分，层级不同。"
+          },
+          "sourceLabel": "原理：书页64—65、75—77（PDF9—10、20—22）；附录A未提供，未据其编造内容；示例与检测为原创辅学。"
         },
         {
           "title": "段间衔接",
           "explanation": "新段主题句可承接上段词汇或总结上段后转入下一点。只添加Moreover而没有主题关联，仍会松散。",
           "example": "原创示例：In addition to improving recall, regular review reveals persistent errors.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先用短语概括上一段刚讲过的内容。",
+            "再提出这一段的新分点。",
+            "选能表达两者实际关系的词：补充、对照、结果或收束；最后读两段首尾看是否接得上。"
+          ],
+          "breakdown": [
+            {
+              "text": "In addition to improving recall,",
+              "note": "原创示例：回顾旧分点“改善记忆”，并说明还要再加一点。"
+            },
+            {
+              "text": "regular review",
+              "note": "保留共同主题，读者知道仍在讨论复习。"
+            },
+            {
+              "text": "reveals persistent errors.",
+              "note": "提出新分点：暴露顽固错误，下一段就围绕它展开。"
+            }
+          ],
+          "pitfall": "连接词不是装饰。前后是转折却写therefore，或每段都写Moreover而毫无共同主题，都会误导。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：上一段讲线上课程省通勤时间，下一段要讲节约费用。哪句过渡最清楚？",
+            "options": [
+              {
+                "value": "a",
+                "label": "However, time is time."
+              },
+              {
+                "value": "b",
+                "label": "In addition to saving travel time, online courses may reduce commuting costs."
+              },
+              {
+                "value": "c",
+                "label": "Therefore, there are many students."
+              }
+            ],
+            "answer": "b",
+            "explanation": "B既回顾旧点，又引出同方向的新点。A凭空制造转折，C没有说明前后因果。"
+          },
+          "sourceLabel": "原理：书页68—71（PDF13—16）段间衔接及Practice5；示例与检测为原创辅学。"
         },
         {
           "title": "结论三任务",
           "explanation": "标记收尾；重述thesis或概括分点；给与论证一致的最后评述。不能引入未经论证的新理由，也不逐字照抄引言。",
           "example": "原创示例：By improving recall and exposing weaknesses, daily review makes preparation more focused.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "用自然的收尾信号让读者知道文章将结束。",
+            "用自己的话重述中心，或把已讲过的分点简短归拢。",
+            "留下与论证相符的建议、预测或最终评述；不要临时增加新理由。"
+          ],
+          "breakdown": [
+            {
+              "text": "By improving recall and exposing weaknesses,",
+              "note": "原创示例：压缩回顾正文两个分点。"
+            },
+            {
+              "text": "daily review makes preparation more focused.",
+              "note": "回到中心判断，以新的措辞收束。"
+            },
+            {
+              "text": "A short, consistent routine is therefore worth planning.",
+              "note": "原创补充：建议来自已讨论的好处，不另引没有论证的理由。"
+            }
+          ],
+          "pitfall": "逐字复制引言会像重复播放；在结论突然增加第三个关键好处，又会让文章在应结束时重新开始。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：正文只论证了短练习方便且容易坚持，哪种结尾更合适？",
+            "options": [
+              {
+                "value": "a",
+                "label": "总结这两个好处，并建议安排固定的短练习时间"
+              },
+              {
+                "value": "b",
+                "label": "宣布短练习还可以治愈所有焦虑，但不解释"
+              },
+              {
+                "value": "c",
+                "label": "突然开始讨论学校食堂价格"
+              }
+            ],
+            "answer": "a",
+            "explanation": "A回顾已经证明的内容并给出一致建议。B增加未经支持的新主张，C离开主题。"
+          },
+          "sourceLabel": "原理：书页72—75（PDF17—20）结尾功能及Practice6/7；示例与检测为原创辅学。"
         }
       ],
       "exercises": [
@@ -869,49 +2121,301 @@
           "explanation": "cause回答为什么发生，effect回答导致什么。先确定中心结果或中心原因，再列支撑；不能只按时间先后就断定因果。",
           "example": "原创示例：A lack of sleep may reduce concentration.",
           "before": "After the course began, scores rose, so the course must have caused the increase.",
-          "after": "Scores rose after the course began, but other explanations should also be considered."
+          "after": "Scores rose after the course began, but other explanations should also be considered.",
+          "steps": [
+            "先用一句话写出正在解释的事件：它是你要找原因的“结果”，还是你要分析影响的“原因”。",
+            "给每条材料写上“为什么发生”或“发生后带来什么”，把原因和结果放到正确位置。",
+            "检查两件事之间的作用过程；若只有先后顺序，补证据或改成可能性表达。"
+          ],
+          "breakdown": [
+            {
+              "text": "cause: rapid growth of cities",
+              "note": "范文2先把城市增长过快作为分析起点。"
+            },
+            {
+              "text": "effects: inadequate sanitation; housing shortages",
+              "note": "再说明这种增长造成哪些不同生活问题。"
+            },
+            {
+              "text": "a cause → an explained process → an effect",
+              "note": "箭头需要理由；“接着发生”本身不能证明“因此发生”。"
+            }
+          ],
+          "pitfall": "看到after、then或年份就直接写caused。时间顺序帮助组织叙述，不能独自证明因果。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：开课后分数提高，但没有其他资料。哪一句较严谨？",
+            "options": [
+              {
+                "value": "a",
+                "label": "The course definitely caused the improvement."
+              },
+              {
+                "value": "b",
+                "label": "Scores improved after the course began, but other explanations are possible."
+              }
+            ],
+            "answer": "b",
+            "explanation": "b保留观察到的先后关系并承认其他解释；a的definitely比现有证据更强。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页65（教材PDF第2页）；答案册未提供标准答案/所需附件；书页75（教材PDF第12页）"
         },
         {
           "title": "Chain organization",
           "explanation": "一个原因引出结果，这个结果成为下一环原因。适合真正逐环联系的因果链，每一环需解释，而不只是事件列表。",
           "example": "原创示例：Repeated crop failure → food shortage → migration.（结构练习，不额外证明史实）",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "列出最初原因、每个中间结果和最终结果，不急着加连接词。",
+            "逐环问“这一步怎样促成下一步”，把支持这条联系的解释写在箭头旁。",
+            "按这条链安排主体段；引言交代中心事件，结尾说明最终影响。"
+          ],
+          "breakdown": [
+            {
+              "text": "failed crops → food shortage",
+              "note": "收成减少为什么影响食物供应，要说明依赖该作物等背景。"
+            },
+            {
+              "text": "food shortage → loss of possessions → migration",
+              "note": "按范文梳理中间后果时，要解释人们如何被迫卖物、失去居所并迁移；这是一种概括，不表示唯一原因。"
+            },
+            {
+              "text": "Paragraphs 5–9: a step-by-step account",
+              "note": "原书组织图用这些段落展示逐步展开的后果，最后一段回到移民与融入美国社会。"
+            }
+          ],
+          "pitfall": "把几件互不相干的影响串成“所以A、所以B”。没有前后依赖的内容应考虑分块，而不是硬造链条。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：哪组更适合写成chain？",
+            "options": [
+              {
+                "value": "a",
+                "label": "停电使冷藏中断，冷藏中断使食物变质。"
+              },
+              {
+                "value": "b",
+                "label": "一种交通政策分别影响费用、噪声和出行时间。"
+              }
+            ],
+            "answer": "a",
+            "explanation": "a的前一结果成为后一原因；b列的是并列方面，更适合分别成块分析。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页72（教材PDF第9页）；答案册未提供标准答案/所需附件"
         },
         {
           "title": "Block organization",
           "explanation": "各原因或结果没有直接先后依赖时，按块逐项分析。可以集中多个原因解释一个结果，也可由一个原因分析多个结果。",
           "example": "原创示例：Poor concentration may reflect noise, fatigue, and unclear instructions.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "固定一个中心事件，决定讨论它的多个原因还是多个影响。",
+            "把彼此没有直接先后依赖的内容分组，每段只讲一个方面。",
+            "每组按“观点—解释—证据”展开，再用合适过渡语连接，结尾回看整体影响。"
+          ],
+          "breakdown": [
+            {
+              "text": "Paragraph 2: sanitation and other facilities",
+              "note": "原书城市范文把公共设施问题集中在一段。"
+            },
+            {
+              "text": "Paragraph 3: housing supply shortage",
+              "note": "住房问题另起一段，不必宣称它由上一段每个问题造成。"
+            },
+            {
+              "text": "Paragraph 4: disease and family life",
+              "note": "继续分方面说明影响。原书图将最后改善部分合写为Paragraph 5，但实际范文改善内容跨第5、6段。"
+            }
+          ],
+          "pitfall": "所有段落用then连接，读者会误以为事件逐步发生；列并列方面时用also、another等更合适，但仍须写清关系。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：文章分别分析通勤延长对睡眠、家庭时间和开销的影响，应怎样组织？",
+            "options": [
+              {
+                "value": "a",
+                "label": "每个影响各占一段，用证据支撑。"
+              },
+              {
+                "value": "b",
+                "label": "一定写成睡眠减少导致家庭时间减少，再导致开销增加。"
+              }
+            ],
+            "answer": "a",
+            "explanation": "题目给的是三个并列影响，没有证明它们互相造成；按块分别分析更准确。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页73（教材PDF第10页）；答案册未提供标准答案/所需附件；范文书页68—69（教材PDF第5—6页）"
         },
         {
           "title": "证据与限制语",
           "explanation": "解释机制并用资料、实例、统计或引文支撑；检查遗漏原因、反向因果、过度简化。证据有限时用may/might/contribute to，不把相关性写成必然。",
           "example": "原创示例：Noise may contribute to poor concentration.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先写段落中的具体主张，再问读者凭什么相信它。",
+            "选择能直接支撑该主张的解释、实例、调查、统计或引文，并注明实际来源。",
+            "对照证据强度调整用词；无法排除其他因素时使用may、might、possible等，不把复杂现象归为单一原因。"
+          ],
+          "breakdown": [
+            {
+              "text": "claim: living conditions were poor",
+              "note": "这是需要证明的观点，不是写出来就自然成立的事实依据。"
+            },
+            {
+              "text": "support: description, statistics, a quotation",
+              "note": "原书范文用具体居住环境、数量和当时的引文说明程度。不是每种证据都要凑齐。"
+            },
+            {
+              "text": "possible / probable / likely",
+              "note": "原书引入这些限制语，帮助你区分有可能与已确定。"
+            }
+          ],
+          "pitfall": "有一个百分比就觉得因果已证实，或者抄了引文却不说明它与观点有什么关系。证据必须相关，因果机制仍须解释。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：只观察到噪声大时注意力较差，哪句强度较合适？",
+            "options": [
+              {
+                "value": "a",
+                "label": "Noise is the only cause of poor concentration."
+              },
+              {
+                "value": "b",
+                "label": "Noise may contribute to poor concentration."
+              }
+            ],
+            "answer": "b",
+            "explanation": "may contribute to表示一种可能贡献，没有排除疲劳等其他原因；only超出了这条观察。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页65（教材PDF第2页）；答案册未提供标准答案/所需附件；书页73—75（教材PDF第10—12页）"
         },
         {
           "title": "因果信号语法",
           "explanation": "because/since + 从句；because of/due to/owing to + 名词短语；result in + 结果，result from + 原因；lead to/contribute to 后接名词或动名词。therefore前需句号/分号。",
           "example": "原创示例：The delay resulted from bad weather.",
           "before": "The delay resulted in bad weather.",
-          "after": "The delay resulted from bad weather."
+          "after": "The delay resulted from bad weather.",
+          "steps": [
+            "先把两部分标为原因C和结果E，确定方向后再选连接词。",
+            "看连接词后面需要完整句还是名词短语：because + 句子，because of + 名词短语。",
+            "通读整句检查方向和标点：result from后是原因，result in后是结果；therefore连接两个完整句时先用句号或分号。"
+          ],
+          "breakdown": [
+            {
+              "text": "Because the crop failed, food became scarce.",
+              "note": "原创拆句示例：because后有主语the crop和谓语failed，是从句。"
+            },
+            {
+              "text": "Food became scarce because of the crop failure.",
+              "note": "原创对照：because of后是the crop failure名词短语。"
+            },
+            {
+              "text": "The shortage resulted from crop failure.",
+              "note": "原创方向练习：from后为原因；若用in，需要从crop failure写到the shortage。"
+            }
+          ],
+          "pitfall": "只翻译中文“因为/所以”，忽略后面是句子还是名词；也不要写两个完整句只用逗号加therefore连接。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：哪一句语法和因果方向都清楚？",
+            "options": [
+              {
+                "value": "a",
+                "label": "The delay resulted from heavy snow."
+              },
+              {
+                "value": "b",
+                "label": "The delay happened because of it snowed heavily."
+              }
+            ],
+            "answer": "a",
+            "explanation": "a的from后接名词短语heavy snow，表示原因。b的because of后误接完整句；可改because it snowed heavily。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页76（教材PDF第13页）；答案册未提供标准答案/所需附件；语法拆句与小检测为原创辅学示例"
         },
         {
           "title": "平行结构与短语动词",
           "explanation": "教材同时训练并列项对称，及put up、depend on、bring about等短语动词的可分/不可分。可分动词带代词宾语时通常把代词置中间。",
           "example": "原创示例：The city needs to improve housing, reduce pollution, and expand transport.",
           "before": "The change brought about it.",
-          "after": "The change brought it about."
+          "after": "The change brought it about.",
+          "steps": [
+            "找and/or连接的各项，标出每项是名词、形容词、动词短语还是完整句。",
+            "把同一层级的项调整为相同形式，检查是否可以共用to或其他前置成分。",
+            "遇到短语动词，连同具体用法一起确认能否拆开；可分形式带代词时把代词放中间，不及物用法不要硬加宾语。"
+          ],
+          "breakdown": [
+            {
+              "text": "to plant trees, clean up littered areas, and develop recreational facilities",
+              "note": "原书三个动词短语共用to，形成平行结构。"
+            },
+            {
+              "text": "brought about improvements → brought them about",
+              "note": "据范文用法改写：bring about可分，代词them放中间。"
+            },
+            {
+              "text": "depend on the potato → depend on it",
+              "note": "据范文用法改写：depend on不可拆开；不能写depend it on。"
+            }
+          ],
+          "pitfall": "同一个词组在不同用法中可能及物/不及物不同，不能只背词表S/I。原册对turn into、pile up的分类与范文当前不及物句式有不完全对应处，练习中已用自评说明。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：哪句同时保持平行形式和正确代词位置？",
+            "options": [
+              {
+                "value": "a",
+                "label": "They planned to find the litter, collect it, and throw away it."
+              },
+              {
+                "value": "b",
+                "label": "They planned to find the litter, collect it, and throw it away."
+              }
+            ],
+            "answer": "b",
+            "explanation": "三个动词短语共用to；throw away为可分形式，代词it必须放在throw与away之间。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页70—71（教材PDF第7—8页）；答案册未提供标准答案/所需附件；书页77—79（教材PDF第14—16页）"
         },
         {
           "title": "引用与写作流程",
           "explanation": "先找原因/结果和可靠来源，再定chain/block，列提纲、起草、检查论据、修订和校对。引用之后要解释与因果主旨的关系。",
           "example": "原创示例：The report describes a shortage. This shortage may help explain the subsequent migration.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "找一个实际来源，摘录时保留原词和标点，并记录作者、标题或可查位置；先决定这段引文要支撑什么。",
+            "把引文嵌入自己的段落：交代来源，按引语位置加标点，再说明它与原因/影响的关系。",
+            "按探索、预写、组织、初稿、修订、校对、成稿推进；写完对照任务要求，指定原表缺失时如实标明。"
+          ],
+          "breakdown": [
+            {
+              "text": "A census in 1841 reported, “Nearly half of the rural population are living in the lowest state.”",
+              "note": "原书例句：来源在前，reported后逗号，完整引语首字大写，句号在引号内。"
+            },
+            {
+              "text": "“The earth belongs to the living,” wrote Thomas Jefferson, “not to the dead.”",
+              "note": "原书例句：同一句被插入来源说明，后半not保持小写，两侧用逗号隔开。"
+            },
+            {
+              "text": "quote → explanation → paragraph claim",
+              "note": "引用后要说明它支持哪一个意思；整篇文章仍以自己的组织和分析为主。"
+            }
+          ],
+          "pitfall": "把改写当逐字引文，或把整段引用扔在段尾不解释。原教材“约四句以上用缩进”的说明是本章示范，实际课程格式要求也要核对。",
+          "check": {
+            "prompt": "原创辅学检测（非教材原题）：哪句正确处理一个被said插开的完整引语句？",
+            "options": [
+              {
+                "value": "a",
+                "label": "“The plan,” she said, “needs more evidence.”"
+              },
+              {
+                "value": "b",
+                "label": "“The plan.” she said “Needs more evidence.”"
+              }
+            ],
+            "answer": "a",
+            "explanation": "插入语没有结束原引语句，前后用逗号，后半needs不用大写。"
+          },
+          "sourceLabel": "Cause / Effect Essays 书页79—85（教材PDF第16—22页）；答案册未提供标准答案/所需附件"
         }
       ],
       "exercises": [
@@ -1048,49 +2552,309 @@
           "explanation": "争议背景→明确立场→理由与证据→counterargument→rebuttal→结论。论证不是情绪化争吵，也不是只列正方理由。",
           "example": "原创示例：Although online classes offer flexibility, some tasks still benefit from face-to-face interaction.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先用一句话写清可以争论的问题，再写作者主张；主张应说明赞成什么或反对什么，不能只是介绍话题。",
+            "为主张列出至少一个理由，再补可核查的事实、例子或研究作为支持；检查证据是否真的能推出该理由。",
+            "替对方写出一个公平、具体的反对理由，接着解释其证据或适用范围为何不足；结尾回到自己的主张。"
+          ],
+          "breakdown": [
+            {
+              "text": "Although online classes offer flexibility,",
+              "note": "让步：先承认线上课堂灵活这一优点，使对方观点被准确呈现。although 引导的部分不能单独当完整句。"
+            },
+            {
+              "text": "some tasks still benefit from face-to-face interaction.",
+              "note": "主句提出作者的有限主张：某些任务仍受益于面对面交流。下一步要说明哪些任务、为什么；这句话本身还不是充分证据。"
+            }
+          ],
+          "pitfall": "只写“我同意”或列优点还不够；也不要把 although 后的让步误认成作者最终立场。对方观点、回应和证据要分得清。",
+          "check": {
+            "prompt": "【原创理解检查】作者主张“学校应保留部分面授课”，哪一句最适合作为需要回应的反方理由？",
+            "options": [
+              {
+                "value": "A",
+                "label": "线上课能减少通勤，对远距离学生更方便。"
+              },
+              {
+                "value": "B",
+                "label": "我很喜欢学校的建筑。"
+              },
+              {
+                "value": "C",
+                "label": "学校应保留部分面授课。"
+              }
+            ],
+            "answer": "A",
+            "explanation": "A 给出支持另一种安排的理由，可以据此讨论方便与教学任务的权衡。B 与争点关联弱；C 只重复作者主张，没有形成反方理由。"
+          },
+          "sourceLabel": "教材 Argumentative Essays 书页 147、155、160（PDF 2、10、15 页）；讲解例句与理解检查为原创。"
         },
         {
           "title": "Block 与 point-by-point",
           "explanation": "block：反方与反驳集中一组，己方论证集中另一组；point-by-point：每一重点下呈现反方、反驳和证据。两种都要让读者知道作者最终立场。",
           "example": "原创示例：Cost objection → response; quality objection → response.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先列争论中的几个具体问题，如费用、质量、时间；为每个问题配上反方理由、自己的回应和支持。",
+            "选 block 时，把反方与回应集中在一组段落，再用另一组段落展开己方理由；选 point-by-point 时，每个问题就近完成反方—回应—证据。",
+            "用段落提纲检查读者能否看出每一条回应针对什么，以及作者最后支持哪一方。教材图示是常见安排，实际文章可以调整顺序。"
+          ],
+          "breakdown": [
+            {
+              "text": "Cost objection → response;",
+              "note": "围绕费用这个问题，先呈现质疑，再紧接着回应；这是一组局部论证。"
+            },
+            {
+              "text": "quality objection → response.",
+              "note": "转到质量时再完成另一组质疑和回应。因此原示例体现逐点处理；若把所有质疑放一起、己方支持另起一组，则更接近 block。"
+            }
+          ],
+          "pitfall": "不要把“段落数量”当成两种结构的区别。核心是双方材料如何编排；逐点式也可以先写己方主张，再写反方与反驳。",
+          "check": {
+            "prompt": "【原创理解检查】一篇文章先在费用段讨论反方与回应，再在质量段讨论反方与回应，属于哪种主要安排？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Point-by-point：逐个问题就近处理双方观点。"
+              },
+              {
+                "value": "B",
+                "label": "Block：全部反方和全部己方必须分成两个整块。"
+              },
+              {
+                "value": "C",
+                "label": "没有引用数字，所以不能判断组织方式。"
+              }
+            ],
+            "answer": "A",
+            "explanation": "按费用、质量分别对照双方，是逐点式。是否使用数字影响证据力度，不决定文章的组织方式。"
+          },
+          "sourceLabel": "教材书页 156–157（PDF 11–12 页）；示意与理解检查为原创。"
         },
         {
           "title": "框定争议与受众",
           "explanation": "引言交代双方争点和作者判断。考虑supportive/neutral/antagonistic读者；不同受众需要不同背景与证据，但不能歪曲对方观点。",
           "example": "原创示例：Some students question the cost of university, while others emphasize its long-term value.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "用中性语言交代争议的两边，避免在介绍对方时先贴贬义标签；随后给出自己的可讨论立场。",
+            "设想读者是支持、尚未决定还是反对：他们已经知道什么，又最可能追问什么？把这些问题写在提纲旁。",
+            "为读者的主要疑问准备合适的解释和证据。支持者也需要理由；中立和反对者通常更需要可核查的支持，情绪化措辞不能代替证据。"
+          ],
+          "breakdown": [
+            {
+              "text": "Some students question the cost of university,",
+              "note": "先呈现一方关切：大学费用是否值得。question 在这里是质疑，不等于“完全反对大学”。"
+            },
+            {
+              "text": "while others emphasize its long-term value.",
+              "note": "while 表对照，呈现另一方关切。整句说明争议的两面，但还没有明确作者选择哪一边；引言下一句需要补自己的判断。"
+            }
+          ],
+          "pitfall": "把双方说完不等于已经写出 thesis。迎合受众也不等于删掉不利证据；应改变解释重点，不应歪曲对方。",
+          "check": {
+            "prompt": "【原创理解检查】“Some students worry about tuition, while others value the degree.” 单独作引言结尾时，最需要补充什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "作者对争议的明确判断，以及后文将支持的方向。"
+              },
+              {
+                "value": "B",
+                "label": "再重复一遍两种人的人数。"
+              },
+              {
+                "value": "C",
+                "label": "把反对方称作无知的人。"
+              }
+            ],
+            "answer": "A",
+            "explanation": "原句只框定争议，读者还不知道作者最终立场。人数可能成为证据，但不能自动替代主张；攻击人也不是论证。"
+          },
+          "sourceLabel": "教材书页 158、161–162（PDF 13、16–17 页）；例句与理解检查为原创。"
         },
         {
           "title": "让步与反驳",
           "explanation": "可以指出证据不充分、承认部分合理再说明局限，或权衡双方后坚持立场。避免稻草人，反驳针对理由而非攻击持论者。",
           "example": "原创示例：Admittedly, the course is expensive. However, its flexible schedule can reduce travel costs.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先准确复述反方的一条理由，判断其中是否存在你可以承认的事实；承认局部事实不等于接受对方全部结论。",
+            "选择合适回应：指出证据不足，承认优点再说明局限，或权衡双方后解释哪个因素更重要。具体说清反驳针对哪一步推论。",
+            "补上事实、例子或限定条件支撑回应，检查有没有攻击说话者、夸大对方主张或仅用 however 宣布反对。"
+          ],
+          "breakdown": [
+            {
+              "text": "Admittedly, the course is expensive.",
+              "note": "Admittedly 标出让步：承认课程费用高。句子到句号结束，先让承认的内容完整成立。"
+            },
+            {
+              "text": "However, its flexible schedule can reduce travel costs.",
+              "note": "However 转向回应：灵活安排可能节省交通费。can 表可能的好处，不保证总成本一定更低；还需比较实际费用。"
+            }
+          ],
+          "pitfall": "转折词本身不会产生反驳。承认“贵”后说“很好”太空泛；要说明另一项成本或收益怎样改变结论，且不能把“可能节省”写成“必然划算”。",
+          "check": {
+            "prompt": "【原创理解检查】反方说“这门课学费高，因此绝不值得上”，哪项回应最符合让步后限定结论？",
+            "options": [
+              {
+                "value": "A",
+                "label": "学费确实高，但若省下的通勤与住宿费足够多，总费用仍可能较低。"
+              },
+              {
+                "value": "B",
+                "label": "提出这个问题的人都很懒。"
+              },
+              {
+                "value": "C",
+                "label": "However, however, however."
+              }
+            ],
+            "answer": "A",
+            "explanation": "A 承认学费事实，再以明确条件检验“绝不值得”的过强结论。B 攻击人，C 只有连接词，都没有回应推理。"
+          },
+          "sourceLabel": "教材书页 162–164（PDF 17–19 页）；例句与理解检查为原创。"
         },
         {
           "title": "情态动词与短语情态",
           "explanation": "should建议，must强要求，may/might可能，could可能/建议；后接动词原形。be able to/have to/ought to按各自结构，be/have随主语与时态变化。",
           "example": "原创示例：Students should evaluate evidence carefully.",
           "before": "Students should to evaluate evidence.",
-          "after": "Students should evaluate evidence."
+          "after": "Students should evaluate evidence.",
+          "steps": [
+            "先决定要表达建议、义务、许可、能力还是可能性，再选 should、must、may、might、could 等；不要仅凭中文“能”机械对应一个词。",
+            "情态动词后直接接动词原形：should evaluate，不能写 should to evaluate，也不能给 evaluate 加 s。若接被动，用 be + 过去分词。",
+            "改成短语情态时按结构变化：be able to、have to、be allowed to、ought to 等。be/have 需要随主语和时态变化，而且不同表达的语气不一定完全相同。"
+          ],
+          "breakdown": [
+            {
+              "text": "Students",
+              "note": "主语是复数名词，说明是谁执行动作。情态动词本身不会因此加 s。"
+            },
+            {
+              "text": "should",
+              "note": "表示建议或应当，强度通常不同于 must；本句是在建议怎样处理证据。"
+            },
+            {
+              "text": "evaluate evidence carefully.",
+              "note": "should 后用 evaluate 原形，不加 to。evidence 是宾语，carefully 说明评估方式。"
+            }
+          ],
+          "pitfall": "should to do 是常见错误；ought to do 则必须保留 to。也不要把 must 的强义务和 might 的可能性当成可随意互换的同义表达。",
+          "check": {
+            "prompt": "【原创理解检查】哪一句同时保持“学生应仔细核对证据”的建议语气与正确结构？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Students should check the evidence carefully."
+              },
+              {
+                "value": "B",
+                "label": "Students should to check the evidence carefully."
+              },
+              {
+                "value": "C",
+                "label": "Students should checks the evidence carefully."
+              }
+            ],
+            "answer": "A",
+            "explanation": "should 后直接接动词原形 check。B 多了 to；C 错给动词加 s。"
+          },
+          "sourceLabel": "教材书页 151–153（PDF 6–8 页）；例句与理解检查为原创。"
         },
         {
           "title": "建议类虚拟语气",
           "explanation": "suggest/recommend/require/insist等表示建议或要求时可用that + 主语 + 动词原形；否定为not + 原形，被动为be + 过去分词。注意suggest表示“表明”时不机械套虚拟。",
           "example": "原创示例：The committee recommends that the policy be revised.",
           "before": "The committee recommends that the policy is revised.",
-          "after": "The committee recommends that the policy be revised."
+          "after": "The committee recommends that the policy be revised.",
+          "steps": [
+            "先看主句是否在提出建议、要求或坚持某事应当发生；若 suggest 只是表示“迹象表明”，不能自动套用建议类虚拟。",
+            "在 that 从句中先放完整主语，再用动词原形。即使主语是单数，也不改成三单形式；否定放 not + 原形。",
+            "需要被动时用 be + 过去分词，例如 that the policy be revised。最后检查意思是否仍是“建议修改”，没有变成“描述已经修改”。"
+          ],
+          "breakdown": [
+            {
+              "text": "The committee recommends",
+              "note": "主句明确提出建议，因此后面的从句表达希望实施的安排。"
+            },
+            {
+              "text": "that the policy",
+              "note": "that 引出建议内容，the policy 是从句主语；它是被修改的对象。"
+            },
+            {
+              "text": "be revised.",
+              "note": "被动结构用 be 原形 + revised 过去分词。这里不用 is revised，因为不是单纯报告政策现状。"
+            }
+          ],
+          "pitfall": "不要因 the policy 是单数就写 is；建议类从句保留 be 原形。但在“证据表明……”的事实陈述里，也不要反过来误用这一结构。",
+          "check": {
+            "prompt": "【原创理解检查】委员会建议延期审查，按本节句式应填：The committee recommends that the review ___ postponed.",
+            "options": [
+              {
+                "value": "A",
+                "label": "be"
+              },
+              {
+                "value": "B",
+                "label": "is"
+              },
+              {
+                "value": "C",
+                "label": "being"
+              }
+            ],
+            "answer": "A",
+            "explanation": "recommend 在此提出建议，that 从句的被动式为 be postponed。be 保持原形。"
+          },
+          "sourceLabel": "教材书页 154（PDF 9 页）；例句与理解检查为原创。"
         },
         {
           "title": "报告动词和词性",
           "explanation": "claim/argue/assert指提出主张；concede承认部分；challenge/refute质疑/反驳。词性变化要适配句子，如benefit/beneficial、significance/significant。",
           "example": "原创示例：Critics challenge the claim, but supporters provide additional evidence.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先判断引述者在做什么：提出主张可用 argue/claim，承认局部理由可用 concede，质疑可用 challenge。选词要与原作者的态度和证据强度相符。",
+            "把引述来源和观点分开：Critics challenge... 告诉读者这是批评者的动作；不要把别人提出的 claim 写成已经证实的事实。",
+            "最后按句子位置检查词性和形式：形容词修饰名词，动词随时态和主语变化，可数名词检查单复数。不要只看到题干词根就原样填入。"
+          ],
+          "breakdown": [
+            {
+              "text": "Critics challenge the claim,",
+              "note": "Critics 指出谁在行动；challenge 表示质疑这项主张，并未声称已经成功证伪。"
+            },
+            {
+              "text": "but supporters provide additional evidence.",
+              "note": "but 连接另一方回应。provide evidence 表示给出支持；证据是否充分仍需读者检查，不能仅凭 additional 就断言观点正确。"
+            }
+          ],
+          "pitfall": "refute 通常比 challenge 更强，不能把“提出质疑”随意改成“已驳倒”。词形题也要读整个句子：a therapeutic method 要形容词，而 receive therapy 要名词。",
+          "check": {
+            "prompt": "【原创理解检查】根据句子位置，选择正确词形：The treatment has a ___ effect.",
+            "options": [
+              {
+                "value": "A",
+                "label": "therapeutic"
+              },
+              {
+                "value": "B",
+                "label": "therapy"
+              },
+              {
+                "value": "C",
+                "label": "therapies"
+              }
+            ],
+            "answer": "A",
+            "explanation": "空格位于冠词 a 与名词 effect 之间，需要修饰 effect 的形容词 therapeutic。therapy/therapies 是名词形式。"
+          },
+          "sourceLabel": "教材书页 158–159、165（PDF 13–14、20 页）；例句与理解检查为原创。"
         }
       ],
       "exercises": [
@@ -1228,42 +2992,311 @@
           "explanation": "paraphrase以自己词汇和句式保留原段的主要信息与必要细节，长度通常相近；summary显著缩短，只保留主旨和主要支撑。两者均不能添加个人观点或改变原义。",
           "example": "原创示例：Original: Regular practice can improve recall. Paraphrase: Learners may remember more effectively through consistent practice.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先读任务动词：paraphrase要换表达并保留几乎全部信息；summarize要先决定哪些细节可以删。",
+            "用一句中文说原文在讲什么，再列主要点和限制。Regular practice can improve recall. 的关键是“经常练习”“可能改善回忆”，不是“必定满分”。",
+            "改写时换信息起点或结构；摘要时保留共同主旨，把反复举的例子压缩。",
+            "核查some/all、can/will、时间、数字、否定和因果；内容变得更短或更漂亮都不能成为改义理由。",
+            "实际借用外部资料时保留来源；本规则的例句明确为原创，不冒充教材引用。"
+          ],
+          "breakdown": [
+            {
+              "text": "Regular practice",
+              "note": "原句起点：经常练习。"
+            },
+            {
+              "text": "can improve recall.",
+              "note": "语气为可能带来改善，不是必然记住一切。"
+            },
+            {
+              "text": "Learners may remember more effectively",
+              "note": "改写转为以学习者为主语，并保留may的可能性。"
+            },
+            {
+              "text": "through consistent practice.",
+              "note": "把练习移到方式短语里，仍保留因果含义。"
+            }
+          ],
+          "pitfall": "不要把“改写”当成删句任务，也不要把“摘要”写成逐句换词。先确定任务要保留多大范围。",
+          "check": {
+            "prompt": "【原创理解检查】原句：Some students may benefit from group study. 哪句忠实改写？",
+            "options": [
+              {
+                "value": "A",
+                "label": "All students will improve if they study together."
+              },
+              {
+                "value": "B",
+                "label": "Studying with others can help some learners."
+              },
+              {
+                "value": "C",
+                "label": "Group study is always better than studying alone."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B保留some与may/can。A扩大到所有人并变成必然；C新增比较和always。",
+            "wrongExplanation": "B保留some与may/can。A扩大到所有人并变成必然；C新增比较和always。"
+          },
+          "sourceLabel": "教材第127–130、136–138页；分步讲解与检查题为原创辅助。"
         },
         {
           "title": "两类常见问题",
           "explanation": "没有引用思想来源；虽有引用却只换少数词、保留原句结构。考试判断标签包括Too sim.、No cit.、Inc./Inacc.。",
           "example": "原创示例：may不能改成will，some不能改成all。",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先查来源：能否看到作者、页码/段号或可定位的题名？不能只说“网上有人说”。",
+            "再查独立表达：按句子比较主语、谓语和排列顺序。只替换main→principal等几个词，不代表已经用自己的结构重写。",
+            "再查准确性：是否少了限定、加了原文没有的结论？缺引用、过近和失真可能同时存在，考试按题目指定分类。",
+            "Practice题给作者引导语时，仍检查页码是否齐全；这是本教材No cit.分类的依据。"
+          ],
+          "breakdown": [
+            {
+              "text": "may",
+              "note": "只是可能；改成will会提高确定性。"
+            },
+            {
+              "text": "不能改成will",
+              "note": "这不是同义替换，而是在替作者作更强保证。"
+            },
+            {
+              "text": "some",
+              "note": "限定为一部分对象。"
+            },
+            {
+              "text": "不能改成all",
+              "note": "范围扩大，不忠实于原意。"
+            }
+          ],
+          "pitfall": "有引用也可能措辞过近；句子变了很多也可能遗漏引用。这是两项独立检查，不是二选一通行证。",
+          "check": {
+            "prompt": "【原创理解检查】引用已写全，但整段逐句照原结构，只换几个近义词。主要问题是什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "Too sim.：表达过于接近原文"
+              },
+              {
+                "value": "B",
+                "label": "只要有引用就没有问题"
+              },
+              {
+                "value": "C",
+                "label": "必然是No cit.：完全没有引用"
+              }
+            ],
+            "answer": "A",
+            "explanation": "引用解决出处问题，不能自动解决照抄结构的问题；本题已说明引用完整，所以不能判成缺引用。",
+            "wrongExplanation": "引用解决出处问题，不能自动解决照抄结构的问题；本题已说明引用完整，所以不能判成缺引用。"
+          },
+          "sourceLabel": "教材第128–132页；分步讲解与检查题为原创辅助。"
         },
         {
           "title": "五步改写",
           "explanation": "反复读懂→记关键词而非整句→合上原文写→逐项对照范围、因果、否定、数字与语气→加文内引用。术语可保留，不强求每个词都找近义词。",
           "example": "原创示例：理解原因/结果关系后，再用result from代替because结构。",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "第1步反复读到能脱稿解释；只查不懂的词，专业词不必硬换。",
+            "第2步记关键词和逻辑箭头，不把整句搬进笔记。",
+            "第3步关上原文，依笔记写出完整表达；这样更容易摆脱原句顺序。",
+            "第4步打开原文逐点核查：主体、范围、时间、数量、因果、语气是否一致。",
+            "第5步补文内引用；作者在引导语出现时，括号按课程要求保留页码或段号。"
+          ],
+          "breakdown": [
+            {
+              "text": "原因/结果关系",
+              "note": "先确定谁引起谁，不只是找近义词。"
+            },
+            {
+              "text": "because",
+              "note": "常把原因接在结果陈述后。"
+            },
+            {
+              "text": "result from",
+              "note": "主语是结果，from后接原因；不能把因果方向倒过来。"
+            }
+          ],
+          "pitfall": "边盯着原文边替换词，很容易保留整句骨架；只读一遍就写又容易漏信息。用“理解—关键词—合上—核对”分开两种风险。",
+          "check": {
+            "prompt": "【原创理解检查】完成关键词笔记后，下一步最符合教材方法的是？",
+            "options": [
+              {
+                "value": "A",
+                "label": "看着原句逐词找近义词"
+              },
+              {
+                "value": "B",
+                "label": "关上原文，根据笔记独立写，再回去核对"
+              },
+              {
+                "value": "C",
+                "label": "删掉所有数字和限定词"
+              }
+            ],
+            "answer": "B",
+            "explanation": "先独立写降低贴近原句的风险，再对照核查防止失真；数字与限定是否保留由任务和原义决定。",
+            "wrongExplanation": "先独立写降低贴近原句的风险，再对照核查防止失真；数字与限定是否保留由任务和原义决定。"
+          },
+          "sourceLabel": "教材第130、132页；分步讲解与检查题为原创辅助。"
         },
         {
           "title": "同义替换加句法重构",
           "explanation": "主动/被动转换；名词化/动词化；拆句/合句；从句与短语转换；改变信息起点。变化服务于准确，不为改写而扭曲重点。",
           "example": "原创示例：The researchers analyzed the data. → The data were analyzed by the researchers.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先保留“谁做什么、对象是什么”的事实框架。",
+            "可主动改被动：The researchers analyzed the data. → The data were analyzed by the researchers. 主体对象没有互换。",
+            "可拆分或合并句子，但原有因果、对比或条件仍须显式保留。",
+            "可把名词表达转为动词表达，或改变信息起点；每改一处，都重新问读者能否得到相同意思。",
+            "单独做一次被动转换并不保证改写充分；整段仍需独立组织，并保留来源。"
+          ],
+          "breakdown": [
+            {
+              "text": "The researchers analyzed the data.",
+              "note": "主动句：研究者是施事，数据是被分析对象。"
+            },
+            {
+              "text": "The data",
+              "note": "被动句把对象放到主语位置，改变信息起点。"
+            },
+            {
+              "text": "were analyzed",
+              "note": "保持过去时，be + 过去分词构成被动。"
+            },
+            {
+              "text": "by the researchers.",
+              "note": "原来的行动者仍保留，没有改成“数据分析研究者”。"
+            }
+          ],
+          "pitfall": "不能为了避免重复把技术概念换成近似但不同的概念。例如“产生更少钙”与“流失钙”不能不加辨别地当成同一句科学解释。",
+          "check": {
+            "prompt": "【原创理解检查】The researchers tested the samples. 哪个变化保留了谁做什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "The samples tested the researchers."
+              },
+              {
+                "value": "B",
+                "label": "The samples were tested by the researchers."
+              },
+              {
+                "value": "C",
+                "label": "The researchers will test different samples."
+              }
+            ],
+            "answer": "B",
+            "explanation": "B保留原行动者、对象与过去时；A颠倒角色，C改了时间及对象。",
+            "wrongExplanation": "B保留原行动者、对象与过去时；A颠倒角色，C改了时间及对象。"
+          },
+          "sourceLabel": "教材第129–134页；分步讲解与检查题为原创辅助。"
         },
         {
           "title": "摘要取舍",
           "explanation": "保留研究/文章核心问题、主要发现或主张及必要限制；删去例子、重复、次要数字与修辞。依据题干要求决定是否保留作者名、字数与来源。",
           "example": "原创示例：A passage that gives three examples of review benefits can be summarized by the shared benefit.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先写一条主旨：作者最终想让读者知道什么？",
+            "给各句分工：核心主张、主要理由、例子、重复、细节。摘要保留前两类，后几类通常压缩。",
+            "不要把原文没有的合理猜测写进去；“其他公司很快跟进”也需要来源明确说过。",
+            "保留会改变结论的限制：可能、部分地区、当时预测、时间范围等。",
+            "写完比较长度与覆盖范围：明显短于原文，但不是短到漏掉另一半主旨。"
+          ],
+          "breakdown": [
+            {
+              "text": "three examples",
+              "note": "三种例子可能只是说明同一个好处，不必逐一复述。"
+            },
+            {
+              "text": "review benefits",
+              "note": "先找例子共同支持的中心意思。"
+            },
+            {
+              "text": "the shared benefit",
+              "note": "摘要用一句概括共同主旨，但不能新增没有证据的好处。"
+            }
+          ],
+          "pitfall": "短不等于好。摘要若把“每两周”写成“每天”、把“可能”写成“必然”，即使很简洁也失真。",
+          "check": {
+            "prompt": "【原创理解检查】原文只说两家公司已推出服务。哪句话不应擅自加进摘要？",
+            "options": [
+              {
+                "value": "A",
+                "label": "The passage discusses two companies’ services."
+              },
+              {
+                "value": "B",
+                "label": "Both companies have introduced services."
+              },
+              {
+                "value": "C",
+                "label": "All other companies will soon follow them."
+              }
+            ],
+            "answer": "C",
+            "explanation": "C新增对所有其他公司的未来预测；原文没有给出这个判断。",
+            "wrongExplanation": "C新增对所有其他公司的未来预测；原文没有给出这个判断。"
+          },
+          "sourceLabel": "教材第137–140页；分步讲解与检查题为原创辅助。"
         },
         {
           "title": "作为论据使用",
           "explanation": "先写自己的主题句，再用来源的改写/摘要支撑，随后解释联系。不是把别人的摘要拼在一起替代自己的论证。",
           "example": "原创示例：Frequent review deserves a place in study plans. The supplied passage explains how repeated exposure supports recall. This supports short daily sessions.",
           "before": "",
-          "after": ""
+          "after": "",
+          "steps": [
+            "先写自己的主题句，明确你想论证什么，而不是先贴一段来源。",
+            "挑与这一主张直接相关的改写或摘要，删去不服务于段落重点的材料。",
+            "紧接借用内容给文内引用，使读者分得清来源信息和你的推论。",
+            "引用后用自己的句子解释“这说明什么、为什么支持我的观点”。",
+            "用结句把证据带回主题；如果拿掉引用，仍应看得出你自己的论证骨架。"
+          ],
+          "breakdown": [
+            {
+              "text": "Frequent review deserves a place in study plans.",
+              "note": "自己的主题句：提出安排复习的主张。"
+            },
+            {
+              "text": "The supplied passage explains how repeated exposure supports recall.",
+              "note": "来源提供的证据；实际作答应注明所给来源。"
+            },
+            {
+              "text": "This supports short daily sessions.",
+              "note": "回到自己的应用解释，说明证据如何支持学习安排。"
+            }
+          ],
+          "pitfall": "引用不能代替解释；也不能把自己的例子说成来源作者做过的研究。个人经历标清楚，统计数据必须有真实来源。",
+          "check": {
+            "prompt": "【原创理解检查】主题句后放入一个相关摘要并标了来源，接下来最应做什么？",
+            "options": [
+              {
+                "value": "A",
+                "label": "解释这条证据为什么支持主题句"
+              },
+              {
+                "value": "B",
+                "label": "换到一个完全无关的新主题"
+              },
+              {
+                "value": "C",
+                "label": "把来源作者的观点当自己的新发现"
+              }
+            ],
+            "answer": "A",
+            "explanation": "证据与主张之间需要你解释联系；只有引用而没有分析，读者未必知道它在段落中的作用。",
+            "wrongExplanation": "证据与主张之间需要你解释联系；只有引用而没有分析，读者未必知道它在段落中的作用。"
+          },
+          "sourceLabel": "教材第135–136、141页；分步讲解与检查题为原创辅助。"
         }
       ],
       "exercises": [

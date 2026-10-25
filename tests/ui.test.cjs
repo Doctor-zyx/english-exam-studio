@@ -170,17 +170,18 @@ test('chapter map links return to the catalog after visiting an individual chapt
 test('textbook self-review is listed centrally and opens the exact original mission',async()=>{
   const a=await app();try{
     await a.route('writing');a.q('[data-course="paragraph"]').click();
-    a.q('[data-ch-action="mission"][data-index="1"]').click();
-    a.input('#ch-open-answer','1. My attempt at the original textbook exercise.');
-    a.q('[data-ch-action="submit-open"]').click();
-    a.q('[data-ch-action="self-mission"][data-choice="review"]').click();
+    a.q('[data-ch-action="practice-tab"]').click();
+    a.input('#ch-item-response','My attempt at the original textbook exercise.');
+    a.q('[data-ch-action="check-item"]').click();
+    a.q('[data-ch-action="self-item"][data-choice="review"]').click();
     await a.route('home');assert.match(a.q('.review-portal').textContent,/1 组原题待复习/);
     await a.route('mistakes');const button=a.q('[data-review-course="paragraph"]');assert.ok(button);
     const expected=button.dataset.reviewMission;button.click();await pause();
-    assert.ok(a.q('#ch-open-answer'));assert.match(a.q('#ch-open-answer').value,/My attempt/);
-    assert.equal(a.w.eval("JSON.parse(S.drafts['chapter:paragraph:position']).missionIndex"),1);
-    assert.equal(expected,a.w.eval('D.courses.find(c=>c.id==="paragraph").missions[1].id'));
-    a.q('[data-ch-action="review-toggle"]').click();await a.route('mistakes');
+    assert.ok(a.q('#ch-item-response'));assert.match(a.q('#ch-item-response').value,/My attempt/);
+    assert.equal(a.w.eval("JSON.parse(S.drafts['chapter:paragraph:position']).missionIndex"),0);
+    assert.equal(expected,a.w.eval('D.courses.find(c=>c.id==="paragraph").missions[0].id'));
+    a.q('[data-ch-action="edit-item"]').click();a.q('[data-ch-action="check-item"]').click();
+    a.q('[data-ch-action="self-item"][data-choice="mastered"]').click();await a.route('mistakes');
     assert.equal(a.q('[data-review-course]'),null);assert.match(a.q('#main').textContent,/暂时没有待复习/);
     assert.deepEqual(a.failures,[]);
   }finally{a.close()}

@@ -1,0 +1,1816 @@
+{
+  "courses": [
+    {
+      "id": "paragraph",
+      "missions": [
+        {
+          "id": "paragraph-model-gold",
+          "instructions": "读完整模型 Gold，逐项完成4个 Writing Technique Questions。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-model-gold-1",
+              "sourceNumber": "1",
+              "prompt": "What is the topic of the paragraph?",
+              "answer": "Gold.",
+              "explanation": "主题是全文一直谈论的对象，不是其中一个例子。",
+              "sourceLabel": "Paragraph Structure 书页 3；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Gold\n\n1. Gold, a precious metal, is prized for two important characteristics. 2. First of all, gold has a lustrous beauty that is resistant to corrosion. 3. Therefore, it is suitable for jewelry, coins, and ornamental purposes. 4. Gold never needs to be polished and will remain beautiful forever. 5. For example, a Macedonian coin remains as untarnished today as the day it was made 25 centuries ago. 6. Another important characteristic of gold is its usefulness to industry and science. 7. For many years, it has been used in hundreds of industrial applications, such as photography and dentistry. 8. The most recent use of gold is in astronauts’ suits. 9. Astronauts wear gold-plated heat shields for protection when they go outside spaceships in space. 10. In conclusion, gold is treasured not only for its beauty but also for its utility.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-gold-2",
+              "sourceNumber": "2",
+              "prompt": "What two main points does the writer make about the topic?",
+              "answer": "Gold is beautiful and useful.",
+              "explanation": "第2句开始谈美观，第6句转向工业与科学用途。",
+              "sourceLabel": "Paragraph Structure 书页 3；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Gold\n\n1. Gold, a precious metal, is prized for two important characteristics. 2. First of all, gold has a lustrous beauty that is resistant to corrosion. 3. Therefore, it is suitable for jewelry, coins, and ornamental purposes. 4. Gold never needs to be polished and will remain beautiful forever. 5. For example, a Macedonian coin remains as untarnished today as the day it was made 25 centuries ago. 6. Another important characteristic of gold is its usefulness to industry and science. 7. For many years, it has been used in hundreds of industrial applications, such as photography and dentistry. 8. The most recent use of gold is in astronauts’ suits. 9. Astronauts wear gold-plated heat shields for protection when they go outside spaceships in space. 10. In conclusion, gold is treasured not only for its beauty but also for its utility.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-gold-3",
+              "sourceNumber": "3",
+              "prompt": "In which two sentences does the writer say that there are two main points?",
+              "answer": "Sentences 1 and 10.",
+              "explanation": "首句预告 two important characteristics；尾句用 not only ... but also 点明两点。",
+              "sourceLabel": "Paragraph Structure 书页 3；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Gold\n\n1. Gold, a precious metal, is prized for two important characteristics. 2. First of all, gold has a lustrous beauty that is resistant to corrosion. 3. Therefore, it is suitable for jewelry, coins, and ornamental purposes. 4. Gold never needs to be polished and will remain beautiful forever. 5. For example, a Macedonian coin remains as untarnished today as the day it was made 25 centuries ago. 6. Another important characteristic of gold is its usefulness to industry and science. 7. For many years, it has been used in hundreds of industrial applications, such as photography and dentistry. 8. The most recent use of gold is in astronauts’ suits. 9. Astronauts wear gold-plated heat shields for protection when they go outside spaceships in space. 10. In conclusion, gold is treasured not only for its beauty but also for its utility.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-gold-4",
+              "sourceNumber": "4",
+              "prompt": "What examples does the writer use to support each point?",
+              "answer": "Beauty: a Macedonian coin. Usefulness: photography, dentistry, and astronauts’ suits.",
+              "explanation": "把例子归到它所证明的特点：古币说明长期美观，摄影、牙科和宇航服说明用途。",
+              "sourceLabel": "Paragraph Structure 书页 3；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Gold\n\n1. Gold, a precious metal, is prized for two important characteristics. 2. First of all, gold has a lustrous beauty that is resistant to corrosion. 3. Therefore, it is suitable for jewelry, coins, and ornamental purposes. 4. Gold never needs to be polished and will remain beautiful forever. 5. For example, a Macedonian coin remains as untarnished today as the day it was made 25 centuries ago. 6. Another important characteristic of gold is its usefulness to industry and science. 7. For many years, it has been used in hundreds of industrial applications, such as photography and dentistry. 8. The most recent use of gold is in astronauts’ suits. 9. Astronauts wear gold-plated heat shields for protection when they go outside spaceships in space. 10. In conclusion, gold is treasured not only for its beauty but also for its utility.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-1",
+          "instructions": "A：逐句判断 best TS、too general、too specific 或 incomplete；每组保留共同语境。B：从打乱的句子中选主题句。A第1组的已填示例已恢复待答。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-1-a1a",
+              "sourceNumber": "A.1a",
+              "prompt": "Group 1, a. A lunar eclipse is an omen of a coming disaster.",
+              "answer": "specific",
+              "explanation": "只给出关于月亮的一种具体迷信，可以作例子。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 1\na. A lunar eclipse is an omen of a coming disaster.\nb. Superstitions have been around forever.\nc. People hold many superstitious beliefs about the moon.\nd. Is made of green cheese.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a1b",
+              "sourceNumber": "A.1b",
+              "prompt": "Group 1, b. Superstitions have been around forever.",
+              "answer": "general",
+              "explanation": "范围包含所有迷信，未限定月亮这一主题。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 1\na. A lunar eclipse is an omen of a coming disaster.\nb. Superstitions have been around forever.\nc. People hold many superstitious beliefs about the moon.\nd. Is made of green cheese.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a1c",
+              "sourceNumber": "A.1c",
+              "prompt": "Group 1, c. People hold many superstitious beliefs about the moon.",
+              "answer": "best",
+              "explanation": "同时给出对象moon和展开角度many superstitious beliefs，能统领若干例子。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 1\na. A lunar eclipse is an omen of a coming disaster.\nb. Superstitions have been around forever.\nc. People hold many superstitious beliefs about the moon.\nd. Is made of green cheese.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a1d",
+              "sourceNumber": "A.1d",
+              "prompt": "Group 1, d. Is made of green cheese.",
+              "answer": "incomplete",
+              "explanation": "缺少主语；即便读者能猜到moon，也不是完整句。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 1\na. A lunar eclipse is an omen of a coming disaster.\nb. Superstitions have been around forever.\nc. People hold many superstitious beliefs about the moon.\nd. Is made of green cheese.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a2a",
+              "sourceNumber": "A.2a",
+              "prompt": "Group 2, a. The history of astronomy is interesting.",
+              "answer": "general",
+              "explanation": "整个天文学历史范围太宽，interesting没有限定本段具体内容。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 2\na. The history of astronomy is interesting.\nb. Ice age people recorded the appearance of new moons by making scratches in animal bones.\nc. For example, Stonehenge in Britain, built 3500 years ago to track the movement of the sun.\nd. Ancient people observed and recorded lunar and solar events in different ways.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a2b",
+              "sourceNumber": "A.2b",
+              "prompt": "Group 2, b. Ice age people recorded the appearance of new moons by making scratches in animal bones.",
+              "answer": "specific",
+              "explanation": "只描述一种古人的记录方法，适合支撑更概括的主题句。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 2\na. The history of astronomy is interesting.\nb. Ice age people recorded the appearance of new moons by making scratches in animal bones.\nc. For example, Stonehenge in Britain, built 3500 years ago to track the movement of the sun.\nd. Ancient people observed and recorded lunar and solar events in different ways.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a2c",
+              "sourceNumber": "A.2c",
+              "prompt": "Group 2, c. For example, Stonehenge in Britain, built 3500 years ago to track the movement of the sun.",
+              "answer": "incomplete",
+              "explanation": "built在这里是修饰Stonehenge的过去分词，没有完整谓语。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 2\na. The history of astronomy is interesting.\nb. Ice age people recorded the appearance of new moons by making scratches in animal bones.\nc. For example, Stonehenge in Britain, built 3500 years ago to track the movement of the sun.\nd. Ancient people observed and recorded lunar and solar events in different ways.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a2d",
+              "sourceNumber": "A.2d",
+              "prompt": "Group 2, d. Ancient people observed and recorded lunar and solar events in different ways.",
+              "answer": "best",
+              "explanation": "古人、日月现象及不同观察记录方式构成适中的展开范围。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 2\na. The history of astronomy is interesting.\nb. Ice age people recorded the appearance of new moons by making scratches in animal bones.\nc. For example, Stonehenge in Britain, built 3500 years ago to track the movement of the sun.\nd. Ancient people observed and recorded lunar and solar events in different ways.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a3a",
+              "sourceNumber": "A.3a",
+              "prompt": "Group 3, a. It is hard to know which foods are safe to eat nowadays.",
+              "answer": "best",
+              "explanation": "可以用鱼、肉等不同食物的风险来支撑“难以判断安全”。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 3\na. It is hard to know which foods are safe to eat nowadays.\nb. In some large ocean fish, there are high levels of mercury.\nc. Undercooked chicken and hamburger may carry E. coli bacteria.\nd. Not to mention mad cow disease.\ne. Food safety is an important issue.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a3b",
+              "sourceNumber": "A.3b",
+              "prompt": "Group 3, b. In some large ocean fish, there are high levels of mercury.",
+              "answer": "specific",
+              "explanation": "只举鱼类污染的一种情况。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 3\na. It is hard to know which foods are safe to eat nowadays.\nb. In some large ocean fish, there are high levels of mercury.\nc. Undercooked chicken and hamburger may carry E. coli bacteria.\nd. Not to mention mad cow disease.\ne. Food safety is an important issue.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a3c",
+              "sourceNumber": "A.3c",
+              "prompt": "Group 3, c. Undercooked chicken and hamburger may carry E. coli bacteria.",
+              "answer": "specific",
+              "explanation": "只给出一种食物风险，不能覆盖全组。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 3\na. It is hard to know which foods are safe to eat nowadays.\nb. In some large ocean fish, there are high levels of mercury.\nc. Undercooked chicken and hamburger may carry E. coli bacteria.\nd. Not to mention mad cow disease.\ne. Food safety is an important issue.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a3d",
+              "sourceNumber": "A.3d",
+              "prompt": "Group 3, d. Not to mention mad cow disease.",
+              "answer": "incomplete",
+              "explanation": "Not to mention是附加短语，没有独立完整的陈述。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 3\na. It is hard to know which foods are safe to eat nowadays.\nb. In some large ocean fish, there are high levels of mercury.\nc. Undercooked chicken and hamburger may carry E. coli bacteria.\nd. Not to mention mad cow disease.\ne. Food safety is an important issue.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a3e",
+              "sourceNumber": "A.3e",
+              "prompt": "Group 3, e. Food safety is an important issue.",
+              "answer": "general",
+              "explanation": "只说重要，未限定这段要讨论的食品安全问题。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 3\na. It is hard to know which foods are safe to eat nowadays.\nb. In some large ocean fish, there are high levels of mercury.\nc. Undercooked chicken and hamburger may carry E. coli bacteria.\nd. Not to mention mad cow disease.\ne. Food safety is an important issue.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a4a",
+              "sourceNumber": "A.4a",
+              "prompt": "Group 4, a. Hybrid automobiles more economical to operate than gasoline-powered cars.",
+              "answer": "incomplete",
+              "explanation": "缺少are等谓语动词；more economical本身是形容词短语。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 4\na. Hybrid automobiles more economical to operate than gasoline-powered cars.\nb. The new hybrid automobiles are very popular.\nc. Hybrid cars have good fuel economy because a computer under the hood decides to run the electric motor, the small gasoline engine, or the two together.\nd. The new hybrid automobiles are popular because of their fuel economy.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a4b",
+              "sourceNumber": "A.4b",
+              "prompt": "Group 4, b. The new hybrid automobiles are very popular.",
+              "answer": "general",
+              "explanation": "只说受欢迎，没有指出本段要展开的原因。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 4\na. Hybrid automobiles more economical to operate than gasoline-powered cars.\nb. The new hybrid automobiles are very popular.\nc. Hybrid cars have good fuel economy because a computer under the hood decides to run the electric motor, the small gasoline engine, or the two together.\nd. The new hybrid automobiles are popular because of their fuel economy.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a4c",
+              "sourceNumber": "A.4c",
+              "prompt": "Group 4, c. Hybrid cars have good fuel economy because a computer under the hood decides to run the electric motor, the small gasoline engine, or the two together.",
+              "answer": "specific",
+              "explanation": "已经细到动力系统的运行机制，适合作支撑。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 4\na. Hybrid automobiles more economical to operate than gasoline-powered cars.\nb. The new hybrid automobiles are very popular.\nc. Hybrid cars have good fuel economy because a computer under the hood decides to run the electric motor, the small gasoline engine, or the two together.\nd. The new hybrid automobiles are popular because of their fuel economy.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a4d",
+              "sourceNumber": "A.4d",
+              "prompt": "Group 4, d. The new hybrid automobiles are popular because of their fuel economy.",
+              "answer": "best",
+              "explanation": "把受欢迎限定为燃油经济性，后面可以解释其机制。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 4\na. Hybrid automobiles more economical to operate than gasoline-powered cars.\nb. The new hybrid automobiles are very popular.\nc. Hybrid cars have good fuel economy because a computer under the hood decides to run the electric motor, the small gasoline engine, or the two together.\nd. The new hybrid automobiles are popular because of their fuel economy.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a5a",
+              "sourceNumber": "A.5a",
+              "prompt": "Group 5, a. The North American Catawba Indians of the Southeast and the Tlingit of the Northwest both see the rainbow as a kind of bridge between heaven and earth.",
+              "answer": "specific",
+              "explanation": "两个群体的具体解释适合作例子。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 5\na. The North American Catawba Indians of the Southeast and the Tlingit of the Northwest both see the rainbow as a kind of bridge between heaven and earth.\nb. A rainbow seen from an airplane is a complete circle.\nc. Many cultures interpret rainbows in positive ways.\nd. Rainbows are beautiful.\ne. The belief that you can find a pot of gold at a rainbow’s end.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a5b",
+              "sourceNumber": "A.5b",
+              "prompt": "Group 5, b. A rainbow seen from an airplane is a complete circle.",
+              "answer": "general",
+              "explanation": "答案册将此句标为too general。本组练习围绕文化对彩虹的解释，这句没有给出该展开方向；单看内容它是具体事实，故此分类记录为答案册原判而不推广成普遍规则。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 5\na. The North American Catawba Indians of the Southeast and the Tlingit of the Northwest both see the rainbow as a kind of bridge between heaven and earth.\nb. A rainbow seen from an airplane is a complete circle.\nc. Many cultures interpret rainbows in positive ways.\nd. Rainbows are beautiful.\ne. The belief that you can find a pot of gold at a rainbow’s end.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a5c",
+              "sourceNumber": "A.5c",
+              "prompt": "Group 5, c. Many cultures interpret rainbows in positive ways.",
+              "answer": "best",
+              "explanation": "以文化的积极解释为控制思想，能够容纳不同文化的例子。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 5\na. The North American Catawba Indians of the Southeast and the Tlingit of the Northwest both see the rainbow as a kind of bridge between heaven and earth.\nb. A rainbow seen from an airplane is a complete circle.\nc. Many cultures interpret rainbows in positive ways.\nd. Rainbows are beautiful.\ne. The belief that you can find a pot of gold at a rainbow’s end.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a5d",
+              "sourceNumber": "A.5d",
+              "prompt": "Group 5, d. Rainbows are beautiful.",
+              "answer": "general",
+              "explanation": "beautiful太笼统，没有明确本组文化解释的角度。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 5\na. The North American Catawba Indians of the Southeast and the Tlingit of the Northwest both see the rainbow as a kind of bridge between heaven and earth.\nb. A rainbow seen from an airplane is a complete circle.\nc. Many cultures interpret rainbows in positive ways.\nd. Rainbows are beautiful.\ne. The belief that you can find a pot of gold at a rainbow’s end.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-a5e",
+              "sourceNumber": "A.5e",
+              "prompt": "Group 5, e. The belief that you can find a pot of gold at a rainbow’s end.",
+              "answer": "incomplete",
+              "explanation": "The belief是名词中心，that从句修饰它，整项没有主句谓语。",
+              "sourceLabel": "Paragraph Structure 书页 6—7；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Group 5\na. The North American Catawba Indians of the Southeast and the Tlingit of the Northwest both see the rainbow as a kind of bridge between heaven and earth.\nb. A rainbow seen from an airplane is a complete circle.\nc. Many cultures interpret rainbows in positive ways.\nd. Rainbows are beautiful.\ne. The belief that you can find a pot of gold at a rainbow’s end.",
+              "options": [
+                {
+                  "value": "best",
+                  "label": "best TS（最佳主题句）"
+                },
+                {
+                  "value": "general",
+                  "label": "too general（过于笼统）"
+                },
+                {
+                  "value": "specific",
+                  "label": "too specific（过于具体）"
+                },
+                {
+                  "value": "incomplete",
+                  "label": "incomplete（不完整句）"
+                }
+              ],
+              "instruction": "根据本组各句共同构成的语境，为当前句选择分类。"
+            },
+            {
+              "id": "paragraph-practice-1-b1",
+              "sourceNumber": "B.1",
+              "prompt": "Paragraph 1: Which sentence is the topic sentence?",
+              "answer": "f",
+              "explanation": "f把basic与multimedia两类功能都概括了，其余句只说明部分功能。",
+              "sourceLabel": "Paragraph Structure 书页 7—8；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. A notes/memo function lets you make quick notes to yourself."
+                },
+                {
+                  "value": "b",
+                  "label": "b. Other capabilities include word processing, spreadsheets, and e-mail."
+                },
+                {
+                  "value": "c",
+                  "label": "c. A voice recorder that uses a built-in microphone and speaker works like a tape recorder."
+                },
+                {
+                  "value": "d",
+                  "label": "d. Basic tools include a calendar to keep track of your appointments, an address and phone number book, to-do lists, and a calculator."
+                },
+                {
+                  "value": "e",
+                  "label": "e. MP3 playback lets you listen to digital music files, and a picture viewer lets you look at digital photos."
+                },
+                {
+                  "value": "f",
+                  "label": "f. Most personal digital assistants (PDAs) have tools for basic tasks as well as for multimedia functions."
+                },
+                {
+                  "value": "g",
+                  "label": "g. A few models also include a built-in digital camera and keyboard."
+                }
+              ]
+            },
+            {
+              "id": "paragraph-practice-1-b2",
+              "sourceNumber": "B.2",
+              "prompt": "Paragraph 2: Which sentence is the topic sentence?",
+              "answer": "c",
+              "explanation": "c概括参与者逐渐增多；其余句是这个趋势中的具体国家和阶段。原文历史陈述按教材保留，不作为事实更新材料。",
+              "sourceLabel": "Paragraph Structure 书页 7—8；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. Twelve years after Sputnik, the United States caught up by becoming the first nation to land a man on the moon."
+                },
+                {
+                  "value": "b",
+                  "label": "b. The Europeans have joined the competition, vowing to land European astronauts on the moon by 2025 and on Mars by 2035."
+                },
+                {
+                  "value": "c",
+                  "label": "c. The number of nations competing in the “space race” has grown since the early days of space exploration."
+                },
+                {
+                  "value": "d",
+                  "label": "d. China joined the competition in 2003 when it launched Shenzhou 5."
+                },
+                {
+                  "value": "e",
+                  "label": "e. Initially, the former Soviet Union took the lead when it sent the first man into Earth orbit in the spaceship Sputnik in 1957."
+                },
+                {
+                  "value": "f",
+                  "label": "f. For almost 50 years, the United States and Russia were the only competitors in the contest to explore space using manned spacecraft."
+                }
+              ]
+            },
+            {
+              "id": "paragraph-practice-1-b3",
+              "sourceNumber": "B.3",
+              "prompt": "Paragraph 3: Which sentence is the topic sentence?",
+              "answer": "d",
+              "explanation": "d统摄汽车带来的生活变化；其余句是农家、居住工作与城市设施的具体变化。",
+              "sourceLabel": "Paragraph Structure 书页 7—8；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. Another important change was that people had the freedom to live and work wherever they wanted."
+                },
+                {
+                  "value": "b",
+                  "label": "b. The earliest significant change was for farming families, who were no longer isolated."
+                },
+                {
+                  "value": "c",
+                  "label": "c. The final major change brought by the automobile was the building of superhighways, suburbs, huge shopping centers, and theme parks such as Disney World in Florida."
+                },
+                {
+                  "value": "d",
+                  "label": "d. The automobile revolutionized the way of life in the United States."
+                },
+                {
+                  "value": "e",
+                  "label": "e. The automobile enabled them to drive to towns and cities comfortably and conveniently."
+                },
+                {
+                  "value": "f",
+                  "label": "f. In fact, people could work in a busy metropolitan city and drive home to the quiet suburbs."
+                }
+              ]
+            },
+            {
+              "id": "paragraph-practice-1-b4",
+              "sourceNumber": "B.4",
+              "prompt": "Paragraph 4: Which sentence is the topic sentence?",
+              "answer": "b",
+              "explanation": "b概括完整的喷发过程；其他句都是过程中的一个环节。",
+              "sourceLabel": "Paragraph Structure 书页 7—8；配套答案 PDF 第 1 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. In time, this melted part rises as magma."
+                },
+                {
+                  "value": "b",
+                  "label": "b. The formation of a volcanic eruption is a dramatic series of events."
+                },
+                {
+                  "value": "c",
+                  "label": "c. As the plate sinks, friction and Earth’s heat cause part of it to melt."
+                },
+                {
+                  "value": "d",
+                  "label": "d. The magma produces heat, steam, and pressure."
+                },
+                {
+                  "value": "e",
+                  "label": "e. First of all, most volcanoes are formed where two plates collide."
+                },
+                {
+                  "value": "f",
+                  "label": "f. Then one of the plates is forced under the other and sinks."
+                },
+                {
+                  "value": "g",
+                  "label": "g. When the heat, steam, and pressure from the magma finally reach the surface of Earth, a volcanic eruption occurs."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-2",
+          "instructions": "每句写出 Topic 和 Controlling idea，代替原书圈主题、划控制思想。去除原页已有圈线，以配套答案核对。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-2-1",
+              "sourceNumber": "1",
+              "prompt": "1. Driving on freeways requires skill and alertness.",
+              "answer": "Topic: Driving on freeways\nControlling idea: requires skill and alertness",
+              "explanation": "本句讨论的对象是“Driving on freeways”；把讨论限制到“requires skill and alertness”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-2",
+              "sourceNumber": "2",
+              "prompt": "2. Driving on freeways requires strong nerves.",
+              "answer": "Topic: Driving on freeways\nControlling idea: requires strong nerves",
+              "explanation": "本句讨论的对象是“Driving on freeways”；把讨论限制到“requires strong nerves”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-3",
+              "sourceNumber": "3",
+              "prompt": "3. Driving on freeways requires an aggressive attitude.",
+              "answer": "Topic: Driving on freeways\nControlling idea: requires an aggressive attitude",
+              "explanation": "本句讨论的对象是“Driving on freeways”；把讨论限制到“requires an aggressive attitude”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-4",
+              "sourceNumber": "4",
+              "prompt": "4. The Caribbean island of Trinidad attracts tourists because of its calypso music.",
+              "answer": "Topic: The Caribbean island of Trinidad\nControlling idea: attracts tourists because of its calypso music",
+              "explanation": "本句讨论的对象是“The Caribbean island of Trinidad”；把讨论限制到“attracts tourists because of its calypso music”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-5",
+              "sourceNumber": "5",
+              "prompt": "5. Spectacular beaches make Puerto Rico a tourist paradise.",
+              "answer": "Topic: Puerto Rico\nControlling idea: Spectacular beaches make ... a tourist paradise",
+              "explanation": "本句讨论的对象是“Puerto Rico”；把讨论限制到“Spectacular beaches make ... a tourist paradise”这个角度。 注意topic不一定是语法主语，也不一定在句首；这里按正式答案册圈线。原教材的手写圈线有不同标法，不把手写痕迹当标准。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-6",
+              "sourceNumber": "6",
+              "prompt": "6. Moving away from home can be a stressful experience for young people.",
+              "answer": "Topic: Moving away from home\nControlling idea: can be a stressful experience for young people",
+              "explanation": "本句讨论的对象是“Moving away from home”；把讨论限制到“can be a stressful experience for young people”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-7",
+              "sourceNumber": "7",
+              "prompt": "7. Many religious rules arose from the health needs of ancient times.",
+              "answer": "Topic: Many religious rules\nControlling idea: arose from the health needs of ancient times",
+              "explanation": "本句讨论的对象是“Many religious rules”；把讨论限制到“arose from the health needs of ancient times”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-8",
+              "sourceNumber": "8",
+              "prompt": "8. A major problem for many students is the high cost of tuition and books.",
+              "answer": "Topic: A major problem for many students\nControlling idea: is the high cost of tuition and books",
+              "explanation": "本句讨论的对象是“A major problem for many students”；把讨论限制到“is the high cost of tuition and books”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-9",
+              "sourceNumber": "9",
+              "prompt": "9. Participating in class discussions is a problem for several different groups of students.",
+              "answer": "Topic: a problem for several different groups of students\nControlling idea: Participating in class discussions is",
+              "explanation": "本句讨论的对象是“a problem for several different groups of students”；把讨论限制到“Participating in class discussions is”这个角度。 注意topic不一定是语法主语，也不一定在句首；这里按正式答案册圈线。原教材的手写圈线有不同标法，不把手写痕迹当标准。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-10",
+              "sourceNumber": "10",
+              "prompt": "10. In my opinion, television commercials for cosmetics lie to women.",
+              "answer": "Topic: television commercials for cosmetics\nControlling idea: lie to women",
+              "explanation": "本句讨论的对象是“television commercials for cosmetics”；把讨论限制到“lie to women”这个角度。 In my opinion是作者立场提示，不是主题对象。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-11",
+              "sourceNumber": "11",
+              "prompt": "11. Owning an automobile is a necessity for me.",
+              "answer": "Topic: Owning an automobile\nControlling idea: is a necessity for me",
+              "explanation": "本句讨论的对象是“Owning an automobile”；把讨论限制到“is a necessity for me”这个角度。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-12",
+              "sourceNumber": "12",
+              "prompt": "12. It is an expensive luxury to own an automobile in a large city.",
+              "answer": "Topic: to own an automobile in a large city\nControlling idea: an expensive luxury",
+              "explanation": "本句讨论的对象是“to own an automobile in a large city”；把讨论限制到“an expensive luxury”这个角度。 注意topic不一定是语法主语，也不一定在句首；这里按正式答案册圈线。原教材的手写圈线有不同标法，不把手写痕迹当标准。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            },
+            {
+              "id": "paragraph-practice-2-13",
+              "sourceNumber": "13",
+              "prompt": "13. Taste and appearance are both important in Japanese cuisine.",
+              "answer": "Topic: Japanese cuisine\nControlling idea: Taste and appearance are both important",
+              "explanation": "本句讨论的对象是“Japanese cuisine”；把讨论限制到“Taste and appearance are both important”这个角度。 注意topic不一定是语法主语，也不一定在句首；这里按正式答案册圈线。原教材的手写圈线有不同标法，不把手写痕迹当标准。",
+              "sourceLabel": "Paragraph Structure 书页 9；配套答案 PDF 第 1—2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ],
+              "instruction": "分别写Topic与Controlling idea；不需要机械保留圈线形式。"
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-3",
+          "instructions": "A给三段各补一个主题句；B每个给定topic写2—3句不同控制思想的主题句；C选3个感兴趣的主题各写主题句。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-3-a1",
+              "sourceNumber": "A.1",
+              "prompt": "为 Paragraph 1 补写一个主题句。",
+              "answer": "答案册示例（允许其他合理写法）：English contains many foreign words. / Words of foreign origin have enriched English.",
+              "explanation": "各例都说明英语从其他语言借词，主题句应覆盖这种共同来源特征，不能只写日本词或居家活动。",
+              "sourceLabel": "Paragraph Structure 书页 10—11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "English speakers relaxing at home, for example, may put on kimonos, which is a Japanese word. English speakers who live in a warm climate may take an afternoon siesta on an outdoor patio without realizing that these are Spanish words. In their gardens, they may enjoy the fragrance of jasmine flowers, a word that came into English from Persian. They may even relax on a chaise while snacking on yogurt, words of French and Turkish origin, respectively. At night, they may shampoo their hair and put on pajamas, words from the Hindi language of India.",
+              "rubric": [
+                "是有主谓的完整句。",
+                "有topic和controlling idea，能覆盖整段全部支撑。",
+                "不添加段落没有讨论的角度。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-a2",
+              "sourceNumber": "A.2",
+              "prompt": "为 Paragraph 2 补写一个主题句。",
+              "answer": "答案册示例（允许其他合理写法）：The European and North American university systems have several important differences. / The North American university system is different from the European system.",
+              "explanation": "段落从出勤、考试和作业比较两个大学体系；主题句应先说明差异，不应只写其中一项。",
+              "sourceLabel": "Paragraph Structure 书页 10—11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "In European universities, students are not required to attend classes. In fact, professors in Germany generally do not know the names of the students enrolled in their courses. In the United States, however, students are required to attend all classes and may be penalized if they do not. Furthermore, in the European system, students usually take just one comprehensive examination at the end of their entire four or five years of study. In the North American system, on the other hand, students usually have numerous quizzes, tests, and homework assignments, and they almost always have to take a final examination in each course at the end of each semester.",
+              "rubric": [
+                "是有主谓的完整句。",
+                "有topic和controlling idea，能覆盖整段全部支撑。",
+                "不添加段落没有讨论的角度。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-a3",
+              "sourceNumber": "A.3",
+              "prompt": "为 Paragraph 3 补写一个主题句。",
+              "answer": "答案册示例（允许其他合理写法）：House construction worldwide depends on the most available native materials. / Every region of the world has its indigenous (native) materials for building houses.",
+              "explanation": "冰、泥、木和竹的共同点是就地取材；主题句要概括地域材料与建房的关系。",
+              "sourceLabel": "Paragraph Structure 书页 10—11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "For example, the Eskimos, living in a treeless region of snow and ice, sometimes build temporary homes out of thick blocks of ice. People who live in deserts, on the other hand, use the most available materials, mud or clay, which provide good insulation from the heat. In Northern Europe, Russia, and other areas of the world where forests are plentiful, people usually construct their homes out of wood. In the islands of the South Pacific, where there is an abundant supply of bamboo and palm, people use these tough, fibrous plants to build their homes.",
+              "rubric": [
+                "是有主谓的完整句。",
+                "有topic和controlling idea，能覆盖整段全部支撑。",
+                "不添加段落没有讨论的角度。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-b1",
+              "sourceNumber": "B.1",
+              "prompt": "Topic: Movies。为同一个主题写2—3个不同的主题句。",
+              "answer": "Individual responses：答案册没有唯一标准句。",
+              "explanation": "对象始终是Movies，但每句必须换一个可展开的具体角度；不要把同一句只换几个词重复写。",
+              "sourceLabel": "Paragraph Structure 书页 11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "共2—3个完整主题句。",
+                "每句都围绕同一topic，控制思想彼此不同。",
+                "每句范围能由一个段落讲清楚。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-b2",
+              "sourceNumber": "B.2",
+              "prompt": "Topic: Word processors。为同一个主题写2—3个不同的主题句。",
+              "answer": "Individual responses：答案册没有唯一标准句。",
+              "explanation": "对象始终是Word processors，但每句必须换一个可展开的具体角度；不要把同一句只换几个词重复写。",
+              "sourceLabel": "Paragraph Structure 书页 11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "共2—3个完整主题句。",
+                "每句都围绕同一topic，控制思想彼此不同。",
+                "每句范围能由一个段落讲清楚。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-b3",
+              "sourceNumber": "B.3",
+              "prompt": "Topic: Your home town。为同一个主题写2—3个不同的主题句。",
+              "answer": "Individual responses：答案册没有唯一标准句。",
+              "explanation": "对象始终是Your home town，但每句必须换一个可展开的具体角度；不要把同一句只换几个词重复写。",
+              "sourceLabel": "Paragraph Structure 书页 11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "共2—3个完整主题句。",
+                "每句都围绕同一topic，控制思想彼此不同。",
+                "每句范围能由一个段落讲清楚。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-b4",
+              "sourceNumber": "B.4",
+              "prompt": "Topic: Advertising。为同一个主题写2—3个不同的主题句。",
+              "answer": "Individual responses：答案册没有唯一标准句。",
+              "explanation": "对象始终是Advertising，但每句必须换一个可展开的具体角度；不要把同一句只换几个词重复写。",
+              "sourceLabel": "Paragraph Structure 书页 11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "共2—3个完整主题句。",
+                "每句都围绕同一topic，控制思想彼此不同。",
+                "每句范围能由一个段落讲清楚。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-3-c",
+              "sourceNumber": "C",
+              "prompt": "与同学选择3个共同感兴趣的主题，每个主题各写一个含控制思想的主题句。",
+              "answer": "Individual responses：答案册没有唯一标准答案。",
+              "explanation": "原题要求3个不同主题，不是同一主题的3个换词句；独学时可先自选3题，再请同学检查范围。",
+              "sourceLabel": "Paragraph Structure 书页 11；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "rubric": [
+                "给出3个主题及各自主题句。",
+                "三个句子均完整且有明确控制思想。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-4",
+          "instructions": "先比较Red-Light Running两段，再完成主题句及三类具体支撑的判断。阅读本身不另计作答项。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-4-step2",
+              "sourceNumber": "Step 2",
+              "prompt": "找出B段主题句，并分别写出topic和controlling idea。",
+              "answer": "主题句：第1句。Topic: red-light running. Controlling idea: it can become a deadly crime.",
+              "explanation": "although部分引入反面看法；作者真正要证明的是后半句“可成为致命犯罪”，不是“很轻微”。",
+              "sourceLabel": "Paragraph Structure 书页 11—12；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Paragraph A: Paragraph without Support\nRed-Light Running\n\nAlthough some people think that red-light running is a minor traffic violation that is no worse than jaywalking, it can, in fact, become a deadly crime. Red-light runners cause accidents all the time. Sometimes people are seriously injured and even killed. It is especially a problem in rush hour traffic. Everyone is in a hurry to get home, so drivers run red lights everywhere. The police do not do much about it because they are too busy. The only time they pay attention is when there is an accident, and then it is too late. In conclusion, running a red light is a serious offense.\n\nParagraph B: Paragraph with Support\nRed-Light Running\n\n1. Although some people think red-light running is a minor traffic violation that is no worse than jaywalking, it can, in fact, become a deadly crime. 2. Red-light runners cause hundreds of accidents, including deaths and injuries as well as millions of dollars in damages. 3. Each year more than 900 people die, and nearly 200,000 are injured in crashes that involve red-light running. 4. Motorists run red lights all the time. 5. For example, in Fairfax, Virginia, a five-month-long survey at five busy intersections revealed that a motorist ran a red light every 20 minutes. 6. Red-light runners are seldom caught. 7. According to the Insurance Institute for Highway Safety, “Communities don’t have the resources to allow police to patrol intersections as often as would be needed to ticket all motorists who run red lights” (“Q&A”).",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-4-example",
+              "sourceNumber": "Step 3: An example",
+              "prompt": "An example：写出B段对应的句子编号。",
+              "answer": "5",
+              "explanation": "第5句给出Fairfax这个具体地点的调查实例；虽然其中也有数字，这里按原题主要用途归为example。",
+              "sourceLabel": "Paragraph Structure 书页 11—12；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Paragraph B: Paragraph with Support\nRed-Light Running\n\n1. Although some people think red-light running is a minor traffic violation that is no worse than jaywalking, it can, in fact, become a deadly crime. 2. Red-light runners cause hundreds of accidents, including deaths and injuries as well as millions of dollars in damages. 3. Each year more than 900 people die, and nearly 200,000 are injured in crashes that involve red-light running. 4. Motorists run red lights all the time. 5. For example, in Fairfax, Virginia, a five-month-long survey at five busy intersections revealed that a motorist ran a red light every 20 minutes. 6. Red-light runners are seldom caught. 7. According to the Insurance Institute for Highway Safety, “Communities don’t have the resources to allow police to patrol intersections as often as would be needed to ticket all motorists who run red lights” (“Q&A”).",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Sentence 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Sentence 2"
+                },
+                {
+                  "value": "3",
+                  "label": "Sentence 3"
+                },
+                {
+                  "value": "4",
+                  "label": "Sentence 4"
+                },
+                {
+                  "value": "5",
+                  "label": "Sentence 5"
+                },
+                {
+                  "value": "6",
+                  "label": "Sentence 6"
+                },
+                {
+                  "value": "7",
+                  "label": "Sentence 7"
+                }
+              ]
+            },
+            {
+              "id": "paragraph-practice-4-statistic",
+              "sourceNumber": "Step 3: A statistic",
+              "prompt": "A statistic：写出B段对应的句子编号。",
+              "answer": "3",
+              "explanation": "第3句给出年度死亡和受伤人数，以量化数据支撑严重性。",
+              "sourceLabel": "Paragraph Structure 书页 11—12；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Paragraph B: Paragraph with Support\nRed-Light Running\n\n1. Although some people think red-light running is a minor traffic violation that is no worse than jaywalking, it can, in fact, become a deadly crime. 2. Red-light runners cause hundreds of accidents, including deaths and injuries as well as millions of dollars in damages. 3. Each year more than 900 people die, and nearly 200,000 are injured in crashes that involve red-light running. 4. Motorists run red lights all the time. 5. For example, in Fairfax, Virginia, a five-month-long survey at five busy intersections revealed that a motorist ran a red light every 20 minutes. 6. Red-light runners are seldom caught. 7. According to the Insurance Institute for Highway Safety, “Communities don’t have the resources to allow police to patrol intersections as often as would be needed to ticket all motorists who run red lights” (“Q&A”).",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Sentence 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Sentence 2"
+                },
+                {
+                  "value": "3",
+                  "label": "Sentence 3"
+                },
+                {
+                  "value": "4",
+                  "label": "Sentence 4"
+                },
+                {
+                  "value": "5",
+                  "label": "Sentence 5"
+                },
+                {
+                  "value": "6",
+                  "label": "Sentence 6"
+                },
+                {
+                  "value": "7",
+                  "label": "Sentence 7"
+                }
+              ]
+            },
+            {
+              "id": "paragraph-practice-4-quotation",
+              "sourceNumber": "Step 3: A quotation",
+              "prompt": "A quotation：写出B段对应的句子编号。",
+              "answer": "7",
+              "explanation": "第7句使用来源引入语和引号，直接引用机构的陈述。",
+              "sourceLabel": "Paragraph Structure 书页 11—12；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": true,
+              "passage": "Paragraph B: Paragraph with Support\nRed-Light Running\n\n1. Although some people think red-light running is a minor traffic violation that is no worse than jaywalking, it can, in fact, become a deadly crime. 2. Red-light runners cause hundreds of accidents, including deaths and injuries as well as millions of dollars in damages. 3. Each year more than 900 people die, and nearly 200,000 are injured in crashes that involve red-light running. 4. Motorists run red lights all the time. 5. For example, in Fairfax, Virginia, a five-month-long survey at five busy intersections revealed that a motorist ran a red light every 20 minutes. 6. Red-light runners are seldom caught. 7. According to the Insurance Institute for Highway Safety, “Communities don’t have the resources to allow police to patrol intersections as often as would be needed to ticket all motorists who run red lights” (“Q&A”).",
+              "options": [
+                {
+                  "value": "1",
+                  "label": "Sentence 1"
+                },
+                {
+                  "value": "2",
+                  "label": "Sentence 2"
+                },
+                {
+                  "value": "3",
+                  "label": "Sentence 3"
+                },
+                {
+                  "value": "4",
+                  "label": "Sentence 4"
+                },
+                {
+                  "value": "5",
+                  "label": "Sentence 5"
+                },
+                {
+                  "value": "6",
+                  "label": "Sentence 6"
+                },
+                {
+                  "value": "7",
+                  "label": "Sentence 7"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-model-language",
+          "instructions": "阅读Language and Perception，完成3个模型问题。本文保留教材历史语境，仅用于段落分析。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-model-language-1",
+              "sourceNumber": "1",
+              "prompt": "What is the main idea? 写出主题句中表达主旨的部分。",
+              "answer": "Our language influences our perception. 原句部分：our perception of the world depends to a great extent on the language we speak.",
+              "explanation": "主旨是语言影响感知；开头共同的生理器官只是让步背景。",
+              "sourceLabel": "Paragraph Structure 书页 13；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Language and Perception\n\nAlthough we all possess the same physical organs for sensing the world—eyes for seeing, ears for hearing, noses for smelling, skin for feeling, and mouths for tasting—our perception of the world depends to a great extent on the language we speak, according to a famous hypothesis proposed by linguists Edward Sapir and Benjamin Lee Whorf. They hypothesized that language is like a pair of eyeglasses through which we “see” the world in a particular way. A classic example of the relationship between language and perception is the word snow. Eskimo languages have as many as 32 different words for snow. For instance, the Eskimos have different words for falling snow, snow on the ground, snow packed as hard as ice, slushy snow, wind-driven snow, and what we might call “cornmeal” snow. The ancient Aztec languages of Mexico, in contrast, used only one word to mean snow, cold, and ice. Thus, if the Sapir-Whorf hypothesis is correct and we can perceive only things that we have words for, the Aztecs perceived snow, cold, and ice as one and the same phenomenon.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-language-2",
+              "sourceNumber": "2",
+              "prompt": "What examples does the writer use? 用文字列出原题要求加方括号的例子。",
+              "answer": "Eskimo languages have as many as 32 words for snow, with categories such as falling, ground, packed, slushy, wind-driven and “cornmeal” snow; the Aztec languages used one word for snow, cold, and ice.",
+              "explanation": "两个语言群体的词汇对照共同支撑主旨，不要把eyeglasses的比喻误当主要事实例子。",
+              "sourceLabel": "Paragraph Structure 书页 13；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Language and Perception\n\nAlthough we all possess the same physical organs for sensing the world—eyes for seeing, ears for hearing, noses for smelling, skin for feeling, and mouths for tasting—our perception of the world depends to a great extent on the language we speak, according to a famous hypothesis proposed by linguists Edward Sapir and Benjamin Lee Whorf. They hypothesized that language is like a pair of eyeglasses through which we “see” the world in a particular way. A classic example of the relationship between language and perception is the word snow. Eskimo languages have as many as 32 different words for snow. For instance, the Eskimos have different words for falling snow, snow on the ground, snow packed as hard as ice, slushy snow, wind-driven snow, and what we might call “cornmeal” snow. The ancient Aztec languages of Mexico, in contrast, used only one word to mean snow, cold, and ice. Thus, if the Sapir-Whorf hypothesis is correct and we can perceive only things that we have words for, the Aztecs perceived snow, cold, and ice as one and the same phenomenon.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-language-3",
+              "sourceNumber": "3",
+              "prompt": "What words and phrases introduce the examples?",
+              "answer": "A classic example; For instance.",
+              "explanation": "这些表达明确预告例证；in contrast表示对比，不是本题答案册列出的引例信号。",
+              "sourceLabel": "Paragraph Structure 书页 13；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Language and Perception\n\nAlthough we all possess the same physical organs for sensing the world—eyes for seeing, ears for hearing, noses for smelling, skin for feeling, and mouths for tasting—our perception of the world depends to a great extent on the language we speak, according to a famous hypothesis proposed by linguists Edward Sapir and Benjamin Lee Whorf. They hypothesized that language is like a pair of eyeglasses through which we “see” the world in a particular way. A classic example of the relationship between language and perception is the word snow. Eskimo languages have as many as 32 different words for snow. For instance, the Eskimos have different words for falling snow, snow on the ground, snow packed as hard as ice, slushy snow, wind-driven snow, and what we might call “cornmeal” snow. The ancient Aztec languages of Mexico, in contrast, used only one word to mean snow, cold, and ice. Thus, if the Sapir-Whorf hypothesis is correct and we can perceive only things that we have words for, the Aztecs perceived snow, cold, and ice as one and the same phenomenon.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-model-conclusions",
+          "instructions": "阅读Greeting Cards和A Hawaiian Legend，完成3个Writing Technique Questions。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-model-conclusions-1",
+              "sourceNumber": "1",
+              "prompt": "哪一段的结句概括了正文主要内容，而这些内容在主题句中没有具体列出？",
+              "answer": "Greeting Cards.",
+              "explanation": "首句是关于贺卡种类的问题；结句把前面的各类人生事件和非事件概括起来。",
+              "sourceLabel": "Paragraph Structure 书页 14—15；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Greeting Cards\n\nHave you noticed how many different kinds of greeting cards you can buy these days? In the old days, the local drugstore had one rack displaying maybe five or six basic kinds of cards. You could walk into the store and choose an appropriate card in five minutes or less. Nowadays, however, the display space for greeting cards is as big as a soccer field, and it may take an hour or two to hunt down exactly the right card with exactly the right message. There are at least 30 categories of birthday cards alone: birthday cards for different ages, from different ages, for different relatives, from different relatives, for different genders, from different genders, from a couple, from the office, for dog owners, for cat owners, and so on. There are cards for getting a job, for retiring from a job, for acquiring a pet, for losing a pet, for becoming engaged, for breaking up. There are also greeting cards to send for no reason—“Thinking of you” or “Just because” cards. The newest type of card is the “encouragement card.” An encouragement card offers comforting thoughts and helpful advice to someone who is sad or distressed in these troubled times. In short, there is now a greeting card for every possible life event and for a few nonevents as well.\n\nA Hawaiian Legend\n\nNative people create legends to explain unusual phenomena in their environment. A legend from the Hawaiian island of Kauai explains how the naupaka flower, a flower that grows on beaches there, got its unusual shape. The flower looks like half a small daisy—there are petals on one side only. The legend says that the marriage of two young lovers on the island was opposed by both sets of parents. The parents found the couple together on a beach one day, and to prevent them from being together, one of the families moved to the mountains, separating the young couple forever. As a result, the naupaka flower separated into two halves; one half moved to the mountains, and the other half stayed near the beach. This story is a good example of a legend invented by native people to interpret the world around them.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-conclusions-2",
+              "sourceNumber": "2",
+              "prompt": "哪一段的结句用不同说法复述主题句？",
+              "answer": "A Hawaiian Legend.",
+              "explanation": "开头说原住民创造传说解释异常现象；结尾以这个故事回扣“理解周围世界”，是主旨改述。",
+              "sourceLabel": "Paragraph Structure 书页 14—15；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Greeting Cards\n\nHave you noticed how many different kinds of greeting cards you can buy these days? In the old days, the local drugstore had one rack displaying maybe five or six basic kinds of cards. You could walk into the store and choose an appropriate card in five minutes or less. Nowadays, however, the display space for greeting cards is as big as a soccer field, and it may take an hour or two to hunt down exactly the right card with exactly the right message. There are at least 30 categories of birthday cards alone: birthday cards for different ages, from different ages, for different relatives, from different relatives, for different genders, from different genders, from a couple, from the office, for dog owners, for cat owners, and so on. There are cards for getting a job, for retiring from a job, for acquiring a pet, for losing a pet, for becoming engaged, for breaking up. There are also greeting cards to send for no reason—“Thinking of you” or “Just because” cards. The newest type of card is the “encouragement card.” An encouragement card offers comforting thoughts and helpful advice to someone who is sad or distressed in these troubled times. In short, there is now a greeting card for every possible life event and for a few nonevents as well.\n\nA Hawaiian Legend\n\nNative people create legends to explain unusual phenomena in their environment. A legend from the Hawaiian island of Kauai explains how the naupaka flower, a flower that grows on beaches there, got its unusual shape. The flower looks like half a small daisy—there are petals on one side only. The legend says that the marriage of two young lovers on the island was opposed by both sets of parents. The parents found the couple together on a beach one day, and to prevent them from being together, one of the families moved to the mountains, separating the young couple forever. As a result, the naupaka flower separated into two halves; one half moved to the mountains, and the other half stayed near the beach. This story is a good example of a legend invented by native people to interpret the world around them.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-model-conclusions-3",
+              "sourceNumber": "3",
+              "prompt": "写出两段中的结尾信号。",
+              "answer": "Greeting Cards: In short.\nA Hawaiian Legend: This story is a good example.",
+              "explanation": "第一种是显式过渡短语；第二种用指回上文的句式收束，不一定要写In conclusion。",
+              "sourceLabel": "Paragraph Structure 书页 14—15；配套答案 PDF 第 2 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Greeting Cards\n\nHave you noticed how many different kinds of greeting cards you can buy these days? In the old days, the local drugstore had one rack displaying maybe five or six basic kinds of cards. You could walk into the store and choose an appropriate card in five minutes or less. Nowadays, however, the display space for greeting cards is as big as a soccer field, and it may take an hour or two to hunt down exactly the right card with exactly the right message. There are at least 30 categories of birthday cards alone: birthday cards for different ages, from different ages, for different relatives, from different relatives, for different genders, from different genders, from a couple, from the office, for dog owners, for cat owners, and so on. There are cards for getting a job, for retiring from a job, for acquiring a pet, for losing a pet, for becoming engaged, for breaking up. There are also greeting cards to send for no reason—“Thinking of you” or “Just because” cards. The newest type of card is the “encouragement card.” An encouragement card offers comforting thoughts and helpful advice to someone who is sad or distressed in these troubled times. In short, there is now a greeting card for every possible life event and for a few nonevents as well.\n\nA Hawaiian Legend\n\nNative people create legends to explain unusual phenomena in their environment. A legend from the Hawaiian island of Kauai explains how the naupaka flower, a flower that grows on beaches there, got its unusual shape. The flower looks like half a small daisy—there are petals on one side only. The legend says that the marriage of two young lovers on the island was opposed by both sets of parents. The parents found the couple together on a beach one day, and to prevent them from being together, one of the families moved to the mountains, separating the young couple forever. As a result, the naupaka flower separated into two halves; one half moved to the mountains, and the other half stayed near the beach. This story is a good example of a legend invented by native people to interpret the world around them.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-5",
+          "instructions": "对两个段落分别识别主题句，并补写以结束信号开头的结句。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-5-1-topic",
+              "sourceNumber": "Paragraph 1, Step 1",
+              "prompt": "写出本段主题句。",
+              "answer": "You can be a good conversationalist by being a good listener.",
+              "explanation": "主题句统领后面的建议或问题；不能只选其中一个身体动作或消息数量。",
+              "sourceLabel": "Paragraph Structure 书页 15—16；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "You can be a good conversationalist by being a good listener. When you are conversing with someone, pay close attention to the speaker's words while looking at his or her face. Show your interest by smiling and nodding. Furthermore, do not interrupt while someone is speaking; it is impolite to do so. If you have a good story, wait until the speaker is finished. Also, watch your body language; it can affect your communication whether you are the speaker or the listener. For instance, do not sit slumped in a chair or make nervous hand and foot movements. Be relaxed and bend your body slightly forward to show interest in the person and the conversation.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-5-1-conclusion",
+              "sourceNumber": "Paragraph 1, Steps 2—3",
+              "prompt": "为本段补写一个结句，以合适的结束信号开头。",
+              "answer": "答案册示例（不是唯一写法）：In summary, meaningful communication means using both good facial expressions and body language as well as showing interest in the speaker’s words.",
+              "explanation": "可以概括主要支撑或换说主题句。只回收已讨论的内容，不在结尾增加全新论点；结束信号与后面句子要自然衔接。",
+              "sourceLabel": "Paragraph Structure 书页 15—16；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "You can be a good conversationalist by being a good listener. When you are conversing with someone, pay close attention to the speaker's words while looking at his or her face. Show your interest by smiling and nodding. Furthermore, do not interrupt while someone is speaking; it is impolite to do so. If you have a good story, wait until the speaker is finished. Also, watch your body language; it can affect your communication whether you are the speaker or the listener. For instance, do not sit slumped in a chair or make nervous hand and foot movements. Be relaxed and bend your body slightly forward to show interest in the person and the conversation.",
+              "rubric": [
+                "总结主旨或主要支撑，不引入新论点。",
+                "使用原题要求的结束信号。",
+                "完整、通顺，意思与原段一致。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-5-2-topic",
+              "sourceNumber": "Paragraph 2, Step 1",
+              "prompt": "写出本段主题句。",
+              "answer": "Modern communication technology is driving workers in the corporate world crazy.",
+              "explanation": "主题句统领后面的建议或问题；不能只选其中一个身体动作或消息数量。",
+              "sourceLabel": "Paragraph Structure 书页 15—16；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Modern communication technology is driving workers in the corporate world crazy. They feel buried under the large number of messages they receive daily. In addition to telephone calls, office workers receive dozens of e-mail and voice mail messages daily. In one company, in fact, managers receive an average of 100 messages a day. Because they do not have enough time to respond to these messages during office hours, it is common for them to do so in the evenings or on weekends at home.",
+              "rubric": [
+                "作答覆盖题目要求，信息与原文一致。",
+                "对照参考和讲解判断；合理同义表达不要求逐字相同。"
+              ]
+            },
+            {
+              "id": "paragraph-practice-5-2-conclusion",
+              "sourceNumber": "Paragraph 2, Steps 2—3",
+              "prompt": "为本段补写一个结句，以合适的结束信号开头。",
+              "answer": "答案册示例（不是唯一写法）：Indeed, faster communication technology may be creating more problems than workers can handle.",
+              "explanation": "可以概括主要支撑或换说主题句。只回收已讨论的内容，不在结尾增加全新论点；结束信号与后面句子要自然衔接。",
+              "sourceLabel": "Paragraph Structure 书页 15—16；配套答案 PDF 第 3 页。题文中的年代、统计和族群名称保留教材语境。",
+              "autoGrade": false,
+              "passage": "Modern communication technology is driving workers in the corporate world crazy. They feel buried under the large number of messages they receive daily. In addition to telephone calls, office workers receive dozens of e-mail and voice mail messages daily. In one company, in fact, managers receive an average of 100 messages a day. Because they do not have enough time to respond to these messages during office hours, it is common for them to do so in the evenings or on weekends at home.",
+              "rubric": [
+                "总结主旨或主要支撑，不引入新论点。",
+                "使用原题要求的结束信号。",
+                "完整、通顺，意思与原段一致。"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-6",
+          "instructions": "从Practice 3B的Movies、Word processors、Your home town、Advertising或3C自选主题中选一题，写8—10句段落。保留初稿、修改稿和终稿。原题要求的Appendix A及Self-/Peer-Editing Worksheet 1未提供，不能声称完成这些附录任务。",
+          "textComplete": false,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-6-writing",
+              "sourceNumber": "Steps 1—5",
+              "prompt": "写8—10句段落：主题句、若干支撑句、至少一个具体例子、结句；保留修改过程。",
+              "answer": "开放写作，答案册没有标准作文。正文可按下列标准自查；教材所引附录及两张editing worksheet缺失，无法逐项对照原表。",
+              "explanation": "先选一个具体角度，再用例子证明。原书后续流程是自评、同伴互评、讨论修改、交初稿/修改稿和表格。可在此记录修改内容，但不能冒充已经填写未提供的原表。",
+              "sourceLabel": "Paragraph Structure 书页16—17；未提供Appendix A（265—279）及Worksheet 1（317—318）。",
+              "autoGrade": false,
+              "rubric": [
+                "正文8—10句，有明确主题句。",
+                "至少一个具体例子，支撑围绕同一角度。",
+                "结句回扣主旨，保存修改稿。",
+                "缺失附录和自评互评表需要另向课程提供者补取。"
+              ]
+            }
+          ],
+          "missingTasks": [
+            {
+              "title": "Appendix A / Self-Editing Worksheet 1 / Peer-Editing Worksheet 1",
+              "reason": "所供PDF不含书页265—279、317—318，无法转录原表。已提供的正文写作与修改流程可继续练习。"
+            }
+          ]
+        },
+        {
+          "id": "paragraph-practice-7",
+          "instructions": "按教师给定总时限选一题写组织清楚的段落；开头1—2分钟构思，末尾1—2分钟查错，剩余时间写作。教材未固定总分钟数。",
+          "textComplete": true,
+          "itemsPartial": false,
+          "items": [
+            {
+              "id": "paragraph-practice-7-writing",
+              "sourceNumber": "Writing under Pressure",
+              "prompt": "从给定主题中选一个，在教师指定时间内写完整段落，尝试使用一个具体例子。",
+              "answer": "开放限时写作；答案册未提供标准作文，也未给固定总时长。",
+              "explanation": "先确定一个可在单段展开的角度，把例子用来支撑它。留下最后1—2分钟检查主谓、标点与跑题；本题未规定句数，不套用上一题8—10句为强制要求。",
+              "sourceLabel": "Paragraph Structure 书页17，跨引书页9；本题无配套标准答案。",
+              "autoGrade": false,
+              "passage": "Topic Suggestions\nWhy some children have imaginary friends\nThe difficulty of translating from one language to another\nThe dependence of humans on machines\nPets\nJewelry\nAny topic sentence from Practice 2 on page 9\n\nPractice 2 topic sentences:\n1. Driving on freeways requires skill and alertness.\n2. Driving on freeways requires strong nerves.\n3. Driving on freeways requires an aggressive attitude.\n4. The Caribbean island of Trinidad attracts tourists because of its calypso music.\n5. Spectacular beaches make Puerto Rico a tourist paradise.\n6. Moving away from home can be a stressful experience for young people.\n7. Many religious rules arose from the health needs of ancient times.\n8. A major problem for many students is the high cost of tuition and books.\n9. Participating in class discussions is a problem for several different groups of students.\n10. In my opinion, television commercials for cosmetics lie to women.\n11. Owning an automobile is a necessity for me.\n12. It is an expensive luxury to own an automobile in a large city.\n13. Taste and appearance are both important in Japanese cuisine.",
+              "rubric": [
+                "主题句、支撑和组织清晰。",
+                "尝试用具体例子支撑。",
+                "按教师给定时限完成，并预留构思和检查时间。"
+              ]
+            }
+          ]
+        }
+      ],
+      "rules": [
+        {
+          "title": "段落三部分",
+          "explanation": "topic sentence 提出主题与控制思想；supporting sentences 解释和证明；concluding sentence 回收主旨。独立段落通常需要结句，长文中的每个主体段不一定都要单独结句。",
+          "example": "原创示例：Regular review improves vocabulary retention. Short daily sessions help learners revisit difficult words.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先问“这一段只想说明哪一件事？”",
+            "用主题句给方向；支撑句提供理由和证据。",
+            "需要独立收尾时，用结句回收主旨。"
+          ],
+          "breakdown": [
+            {
+              "text": "Topic sentence",
+              "note": "像一张路线图：告诉读者对象和本段要说的角度。"
+            },
+            {
+              "text": "Supporting sentences",
+              "note": "像证据：说明为什么或怎样，不能只是重复主题句。"
+            },
+            {
+              "text": "Concluding sentence",
+              "note": "像收口：总结已讲的内容，而不是突然另开一个话题。"
+            }
+          ],
+          "pitfall": "不是每段必须机械凑三类句；长文中的主体段不一定都要结句。",
+          "sourceLabel": "Paragraph Structure 书页2—4、16",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：一个独立段落要说明金的美观和用途，正文应怎样安排？",
+            "options": [
+              {
+                "value": "1",
+                "label": "只反复说gold is valuable"
+              },
+              {
+                "value": "2",
+                "label": "分别给美观、用途提供具体支撑，再回收这两点"
+              },
+              {
+                "value": "3",
+                "label": "只写黄金的价格历史"
+              }
+            ],
+            "answer": "2",
+            "explanation": "主题预告两点，支撑要兑现这两点。"
+          }
+        },
+        {
+          "title": "Topic + controlling idea",
+          "explanation": "主题回答“写什么”；控制思想回答“从哪个具体角度写”。主题句必须完整，范围适中；不能只是标题、极泛的事实或孤立细节。",
+          "example": "原创示例：Studying with a partner offers two practical benefits.",
+          "before": "Education is important.",
+          "after": "Peer study improves learning by encouraging explanation and regular review.",
+          "steps": [
+            "先圈“写什么”，再划“具体从哪方面写”。",
+            "检查是否有完整主谓。",
+            "删掉过宽背景和太细的单例，让范围适合一个段落。"
+          ],
+          "breakdown": [
+            {
+              "text": "Topic",
+              "note": "对象，例如Driving on freeways。"
+            },
+            {
+              "text": "Controlling idea",
+              "note": "限制方向，例如requires skill and alertness，后面就要解释skill和alertness。"
+            }
+          ],
+          "pitfall": "topic不必是语法主语，也不必在句首；不要照抄原扫描页手写圈线。",
+          "sourceLabel": "Paragraph Structure 书页4—10",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：哪一句既完整又有适中控制思想？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Education."
+              },
+              {
+                "value": "2",
+                "label": "Education is important."
+              },
+              {
+                "value": "3",
+                "label": "Daily review helps students remember new vocabulary."
+              }
+            ],
+            "answer": "3",
+            "explanation": "第三句限定到每日复习与记忆词汇的关系，可以用一个段落展开。"
+          }
+        },
+        {
+          "title": "支撑必须具体",
+          "explanation": "用解释、例子、事实、数据发展控制思想。每句都要回答“为什么/如何/例如”；不要把主旨换词反复说。练习中的数字若自拟，必须标明，不冒充调查。",
+          "example": "原创示例：For example, learners can explain difficult grammar rules to each other.",
+          "before": "Study groups are good. They are very helpful.",
+          "after": "Study groups help members identify errors by comparing their answers.",
+          "steps": [
+            "找到主题句的判断。",
+            "逐句追问“凭什么？有什么例子或可核实细节？”",
+            "加入具体支撑后，检查它确实服务该判断。"
+          ],
+          "breakdown": [
+            {
+              "text": "Example",
+              "note": "一个具体情境或案例，让抽象判断看得见。"
+            },
+            {
+              "text": "Statistic",
+              "note": "数量或比例，说明规模；数据应有来源。"
+            },
+            {
+              "text": "Quotation",
+              "note": "准确引用他人原话并交代出处。"
+            }
+          ],
+          "pitfall": "不能靠very、many、good反复加强语气来代替证据；也不能把教材旧数字当现时事实。",
+          "sourceLabel": "Paragraph Structure 书页11—13",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：主题句是“通知过多影响工作”，哪种支撑最具体？",
+            "options": [
+              {
+                "value": "1",
+                "label": "Notifications are really bad."
+              },
+              {
+                "value": "2",
+                "label": "Notifications are bad and troublesome."
+              },
+              {
+                "value": "3",
+                "label": "During a two-hour task, the worker stopped twelve times to check alerts."
+              }
+            ],
+            "answer": "3",
+            "explanation": "第三句说明了情境、时长和次数；它在本检查中是原创示例，不冒充调查结果。"
+          }
+        },
+        {
+          "title": "识别主题句与段落顺序",
+          "explanation": "主题句常在开头，也可能居中或结尾。选句题要看整段覆盖范围：过宽无法统摄，过窄只覆盖一个例子。",
+          "example": "原创示例：A list of two study benefits needs a topic sentence that covers both.",
+          "before": "",
+          "after": "",
+          "steps": [
+            "先读全部支撑，找共同对象。",
+            "寻找能覆盖所有主要支撑的概括句。",
+            "排除只讲一个例子的句子，也排除大到整段无法证明的句子。"
+          ],
+          "breakdown": [
+            {
+              "text": "位置",
+              "note": "主题句通常在开头，但位置不能代替内容判断。"
+            },
+            {
+              "text": "覆盖范围",
+              "note": "主题句要罩住正文各主要部分，正文又要能兑现它。"
+            }
+          ],
+          "pitfall": "看到first或for example就选为主题句会误判；这些通常引出支撑或某一分点。",
+          "sourceLabel": "Paragraph Structure 书页5—8",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：一段分别解释三个软件功能，主题句应选哪种？",
+            "options": [
+              {
+                "value": "1",
+                "label": "只介绍第一个功能"
+              },
+              {
+                "value": "2",
+                "label": "概括软件具备的三类功能"
+              },
+              {
+                "value": "3",
+                "label": "讨论所有计算机技术历史"
+              }
+            ],
+            "answer": "2",
+            "explanation": "第二种覆盖全部支撑，另外两种分别过窄、过宽。"
+          }
+        },
+        {
+          "title": "结句收束、不加新论点",
+          "explanation": "结句可换说主题句或总结主要支撑。不能突然引入尚未讨论的新好处。In conclusion 等不是每段必需，也不宜机械重复。",
+          "example": "原创示例：These benefits make peer study a useful part of exam preparation.",
+          "before": "In conclusion, peer study also improves physical health.",
+          "after": "Together, shared explanations and regular practice make peer study effective.",
+          "steps": [
+            "看主题句和正文已经说了什么。",
+            "选择概括要点，或换一种说法重申主旨。",
+            "检查结尾有没有突然出现未讨论的内容。"
+          ],
+          "breakdown": [
+            {
+              "text": "Summary",
+              "note": "把正文几个要点收成一句。"
+            },
+            {
+              "text": "Paraphrase",
+              "note": "保留主题句意思，换词和结构表达。"
+            },
+            {
+              "text": "End signal",
+              "note": "In short后通常用逗号；These examples show that后接从句。"
+            }
+          ],
+          "pitfall": "At last表示终于，不是普通结段信号；不要在结尾突然加“而且更贵”等未讨论观点。",
+          "sourceLabel": "Paragraph Structure 书页13—16",
+          "check": {
+            "prompt": "原创理解检查（非教材原题）：正文只讨论手机沟通方便，哪句结尾有问题？",
+            "options": [
+              {
+                "value": "1",
+                "label": "These uses make it easier to stay in touch."
+              },
+              {
+                "value": "2",
+                "label": "In short, phones help people communicate."
+              },
+              {
+                "value": "3",
+                "label": "In conclusion, phones also damage eyesight."
+              }
+            ],
+            "answer": "3",
+            "explanation": "第三句突然引入健康影响，正文没有展开或支撑。"
+          }
+        }
+      ],
+      "audit": [
+        {
+          "type": "visual-verification",
+          "detail": "逐页核对07-001—016及08-001—003；PDF页与书页差1，未改原件。所有任务所需文章均展开为passage；说明性范文不另造作答题。"
+        },
+        {
+          "type": "restored-examples",
+          "detail": "Practice1A Group1四项已填分类及Practice2第1项圈线恢复待答。Practice3B cell phones是说明性写法示例，不在原Topics列表，不冒充新增原题；示例的三句用于讲解而不另计题数。"
+        },
+        {
+          "type": "answer-key-conflict",
+          "detail": "Practice2第5、9、12、13题正式key圈topic分别为Puerto Rico、a problem for several different groups of students、to own an automobile in a large city、Japanese cuisine；原教材手写圈线不作为答案。"
+        },
+        {
+          "type": "answer-key-anomaly",
+          "detail": "Practice1A Group5b“彩虹从飞机看是整圆”正式key标too general，已忠实注明该判法的语境与局限，不自行改答案也不推广为通用规则。"
+        },
+        {
+          "type": "missing-source",
+          "mission": "paragraph-practice-6",
+          "detail": "Appendix A书页265—279、Self-/Peer-Editing Worksheet1书页317—318不在所供PDF，textComplete=false/itemsPartial=false，missingTasks列出缺件。正文任务和全部给定流程已录入，但未编造附录原表。"
+        },
+        {
+          "type": "historical-source",
+          "detail": "保留教材历史用语、数字和预测作语言分析；如太空段将Sputnik写作1957年载人、Snow例子的旧说法，均未当作现时可靠事实背书。"
+        },
+        {
+          "type": "task-counting",
+          "detail": "一个主题句分类、一个段落选择、一个独立标注/开放作答计一项；阅读材料按需重复显示不另计题数。原Practice3C整体要求三个自选主题，保留一个多输出任务；开放写作不拆造选择题。"
+        },
+        {
+          "type": "counts",
+          "missions": {
+            "paragraph-model-gold": 4,
+            "paragraph-practice-1": 26,
+            "paragraph-practice-2": 13,
+            "paragraph-practice-3": 8,
+            "paragraph-practice-4": 4,
+            "paragraph-model-language": 3,
+            "paragraph-model-conclusions": 3,
+            "paragraph-practice-5": 4,
+            "paragraph-practice-6": 1,
+            "paragraph-practice-7": 1
+          },
+          "totalItems": 67,
+          "automaticItems": 29
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "rules": [
+    {
+      "title": "独立从句与从属从句",
+      "explanation": "一个完整句子，要说清楚“谁或什么，怎么样了”。如果前面加上 because（因为）、although（虽然）等词，往往只说了原因或背景，还要接一句主要意思。判断时，先找主语和真正表示动作或状态的谓语，再检查意思是否完整。",
+      "example": "原创示例：Because the experiment failed, we revised the method.",
+      "before": "Because the experiment failed.",
+      "after": "Because the experiment failed, we revised the method.",
+      "steps": [
+        "先问“谁/什么怎么样了”：找主语和能表示时态的谓语。例如 the experiment 是主语，failed 是过去时谓语。",
+        "再看开头是否有 because、although、when、if 等。The experiment failed. 可以独立；加 Because 后只交代原因，还没说结果。",
+        "给原因片段接上一个完整主句：Because the experiment failed, we revised the method. 先说原因时，中间通常用逗号。",
+        "辨认 -ing/to 短语：Working all day. 只有“整天工作”这个活动，不是完整陈述；Working all day makes me tired. 才有主句谓语 makes。",
+        "最后单独读主句。即使暂时拿掉 because 部分，We revised the method. 仍能成立。"
+      ],
+      "breakdown": [
+        {
+          "text": "Because",
+          "note": "因为：它把后面的主谓结构引成原因从句，不能只写这一原因就句号结束。"
+        },
+        {
+          "text": "the experiment failed",
+          "note": "the experiment（实验）是主语，failed（失败了）是限定谓语。合起来说明原因。"
+        },
+        {
+          "text": ",",
+          "note": "原因从句放在前面，用逗号和后面的主句分开。"
+        },
+        {
+          "text": "we revised the method.",
+          "note": "we 是主语，revised 是谓语，the method 是被修改的对象。这部分独立表达“我们修改了方法”。"
+        }
+      ],
+      "pitfall": "不要只数句子里出现了几个动词。Teachers who give too much homework. 虽有 give，但它在 who 从句里；Teachers 仍缺自己的主句谓语。补 are unpopular 才完整。",
+      "check": {
+        "prompt": "【原创理解检查】哪一句可以独立作为完整句子？",
+        "options": [
+          {
+            "value": "A",
+            "label": "Because the library was closed."
+          },
+          {
+            "value": "B",
+            "label": "The library closed at six."
+          },
+          {
+            "value": "C",
+            "label": "Studying in the quiet library."
+          }
+        ],
+        "answer": "B",
+        "explanation": "B 的主语是 The library，限定谓语是 closed，已经说完一件事。",
+        "wrongExplanation": "A 只给原因，仍缺主句；C 的 Studying 是非限定形式，整段只有活动短语，没有完整主句。"
+      },
+      "sourceLabel": "教材第162–163页（PDF 1–2）分句；第183–185页（PDF 22–24）残句。分步讲解与检查题为原创辅助。"
+    },
+    {
+      "title": "四种句型",
+      "explanation": "句型取决于一句话里面有几组完整意思，以及有没有从属部分。只有一组完整意思是简单句；两组地位相等的完整意思连在一起是并列句；主要意思带上原因、时间等从属部分是复合句。两组主句再加从句，就是并列复合句。",
+      "example": "原创示例：Although the task was difficult, we persisted, and we finished it.",
+      "before": "",
+      "after": "",
+      "steps": [
+        "先用括号分出每一套“主语 + 限定谓语”，不要把形容词、介词短语或并列动词误算成新分句。",
+        "逐套判断能否独立：前面带 although/when/because 的，标作从属；其余能独立陈述的，标作独立。",
+        "只有1个独立、0个从属：simple。We read and discuss. 只有一个主语共享两个谓语，仍是简单句。",
+        "至少2个独立、0个从属：compound。We read, and they discuss. 有两套能独立的主谓。",
+        "1个独立、至少1个从属：complex。至少2个独立、至少1个从属：compound-complex。把数目写出来再选类别。",
+        "长短不是标准。很长的名词短语不会自动增加分句；短短的 When I arrived, she left. 也已经是复杂句。"
+      ],
+      "breakdown": [
+        {
+          "text": "Although the task was difficult,",
+          "note": "the task + was 构成一套主谓，但 Although 使它成为从属让步从句：虽然任务很难。"
+        },
+        {
+          "text": "we persisted",
+          "note": "第一独立分句：我们坚持了。独立拿出来仍是完整句。"
+        },
+        {
+          "text": ", and",
+          "note": "逗号加 and，把两个独立分句并列起来。"
+        },
+        {
+          "text": "we finished it.",
+          "note": "第二独立分句：我们完成了它。全句共2个独立分句+1个从属分句，所以是 compound-complex。"
+        }
+      ],
+      "pitfall": "and 不是“并列句探测器”。My sister and I study and work. 有两个并列主语和两个并列谓语，但仍只有一套独立分句结构。",
+      "check": {
+        "prompt": "【原创理解检查】When the rain stopped, we opened the windows, and the room cooled down. 属于哪种句型？",
+        "options": [
+          {
+            "value": "A",
+            "label": "Simple · 简单句"
+          },
+          {
+            "value": "B",
+            "label": "Compound · 并列句"
+          },
+          {
+            "value": "C",
+            "label": "Complex · 复杂句"
+          },
+          {
+            "value": "D",
+            "label": "Compound-complex · 并列复杂句"
+          }
+        ],
+        "answer": "D",
+        "explanation": "When the rain stopped 是1个从属分句；we opened the windows 与 the room cooled down 是2个独立分句。",
+        "wrongExplanation": "不要只看 and 或 When 一个词。先数完整结构：独立2个，从属1个，必须同时满足这两项。"
+      },
+      "sourceLabel": "教材第164–165页（PDF 3–4）、第172–174页（PDF 11–13）：四种句型。分步讲解与检查题为原创辅助。"
+    },
+    {
+      "title": "并列句三种合法连接",
+      "explanation": "两句都能独立成立时，中间需要一个合适的连接方式。教材给出三种方法：逗号加并列连词；分号加连接副词；直接用分号。先想清楚两句的关系，再决定用哪一种。",
+      "example": "原创示例：The sample was small; therefore, the result requires caution.",
+      "before": "The sample was small, however, the effect was clear.",
+      "after": "The sample was small; however, the effect was clear.",
+      "steps": [
+        "先确认两侧都能独立成句，例如 The sample was small. 和 The result requires caution.",
+        "再判断关系：补充用 and，转折用 but/yet，选择用 or，结果用 so，解释原因可用 for；nor 连接另一项否定。",
+        "第一种连接：独立句, + 并列连词 + 独立句。例如 The sample was small, so we repeated the test.",
+        "第二种连接：独立句; + therefore/however 等连接副词, + 独立句。副词说明逻辑，但句法连接依靠分号。",
+        "第三种连接：内容紧密时直接用分号，例如 The sample was small; the result was uncertain. 如果不保留一个句子，也可用句号拆开。",
+        "检查 nor：I did not call, nor did I send a message. 否定并列分句中 did 放到 I 前；不要只把 and 换成 nor 而忽略结构。"
+      ],
+      "breakdown": [
+        {
+          "text": "The sample was small",
+          "note": "独立分句1：样本量小。主语 The sample，谓语 was。"
+        },
+        {
+          "text": ";",
+          "note": "分号真正连接两套独立主谓结构，避免只靠一个逗号硬接。"
+        },
+        {
+          "text": "therefore,",
+          "note": "表示“因此”，交代因果；它后面的逗号把这个连接副词与主句分开。"
+        },
+        {
+          "text": "the result requires caution.",
+          "note": "独立分句2：对结果需要谨慎。主语 the result，谓语 requires。"
+        }
+      ],
+      "pitfall": "The sample was small, however, the effect was clear. 有两个独立句，却只用逗号加 however，不合法。把第一个逗号换成分号，或写成 The sample was small, but the effect was clear.。",
+      "check": {
+        "prompt": "【原创理解检查】哪一种写法正确连接了两个独立分句？",
+        "options": [
+          {
+            "value": "A",
+            "label": "The train was late, however, we arrived on time."
+          },
+          {
+            "value": "B",
+            "label": "The train was late; however, we arrived on time."
+          },
+          {
+            "value": "C",
+            "label": "The train was late we arrived on time."
+          }
+        ],
+        "answer": "B",
+        "explanation": "B 用分号连接独立分句，however 表示转折，后接逗号。",
+        "wrongExplanation": "A 是 comma splice：however 不能替逗号承担连接功能。C 没有连接和标点，是 run-on。"
+      },
+      "sourceLabel": "教材第165–171页（PDF 4–10）并列句；第188–190页（PDF 27–29）误连修正。分步讲解与检查题为原创辅助。"
+    },
+    {
+      "title": "主从句与信息重点",
+      "explanation": "把最想说的内容放在主句，把原因、时间、条件或让步放在从句。先说“因为、虽然、当……时”，后面就要接上主要意思。名词从句可以担任主语或宾语，定语从句则补充说明一个名词。",
+      "example": "原创示例：Although tuition is high, many students attend college.",
+      "before": "Although tuition is high, but many students attend college.",
+      "after": "Although tuition is high, many students attend college.",
+      "steps": [
+        "先用中文说出最想强调的结果或观点，把它留在主句：例如“很多人仍然上大学”。",
+        "给辅助信息命名：原因 because，条件 if，时间 when/after，虽然如此 although。例句“学费很高”与“仍然上大学”是让步关系。",
+        "把从句接到主句上：Although tuition is high, many students attend college. 从句在前，后面用逗号。",
+        "主句在前也可以：Many students attend college although tuition is high. 通常不用把中间强行隔成两个句子。",
+        "英语一个关系选一套句法连接：Although ... , 主句；或 独立句, but 独立句。不要写 Although ... , but ...。because 与 so 同理。",
+        "再区分两种常见嵌入：The book that I borrowed is useful. 中 that ... 修饰 book；I know that the book is useful. 中 that ... 充当 know 的内容。都要接回所属句子，不能单独句号结束。"
+      ],
+      "breakdown": [
+        {
+          "text": "Although",
+          "note": "虽然：提示前半句是让步背景，不是最终陈述。"
+        },
+        {
+          "text": "tuition is high",
+          "note": "学费很高；tuition 是主语，is 是谓语。"
+        },
+        {
+          "text": ",",
+          "note": "前置让步从句结束，接着给出主句。"
+        },
+        {
+          "text": "many students attend college.",
+          "note": "很多学生仍上大学，是作者强调的主信息；不要再在它前面加 but。"
+        }
+      ],
+      "pitfall": "“中文读起来顺”不等于英语结构正确。“虽然……但是……”在英语里不能机械地同时放 Although 和 but。先选择从属关系或并列关系，再写对应标点。",
+      "check": {
+        "prompt": "【原创理解检查】保留“虽然设备旧，但还能用”的关系，哪句语法正确？",
+        "options": [
+          {
+            "value": "A",
+            "label": "Although the machine is old, but it still works."
+          },
+          {
+            "value": "B",
+            "label": "Although the machine is old."
+          },
+          {
+            "value": "C",
+            "label": "Although the machine is old, it still works."
+          }
+        ],
+        "answer": "C",
+        "explanation": "C 的 although 从句完整接上主句 it still works，表达让步关系。",
+        "wrongExplanation": "A 重复用了 although 和 but；B 只有从属从句，还没告诉读者“虽然旧，结果怎样”。"
+      },
+      "sourceLabel": "教材第172–174页（PDF 11–13）复杂句；第186–188页（PDF 25–27）合并句子与信息主次。分步讲解与检查题为原创辅助。"
+    },
+    {
+      "title": "平行结构",
+      "explanation": "用 and、or 等把几项内容并列时，它们的形式要对应。例如“阅读、写作、思考”可以都是动名词，不能前两项用动名词，最后一项突然换成不定式。做题时，先找连接词，再比较它两边的结构。",
+      "example": "原创示例：The course develops reading, writing, and critical thinking.",
+      "before": "The course develops reading, writing, and to think critically.",
+      "after": "The course develops reading, writing, and critical thinking.",
+      "steps": [
+        "找到 and/or/but 或成对连接词，在它们两侧画出真正连接的项目。不要只比较最近的一个词。",
+        "看第一项是什么形式：名词、形容词、介词短语、to + 动词、-ing 短语，还是完整从句。",
+        "把其他项改成同一层级。例如 reading, writing, and to think critically 混用了 -ing 与 to；可把最后一项改成 critical thinking。",
+        "成对连词要放在对应位置：both at school and at home；not only to read but also to write。不要第一项是短语，第二项却突然另起主语。",
+        "比较结构也要对称：spend as much time reading as writing。比较的是两个活动，不要把第二项写成 to write。",
+        "最后检查共同部分是否能共享。I like swimming and running. 不必重复 I like；省略后两项仍保持同样形式即可。"
+      ],
+      "breakdown": [
+        {
+          "text": "The course develops",
+          "note": "共同的主语和谓语：这门课培养什么？后面是三个并列对象。"
+        },
+        {
+          "text": "reading,",
+          "note": "第一项：阅读，用名词性 -ing 形式。"
+        },
+        {
+          "text": "writing,",
+          "note": "第二项：写作，形式和层级与 reading 对应。"
+        },
+        {
+          "text": "and critical thinking.",
+          "note": "第三项：批判性思维，同样是名词短语；and 连接最后两项。"
+        }
+      ],
+      "pitfall": "平行不是要求每项字数相同，也不是要求每项只有一个词。in the classroom / at home / in a country where the language is spoken 长短不同，但都是地点介词短语，可以平行。",
+      "check": {
+        "prompt": "【原创理解检查】哪句话的两项结构平行？",
+        "options": [
+          {
+            "value": "A",
+            "label": "The course teaches us to plan and revising."
+          },
+          {
+            "value": "B",
+            "label": "The course teaches us to plan and to revise."
+          },
+          {
+            "value": "C",
+            "label": "The course teaches us planning and we revise."
+          }
+        ],
+        "answer": "B",
+        "explanation": "B 的两个项目都是 to + 动词原形，且共同接在 teaches us 后。",
+        "wrongExplanation": "A 把 to plan 与 revising 混用；C 把 planning 短语与 we revise 完整句并列，结构层级不一致。"
+      },
+      "sourceLabel": "教材第179–183页（PDF 18–22）平行结构；第191–192页（PDF 30–31）复习。分步讲解与检查题为原创辅助。"
+    },
+    {
+      "title": "Fragment、run-on 与 comma splice",
+      "explanation": "教材重点区分三类问题：一句话缺少完整骨架，叫 fragment；两句完整句直接粘在一起，叫 run-on；两句完整句中间只有逗号，叫 comma splice。先判断缺了什么，再选择补全、断句或连接。",
+      "example": "原创示例：The data were incomplete, so we collected more.",
+      "before": "The data were incomplete we collected more.",
+      "after": "The data were incomplete, so we collected more.",
+      "steps": [
+        "第一遍找骨架：是否至少有一个完整独立主句？没有则先检查 fragment，而不是先乱加逗号。",
+        "只有 because/although 从句：接主句；只有名词或 -ing 短语：补限定谓语；名词后有 who/that 从句：检查名词本身是否还有主句谓语。",
+        "第二遍找边界：如果有两套独立主谓，找到第一套结束、第二套开始的位置。The data were incomplete | we collected more.",
+        "边界没有标点也没有连接词：run-on；只有逗号而没有合法连接词：comma splice。两种错误都不能靠句子长度判断。",
+        "选一种修法：句号拆开；分号连接；逗号加 and/but/so 等；或用 because/although 等把一部分改成从句。",
+        "修后再读关系：数据不全是原因，补采数据是结果，所以 The data were incomplete, so we collected more. 既连接合法，也解释清楚。"
+      ],
+      "breakdown": [
+        {
+          "text": "The data were incomplete",
+          "note": "第一个独立分句：数据不完整。主语 The data，谓语 were。"
+        },
+        {
+          "text": ", so",
+          "note": "逗号加并列连词 so，表示下面是结果；逗号或 so 不是随意替换的装饰。"
+        },
+        {
+          "text": "we collected more.",
+          "note": "第二个独立分句：我们又收集了一些。主语 we，谓语 collected。"
+        }
+      ],
+      "pitfall": "祈使句 Ask a librarian for help. 虽未写 you，仍是完整句；which/who/if 开头的结构即使里面有谓语，也不一定是独立主句。先判断边界两边的身份，再决定是不是误连。",
+      "check": {
+        "prompt": "【原创理解检查】The report was late, the team waited. 最准确的诊断是什么？",
+        "options": [
+          {
+            "value": "A",
+            "label": "Fragment：缺少完整主句"
+          },
+          {
+            "value": "B",
+            "label": "Run-on：两独立句间完全没有标点"
+          },
+          {
+            "value": "C",
+            "label": "Comma splice：仅用逗号连接两独立句"
+          },
+          {
+            "value": "D",
+            "label": "正确句，无需修改"
+          }
+        ],
+        "answer": "C",
+        "explanation": "The report was late 和 the team waited 都能独立成句，中间只有一个逗号。可改成 The report was late, so the team waited.。",
+        "wrongExplanation": "这里不是缺主谓，也不是完全没有标点；问题恰好在“两个独立句只靠逗号连接”。"
+      },
+      "sourceLabel": "教材第183–185页（PDF 22–24）残句；第188–190页（PDF 27–29）run-on/comma splice。分步讲解与检查题为原创辅助。"
+    },
+    {
+      "title": "Choppy 与 stringy",
+      "explanation": "连续短句如果没有说明关系，读起来会很零碎，这叫 choppy。反过来，把很多信息用 and、so 一直串下去，会形成 stringy。修改时先把相关信息分组，再决定哪些句子应该合并，哪些应该分开。",
+      "example": "原创示例：We reviewed the evidence before choosing a method.",
+      "before": "We reviewed the evidence, and we chose a method, and we ran a test, and we wrote a report.",
+      "after": "After reviewing the evidence, we chose a method. We then ran a test and wrote a report.",
+      "steps": [
+        "先看症状：连续短句反复重复主语、表达一个紧密意思，可能 choppy；一口气 and/so/but 串了许多层，可能 stringy。短或长本身不是错误。",
+        "给每条信息写一个关系标签：先后、原因、结果、对比、对名词的补充说明。没有关系就不要硬合成长句。",
+        "修 choppy：主次明确时把次要信息改成从句或短语，例如 We reviewed the evidence. Then we chose a method. 可用 before/after 合并。",
+        "修 stringy：先按主题或阶段分组。We reviewed ... and chose ... and ran ... and wrote ... 可分成“选方法”与“执行并报告”两组。",
+        "有相同主语的动作可以共享主语；有明确从属关系的内容用 when/because/although；重要的新阶段可另起一句。",
+        "最后朗读检查：每句重点是否清楚？原有信息是否还在？是否因删掉 and 而把两独立句直接粘在一起？"
+      ],
+      "breakdown": [
+        {
+          "text": "We reviewed the evidence",
+          "note": "主句核心：我们审查了证据。We 是主语，reviewed 是谓语。"
+        },
+        {
+          "text": "before",
+          "note": "标明先后关系：审查证据发生在选择方法之前。"
+        },
+        {
+          "text": "choosing a method.",
+          "note": "这里是 -ing 短语，共享主句中的动作执行者 We。因为主语相同，可以这样压缩；不另算一个完整独立分句。"
+        }
+      ],
+      "pitfall": "不要把“多合并”当成目标。用于强调的短句可以保留；拆长句也不能丢掉原因或结果。句法合法之外，还要让读者看得出信息之间是什么关系。",
+      "check": {
+        "prompt": "【原创理解检查】哪种改写既保留先后关系，又减少碎句？原句：We checked the data. Then we chose a model.",
+        "options": [
+          {
+            "value": "A",
+            "label": "After checking the data, we chose a model."
+          },
+          {
+            "value": "B",
+            "label": "We checked the data we chose a model."
+          },
+          {
+            "value": "C",
+            "label": "Although we checked the data, we chose a model."
+          }
+        ],
+        "answer": "A",
+        "explanation": "After 明确表示先检查再选择；两个动作共享执行者 we，开头短语与主句连接完整。",
+        "wrongExplanation": "B 删掉句号却没有加合法连接，造成 run-on；C 把先后关系改成了“虽然如此”的让步关系，改变原意。"
+      },
+      "sourceLabel": "教材第185–188页（PDF 24–27）choppy；第190–192页（PDF 29–31）stringy。分步讲解与检查题为原创辅助。"
+    }
+  ]
+}
