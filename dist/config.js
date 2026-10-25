@@ -4,7 +4,7 @@ window.STUDY_CLOUD_CONFIG = Object.freeze({
   publishableKey: 'sb_publishable_IbRCSLc3DbsYniRq11pTmw_fsK3E85N',
   authProvider: 'email',
   emailSignupMode: 'otp',
-  emailDeliveryReady: false,
+  emailDeliveryReady: true,
   passwordRecoveryEnabled: true,
   pollIntervalMs: 20000
 });

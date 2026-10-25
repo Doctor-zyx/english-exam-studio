@@ -1,5 +1,5 @@
 const PREFIX='orbit-'+new URL(self.registration.scope).pathname+'-';
-const CACHE=PREFIX+'v4-email-account';
+const CACHE=PREFIX+'v5-email-registration';
 const SHELL=['./','index.html','style.css','journey.css','chapter.css','journey.js','listening-flow.js','chapter.js','app.js','config.js','cloud.js','auth-ui.js','effects.js','vendor/supabase-2.118.0.js','icon.svg','manifest.webmanifest','data/listening.json','data/writing.json','data/vocabulary.json','data/mocks.json','data/files.json','data/textbook-sentence.json','data/textbook-core.json'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
