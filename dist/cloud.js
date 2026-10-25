@@ -202,7 +202,13 @@
     let unlisten, destroyed = false, signedOutLatch = false, lastSyncAt = null, liveConflicts = [];
     let authProbe = null, authProbeController = null;
     const authProvider = config.authProvider === 'github' ? 'github' : 'email';
-    const status = { user: null, status: 'initializing', message: '正在准备学习进度…', configured: configuration.configured, authProvider, oauthReady: null, oauthChecking: false, oauthMessage: '', pending: 0, conflicts: 0, recovery: false, guestAvailable: false, deferred: false, storageOK: !storageError, lastSyncAt: null };
+    const instantSignup = authProvider === 'email' && config.emailSignupMode === 'instant';
+    const otpSignup = authProvider === 'email' && config.emailSignupMode === 'otp';
+    const emailSettingsRequired = instantSignup || otpSignup;
+    const emailDeliveryReady = otpSignup ? config.emailDeliveryReady === true : config.emailDeliveryReady !== false;
+    const passwordRecoveryEnabled = config.passwordRecoveryEnabled !== false;
+    let awaitingSignupVerification = false;
+    const status = { user: null, status: 'initializing', message: '正在准备学习进度…', configured: configuration.configured, authProvider, emailSignupMode: otpSignup ? 'otp' : instantSignup ? 'instant' : null, emailDeliveryReady, passwordRecoveryEnabled, emailSignupReady: null, emailSignupChecking: false, emailSignupMessage: '', oauthReady: null, oauthChecking: false, oauthMessage: '', pending: 0, conflicts: 0, recovery: false, guestAvailable: false, deferred: false, storageOK: !storageError, lastSyncAt: null };
     const userId = () => user?.id || null;
     const cacheKey = uid => prefix + 'cache:' + uid;
     const opPrefix = uid => prefix + 'op:' + uid + ':';
@@ -254,6 +260,13 @@
         else if (status.oauthReady === false) { status.status = 'oauth-unavailable'; status.message = 'GitHub 登录待配置；现在可继续游客学习。'; }
         else if (status.oauthReady !== true) { status.status = 'oauth-unknown'; status.message = '未能确认 GitHub 登录服务；可重试，或继续游客学习。'; }
         else if (status.status.startsWith('oauth-')) { status.status = 'guest'; status.message = 'GitHub 登录已启用；游客进度保存在此浏览器。'; }
+      }
+      if (emailSettingsRequired && configuration.configured && !user && !['signup-incomplete','signup-code-sent','recovery-code-sent'].includes(status.status)) {
+        if (status.emailSignupChecking) { status.status = 'email-checking'; status.message = '正在确认注册设置；已有账号仍可登录。'; }
+        else if (otpSignup && !emailDeliveryReady) { status.status = 'email-unavailable'; status.message = '验证码邮件服务待配置；已有账号仍可登录，游客学习可继续。'; }
+        else if (status.emailSignupReady === false) { status.status = 'signup-unavailable'; status.message = '注册即将开放，管理员完成一次设置后即可使用。已有账号可登录。'; }
+        else if (status.emailSignupReady !== true) { status.status = 'signup-unknown'; status.message = '未能确认注册设置；已有账号仍可登录，游客学习可继续。'; }
+        else if (['email-checking', 'email-unavailable', 'signup-unavailable', 'signup-unknown'].includes(status.status)) { status.status = 'guest'; status.message = otpSignup ? '邮箱验证码注册已开放；已有账号可用密码登录。' : '邮箱密码注册已开放；游客进度保存在此浏览器。'; }
       }
       if (storageError) { status.status = 'storage-error'; status.message = '浏览器存储不可用或已满；尚未上传的修改可能丢失，请立即导出备份。'; }
       for (const fn of listeners) { try { fn(clone(status)); } catch { /* UI subscribers cannot stop persistence. */ } }
@@ -388,15 +401,20 @@
       const code = error?.code || '', message = String(error?.message || '网络不可用');
       if (/PGRST202|PGRST205|42P01|42883/.test(code) || /Could not find.*(?:function|table)/i.test(message)) return '云端数据表或同步函数尚未配置。';
       if (/invalid login credentials/i.test(message)) return '邮箱或密码不正确。';
-      if (/email not confirmed/i.test(message)) return '请先完成邮箱验证。';
+      if (/email not confirmed/i.test(message)) return otpSignup ? '邮箱尚未验证，请先输入注册验证码完成验证。' : '请先完成邮箱验证。';
+      if (/otp_expired|otp_disabled/.test(code) || /(?:token|otp|verification code).*(?:expired|invalid)|(?:expired|invalid).*(?:token|otp|verification code)/i.test(message)) return '验证码无效或已过期，请重新输入，或获取最新验证码。';
       if (/rate limit|too many requests/i.test(message)) return '请求较频繁，请稍后重试。';
       if (/fetch|network|timeout/i.test(message)) return '网络连接暂时不可用。';
       if (/JWT|session.*missing|refresh token/i.test(message)) return '登录已过期，请重新登录。';
       return message.slice(0, 240);
     }
-    async function adoptSession(session, reason = 'account') {
+    async function adoptSession(session, reason = 'account', passwordRecovery = false) {
       if (signedOutLatch && session) return;
+      if (awaitingSignupVerification && session && !userId()) return;
       const nextUser = session?.user || null;
+      // Recovery belongs to the authenticated identity, never to a later account from another tab.
+      if ((nextUser?.id || null) !== userId() || !nextUser) recovery = false;
+      if (passwordRecovery && nextUser) recovery = true;
       if ((nextUser?.id || null) === userId() && visible) { user = nextUser; if (!user) emit(configuration.configured ? 'guest' : 'unconfigured', configuration.configured ? '游客进度保存在此浏览器。' : configuration.message); else emit(); return; }
       epoch++; user = nextUser; activeSync = null; liveConflicts = []; document = emptyDocument(); revision = 0;
       if (syncTimer) untimer(syncTimer); syncTimer = null;
@@ -420,10 +438,14 @@
     }
     function requireClient() { if (!configuration.configured || !client) throw new Error(configuration.message || '云同步尚未配置。'); }
     function refreshAuthSettings() {
-      if (authProvider !== 'github' || !configuration.configured || destroyed) return Promise.resolve(clone(status));
+      if ((authProvider !== 'github' && !emailSettingsRequired) || !configuration.configured || destroyed) return Promise.resolve(clone(status));
       if (authProbe) return authProbe;
-      if (status.status === 'oauth-redirect') status.status = 'guest';
-      status.oauthChecking = true; status.oauthReady = null; status.oauthMessage = '正在确认 GitHub 登录服务…'; emit();
+      if (['oauth-redirect', 'signup-incomplete'].includes(status.status)) status.status = 'guest';
+      const readyKey = emailSettingsRequired ? 'emailSignupReady' : 'oauthReady';
+      const checkingKey = emailSettingsRequired ? 'emailSignupChecking' : 'oauthChecking';
+      const messageKey = emailSettingsRequired ? 'emailSignupMessage' : 'oauthMessage';
+      status[checkingKey] = true; status[readyKey] = null;
+      status[messageKey] = emailSettingsRequired ? '正在确认邮箱注册设置…' : '正在确认 GitHub 登录服务…'; emit();
       const fetcher = options.fetch || env.fetch?.bind(env);
       const controller = typeof AbortController === 'function' ? new AbortController() : null;
       authProbeController = controller;
@@ -433,18 +455,24 @@
         const response = await fetcher(configuration.url + '/auth/v1/settings', { method: 'GET', headers: { apikey: configuration.key }, cache: 'no-store', ...(controller ? { signal: controller.signal } : {}) });
         if (!response.ok) throw new Error('Settings request failed');
         const settings = await response.json();
+        if (emailSettingsRequired) {
+          if ([settings?.external?.email, settings?.disable_signup, settings?.mailer_autoconfirm].some(value => typeof value !== 'boolean')) throw new Error('Email signup settings are missing');
+          return settings.external.email === true && settings.disable_signup === false && settings.mailer_autoconfirm === instantSignup && (!otpSignup || emailDeliveryReady);
+        }
         if (typeof settings?.external?.github !== 'boolean') throw new Error('Provider status is missing');
         return settings.external.github;
       });
       const deadline = new Promise((_, reject) => { timeout = timer(() => { controller?.abort(); reject(new Error('Settings request timed out')); }, 8000); });
       authProbe = Promise.race([request, deadline]).then(ready => {
-        status.oauthReady = ready;
-        status.oauthMessage = ready ? 'GitHub 登录已启用。' : 'GitHub 登录待配置。站点管理员启用后即可登录，游客学习不受影响。';
+        status[readyKey] = ready;
+        status[messageKey] = emailSettingsRequired
+          ? ready ? otpSignup ? '注册后请填写邮件中的验证码，完成邮箱验证后即可登录。' : '可以直接注册，无需验证邮件。邮箱仅作登录账号。' : otpSignup && !emailDeliveryReady ? '验证码邮件服务待配置，注册与邮件找回暂未开放；已有账号可登录。' : '注册即将开放，管理员完成一次设置后即可使用。已有账号仍可登录。'
+          : ready ? 'GitHub 登录已启用。' : 'GitHub 登录待配置。站点管理员启用后即可登录，游客学习不受影响。';
       }, () => {
-        status.oauthReady = null;
-        status.oauthMessage = '未能确认 GitHub 登录服务，请检查网络后重试；游客学习仍可继续。';
+        status[readyKey] = null;
+        status[messageKey] = emailSettingsRequired ? '未能确认注册设置，请稍后重新检测；已有账号可登录，游客学习仍可继续。' : '未能确认 GitHub 登录服务，请检查网络后重试；游客学习仍可继续。';
       }).then(() => {
-        untimer(timeout); status.oauthChecking = false; authProbe = null; authProbeController = null;
+        untimer(timeout); status[checkingKey] = false; authProbe = null; authProbeController = null;
         return destroyed ? clone(status) : emit();
       });
       return authProbe;
@@ -463,6 +491,7 @@
       credentials(email, password); signedOutLatch = false;
       const data = await authCall('signInWithPassword', { email: email.trim(), password });
       if (!data?.session) throw new Error('未收到有效登录会话，请重试。');
+      awaitingSignupVerification = false;
       await adoptSession(data.session); client.auth.startAutoRefresh?.(); return clone(status);
     }
     async function signInWithGitHub() {
@@ -481,15 +510,69 @@
     }
     async function signUp(email, password) {
       credentials(email, password); signedOutLatch = false;
-      const data = await authCall('signUp', { email: email.trim(), password, options: { emailRedirectTo: redirectURL() } });
+      if (otpSignup) requireEmailDelivery();
+      if (emailSettingsRequired) {
+        requireClient(); await refreshAuthSettings();
+        if (status.emailSignupReady !== true) throw new Error(status.emailSignupMessage);
+      }
+      if (otpSignup) awaitingSignupVerification = true;
+      let data;
+      try { data = await authCall('signUp', { email: email.trim(), password, options: { emailRedirectTo: redirectURL() } }); }
+      catch (error) { awaitingSignupVerification = false; throw error; }
+      if (otpSignup) {
+        if (data?.session) {
+          // A changed server configuration must not silently admit an unverified signup.
+          signedOutLatch = true; epoch++; activeSync = null;
+          try { await client.auth.signOut({ scope: 'local' }); } catch { /* Remove the local credential even if sign-out is offline. */ }
+          client.auth.stopAutoRefresh?.();
+          removeText(authKey); removeText(authKey + '-code-verifier');
+          status.emailSignupReady = false; status.emailSignupMessage = '注册需要邮箱验证，请管理员检查邮件确认设置后重新开放。'; emit();
+          throw new Error('注册服务未返回待验证状态，已停止登录。请联系管理员检查邮箱验证设置。');
+        }
+        return emit('signup-code-sent', '注册验证码请求已提交。若该邮箱可用于注册，请查看收件箱及垃圾邮件，填写邮件中的验证码。');
+      }
       if (data?.session) await adoptSession(data.session);
+      else if (instantSignup) {
+        emit('signup-incomplete', '未完成直接注册，尚未收到登录会话。请重试；若已有账号，请直接登录。');
+        throw new Error(status.message);
+      }
       else emit('confirm-email', '注册请求已提交。若邮箱可用于注册，请打开验证邮件后再登录；也请检查垃圾邮件。');
       return clone(status);
     }
     async function resetPassword(email) {
+      if (!passwordRecoveryEnabled) throw new Error('本站暂不支持邮件找回密码。请妥善保存登录账号和密码。');
+      requireEmailDelivery();
       credentials(email);
       await authCall('resetPasswordForEmail', email.trim(), { redirectTo: redirectURL(true) });
+      if (otpSignup) return emit('recovery-code-sent', '找回验证码请求已提交。如果该邮箱已注册，请查看邮件并填写验证码。');
       emit('reset-email', '重置请求已提交。如果该邮箱已注册，请查收重置邮件。'); return clone(status);
+    }
+    function requireEmailDelivery() {
+      if (!emailDeliveryReady) throw new Error('验证码邮件服务待配置，注册与邮件找回暂未开放；已有账号仍可登录。');
+    }
+    function otpCredentials(email, token) {
+      credentials(email);
+      if (typeof token !== 'string' || !/^\d{6,8}$/.test(token.trim())) throw new Error('请输入邮件中的 6–8 位数字验证码。');
+    }
+    async function verifySignup(email, token) {
+      otpCredentials(email, token);
+      const data = await authCall('verifyOtp', { email: email.trim(), token: token.trim(), type: 'signup' });
+      if (!data?.session) throw new Error('验证码验证未完成，未收到有效登录会话。请检查验证码后重试。');
+      awaitingSignupVerification = false; signedOutLatch = false; recovery = false;
+      await adoptSession(data.session); client.auth.startAutoRefresh?.(); return clone(status);
+    }
+    async function verifyRecovery(email, token) {
+      otpCredentials(email, token);
+      const data = await authCall('verifyOtp', { email: email.trim(), token: token.trim(), type: 'recovery' });
+      if (!data?.session) throw new Error('找回验证码验证未完成，未收到有效会话。请检查验证码后重试。');
+      awaitingSignupVerification = false; signedOutLatch = false;
+      await adoptSession(data.session, 'account', true); client.auth.startAutoRefresh?.(); return emit('recovery', '邮箱验证已完成，请设置新密码。');
+    }
+    async function resendSignup(email) {
+      credentials(email); requireEmailDelivery();
+      if (emailSettingsRequired) { requireClient(); await refreshAuthSettings(); if (status.emailSignupReady !== true) throw new Error(status.emailSignupMessage); }
+      await authCall('resend', { type: 'signup', email: email.trim(), options: { emailRedirectTo: redirectURL() } });
+      return emit('signup-code-sent', '注册验证码重发请求已提交。若该邮箱可用于注册，请查看最新邮件。');
     }
     async function updatePassword(password) {
       if (!userId()) throw new Error('请先打开邮箱中的密码重置链接，或登录账号。');
@@ -553,14 +636,13 @@
       }
       if (configuration.configured && !client) configuration = { configured: false, message: '登录组件未能加载；请刷新或联系站点维护者。游客进度仍可保存。' };
       if (!configuration.configured) { emit('unconfigured', configuration.message); return clone(status); }
-      if (authProvider === 'github') refreshAuthSettings();
+      if (authProvider === 'github' || emailSettingsRequired) refreshAuthSettings();
       if (!adapter) adapter = createSupabaseAdapter(client);
       const subscription = client.auth.onAuthStateChange((event, session) => {
         // The SDK's auth lock must not be re-entered from its synchronous callback.
         timer(() => {
           if (destroyed) return;
-          if (event === 'PASSWORD_RECOVERY') recovery = true;
-          adoptSession(session).then(() => { if (event === 'PASSWORD_RECOVERY') emit('recovery', '请设置新密码。'); }).catch(e => emit('error', friendlyError(e)));
+          adoptSession(session, 'account', event === 'PASSWORD_RECOVERY').then(() => { if (event === 'PASSWORD_RECOVERY' && recovery && userId() === session?.user?.id) emit('recovery', '请设置新密码。'); }).catch(e => emit('error', friendlyError(e)));
         }, 0);
       });
       unlisten = () => subscription?.data?.subscription?.unsubscribe();
@@ -585,7 +667,7 @@
     }
     const api = {
       storageNamespace: prefix, guestStorageKey: guestKey,
-      init, save, syncNow, signIn, signInWithGitHub, refreshAuthSettings, signUp, resetPassword, updatePassword, signOut, importGuest, getConflicts, resolveConflict,
+      init, save, syncNow, signIn, signInWithGitHub, refreshAuthSettings, signUp, verifySignup, verifyRecovery, resendSignup, resetPassword, updatePassword, signOut, importGuest, getConflicts, resolveConflict,
       onStatus(fn) { listeners.add(fn); fn(clone(status)); return () => listeners.delete(fn); },
       getStatus() { return clone(status); },
       destroy() { destroyed = true; epoch++; authProbeController?.abort(); if (syncTimer) untimer(syncTimer); if (pollTimer) untimer(pollTimer); unlisten?.(); api._cleanup?.(); listeners.clear(); },

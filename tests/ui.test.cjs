@@ -217,3 +217,109 @@ test('GitHub provider probe errors leave signed-in account sync controls intact'
     assert.ok(a.q('#sync-now'));assert.ok(a.q('#sign-out'));assert.equal(a.q('#auth-github'),null);assert.match(a.q('.account-panel').textContent,/已同步/);assert.deepEqual(a.failures,[]);
   }finally{a.close()}
 });
+
+const instantStatus={configured:true,authProvider:'email',emailSignupMode:'instant',passwordRecoveryEnabled:false,emailSignupReady:false,emailSignupChecking:false,emailSignupMessage:'注册即将开放，管理员完成一次设置后即可使用。',user:null,status:'signup-unavailable'};
+
+test('instant email UI keeps login enabled, blocks pending signup, hides password recovery and rechecks settings',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus(instantStatus);
+    assert.ok(a.q('#auth-email'));assert.equal(a.q('#auth-github'),null);assert.equal(a.q('[data-auth-mode="reset"]'),null);assert.equal(a.q('#auth-submit').disabled,false);assert.match(a.q('.account-panel').textContent,/暂不支持邮件找回密码/);
+    a.q('[data-auth-mode="signup"]').click();assert.equal(a.q('#auth-submit').disabled,true);assert.match(a.q('#email-signup-state').textContent,/管理员完成一次设置/);
+    a.input('#auth-email','learner@example.com');a.input('#auth-password','password1');a.input('#auth-confirm','password1');
+    let retries=0;a.w.StudyCloud.refreshAuthSettings=async()=>{retries++;const s={...instantStatus,emailSignupReady:null,emailSignupMessage:'未能确认注册设置',status:'signup-unknown'};a.w.AccountUI.onStatus(s);return s};
+    a.q('#auth-retry').click();await pause();assert.equal(retries,1);assert.equal(a.q('#auth-submit').disabled,true);assert.match(a.q('#email-signup-state').textContent,/未能确认/);assert.equal(a.q('#auth-email').value,'learner@example.com');assert.equal(a.q('#auth-password').value,'password1');
+    a.w.AccountUI.onStatus({...instantStatus,emailSignupReady:true,emailSignupMessage:'可以直接注册，无需验证邮件。',status:'guest'});assert.equal(a.q('#auth-submit').disabled,false);assert.equal(a.q('#auth-email').value,'learner@example.com');assert.equal(a.q('#auth-confirm').value,'password1');assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('instant email signup requires an actual session and never presents false email delivery',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus({...instantStatus,emailSignupReady:true,emailSignupMessage:'直接注册已开放',status:'guest'});a.q('[data-auth-mode="signup"]').click();
+    a.input('#auth-email','new@example.com');a.input('#auth-password','password1');a.input('#auth-confirm','password1');
+    a.w.StudyCloud.signUp=async()=>({user:null});a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    assert.match(a.q('#auth-message').textContent,/未完成直接注册/);assert.doesNotMatch(a.q('#auth-message').textContent,/确认链接|查收|已发/);assert.equal(a.w.location.hash,'#account');
+    a.w.StudyCloud.signUp=async()=>{const s={...instantStatus,emailSignupReady:true,user:{id:'new',email:'new@example.com'},status:'synced'};a.w.AccountUI.onStatus(s);return s};a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    assert.equal(a.w.location.hash,'#home');assert.match(a.q('#toast').textContent,/账号已创建并登录/);assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('turning off email recovery closes an old reset form but preserves genuine recovery sessions',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus({configured:true,user:null,status:'guest'});a.q('[data-auth-mode="reset"]').click();assert.match(a.q('#auth-submit').textContent,/发送重置邮件/);
+    a.w.AccountUI.onStatus(instantStatus);assert.equal(a.q('[data-auth-mode="reset"]'),null);assert.ok(a.q('#auth-password'));assert.match(a.q('#auth-submit').textContent,/登录我的空间/);
+    a.w.AccountUI.onStatus({...instantStatus,user:{id:'a',email:'a@example.com'},recovery:true,status:'recovery'});assert.equal(a.q('#auth-email'),null);assert.ok(a.q('#auth-confirm'));assert.match(a.q('#auth-submit').textContent,/更新密码/);assert.equal(a.q('#auth-submit').disabled,false);assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+const otpStatus={configured:true,authProvider:'email',emailSignupMode:'otp',passwordRecoveryEnabled:true,emailDeliveryReady:true,emailSignupReady:true,emailSignupChecking:false,emailSignupMessage:'注册后请填写邮件验证码。',user:null,status:'guest'};
+
+test('OTP UI truthfully gates unconfigured mail while allowing existing password login',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus({...otpStatus,emailDeliveryReady:false,emailSignupReady:false});assert.equal(a.q('#auth-submit').disabled,false);assert.equal(a.q('#auth-github'),null);assert.match(a.q('.account-panel').textContent,/验证码邮件服务待配置/);
+    a.q('[data-auth-mode="signup"]').click();assert.equal(a.q('#auth-submit').disabled,true);assert.match(a.q('#auth-submit').textContent,/发送验证码/);
+    a.q('[data-auth-mode="reset"]').click();assert.equal(a.q('#auth-submit').disabled,true);assert.match(a.q('#auth-submit').textContent,/找回验证码/);assert.equal(a.q('#auth-password'),null);
+    assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('OTP signup clears passwords, validates one code and blocks duplicate verification',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus(otpStatus);a.q('[data-auth-mode="signup"]').click();a.input('#auth-email','new@example.com');a.input('#auth-password','private-password1');a.input('#auth-confirm','private-password1');
+    a.w.StudyCloud.signUp=async()=>({...otpStatus,status:'signup-code-sent'});a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    assert.ok(a.q('#otp-form'));assert.equal(a.q('#auth-password'),null);assert.equal(a.q('#sign-out'),null);assert.equal(a.w.location.hash,'#account');assert.equal(a.q('#otp-resend').disabled,true);assert.match(a.q('#otp-resend').textContent,/秒后/);assert.doesNotMatch(a.q('#main').innerHTML,/private-password1/);
+    a.w.StudyCloud.verifySignup=async()=>{throw new Error('Token has expired or is invalid')};a.input('#auth-otp','123456');a.q('#otp-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();assert.ok(a.q('#otp-form'));assert.match(a.q('#auth-message').textContent,/验证码无效或已过期/);assert.equal(a.q('#otp-submit').disabled,false);
+    let finish,calls=0;a.w.StudyCloud.verifySignup=(email,token)=>{calls++;assert.equal(email,'new@example.com');assert.equal(token,'12345678');return new Promise(resolve=>{finish=resolve})};
+    a.input('#auth-otp','123');a.q('#otp-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));assert.equal(calls,0);
+    a.input('#auth-otp','12345678');const form=a.q('#otp-form');form.dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));form.dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));assert.equal(calls,1);assert.equal(a.q('#auth-otp').value,'');assert.equal(a.q('#otp-back').disabled,true);
+    const success={...otpStatus,user:{id:'new',email:'new@example.com'},status:'synced'};a.w.AccountUI.onStatus(success);finish(success);await pause();assert.equal(a.w.location.hash,'#home');assert.match(a.q('#toast').textContent,/邮箱验证成功/);assert.doesNotMatch(JSON.stringify(a.w.localStorage),/private-password1|12345678/);assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('OTP recovery supports resend countdown, verification and setting a new password',async()=>{
+  const a=await app();try{
+    let now=100000;a.w.Date.now=()=>now;await a.route('account');a.w.AccountUI.onStatus(otpStatus);a.q('[data-auth-mode="reset"]').click();a.input('#auth-email','learner@example.com');
+    let sends=0;a.w.StudyCloud.resetPassword=async()=>{sends++;return{...otpStatus,status:'recovery-code-sent'}};a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();assert.equal(sends,1);assert.ok(a.q('#otp-form'));assert.equal(a.q('#otp-resend').disabled,true);
+    a.q('#otp-resend').click();assert.equal(sends,1);now+=61000;a.w.eval('account()');assert.equal(a.q('#otp-resend').disabled,false);a.q('#otp-resend').click();await pause();assert.equal(sends,2);assert.equal(a.q('#otp-resend').disabled,true);
+    a.w.StudyCloud.verifyRecovery=async(email,token)=>{assert.equal(email,'learner@example.com');assert.equal(token,'123456');const s={...otpStatus,user:{id:'learner',email},recovery:true,status:'recovery'};a.w.AccountUI.onStatus(s);return s};a.input('#auth-otp','123456');a.q('#otp-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    assert.equal(a.q('#otp-form'),null);assert.ok(a.q('#auth-password'));assert.equal(a.q('#auth-email'),null);assert.match(a.q('#auth-submit').textContent,/更新密码/);
+    a.w.StudyCloud.updatePassword=async password=>{assert.equal(password,'new-password1');const s={...otpStatus,user:{id:'learner',email:'learner@example.com'},recovery:false,status:'password-updated'};a.w.AccountUI.onStatus(s);return s};a.input('#auth-password','new-password1');a.input('#auth-confirm','new-password1');a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    assert.ok(a.q('#sign-out'));assert.equal(a.q('#auth-password'),null);assert.match(a.q('#auth-message').textContent,/密码已更新/);assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('OTP change-email returns to an empty-password registration form and discards the code',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus(otpStatus);a.q('[data-auth-mode="signup"]').click();a.input('#auth-email','old@example.com');a.input('#auth-password','password1');a.input('#auth-confirm','password1');a.w.StudyCloud.signUp=async()=>({...otpStatus,status:'signup-code-sent'});a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    a.input('#auth-otp','654321');a.q('#otp-back').click();assert.equal(a.q('#otp-form'),null);assert.equal(a.q('#auth-email').value,'old@example.com');assert.equal(a.q('#auth-password').value,'');assert.equal(a.q('#auth-confirm').value,'');assert.doesNotMatch(a.q('#main').innerHTML,/654321/);assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('pending signup or recovery cannot overwrite the home page when the send request completes',async()=>{
+  for(const kind of ['signup','reset']){
+    const a=await app();try{
+      await a.route('account');a.w.AccountUI.onStatus(otpStatus);a.q(`[data-auth-mode="${kind}"]`).click();a.input('#auth-email','waiting@example.com');
+      if(kind==='signup'){a.input('#auth-password','password1');a.input('#auth-confirm','password1')}
+      let finish;a.w.StudyCloud[kind==='signup'?'signUp':'resetPassword']=()=>new Promise(resolve=>{finish=resolve});
+      a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));a.q('.account-panel [data-go="home"]').click();await pause();assert.equal(a.w.location.hash,'#home');assert.ok(a.q('.hero'));
+      finish({...otpStatus,status:kind==='signup'?'signup-code-sent':'recovery-code-sent'});await pause();assert.equal(a.w.location.hash,'#home');assert.ok(a.q('.hero'));assert.equal(a.q('#otp-form'),null);
+      await a.route('account');assert.ok(a.q('#otp-form'));assert.match(a.q('.account-panel').textContent,/waiting@example.com/);assert.equal(a.q('#auth-password'),null);assert.deepEqual(a.failures,[]);
+    }finally{a.close()}
+  }
+});
+
+test('existing registration code resumes verification without password, signup or resend',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus({...otpStatus,emailDeliveryReady:false,emailSignupReady:false});
+    a.q('#auth-have-code').click();assert.equal(a.q('#otp-form'),null);assert.match(a.q('#auth-message').textContent,/填写注册时使用的邮箱/);
+    a.input('#auth-email','existing@example.com');a.w.StudyCloud.signUp=()=>{throw Error('must not register again')};a.w.StudyCloud.resendSignup=()=>{throw Error('must not resend')};a.q('#auth-have-code').click();
+    assert.ok(a.q('#otp-form'));assert.equal(a.q('#auth-password'),null);assert.equal(a.q('#otp-resend').disabled,true);
+    a.w.StudyCloud.verifySignup=async(email,token)=>{assert.equal(email,'existing@example.com');assert.equal(token,'123456');const s={...otpStatus,user:{id:'existing',email},status:'synced'};a.w.AccountUI.onStatus(s);return s};a.input('#auth-otp','123456');a.q('#otp-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();assert.equal(a.w.location.hash,'#home');assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});
+
+test('unconfirmed email login points to the registration code instead of a nonexistent mail link',async()=>{
+  const a=await app();try{
+    await a.route('account');a.w.AccountUI.onStatus(otpStatus);a.input('#auth-email','pending@example.com');a.input('#auth-password','password1');a.w.StudyCloud.signIn=async()=>{throw Error('Email not confirmed')};a.q('#auth-form').dispatchEvent(new a.w.Event('submit',{bubbles:true,cancelable:true}));await pause();
+    assert.match(a.q('#auth-message').textContent,/输入注册验证码/);assert.doesNotMatch(a.q('#auth-message').textContent,/验证链接/);assert.ok(a.q('#auth-have-code'));assert.deepEqual(a.failures,[]);
+  }finally{a.close()}
+});

@@ -58,6 +58,8 @@ function fakeAuth(uid) {
   auth.signInWithOAuth = async args => { auth.calls.push(['oauth', args]); return { data: { provider: 'github', url: 'https://testing.supabase.co/auth/v1/authorize' }, error: null }; };
   auth.signOut = async args => { auth.calls.push(['signOut', args]); auth.session = null; return { error: null }; };
   auth.resetPasswordForEmail = async (email, options) => { auth.calls.push(['reset', email, options]); return { data: {}, error: null }; };
+  auth.verifyOtp = async args => { auth.calls.push(['verifyOtp', args]); auth.session = { user: { id: args.email.split('@')[0], email: args.email, email_confirmed_at: '2026-10-25T00:00:00Z' } }; return { data: { user: auth.session.user, session: auth.session }, error: null }; };
+  auth.resend = async args => { auth.calls.push(['resend', args]); return { data: {}, error: null }; };
   auth.updateUser = async args => { auth.calls.push(['update', args]); return { data: { user: auth.session?.user }, error: null }; };
   auth.startAutoRefresh = () => {};
   auth.stopAutoRefresh = () => {};
@@ -373,5 +375,126 @@ test('a stalled settings probe times out, deduplicates retries and never blocks 
     d.edit(s=>{s.essays.draft='Still learning offline'});assert.equal(d.state.essays.draft,'Still learning offline');
     const deadline=[...d.timers.values()].find(t=>t.delay===8000);assert.ok(deadline);deadline.fn();await pending;
     assert.equal(requests,1);assert.equal(d.cloud.getStatus().oauthChecking,false);assert.equal(d.cloud.getStatus().oauthReady,null);assert.equal(d.cloud.getStatus().status,'oauth-unknown');
+  }finally{d.cloud.destroy()}
+});
+
+const instantConfig={...config,authProvider:'email',emailSignupMode:'instant',passwordRecoveryEnabled:false};
+const emailSettings=()=>({external:{email:true},disable_signup:false,mailer_autoconfirm:true});
+
+test('instant email signup rechecks real settings and adopts only a returned session',async()=>{
+  let probes=0;
+  const d=await device(new Server(),{uid:null,config:instantConfig,fetch:async()=>{probes++;return{ok:true,json:async()=>emailSettings()}}});
+  try{
+    await d.cloud.refreshAuthSettings();const before=probes;
+    d.auth.signUp=async args=>{d.auth.calls.push(['signUp',args]);d.auth.session={user:{id:'new',email:args.email}};return{data:{user:d.auth.session.user,session:d.auth.session},error:null}};
+    const result=await d.cloud.signUp(' new@test.invalid ','password1');assert.ok(probes>before);assert.equal(result.user.id,'new');assert.equal(result.status,'synced');assert.equal(result.emailSignupReady,true);assert.equal(result.passwordRecoveryEnabled,false);assert.equal(d.auth.calls.find(x=>x[0]==='signUp')[1].email,'new@test.invalid');
+  }finally{d.cloud.destroy()}
+});
+
+test('instant signup rejects server confirmation, disabled signup or disabled email before calling SDK',async()=>{
+  let settings=emailSettings();
+  const d=await device(new Server(),{uid:null,config:instantConfig,fetch:async()=>({ok:true,json:async()=>settings})});
+  try{
+    await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().emailSignupReady,true);
+    for(const blocked of [{...emailSettings(),mailer_autoconfirm:false},{...emailSettings(),disable_signup:true},{...emailSettings(),external:{email:false}}]){
+      settings=blocked;await assert.rejects(d.cloud.signUp('new@test.invalid','password1'),/注册即将开放/);assert.equal(d.cloud.getStatus().emailSignupReady,false);assert.equal(d.cloud.getStatus().status,'signup-unavailable');
+    }
+    assert.equal(d.auth.calls.filter(x=>x[0]==='signUp').length,0);
+    await d.cloud.signIn('a@test.invalid','password1');assert.equal(d.cloud.getStatus().user.id,'a');assert.equal(d.cloud.getStatus().status,'synced');
+  }finally{d.cloud.destroy()}
+});
+
+test('unknown instant signup settings block new registration without blocking signed-in sync',async()=>{
+  let settings={external:{email:true},disable_signup:false};
+  const server=new Server(),d=await device(server,{config:instantConfig,fetch:async()=>{if(!settings)throw Error('offline');return{ok:true,json:async()=>settings}}});
+  try{
+    await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().emailSignupReady,null);assert.match(d.cloud.getStatus().emailSignupMessage,/未能确认/);
+    settings=null;await assert.rejects(d.cloud.signUp('new@test.invalid','password1'),/未能确认/);assert.equal(d.auth.calls.filter(x=>x[0]==='signUp').length,0);
+    d.edit(s=>{s.essays.draft='My current session still works.'});await d.cloud.syncNow();assert.equal(d.cloud.getStatus().status,'synced');assert.equal(server.row('a').document.cells[P('essays','draft')].value,'My current session still works.');
+  }finally{d.cloud.destroy()}
+});
+
+test('instant registration without session never claims a confirmation email was sent',async()=>{
+  const d=await device(new Server(),{uid:null,config:instantConfig,fetch:async()=>({ok:true,json:async()=>emailSettings()})});
+  try{
+    await assert.rejects(d.cloud.signUp('new@test.invalid','password1'),/未完成直接注册/);assert.equal(d.cloud.getStatus().user,null);assert.equal(d.cloud.getStatus().status,'signup-incomplete');assert.doesNotMatch(d.cloud.getStatus().message,/已发送|验证邮件|确认邮件|查收/);
+  }finally{d.cloud.destroy()}
+});
+
+test('disabled password recovery makes no SDK request but an authenticated recovery session can update password',async()=>{
+  const d=await device(new Server(),{config:{...config,passwordRecoveryEnabled:false}});
+  try{
+    await assert.rejects(d.cloud.resetPassword('a@test.invalid'),/暂不支持邮件找回/);assert.equal(d.auth.calls.filter(x=>x[0]==='reset').length,0);
+    d.auth.callback('PASSWORD_RECOVERY',d.auth.session);await d.immediate();assert.equal(d.cloud.getStatus().recovery,true);await d.cloud.updatePassword('newpassword1');assert.equal(d.cloud.getStatus().recovery,false);assert.equal(d.auth.calls.filter(x=>x[0]==='update').length,1);
+  }finally{d.cloud.destroy()}
+});
+
+const otpConfig={...config,authProvider:'email',emailSignupMode:'otp',passwordRecoveryEnabled:true,emailDeliveryReady:true};
+const otpSettings=()=>({external:{email:true},disable_signup:false,mailer_autoconfirm:false});
+const otpFetch=async()=>({ok:true,json:async()=>otpSettings()});
+
+test('OTP email delivery unavailable prevents registration and recovery mail but keeps existing login working',async()=>{
+  const d=await device(new Server(),{uid:null,config:{...otpConfig,emailDeliveryReady:false},fetch:otpFetch});
+  try{
+    await d.cloud.refreshAuthSettings();assert.equal(d.cloud.getStatus().emailSignupReady,false);assert.match(d.cloud.getStatus().message,/邮件服务待配置/);
+    await assert.rejects(d.cloud.signUp('new@test.invalid','password1'),/邮件服务待配置/);await assert.rejects(d.cloud.resetPassword('new@test.invalid'),/邮件服务待配置/);await assert.rejects(d.cloud.resendSignup('new@test.invalid'),/邮件服务待配置/);assert.equal(d.auth.calls.length,0);
+    await d.cloud.signIn('a@test.invalid','password1');assert.equal(d.cloud.getStatus().user.id,'a');assert.equal(d.cloud.getStatus().status,'synced');
+  }finally{d.cloud.destroy()}
+});
+
+test('OTP signup remains a guest until SDK verification returns a session; secrets never enter progress storage',async()=>{
+  const d=await device(new Server(),{uid:null,config:otpConfig,fetch:otpFetch});
+  try{
+    const sent=await d.cloud.signUp('new@test.invalid','private-password1');assert.equal(sent.user,null);assert.equal(sent.status,'signup-code-sent');assert.equal(sent.emailSignupReady,true);
+    await assert.rejects(d.cloud.verifySignup('new@test.invalid','12345'),/6–8/);assert.equal(d.auth.calls.filter(x=>x[0]==='verifyOtp').length,0);
+    const verified=await d.cloud.verifySignup('new@test.invalid','12345678');assert.equal(verified.user.id,'new');assert.equal(verified.recovery,false);assert.deepEqual(d.auth.calls.find(x=>x[0]==='verifyOtp')[1],{email:'new@test.invalid',token:'12345678',type:'signup'});
+    assert.doesNotMatch(JSON.stringify([...d.storage.data]),/private-password1|12345678/);
+  }finally{d.cloud.destroy()}
+});
+
+test('OTP recovery verifies the recovery token then updates the password and ends recovery state',async()=>{
+  const d=await device(new Server(),{uid:null,config:otpConfig,fetch:otpFetch});
+  try{
+    await d.cloud.resetPassword('learner@test.invalid');assert.equal(d.cloud.getStatus().user,null);assert.equal(d.cloud.getStatus().status,'recovery-code-sent');
+    const result=await d.cloud.verifyRecovery('learner@test.invalid','123456');assert.equal(result.recovery,true);assert.equal(result.user.id,'learner');assert.equal(result.status,'recovery');assert.deepEqual(d.auth.calls.find(x=>x[0]==='verifyOtp')[1],{email:'learner@test.invalid',token:'123456',type:'recovery'});
+    await d.cloud.updatePassword('private-new-password1');assert.equal(d.cloud.getStatus().recovery,false);assert.equal(d.cloud.getStatus().status,'password-updated');assert.doesNotMatch(JSON.stringify([...d.storage.data]),/private-new-password1|123456/);
+  }finally{d.cloud.destroy()}
+});
+
+test('OTP signup refuses autoconfirm configuration and resends only via official confirmation API',async()=>{
+  let autoconfirm=true;
+  const d=await device(new Server(),{uid:null,config:otpConfig,fetch:async()=>({ok:true,json:async()=>({...otpSettings(),mailer_autoconfirm:autoconfirm})})});
+  try{
+    await assert.rejects(d.cloud.signUp('new@test.invalid','password1'),/注册即将开放/);assert.equal(d.auth.calls.length,0);
+    autoconfirm=false;await d.cloud.signUp('new@test.invalid','password1');await d.cloud.resendSignup('new@test.invalid');assert.deepEqual(d.auth.calls.find(x=>x[0]==='resend')[1],{type:'signup',email:'new@test.invalid',options:{emailRedirectTo:'https://example.github.io/english-workbench/'}});assert.equal(d.cloud.getStatus().user,null);
+  }finally{d.cloud.destroy()}
+});
+
+test('unexpected auto-confirmed signup session is isolated before SIGNED_IN and cleared from the SDK',async()=>{
+  const server=new Server(),d=await device(server,{uid:null,config:otpConfig,fetch:otpFetch});let unexpected;
+  try{
+    d.auth.signUp=async()=>{unexpected={user:{id:'unverified',email:'unverified@test.invalid'}};d.auth.session=unexpected;d.storage.setItem(d.cloud.storageNamespace+'auth',JSON.stringify(unexpected));d.auth.callback('SIGNED_IN',unexpected);await d.immediate();assert.equal(d.cloud.getStatus().user,null);return{data:{session:unexpected,user:unexpected.user},error:null}};
+    await assert.rejects(d.cloud.signUp('unverified@test.invalid','password1'),/停止登录/);assert.equal(d.auth.session,null);assert.equal(d.storage.getItem(d.cloud.storageNamespace+'auth'),null);assert.equal(d.cloud.getStatus().user,null);assert.equal(server.reads,0);assert.equal(server.writes,0);
+    d.auth.callback('SIGNED_IN',unexpected);await d.immediate();assert.equal(d.cloud.getStatus().user,null);assert.ok(d.auth.calls.some(x=>x[0]==='signOut'&&x[1].scope==='local'));
+  }finally{d.cloud.destroy()}
+});
+
+test('OTP verification with an invalid or missing session cannot claim login or password recovery',async()=>{
+  const d=await device(new Server(),{uid:null,config:otpConfig,fetch:otpFetch});
+  try{
+    d.auth.verifyOtp=async()=>({data:{user:null,session:null},error:null});await assert.rejects(d.cloud.verifySignup('new@test.invalid','123456'),/未收到有效登录会话/);await assert.rejects(d.cloud.verifyRecovery('new@test.invalid','123456'),/未收到有效会话/);assert.equal(d.cloud.getStatus().user,null);assert.equal(d.cloud.getStatus().recovery,false);
+    d.auth.verifyOtp=async()=>({data:null,error:{message:'Token has expired or is invalid'}});await assert.rejects(d.cloud.verifySignup('new@test.invalid','123456'),/验证码无效或已过期/);assert.equal(d.cloud.getStatus().user,null);
+  }finally{d.cloud.destroy()}
+});
+
+test('password recovery follows its account and never leaks to a different tab account',async()=>{
+  const d=await device(new Server(),{uid:null,config:otpConfig,fetch:otpFetch});
+  try{
+    await d.cloud.verifyRecovery('a@test.invalid','123456');assert.equal(d.cloud.getStatus().user.id,'a');assert.equal(d.cloud.getStatus().recovery,true);
+    const b={user:{id:'b',email:'b@test.invalid'}};d.auth.session=b;d.auth.callback('SIGNED_IN',b);await d.immediate();assert.equal(d.cloud.getStatus().user.id,'b');assert.equal(d.cloud.getStatus().recovery,false);
+    d.auth.callback('PASSWORD_RECOVERY',b);await d.immediate();assert.equal(d.cloud.getStatus().recovery,true);assert.equal(d.cloud.getStatus().status,'recovery');
+    d.auth.callback('TOKEN_REFRESHED',b);await d.immediate();assert.equal(d.cloud.getStatus().recovery,true);
+    const c={user:{id:'c',email:'c@test.invalid'}};d.auth.session=c;d.auth.callback('PASSWORD_RECOVERY',c);await d.immediate();assert.equal(d.cloud.getStatus().user.id,'c');assert.equal(d.cloud.getStatus().recovery,true);
+    await d.cloud.signOut();assert.equal(d.cloud.getStatus().recovery,false);
   }finally{d.cloud.destroy()}
 });
